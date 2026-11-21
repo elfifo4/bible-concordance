@@ -90,6 +90,18 @@ class MorphHBImportTests(unittest.TestCase):
                 expected_books=1, qere_output=qere_output)
             self.assertEqual(len(qere_output.read_text().splitlines()), 1)
 
+    def test_empty_qere_is_preserved(self):
+        xml = ('<osis><verse osisID="2Kgs.1.1" sID="2Kgs.1.1"/>'
+               '<w id="02abc">מלה</w>'
+               '<note type="variant"><rdg type="x-qere"/></note>'
+               '<verse eID="2Kgs.1.1"/></osis>')
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "2Kgs.xml"
+            path.write_text(xml, encoding="utf-8")
+            variants = list(iter_qere_variants(path, self.REV))
+            self.assertEqual(len(variants), 1)
+            self.assertEqual(variants[0]["words"], [])
+
     def test_rejects_unpinned_revision(self):
         with tempfile.TemporaryDirectory() as d:
             with self.assertRaisesRegex(ValueError, "40-character"):
