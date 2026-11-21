@@ -24,8 +24,35 @@ class MorphHBImportTests(unittest.TestCase):
             self.assertEqual(items[0]["verseId"], "Gen.1.1")
             self.assertEqual(items[0]["tokenId"], "01abc")
             output = Path(d) / "tokens.jsonl"
-            run(Path(d), output, self.REV)
+            run(Path(d), output, self.REV, expected_books=1)
             self.assertEqual(len(output.read_text(encoding="utf-8").splitlines()), 2)
+
+    def test_incomplete_corpus_preserves_output(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "Gen.xml"
+            path.write_text('<osis><verse osisID="Gen.1.1" sID="Gen.1.1"/><w id="01abc">א</w><verse eID="Gen.1.1"/></osis>')
+            output = Path(d) / "tokens.jsonl"
+            output.write_text("previous")
+            with self.assertRaisesRegex(ValueError, "Expected 39"):
+                run(Path(d), output, self.REV)
+            self.assertEqual(output.read_text(), "previous")
+
+    def test_mismatched_verse_preserves_output(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "Gen.xml"
+            path.write_text('<osis><verse osisID="Gen.1.1" sID="Gen.1.1"/><w id="01abc">א</w><verse eID="Gen.1.2"/></osis>')
+            output = Path(d) / "tokens.jsonl"
+            output.write_text("previous")
+            with self.assertRaisesRegex(ValueError, "unmatched verse"):
+                run(Path(d), output, self.REV, expected_books=1)
+            self.assertEqual(output.read_text(), "previous")
+
+    def test_word_outside_verse(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "Gen.xml"
+            path.write_text('<osis><w id="01abc">א</w></osis>')
+            with self.assertRaisesRegex(ValueError, "outside verse"):
+                list(iter_tokens(path, self.REV))
 
     def test_rejects_unpinned_revision(self):
         with tempfile.TemporaryDirectory() as d:
