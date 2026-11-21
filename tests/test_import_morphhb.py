@@ -1,8 +1,9 @@
 import tempfile
+import json
 import unittest
 from pathlib import Path
 
-from scripts.import_morphhb import iter_tokens, run
+from scripts.import_morphhb import iter_tokens, iter_qere_variants, run
 
 
 class MorphHBImportTests(unittest.TestCase):
@@ -71,6 +72,23 @@ class MorphHBImportTests(unittest.TestCase):
             self.assertEqual(items[0]["readingType"], "ketiv")
             self.assertEqual(stats["ketivWords"], 1)
             self.assertEqual(stats["qereWords"], 1)
+
+    def test_qere_sidecar_retains_alternative(self):
+        xml = ('<osis><verse osisID="Ruth.1.8" sID="Ruth.1.8"/>'
+               '<w id="08abc" type="x-ketiv">יעשה</w>'
+               '<note type="variant"><rdg type="x-qere"><w lemma="6213">יַעַשׂ</w></rdg></note>'
+               '<verse eID="Ruth.1.8"/></osis>')
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "Ruth.xml"
+            path.write_text(xml, encoding="utf-8")
+            variants = list(iter_qere_variants(path, self.REV))
+            self.assertEqual(len(variants), 1)
+            self.assertEqual(variants[0]["words"][0]["form"], "יַעַשׂ")
+            self.assertIsNone(variants[0]["ketivAlignment"])
+            qere_output = Path(d) / "qere.jsonl"
+            run(Path(d), Path(d) / "tokens.jsonl", self.REV,
+                expected_books=1, qere_output=qere_output)
+            self.assertEqual(len(qere_output.read_text().splitlines()), 1)
 
     def test_rejects_unpinned_revision(self):
         with tempfile.TemporaryDirectory() as d:
