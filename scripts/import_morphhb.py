@@ -127,8 +127,8 @@ def iter_qere_variants(path, revision):
                      "morphRaw": w.get("morph")}
                     for w in reading.iter() if local_name(w.tag) == "w"
                 ]
-                if not verse or not words:
-                    raise ValueError(f"{path}: unanchored or empty qere reading")
+                if not verse:
+                    raise ValueError(f"{path}: unanchored qere reading")
                 yield {"verseId": verse, "variantOrdinal": ordinal, "readingType": "qere",
                        "words": words, "ketivAlignment": None,
                        "source": {"dataset": "openscriptures/morphhb", "revision": revision}}
