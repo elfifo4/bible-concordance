@@ -31,4 +31,14 @@ jobs:
           python scripts/import_morphhb.py --input /tmp/morphhb/wlc --output build/morphhb-tokens.jsonl --qere-output build/morphhb-qere.jsonl --revision "$REVISION"
           test $(wc -l < build/morphhb-tokens.jsonl) -gt 100000
           python scripts/audit_morphhb.py --input /tmp/morphhb/wlc --output build/morphhb-tokens.jsonl
+          python scripts/letter_vav_candidates.py --tokens build/morphhb-tokens.jsonl --output build/lemma-candidates.json
+          python -c 'import json; d=json.load(open("build/lemma-candidates.json")); assert len(d["entries"]) > 1000; assert all(e["headword"] is None for e in d["entries"])'
+          git clone --depth 1 https://github.com/openscriptures/HebrewLexicon.git /tmp/hebrew-lexicon
+          git -C /tmp/hebrew-lexicon fetch --depth 1 origin 21c9add13bc727d3a951361778e97e3ff7afd1ce
+          git -C /tmp/hebrew-lexicon checkout --detach 21c9add13bc727d3a951361778e97e3ff7afd1ce
+          python scripts/resolve_letter_vav.py --candidates build/lemma-candidates.json --lexicon /tmp/hebrew-lexicon --output build/letter-vav.json
+          python -c 'import json; d=json.load(open("build/letter-vav.json")); assert len(d["entries"]) > 0; assert all(e["initialLetter"] == "ו" for e in d["entries"])'
+          python scripts/verify_letter_vav.py --generated build/letter-vav.json --checked data/letter-vav-verified.json
           echo "MorphHB revision: $REVISION"
+          echo "HebrewLexicon revision: $(git -C /tmp/hebrew-lexicon rev-parse HEAD)"
+          python -c 'import json; d=json.load(open("build/letter-vav.json")); print("VAV_CANDIDATES_JSON="+json.dumps(d["entries"], ensure_ascii=False, separators=(",",":")))'
