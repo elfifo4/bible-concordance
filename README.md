@@ -102,4 +102,6 @@ docs/                # אפיון, מקורות והחלטות
 
 ## License
 
-**Not selected yet.** Before publishing imported text, lexicon data or derived datasets, verify source licenses and attribution requirements. A repository being public does not automatically grant permission to reuse its contents.
+Original concordance data and original documentation are licensed under **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**. Commercial use (including ad-supported apps) is permitted subject to attribution and other license conditions.
+
+See [LICENSE](LICENSE) and [ATTRIBUTION.md](ATTRIBUTION.md). Third-party sources retain their own licenses; verify each component before importing or distributing it. Future software scripts may use a separate MIT license when explicitly marked.
