@@ -12,7 +12,7 @@ import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-VERSE = re.compile(r"^([A-Za-z0-9]+)\\.(\\d+)\\.(\\d+)$")
+VERSE = re.compile(r"^([A-Za-z0-9]+)\.(\d+)\.(\d+)$")
 SHA = re.compile(r"^[0-9a-f]{40}$")
 
 
@@ -80,7 +80,7 @@ def run(input_dir, output_path, revision):
                 if token["tokenId"] in seen:
                     raise ValueError(f"Duplicate tokenId {token['tokenId']}")
                 seen.add(token["tokenId"])
-                out.write(json.dumps(token, ensure_ascii=False) + "\\n")
+                out.write(json.dumps(token, ensure_ascii=False) + "\n")
                 count += 1
     if not count:
         raise ValueError("No tokens extracted; check OSIS XML structure")
