@@ -99,7 +99,44 @@ def iter_tokens(path, revision, stats=None):
         raise ValueError(f"{path}: no verses found")
 
 
-def run(input_dir, output_path, revision, expected_books=39):
+
+def iter_qere_variants(path, revision):
+    """Preserve Qere alternatives as verse-anchored variants, not extra written tokens.
+
+    This does not claim word-to-word Ketiv alignment.
+    """
+    verse = None
+    ordinal = 0
+    for event, element in ET.iterparse(path, events=("start", "end")):
+        tag = local_name(element.tag)
+        if event == "start" and tag == "verse":
+            if element.get("eID"):
+                verse = None
+            else:
+                verse = element.get("osisID") or element.get("sID")
+                ordinal = 0
+        elif event == "end" and tag == "note" and element.get("type") == "variant":
+            readings = [
+                rdg for rdg in element.iter()
+                if local_name(rdg.tag) == "rdg" and rdg.get("type") == "x-qere"
+            ]
+            for reading in readings:
+                ordinal += 1
+                words = [
+                    {"form": "".join(w.itertext()), "lemmaRaw": w.get("lemma"),
+                     "morphRaw": w.get("morph")}
+                    for w in reading.iter() if local_name(w.tag) == "w"
+                ]
+                if not verse or not words:
+                    raise ValueError(f"{path}: unanchored or empty qere reading")
+                yield {"verseId": verse, "variantOrdinal": ordinal, "readingType": "qere",
+                       "words": words, "ketivAlignment": None,
+                       "source": {"dataset": "openscriptures/morphhb", "revision": revision}}
+            element.clear()
+        elif event == "end" and tag == "verse" and not element.get("sID"):
+            verse = None
+
+def run(input_dir, output_path, revision, expected_books=39, qere_output=None):
     if not SHA.fullmatch(revision):
         raise ValueError("--revision must be an exact 40-character lowercase Git commit SHA")
     sources = sorted(p for p in input_dir.glob("*.xml") if p.name != "VerseMap.xml")
@@ -127,6 +164,18 @@ def run(input_dir, output_path, revision, expected_books=39):
     finally:
         if os.path.exists(temp_name):
             os.unlink(temp_name)
+    if qere_output is not None:
+        qere_output.parent.mkdir(parents=True, exist_ok=True)
+        fd, qere_tmp = tempfile.mkstemp(prefix=".morphhb-qere-", dir=qere_output.parent)
+        try:
+            with os.fdopen(fd, "w", encoding="utf-8") as handle:
+                for source in sources:
+                    for record in iter_qere_variants(source, revision):
+                        handle.write(json.dumps(record, ensure_ascii=False) + "\n")
+            os.replace(qere_tmp, qere_output)
+        finally:
+            if os.path.exists(qere_tmp):
+                os.unlink(qere_tmp)
     print(f"Extracted {count} tokens from {len(sources)} XML files to {output_path}")
 
 
@@ -135,8 +184,9 @@ def main():
     parser.add_argument("--input", type=Path, required=True, help="MorphHB wlc directory")
     parser.add_argument("--output", type=Path, required=True, help="Staging JSONL path")
     parser.add_argument("--revision", required=True, help="Pinned MorphHB Git commit SHA")
+    parser.add_argument("--qere-output", type=Path, help="Optional Qere variant JSONL sidecar")
     args = parser.parse_args()
-    run(args.input, args.output, args.revision)
+    run(args.input, args.output, args.revision, qere_output=args.qere_output)
 
 
 if __name__ == "__main__":
