@@ -13,3 +13,18 @@ jobs:
           python-version: '3.12'
       - name: Run tests
         run: python -m unittest discover -s tests -v
+  morphhb-integration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Checkout upstream MorphHB
+        run: git clone --depth 1 https://github.com/openscriptures/morphhb.git /tmp/morphhb
+      - name: Extract complete WLC and record exact source revision
+        run: |
+          REVISION=$(git -C /tmp/morphhb rev-parse HEAD)
+          python scripts/import_morphhb.py --input /tmp/morphhb/wlc --output build/morphhb-tokens.jsonl --revision "$REVISION"
+          test $(wc -l < build/morphhb-tokens.jsonl) -gt 100000
+          echo "MorphHB revision: $REVISION"
