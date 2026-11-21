@@ -27,4 +27,5 @@ jobs:
           REVISION=$(git -C /tmp/morphhb rev-parse HEAD)
           python scripts/import_morphhb.py --input /tmp/morphhb/wlc --output build/morphhb-tokens.jsonl --revision "$REVISION"
           test $(wc -l < build/morphhb-tokens.jsonl) -gt 100000
+          python scripts/audit_morphhb.py --input /tmp/morphhb/wlc --output build/morphhb-tokens.jsonl
           echo "MorphHB revision: $REVISION"
