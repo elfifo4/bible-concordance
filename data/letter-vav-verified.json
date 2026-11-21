@@ -1,0 +1,87 @@
+{
+  "letter": "ו",
+  "scope": "MorphHB-attested Hebrew lexicon entries matched by AugIndex",
+  "status": "source-cross-checked",
+  "source": {
+    "morphhbRevision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+    "hebrewLexiconRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+    "license": "CC BY 4.0"
+  },
+  "limitations": [
+    "This verifies the pinned source-data join and token counts, not all historical Hebrew lexemes or every sense.",
+    "No claim of human scholarly review, nor complete lexicon coverage beyond attested join.",
+    "Qere variants are excluded from token counts pending separate alignment."
+  ],
+  "entries": [
+    {
+      "strongNumber": "2051",
+      "headword": "וְדָן",
+      "tokenCount": 1,
+      "exampleVerse": "Ezek.27.19",
+      "lexiconEntryId": "dej"
+    },
+    {
+      "strongNumber": "2052",
+      "headword": "וָהֵב",
+      "tokenCount": 1,
+      "exampleVerse": "Num.21.14",
+      "lexiconEntryId": "dek"
+    },
+    {
+      "strongNumber": "2053",
+      "headword": "וָו",
+      "tokenCount": 13,
+      "exampleVerse": "Exod.26.32",
+      "lexiconEntryId": "del"
+    },
+    {
+      "strongNumber": "2054",
+      "headword": "וָזָר",
+      "tokenCount": 1,
+      "exampleVerse": "Prov.21.8",
+      "lexiconEntryId": "dem"
+    },
+    {
+      "strongNumber": "2055",
+      "headword": "וַיְזָתָא",
+      "tokenCount": 1,
+      "exampleVerse": "Esth.9.9",
+      "lexiconEntryId": "deo"
+    },
+    {
+      "strongNumber": "2056",
+      "headword": "וָלָד",
+      "tokenCount": 1,
+      "exampleVerse": "Gen.11.30",
+      "lexiconEntryId": "dep"
+    },
+    {
+      "strongNumber": "2057",
+      "headword": "וַנְיָה",
+      "tokenCount": 1,
+      "exampleVerse": "Ezra.10.36",
+      "lexiconEntryId": "deq"
+    },
+    {
+      "strongNumber": "2058",
+      "headword": "וׇפְסִי",
+      "tokenCount": 1,
+      "exampleVerse": "Num.13.14",
+      "lexiconEntryId": "der"
+    },
+    {
+      "strongNumber": "2059",
+      "headword": "וַשְׁנִי",
+      "tokenCount": 1,
+      "exampleVerse": "1Chr.6.13",
+      "lexiconEntryId": "det"
+    },
+    {
+      "strongNumber": "2060",
+      "headword": "וַשְׁתִּי",
+      "tokenCount": 10,
+      "exampleVerse": "Esth.1.9",
+      "lexiconEntryId": "deu"
+    }
+  ]
+}
