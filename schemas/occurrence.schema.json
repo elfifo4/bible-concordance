@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/elfifo4/bible-concordance/blob/main/schemas/occurrence.schema.json",
+  "title": "Token-level biblical occurrence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "tokenId",
+    "entryId",
+    "verseId",
+    "tokenPosition",
+    "form",
+    "senseId",
+    "classificationMethod",
+    "reviewStatus",
+    "source"
+  ],
+  "properties": {
+    "tokenId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entryId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verseId": {
+      "type": "string",
+      "pattern": "^[A-Z0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "tokenPosition": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "form": {
+      "type": "string",
+      "minLength": 1
+    },
+    "senseId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "senseCandidates": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "classificationMethod": {
+      "type": "string",
+      "enum": [
+        "unclassified",
+        "rule",
+        "ai",
+        "human"
+      ]
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "reviewed",
+        "verified"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dataset",
+        "revision"
+      ],
+      "properties": {
+        "dataset": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceTokenId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}
