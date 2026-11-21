@@ -1,0 +1,32 @@
+# Data model v0.1 (proposal)
+
+The canonical entities are **entries**, **occurrences**, and a **release manifest**. Verse text is not bundled. See PR #1 for the proposed external verse-provider strategy.
+
+## Entries
+- `id` is an internal stable ID; do not assume Strong numbers uniquely identify our headwords.
+- `headword` retains Hebrew pointing; `headwordUnpointed` supports searching.
+- `type` distinguishes words, names, roots and phrases. A root entry is not the same as a lexical lemma.
+- `senses[].id` is stable **within an entry**. An occurrence's `senseId` must match a sense in the referenced entry.
+- `root` is nullable: do not invent roots when disputed or unavailable.
+
+## Occurrences
+- `tokenId` uniquely identifies a token occurrence **in our dataset**, and must remain stable across builds for the same source revision.
+- `verseId` uses a canonical book abbreviation plus chapter and verse (e.g. `GEN.1.1`); the complete book-code mapping still needs to be specified.
+- `tokenPosition` is 1-based **within the canonical morphological source verse**. It is not a Sefaria character offset.
+- `senseId: null` explicitly means unresolved. `confidence` is not proof of human review.
+- `source.revision` records the exact imported dataset revision; do not use a floating branch name as provenance.
+
+## Validation beyond JSON Schema
+Cross-file checks must enforce unique entry/token IDs, unique sense IDs per entry, valid entry/sense references, book codes, canonical Hebrew normalization, and coverage against the imported morphological corpus. JSON Schema alone cannot verify these relationships.
+
+## Distribution plan
+Build alphabetical entry shards and per-entry occurrence shards from canonical records. Avoid copying full verse text. The first pilot is letter **ו**, derived from imported source data, not a manually asserted complete list.
+
+## Open decisions
+- Final morphology representation and qere/ketiv treatment
+- Source token-ID strategy and exact verse numbering mapping
+- Homographs, names, Aramaic entries and multiword expressions
+- Sefaria edition alignment, caching policy and offline behavior
+- Upstream source licensing and attribution at the file level
+
+**No production dataset is included in this PR.** These schemas define a starting contract for review.

@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/elfifo4/bible-concordance/blob/main/schemas/entry.schema.json",
+  "title": "Concordance lexical entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "headword",
+    "headwordUnpointed",
+    "letter",
+    "type",
+    "language",
+    "senses",
+    "reviewStatus"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "headword": {
+      "type": "string",
+      "minLength": 1
+    },
+    "headwordUnpointed": {
+      "type": "string",
+      "minLength": 1
+    },
+    "letter": {
+      "type": "string",
+      "enum": [
+        "א",
+        "ב",
+        "ג",
+        "ד",
+        "ה",
+        "ו",
+        "ז",
+        "ח",
+        "ט",
+        "י",
+        "כ",
+        "ל",
+        "מ",
+        "נ",
+        "ס",
+        "ע",
+        "פ",
+        "צ",
+        "ק",
+        "ר",
+        "ש",
+        "ת"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "word",
+        "name",
+        "root",
+        "phrase"
+      ]
+    },
+    "partOfSpeech": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "gender": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "masculine",
+        "feminine",
+        "common",
+        "unknown",
+        null
+      ]
+    },
+    "root": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "hebrew",
+        "aramaic"
+      ]
+    },
+    "strongNumbers": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[HG][0-9]+$"
+      }
+    },
+    "senses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "definition"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "definition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "notes": {
+            "type": "string"
+          },
+          "sourceRefs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "forms": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "relatedEntries": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "reviewed",
+        "verified"
+      ]
+    },
+    "sourceRefs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
