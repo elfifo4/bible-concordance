@@ -102,7 +102,7 @@ def run(input_dir, output_path, revision, expected_books=39):
                     if token["tokenId"] in seen:
                         raise ValueError(f"Duplicate tokenId {token['tokenId']}")
                     seen.add(token["tokenId"])
-                    out.write(json.dumps(token, ensure_ascii=False) + "\\n")
+                    out.write(json.dumps(token, ensure_ascii=False) + "\n")
                     count += 1
                 if stats["verses"] == 0:
                     raise ValueError(f"{source}: no verses")
