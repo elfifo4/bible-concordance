@@ -99,10 +99,10 @@ def iter_tokens(path, revision, stats=None):
         raise ValueError(f"{path}: no verses found")
 
 
-def run(input_dir, output_path, revision, expected_books=40):
+def run(input_dir, output_path, revision, expected_books=39):
     if not SHA.fullmatch(revision):
         raise ValueError("--revision must be an exact 40-character lowercase Git commit SHA")
-    sources = sorted(input_dir.glob("*.xml"))
+    sources = sorted(p for p in input_dir.glob("*.xml") if p.name != "VerseMap.xml")
     if len(sources) != expected_books:
         raise ValueError(f"Expected {expected_books} book XML files, found {len(sources)}")
     output_path.parent.mkdir(parents=True, exist_ok=True)
