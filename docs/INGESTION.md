@@ -28,3 +28,12 @@ Do not commit the generated `build/` files. This first pass preserves raw lemma/
 - No alphabet-letter filtering until lexical normalization strips prefixes and resolves lemmas.
 
 Next: run against a pinned MorphHB revision, inspect coverage/edge cases, then implement lemma normalization and a letter-ו pilot.
+
+## Red-team hardening (PR #3)
+
+- Import rejects input with other than 39 top-level WLC XML files (the Hebrew Bible's book count).
+- Verse milestone mismatches, overlapping verses, duplicate verse IDs within a file, unanchored words and missing IDs fail fast.
+- Output is written to a temporary file and atomically replaced only after successful extraction.
+- Pull-request CI runs the synthetic unit tests.
+
+**Remaining release blockers:** These checks are not a proof of complete verse/token coverage. Run against a pinned real MorphHB revision and compare per-book verse and token counts against a separately established baseline. Verify qere/ketiv, nested word elements, and XML notes before treating the staging output as production data. The synthetic unit tests do not replace corpus-level validation.
