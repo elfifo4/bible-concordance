@@ -51,3 +51,5 @@ Source attribution: Open Scriptures MorphHB (CC BY 4.0 annotations,
 WLC text public domain); Open Scriptures Hebrew Lexicon (CC BY 4.0).
 
 Review note: PR #4 is rebased onto the merged PR #3 snapshot; no importer files are modified here.
+
+CI validation after rebuilding PR #4 on the merged main branch.
