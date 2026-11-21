@@ -21,7 +21,10 @@ jobs:
         with:
           python-version: '3.12'
       - name: Checkout upstream MorphHB
-        run: git clone --depth 1 https://github.com/openscriptures/morphhb.git /tmp/morphhb
+        run: |
+          git clone --depth 1 https://github.com/openscriptures/morphhb.git /tmp/morphhb
+          git -C /tmp/morphhb fetch --depth 1 origin db6c5c9b46b8f39346f10915ddb1a70dcd429901
+          git -C /tmp/morphhb checkout --detach db6c5c9b46b8f39346f10915ddb1a70dcd429901
       - name: Extract complete WLC and record exact source revision
         run: |
           REVISION=$(git -C /tmp/morphhb rev-parse HEAD)
