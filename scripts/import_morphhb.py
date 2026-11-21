@@ -146,6 +146,7 @@ def run(input_dir, output_path, revision, expected_books=39, qere_output=None):
     seen = set()
     count = 0
     fd, temp_name = tempfile.mkstemp(prefix=".morphhb-", suffix=".tmp", dir=output_path.parent)
+    qere_tmp = None
     try:
         with os.fdopen(fd, "w", encoding="utf-8") as out:
             for source in sources:
@@ -160,22 +161,24 @@ def run(input_dir, output_path, revision, expected_books=39, qere_output=None):
                     raise ValueError(f"{source}: no verses")
         if not count:
             raise ValueError("No tokens extracted")
+        if qere_output is not None:
+            qere_output.parent.mkdir(parents=True, exist_ok=True)
+            qfd, qere_tmp = tempfile.mkstemp(prefix=".morphhb-qere-", dir=qere_output.parent)
+            with os.fdopen(qfd, "w", encoding="utf-8") as handle:
+                for source in sources:
+                    for record in iter_qere_variants(source, revision):
+                        handle.write(json.dumps(record, ensure_ascii=False) + "\n")
+        # Both outputs have been fully parsed and staged before either is published.
+        # Two independent filesystem replaces are not a multi-file transaction.
+        if qere_tmp is not None:
+            os.replace(qere_tmp, qere_output)
+            qere_tmp = None
         os.replace(temp_name, output_path)
     finally:
         if os.path.exists(temp_name):
             os.unlink(temp_name)
-    if qere_output is not None:
-        qere_output.parent.mkdir(parents=True, exist_ok=True)
-        fd, qere_tmp = tempfile.mkstemp(prefix=".morphhb-qere-", dir=qere_output.parent)
-        try:
-            with os.fdopen(fd, "w", encoding="utf-8") as handle:
-                for source in sources:
-                    for record in iter_qere_variants(source, revision):
-                        handle.write(json.dumps(record, ensure_ascii=False) + "\n")
-            os.replace(qere_tmp, qere_output)
-        finally:
-            if os.path.exists(qere_tmp):
-                os.unlink(qere_tmp)
+        if qere_tmp is not None and os.path.exists(qere_tmp):
+            os.unlink(qere_tmp)
     print(f"Extracted {count} tokens from {len(sources)} XML files to {output_path}")
 
 
