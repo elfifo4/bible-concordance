@@ -54,6 +54,24 @@ class MorphHBImportTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "outside verse"):
                 list(iter_tokens(path, self.REV))
 
+    def test_qere_does_not_count_as_extra_written_word(self):
+        xml = ('<osis><verse osisID="Ruth.1.8" sID="Ruth.1.8"/>'
+               '<w id="08abc" type="x-ketiv" lemma="6213">יעשה</w>'
+               '<note type="variant"><catchWord>יעשה</catchWord>'
+               '<rdg type="x-qere"><w lemma="6213">יַעַשׂ</w></rdg></note>'
+               '<w id="08def" lemma="3068">יהוה</w>'
+               '<verse eID="Ruth.1.8"/></osis>')
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "Ruth.xml"
+            path.write_text(xml, encoding="utf-8")
+            stats = {}
+            items = list(iter_tokens(path, self.REV, stats))
+            self.assertEqual(len(items), 2)
+            self.assertEqual([i["tokenPosition"] for i in items], [1, 2])
+            self.assertEqual(items[0]["readingType"], "ketiv")
+            self.assertEqual(stats["ketivWords"], 1)
+            self.assertEqual(stats["qereWords"], 1)
+
     def test_rejects_unpinned_revision(self):
         with tempfile.TemporaryDirectory() as d:
             with self.assertRaisesRegex(ValueError, "40-character"):
