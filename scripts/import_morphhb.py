@@ -8,6 +8,8 @@ This is a staging extract, NOT the final concordance occurrences format.
 """
 import argparse
 import json
+import os
+import tempfile
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -20,12 +22,14 @@ def local_name(tag):
     return tag.rsplit("}", 1)[-1]
 
 
-def iter_tokens(path, revision):
+def iter_tokens(path, revision, stats=None):
+    stats = stats if stats is not None else {}
     # OSIS may use nested verse elements or milestone sID/eID pairs.
     book = None
     chapter = None
     verse = None
     position = 0
+    seen_verses = set()
     for event, element in ET.iterparse(path, events=("start", "end")):
         name = local_name(element.tag)
         if event == "start":
@@ -35,10 +39,21 @@ def iter_tokens(path, revision):
                 chapter = element.attrib.get("osisID") or chapter
             elif name == "verse":
                 if element.attrib.get("eID"):
+                    if verse != element.attrib["eID"]:
+                        raise ValueError(f"{path}: unmatched verse end {element.attrib['eID']}")
                     verse = None
                 else:
-                    verse = element.attrib.get("osisID") or element.attrib.get("sID")
+                    new_verse = element.attrib.get("osisID") or element.attrib.get("sID")
+                    if not new_verse or not VERSE.fullmatch(new_verse):
+                        raise ValueError(f"{path}: invalid verse ID {new_verse!r}")
+                    if verse is not None or new_verse in seen_verses:
+                        raise ValueError(f"{path}: overlapping or duplicate verse {new_verse}")
+                    verse = new_verse
+                    seen_verses.add(verse)
+                    stats["verses"] = stats.get("verses", 0) + 1
                     position = 0
+            elif name == "w" and verse is None:
+                raise ValueError(f"{path}: word outside verse")
             continue
         if name == "w" and verse:
             match = VERSE.fullmatch(verse)
@@ -63,27 +78,40 @@ def iter_tokens(path, revision):
             verse = None
         if name in ("w", "verse"):
             element.clear()
+    if verse is not None:
+        raise ValueError(f"{path}: unclosed verse {verse}")
+    if not seen_verses:
+        raise ValueError(f"{path}: no verses found")
 
 
-def run(input_dir, output_path, revision):
+def run(input_dir, output_path, revision, expected_books=39):
     if not SHA.fullmatch(revision):
         raise ValueError("--revision must be an exact 40-character lowercase Git commit SHA")
     sources = sorted(input_dir.glob("*.xml"))
-    if not sources:
-        raise ValueError(f"No XML files in {input_dir}")
+    if len(sources) != expected_books:
+        raise ValueError(f"Expected {expected_books} book XML files, found {len(sources)}")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     seen = set()
     count = 0
-    with output_path.open("w", encoding="utf-8") as out:
-        for source in sources:
-            for token in iter_tokens(source, revision):
-                if token["tokenId"] in seen:
-                    raise ValueError(f"Duplicate tokenId {token['tokenId']}")
-                seen.add(token["tokenId"])
-                out.write(json.dumps(token, ensure_ascii=False) + "\n")
-                count += 1
-    if not count:
-        raise ValueError("No tokens extracted; check OSIS XML structure")
+    fd, temp_name = tempfile.mkstemp(prefix=".morphhb-", suffix=".tmp", dir=output_path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as out:
+            for source in sources:
+                stats = {"verses": 0}
+                for token in iter_tokens(source, revision, stats):
+                    if token["tokenId"] in seen:
+                        raise ValueError(f"Duplicate tokenId {token['tokenId']}")
+                    seen.add(token["tokenId"])
+                    out.write(json.dumps(token, ensure_ascii=False) + "\\n")
+                    count += 1
+                if stats["verses"] == 0:
+                    raise ValueError(f"{source}: no verses")
+        if not count:
+            raise ValueError("No tokens extracted")
+        os.replace(temp_name, output_path)
+    finally:
+        if os.path.exists(temp_name):
+            os.unlink(temp_name)
     print(f"Extracted {count} tokens from {len(sources)} XML files to {output_path}")
 
 
