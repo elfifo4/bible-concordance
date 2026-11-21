@@ -30,9 +30,11 @@ def iter_tokens(path, revision, stats=None):
     verse = None
     position = 0
     seen_verses = set()
+    stack = []
     for event, element in ET.iterparse(path, events=("start", "end")):
         name = local_name(element.tag)
         if event == "start":
+            stack.append((name, element.attrib.get("type")))
             if name == "div" and element.attrib.get("type") == "book":
                 book = element.attrib.get("osisID") or book
             elif name == "chapter":
@@ -56,6 +58,17 @@ def iter_tokens(path, revision, stats=None):
                 raise ValueError(f"{path}: word outside verse")
             continue
         if name == "w" and verse:
+            in_qere = any(tag == "rdg" and typ == "x-qere" for tag, typ in stack)
+            in_note = any(tag == "note" for tag, _ in stack)
+            if in_qere:
+                stats["qereWords"] = stats.get("qereWords", 0) + 1
+                stack.pop()
+                element.clear()
+                continue
+            if in_note:
+                raise ValueError(f"{path}: unrecognized word inside note at {verse}")
+            if element.attrib.get("type") == "x-ketiv":
+                stats["ketivWords"] = stats.get("ketivWords", 0) + 1
             match = VERSE.fullmatch(verse)
             if not match:
                 raise ValueError(f"{path}: unexpected verse ID {verse!r}")
@@ -69,6 +82,7 @@ def iter_tokens(path, revision, stats=None):
                 "verseId": verse,
                 "tokenPosition": position,
                 "form": form,
+                "readingType": "ketiv" if element.attrib.get("type") == "x-ketiv" else "standard",
                 "lemmaRaw": element.attrib.get("lemma"),
                 "morphRaw": element.attrib.get("morph"),
                 "source": {"dataset": "openscriptures/morphhb", "revision": revision, "sourceTokenId": token_id},
@@ -76,7 +90,8 @@ def iter_tokens(path, revision, stats=None):
         elif name == "verse" and not element.attrib.get("sID"):
             # Nested verse closure; milestone verse end is handled on start.
             verse = None
-        if name in ("w", "verse"):
+        stack.pop()
+        if name in ("w", "verse", "note"):
             element.clear()
     if verse is not None:
         raise ValueError(f"{path}: unclosed verse {verse}")
