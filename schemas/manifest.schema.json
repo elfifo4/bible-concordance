@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Concordance release manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "dataVersion",
+    "sourceRevisions",
+    "letters"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "dataVersion": {
+      "type": "string"
+    },
+    "sourceRevisions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "letters": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "entriesPath",
+          "entryCount"
+        ],
+        "properties": {
+          "entriesPath": {
+            "type": "string"
+          },
+          "entryCount": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  }
+}
