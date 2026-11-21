@@ -42,6 +42,7 @@ jobs:
           python scripts/build_letter_vav_occurrences.py --tokens build/morphhb-tokens.jsonl --inventory data/letter-vav-verified.json --output build/letter-vav-occurrences.json
           python -c 'import json; d=json.load(open("build/letter-vav-occurrences.json")); assert d["totalOccurrences"] == 31 and len(d["entries"]) == 10'
           python -c 'import json; d=json.load(open("build/letter-vav-occurrences.json")); print("VAV_OCCURRENCES_JSON="+json.dumps(d, ensure_ascii=False, separators=(",",":")))'
+          python -c 'import json; a=json.load(open("build/letter-vav-occurrences.json")); b=json.load(open("data/letter-vav-occurrences.json")); assert a == b, "Committed occurrences differ from generated source"'
           echo "MorphHB revision: $REVISION"
           echo "HebrewLexicon revision: $(git -C /tmp/hebrew-lexicon rev-parse HEAD)"
           python -c 'import json; d=json.load(open("build/letter-vav.json")); print("VAV_CANDIDATES_JSON="+json.dumps(d["entries"], ensure_ascii=False, separators=(",",":")))'
