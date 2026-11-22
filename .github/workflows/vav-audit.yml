@@ -1,0 +1,24 @@
+name: Letter Vav source audit
+on:
+  push:
+    paths:
+      - 'data/alphabet/ו.json'
+      - 'tests/**'
+      - '.github/workflows/vav-audit.yml'
+  pull_request:
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node tests/vav-definitions.test.cjs
+      - run: node tests/vav-source-audit.cjs
+      - run: |
+          for test in tests/*.test.cjs; do
+            node "$test"
+          done
