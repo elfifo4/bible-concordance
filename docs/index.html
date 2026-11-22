@@ -66,6 +66,37 @@ Eccl:"Ecclesiastes",Lam:"Lamentations",Esth:"Esther",Dan:"Daniel",
 Ezra:"Ezra",Neh:"Nehemiah","1Chr":"I_Chronicles","2Chr":"II_Chronicles",
 Chr1:"I_Chronicles",Chr2:"II_Chronicles"
 };
+const hebrewBookNames={
+  Gen:"בראשית",Exod:"שמות",Lev:"ויקרא",Num:"במדבר",Deut:"דברים",
+  Josh:"יהושע",Judg:"שופטים",Ruth:"רות",
+  "1Sam":"שמואל א׳","2Sam":"שמואל ב׳",Sam1:"שמואל א׳",Sam2:"שמואל ב׳",
+  "1Kgs":"מלכים א׳","2Kgs":"מלכים ב׳",Kgs1:"מלכים א׳",Kgs2:"מלכים ב׳",
+  Isa:"ישעיהו",Jer:"ירמיהו",Ezek:"יחזקאל",Hos:"הושע",Joel:"יואל",
+  Amos:"עמוס",Obad:"עובדיה",Jonah:"יונה",Mic:"מיכה",Nah:"נחום",
+  Hab:"חבקוק",Zeph:"צפניה",Hag:"חגי",Zech:"זכריה",Mal:"מלאכי",
+  Ps:"תהילים",Prov:"משלי",Job:"איוב",Song:"שיר השירים",
+  SongOfSongs:"שיר השירים",Eccl:"קהלת",Lam:"איכה",Esth:"אסתר",
+  Dan:"דניאל",Ezra:"עזרא",Neh:"נחמיה",
+  "1Chr":"דברי הימים א׳","2Chr":"דברי הימים ב׳",
+  Chr1:"דברי הימים א׳",Chr2:"דברי הימים ב׳"
+};
+function hebrewNumeral(value){
+  if(!Number.isInteger(value)||value<1||value>999)return String(value);
+  const units=["","א","ב","ג","ד","ה","ו","ז","ח","ט"];
+  const tens=["","י","כ","ל","מ","נ","ס","ע","פ","צ"];
+  let n=value,letters="";
+  while(n>=400){letters+="ת";n-=400;}
+  if(n>=100){const h=Math.floor(n/100);letters+=["","ק","ר","ש"][h];n%=100;}
+  if(n===15){letters+="טו";n=0;}
+  else if(n===16){letters+="טז";n=0;}
+  if(n){letters+=tens[Math.floor(n/10)]+units[n%10];}
+  return letters.length===1?letters+"׳":letters.slice(0,-1)+"״"+letters.slice(-1);
+}
+function hebrewVerseRef(verseId){
+  const m=/^([A-Za-z0-9]+)\.(\d+)\.(\d+)$/.exec(verseId||"");
+  if(!m||!hebrewBookNames[m[1]])return verseId;
+  return hebrewBookNames[m[1]]+" "+hebrewNumeral(Number(m[2]))+", "+hebrewNumeral(Number(m[3]));
+}
 const chapterCache=new Map();
 let verseQueue=Promise.resolve(),verseActive=0;
 const verseTasks=[];
@@ -225,7 +256,7 @@ function renderDetails(){
   const arr=[...(e.occurrences||[])].sort(compareOccurrences),pages=Math.max(1,Math.ceil(arr.length/occSize));
   arr.slice(occPage*occSize,(occPage+1)*occSize).forEach(o=>{
     const item=node("div");item.className="occ";
-    item.append(node("div",o.verseId,"ref"));
+    item.append(node("div",hebrewVerseRef(o.verseId),"ref"));
     const verse=node("div","טוען פסוק מספריא…","verse verse-pending");
     item.append(verse,node("div",`מיקום ${o.tokenPosition} בפסוק · ${o.readingType==="ketiv"?"כתיב":"נוסח רגיל"}`,"small"));
     list.append(item);
