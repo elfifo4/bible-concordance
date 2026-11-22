@@ -68,6 +68,7 @@ function chapterText(ref){
       return json.he;
     });
     chapterCache.set(key,promise);
+    promise.catch(()=>chapterCache.delete(key));
   }
   return chapterCache.get(key);
 }
@@ -81,10 +82,10 @@ function normWord(value){
 }
 function highlightVerse(element,verseText,occurrence){
   const tokens=verseText.match(/\S+/g)||[];
-  const needle=normWord(occurrence.form);
+  const needles=String(occurrence.form||"").split("/").map(normWord).filter(Boolean);
   const matches=[];
   for(let i=0;i<tokens.length;i++){
-    if(normWord(tokens[i])===needle&&needle)matches.push(i);
+    if(needles.includes(normWord(tokens[i])))matches.push(i);
   }
   clear(element);
   if(!matches.length){element.textContent=verseText;return false;}
