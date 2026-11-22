@@ -12,6 +12,11 @@ for(const entry of data.entries){
   assert(["high","uncertain","disputed"].includes(entry.definitionConfidence));
   assert.equal(entry.definitionVerification.editoriallyApproved,false);
   assert.equal(entry.definitionSource.strongNumber,entry.strongNumber);
+  const original=entry.definitionOriginalEnglish?.strong;
+  assert(original?.source&&original?.meaning&&original?.usage,entry.headword+" missing exact Strong original");
+  assert.equal(original.entryId,"H"+entry.strongNumber);
+  assert.equal(original.verifiedAgainstSource,true);
+  assert.equal(original.license,"CC BY 4.0");
   assert(entry.definitionSource.strongUrl.endsWith("/"+entry.strongNumber+".htm"));
   assert(!entry.definitionHe.includes(entry.headword),"Circular definition: "+entry.headword);
 }
