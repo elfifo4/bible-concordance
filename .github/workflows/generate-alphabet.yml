@@ -76,7 +76,7 @@ jobs:
           path: build/unresolved-*.json
           retention-days: 2
   publish:
-    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/feat/full-alphabet-concordance'
+    if: (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/feat/full-alphabet-concordance') || (github.event_name == 'pull_request' && github.head_ref == 'feat/full-alphabet-concordance' && github.event.pull_request.head.repo.full_name == github.repository)
     permissions:
       contents: write
     needs: generate
