@@ -176,7 +176,26 @@ function highlightVerse(element,verseText,occurrence,headword,strongNumber){
       const attested=group.some(t=>needles.some(n=>matchLexemePart(t.normalized,n))) ||
         (joined&&matchLexemePart(group.map(t=>t.normalized).join(""),joined));
       if(!attested)continue;
-      phrases.push({start:group[0].match.index,end:group[group.length-1].match.index+group[group.length-1].match[0].length,index:i});
+      let start=group[0].match.index;
+      let end=group[group.length-1].match.index+group[group.length-1].match[0].length;
+      if(String(strongNumber)==="3810"){
+        const raw=group[0].match[0],normalized=normWord(raw);
+        const variants=["לא","לו","לוא"];
+        const prefix=variants.some(v=>normalized===v)?0:
+          variants.some(v=>normalized.slice(1)===v)?1:
+          variants.some(v=>normalized.slice(2)===v)?2:0;
+        if(prefix){
+          let letters=0,offset=0;
+          while(offset<raw.length&&letters<prefix){
+            if(/[א-ת]/.test(raw[offset]))letters++;
+            offset++;
+          }
+          while(offset<raw.length&&/[\u0591-\u05c7]/.test(raw[offset]))offset++;
+          start+=offset;
+        }
+        while(end>start&&/[\u05c3\s]/.test(verseText[end-1]))end--;
+      }
+      phrases.push({start,end,index:i});
     }
     // Only choose an unambiguous phrase. Position is not reliable across
     // MorphHB and Sefaria tokenization, so never guess among duplicates.
