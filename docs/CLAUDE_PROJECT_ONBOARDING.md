@@ -81,6 +81,25 @@ Inspect `data/alphabet/ז.json`, `data/zayin-hebrew-drafts.txt`, `scripts/build-
 
 The GitHub Pages publishing workflow (`pages.yml`) was deliberately kept active. Do not disable site publishing as a side effect. Do not add new automatic Actions triggers without explicit authorization.
 
+## Token efficiency and automation policy — mandatory
+
+**Script-first, LLM-last.** Treat model tokens, context-window space and repeated tool calls as scarce resources. Use Claude primarily to design reusable code, investigate exceptions and make semantic judgments; use deterministic scripts for bulk processing.
+
+1. **Never process large lists record by record in the conversation.** For thousands of occurrences, write/run a local program that reads the JSON/XML, validates everything, and emits only a compact summary and a machine-readable exception report.
+2. **Batch I/O and parsing.** Download each pinned source once per revision, cache it locally, parse it once, and reuse indexes/maps across all letters. Do not request the same file repeatedly or fetch one verse/entry at a time when bulk parsing is possible.
+3. **Inspect selectively.** Start with file sizes, schemas, counts, sampled entries, tests and `git diff --stat`. Use targeted searches or small excerpts rather than printing multi-megabyte JSON/XML or entire logs into model context.
+4. **Automate repeatable tasks.** Counting entries/occurrences, checking missing definitions, joining Strong/BDB, comparing MorphHB token fields, validating JSON, detecting duplicate IDs, producing reports and testing regressions must be scripted.
+5. **Use the LLM only where it adds value.** Linguistic interpretation, ambiguous glosses, genuinely exceptional source mappings, architecture choices and review of flagged outliers. Do not ask the model to rewrite hundreds of mechanically generated records.
+6. **Prefer one general CLI** (e.g. `--letter ז --audit --report`) over one bespoke script per letter; make it resumable, idempotent and able to operate on all 22 letters.
+7. **Keep output compact.** Report totals, pass/fail counts, file paths and at most a few representative exceptions. Save full logs and per-token differences to local files; open only relevant slices for diagnosis.
+8. **Avoid unnecessary LLM subagents and redundant investigations.** Delegate to parallel agents only when the expected benefit clearly exceeds the token and coordination cost.
+9. **Never confuse token efficiency with skipping verification.** The script must validate **all** records even when Claude reads only aggregate results and anomalies.
+10. **Before any large task, estimate scale and choose the cheapest reliable method.** If a simple Python/Node program can do it exactly, do not spend model tokens doing it manually.
+
+For Hebrew definitions, prefer a source-derived structured extraction and deterministic coverage checks, then use focused LLM review for uncertain meanings and edge cases. Mark unreviewed definitions as drafts, never as editorially approved.
+
+In the initial assessment, explicitly identify the top opportunities to reduce LLM token consumption and estimate which existing per-letter operations can be consolidated into one script. Do not implement changes during this read-only phase.
+
 ## Safety and collaboration rules
 
 - First inspect `git status`, current branch, existing work, relevant PRs and documentation. Do not overwrite uncommitted changes.
