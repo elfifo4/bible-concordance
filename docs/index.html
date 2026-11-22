@@ -121,7 +121,7 @@ function matchLexemePart(token,part){
   }
   return false;
 }
-function highlightVerse(element,verseText,occurrence,headword){
+function highlightVerse(element,verseText,occurrence,headword,strongNumber){
   const parts=String(occurrence.form||"").split("/").map(normWord).filter(Boolean);
   const joined=normWord(occurrence.form);
   const needles=[...new Set([joined,...parts].filter(Boolean))];
@@ -135,7 +135,12 @@ function highlightVerse(element,verseText,occurrence,headword){
     const phrases=[];
     for(let i=0;i<=tokens.length-lexemeParts.length;i++){
       const group=tokens.slice(i,i+lexemeParts.length);
-      if(!group.every((t,j)=>matchLexemePart(t.normalized,lexemeParts[j])))continue;
+      if(!group.every((t,j)=>{
+        // Strong H3810 is the place-name Lo-debar, attested as לו דבר / לא דבר.
+        // Its first component can also appear with prefixed מ (מלוא / מלא).
+        const alternatives=String(strongNumber)==="3810"&&j===0?["לא","לו","לוא"]:[lexemeParts[j]];
+        return alternatives.some(part=>matchLexemePart(t.normalized,part));
+      }))continue;
       // MorphHB's attested token form must anchor at least one phrase component.
       const attested=group.some(t=>needles.some(n=>matchLexemePart(t.normalized,n))) ||
         (joined&&matchLexemePart(group.map(t=>t.normalized).join(""),joined));
@@ -161,7 +166,7 @@ function highlightVerse(element,verseText,occurrence,headword){
   element.append(document.createTextNode(verseText.slice(chosen.end)));
   return true;
 }
-async function renderVerse(occurrence,target,renderId,headword){
+async function renderVerse(occurrence,target,renderId,headword,strongNumber){
   const ref=parseRef(occurrence.verseId);
   if(!ref){target.textContent="לא ניתן לזהות את מראה המקום במקור ספריא.";return;}
   const link=node("a","פתיחה בספריא","sefaria-link");
@@ -174,7 +179,7 @@ async function renderVerse(occurrence,target,renderId,headword){
     if(typeof html!=="string")throw Error("Verse missing");
     const verse=textFromSefaria(html);
     if(!verse)throw Error("Empty verse");
-    const highlighted=highlightVerse(target,verse,occurrence,headword);
+    const highlighted=highlightVerse(target,verse,occurrence,headword,strongNumber);
     if(!highlighted){target.title="לא נמצאה התאמה חד-משמעית להדגשת המילה";target.parentElement.append(node("div","לא זוהתה התאמה ודאית למילה: "+occurrence.form,"small"));}
     target.parentElement.append(link);
   }catch(err){
@@ -224,7 +229,7 @@ function renderDetails(){
     const verse=node("div","טוען פסוק מספריא…","verse verse-pending");
     item.append(verse,node("div",`מיקום ${o.tokenPosition} בפסוק · ${o.readingType==="ketiv"?"כתיב":"נוסח רגיל"}`,"small"));
     list.append(item);
-    renderVerse(o,verse,renderId,e.headword);
+    renderVerse(o,verse,renderId,e.headword,e.strongNumber);
   });
   const p=node("div");p.className="pager";details.append(p);
   pager(p,occPage,pages,n=>{occPage=n;renderDetails();details.scrollIntoView({behavior:"smooth",block:"start"});});
