@@ -18,7 +18,7 @@
 <section class="panel"><h2 id="listTitle">ערכים</h2><div class="words" id="words"></div><div class="pager" id="wordPager"></div></section>
 <section class="panel"><div class="details" id="details"><p class="muted">בחרו מילה מהרשימה להצגת ההיקרויות שלה.</p></div></section>
 </div>
-<div class="notice"><strong>על הפירושים:</strong> באות ו׳ מוצגים פירושים עבריים מוצעים המבוססים על מילון Strong, עם קישור למקור ותקציר באנגלית. הפירושים עדיין ממתינים לבקרה אנושית. בשאר האותיות טרם נוספו פירושים מאומתים. הנתונים המילוניים וההיקרויות הופקו אוטומטית ודורשים בקרת איכות.</div>
+<div class="notice"><strong>על הפירושים:</strong> באות ו׳ מוצגים פירושים עבריים שנבדקו מול מילוני Strong ו־BDB, עם קישור למקור ותקציר באנגלית. הפירושים עדיין ממתינים לאישור עריכתי. בשאר האותיות טרם נוספו פירושים מאומתים. הנתונים המילוניים וההיקרויות הופקו אוטומטית ודורשים בקרת איכות.</div>
 </main>
 <footer>מקורות: Open Scriptures MorphHB ו־HebrewLexicon (CC BY 4.0). המידע כולל את הכתיב/הטוקנים הקיימים במאגר; קרי חלופי אינו כלול. <a href="https://github.com/elfifo4/bible-concordance">קוד ומקורות ב־GitHub</a></footer>
 <script>
@@ -250,9 +250,10 @@ function renderDetails(){
   const e=selected;
   details.append(node("h2",e.headword),node("p",`מספר Strong: ${e.strongNumber} · ${e.occurrenceCount.toLocaleString("he-IL")} היקרויות`,"small"));
   details.append(node("p",e.definitionHe||"פירוש עברי מאומת טרם נוסף לערך זה.",e.definitionHe?"":"muted"));
-  if(e.definitionReviewStatus==="pending-human-review"){
-    details.append(node("p","פירוש מוצע — ממתין לבקרה אנושית.","definition-status"));
+  if(e.definitionReviewStatus==="source-checked-pending-editorial-review"){
+    details.append(node("p","נבדק מול Strong ו־BDB — ממתין לאישור עריכתי.","definition-status"));
   }
+  if(e.definitionConfidence==="disputed"||e.definitionConfidence==="uncertain")details.append(node("p",e.definitionConfidence==="disputed"?"זיהוי או נוסח מסופקים":"זיהוי לא ודאי","definition-status"));
   if(e.definitionEn){
     details.append(node("p","תקציר באנגלית: "+e.definitionEn,"definition-source"));
   }
