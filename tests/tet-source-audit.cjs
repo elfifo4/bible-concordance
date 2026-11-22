@@ -58,5 +58,5 @@ checked++;
 }
 console.log('PASS '+id+' '+e.headword+' '+e.occurrences.length+' occurrence(s)');
 }
-console.log('PASS 95 Strong entries found (stored excerpts checked where present), '+checked+'/990 occurrence tokens checked against pinned MorphHB revision.');
+console.log('PASS 95 Strong entries, BDB excerpts (where present), '+checked+'/990 occurrence tokens checked against pinned MorphHB revision.');
 })().catch(e=>{console.error(e.stack);process.exitCode=1});

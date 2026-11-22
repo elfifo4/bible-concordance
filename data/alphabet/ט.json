@@ -54,12 +54,13 @@
           "https://biblehub.com/hebrew/2868.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -76,6 +77,17 @@
           "meaningXml": "to <def>rejoice</def>",
           "usageXml": "be glad",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.aa.aa",
+          "entryBodyXml": "<w>טְאֵב</w> <pos>vb</pos>. <def>be good</def>;—<stem>Pe</stem>. <ref r=\"Dan.6.24\">Dn 6:24</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -117,12 +129,13 @@
           "https://biblehub.com/hebrew/2894.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -139,6 +152,17 @@
           "meaningXml": "to <def>sweep away</def>",
           "usageXml": "sweep.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ab.aa",
+          "entryBodyXml": "[<w>טֵאטֵא</w>] <pos>vb</pos>. <stem>Pilpēl</stem>, only <ref r=\"Isa.14.23\">Is 14:23</ref> <def>and I will sweep it with the besom of destruction</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -194,12 +218,13 @@
           "https://biblehub.com/hebrew/2869.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -216,6 +241,17 @@
           "meaningXml": "<def>good</def>",
           "usageXml": "fine, good.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.aa.ab",
+          "entryBodyXml": "<w>טָב</w> <pos>adj</pos>. <def>good</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -257,12 +293,13 @@
           "https://biblehub.com/hebrew/2871.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -279,6 +316,17 @@
           "meaningXml": "properly, <def>dyed</def>, i.e. a <def>turban</def> (probably as of colored stuff)",
           "usageXml": "dyed attire.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ae.ab",
+          "entryBodyXml": "[<w>טְבוּל</w>] <pos>n.m</pos>. <def>turban</def>—only <ref r=\"Ezek.23.15\">Ez 23:15</ref> extended in respect to <def>turbans on their heads</def> = <def>with pendant turbans</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -334,12 +382,13 @@
           "https://biblehub.com/hebrew/2872.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -356,6 +405,17 @@
           "meaningXml": "properly, <def>accumulated</def>; i.e. (by implication) a <def>summit</def>",
           "usageXml": "middle, midst.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ag.ab",
+          "entryBodyXml": "<w>טַבּוּר</w> <pos>n.[m.]</pos> <def>highest part</def>, <def>centre</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -537,12 +597,13 @@
           "https://biblehub.com/hebrew/2873.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -559,6 +620,17 @@
           "meaningXml": "to <def>slaughter</def> (animals or men)",
           "usageXml": "kill, (make) slaughter, slay.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ac.aa",
+          "entryBodyXml": "[<w>טָבַח</w>] <pos>vb</pos>. <def>slaughter</def>, <def>butcher</def>, <def>slay</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -754,12 +826,13 @@
           "https://biblehub.com/hebrew/2874.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -776,6 +849,17 @@
           "meaningXml": "properly, something <def>slaughtered</def>; hence, a <def>beast</def> (or <def>meat</def>, as butchered); abstractly <def>butchery</def> (or concretely, a place of slaughter)",
           "usageXml": "× beast, slaughter, × slay, × sore.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ac.ab",
+          "entryBodyXml": "<w>טֶ֫בַח</w> <pos>n.m</pos>. <def>slaughtering</def>, <def>slaughter</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -817,12 +901,13 @@
           "https://biblehub.com/hebrew/2875.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -839,6 +924,17 @@
           "meaningXml": "<def>Tebach</def>, the name of a Mesopotamian and of an Israelite",
           "usageXml": "Tebah.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ac.ac",
+          "entryBodyXml": "<w>טֶ֫בַח</w> <pos>n.pr.m</pos>. son of Nahor by his concubine <ref r=\"Gen.22.24\">Gn 22:24</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -1314,12 +1410,13 @@
           "https://biblehub.com/hebrew/2876.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -1336,6 +1433,17 @@
           "meaningXml": "properly, a <def>butcher</def>; hence, a <def>lifeguardsman</def> (because he was acting as an executioner); also a <def>cook</def> (usually slaughtering the animal for food)",
           "usageXml": "cook, guard.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ac.ae",
+          "entryBodyXml": "<w>טַבָּח</w> <pos>n.m</pos>. 1. <def>cook</def>, 2. <def>guardsman</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -1377,12 +1485,13 @@
           "https://biblehub.com/hebrew/2877.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -1399,6 +1508,17 @@
           "meaningXml": "a <def>lifeguardsman</def>",
           "usageXml": "guard.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.aa.ac",
+          "entryBodyXml": "[<w>טַבָּח</w>] <pos>n.m</pos>. <def>guardsman</def>;—pl. emph. <ref r=\"Dan.2.14\">Dn 2:14</ref>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -1468,12 +1588,13 @@
           "https://biblehub.com/hebrew/2878.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -1491,6 +1612,17 @@
           "usageXml": "flesh, slaughter.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
           "verificationNote": "Strong XML has no meaning node for this entry; gloss taken from usage node."
+        },
+        "bdb": {
+          "entryId": "i.ac.ad",
+          "entryBodyXml": "<w>טִבְחָה</w> <pos>n.f</pos>. <def>thing slaughtered</def>, <def>slaughtered meat</def>, <def>slaughter</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -1532,12 +1664,13 @@
           "https://biblehub.com/hebrew/2879.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -1554,6 +1687,17 @@
           "meaningXml": "a <def>female cook</def>",
           "usageXml": "cook.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ac.af",
+          "entryBodyXml": "[<w>טַבָחָה</w>] <pos>n.f</pos>. <def>female cook</def>;—only pl. abs. <ref r=\"1Sam.8.13\">1 S 8:13</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -1595,12 +1739,13 @@
           "https://biblehub.com/hebrew/2880.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -1617,6 +1762,17 @@
           "meaningXml": "<def>Tibchath</def>, a place in Syria",
           "usageXml": "Tibhath.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ac.ah",
+          "entryBodyXml": "<w>טִבְחַת</w> <pos>n.pr.loc</pos>. a Syrian city",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -1868,12 +2024,13 @@
           "https://biblehub.com/hebrew/2881.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -1890,6 +2047,17 @@
           "meaningXml": "to <def>dip</def>, to <def>immerse</def>",
           "usageXml": "dip, plunge.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ad.aa",
+          "entryBodyXml": "<w>טָבַל</w> <pos>vb</pos>. <def>dip</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -1931,12 +2099,13 @@
           "https://biblehub.com/hebrew/2882.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -1953,6 +2122,17 @@
           "meaningXml": "<def>Tebaljah</def>, an Israelite",
           "usageXml": "Tebaliah.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ad.ab",
+          "entryBodyXml": "<w>טְבַלְיָ֫הוּ</w> <pos>n.pr.m</pos>. (<w>י׳</w> <def>hath dipped</def>, i.e. <def>purified</def>)—name of one of the porters, line of Merari <ref r=\"1Chr.26.11\">1 Ch 26:11</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -2120,12 +2300,13 @@
           "https://biblehub.com/hebrew/2883.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -2142,6 +2323,17 @@
           "meaningXml": "to <def>sink</def>",
           "usageXml": "drown, fasten, settle, sink.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.af.aa",
+          "entryBodyXml": "<w>טָבַע</w> <pos>vb</pos>. <def>sink</def>, <def>sink down</def>\r\n\t\t\t\t<sense><stem>Qal</stem> <def>sink</def>, <def>sink down</def>, intrans.</sense>\r\n\t\t\t\t<sense><stem>Pu</stem>. <def>be sunk</def></sense>\r\n\t\t\t\t<sense><stem>Hiph</stem>. <def>be sunk</def>; of pedestals of the earth, as <def>settled</def>, <def>planted</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -2197,12 +2389,13 @@
           "https://biblehub.com/hebrew/2884.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -2219,6 +2412,17 @@
           "meaningXml": "<def>Tabbaoth</def>, one of the Nethinim",
           "usageXml": "Tabaoth.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.af.ac",
+          "entryBodyXml": "<w>טַבָּעוֹת</w> <pos>n.pr.m</pos>. a family name among the Nethinim",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -2932,12 +3136,13 @@
           "https://biblehub.com/hebrew/2885.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -2954,6 +3159,17 @@
           "meaningXml": "properly, a <def>seal</def> (as <def>sunk</def> into the wax), i.e. <def>signet</def> (for sealing); hence (generally) a <def>ring</def> of any kind",
           "usageXml": "ring.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.af.ab",
+          "entryBodyXml": "<w>טַבַּ֫עַת</w> <pos>n.f</pos>. <def>signet</def>, <def>signet-ring</def>, <def>ring</def>\r\n\t\t\t\t<sense n=\"1\"><def>signet-ring</def></sense>\r\n\t\t\t\t<sense n=\"2\"><def>ring</def>, as ornament</sense>\r\n\t\t\t\t<sense n=\"3\">most often (only in Ex.) of rings for staves of ark, for curtains, for ephod, and other sacred furniture</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -2995,12 +3211,13 @@
           "https://biblehub.com/hebrew/2886.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -3017,6 +3234,17 @@
           "meaningXml": "<def>Tabrimmon</def>, a Syrian",
           "usageXml": "Tabrimmon.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ag.ac",
+          "entryBodyXml": "<w>טַבְרִמּוֹן</w> <pos>n.pr.m</pos>. (Aram.; = <def>Ramman is good</def>, or <def>is wise</def>)—father of Benhadad king of Aram <ref r=\"iKgs.15.18\">1 K 15:18</ref>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -3058,12 +3286,13 @@
           "https://biblehub.com/hebrew/2887.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -3080,6 +3309,17 @@
           "meaningXml": "<def>Tebeth</def>, the tenth Hebrew month",
           "usageXml": "Tebeth.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ag.ad",
+          "entryBodyXml": "<w>טֵבֶ֑ת</w> <pos>n.pr</pos>. 10th month = Dec.-Jan., <ref r=\"Esth.2.16\">Est 2:16</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -3121,12 +3361,13 @@
           "https://biblehub.com/hebrew/2888.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -3143,6 +3384,17 @@
           "meaningXml": "<def>Tabbath</def>, a place East of the Jordan",
           "usageXml": "Tabbath.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ag.ae",
+          "entryBodyXml": "<w>טַבָּ֑ת</w> <pos>n.pr.loc</pos>. <ref r=\"Judg.7.22\">Ju 7:22</ref>, spot near which Gideon’s pursuit of Midianites ended, site unknown.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -4472,12 +4724,13 @@
           "https://biblehub.com/hebrew/2889.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -4494,6 +4747,17 @@
           "meaningXml": "<def>pure</def> (in a physical, chemical, ceremonial or moral sense)",
           "usageXml": "clean, fair, pure(-ness).",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ah.ae",
+          "entryBodyXml": "<w>טָהוֹר</w> <pos>adj</pos>. <def>clean</def>, <def>pure</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -4535,12 +4799,13 @@
           "https://biblehub.com/hebrew/2890.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -4557,6 +4822,17 @@
           "meaningXml": "<def>purity</def>",
           "usageXml": "pureness.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ah.ae",
+          "entryBodyXml": "<w>טָהוֹר</w> <pos>adj</pos>. <def>clean</def>, <def>pure</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -5914,12 +6190,13 @@
           "https://biblehub.com/hebrew/2891.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -5936,6 +6213,17 @@
           "meaningXml": "to <def>be pure</def> (physical sound, clear, unadulterated; Levitically, uncontaminated; morally, innocent or holy)",
           "usageXml": "be (make, make self, pronounce) clean, cleanse (self), purge, purify(-ier, self).",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ah.aa",
+          "entryBodyXml": "<w>טָהֵר</w> <pos>vb</pos>. <def>be clean</def>, <def>pure</def>\r\n\t\t\t\t<sense><stem>Qal</stem>\r\n\t\t\t\t\t<sense n=\"1\"><def>be clean</def>, i.e. (miraculously) freed from leprosy by washing in the Jordan</sense>\r\n\t\t\t\t\t<sense n=\"2\"><def>be clean ceremonially</def></sense>\r\n\t\t\t\t\t<sense n=\"3\"><def>be clean morally</def></sense>\r\n\t\t\t\t</sense>\r\n\t\t\t\t<sense><stem>Pi</stem>.\r\n\t\t\t\t\t<sense n=\"1\"><def>cleanse</def>, <def>purify</def></sense>\r\n\t\t\t\t\t<sense n=\"2\"><def>pronounce clean</def>, ceremonially</sense>\r\n\t\t\t\t\t<sense n=\"3\"><def>perform the ceremony of cleansing</def></sense>\r\n\t\t\t\t</sense>\r\n\t\t\t\t<sense><stem>Pu</stem>. <def>a land not cleansed</def></sense>\r\n\t\t\t\t<sense><stem>Hithp</stem>.\r\n\t\t\t\t\t<sense n=\"1\"><def>purify oneself</def></sense>\r\n\t\t\t\t\t<sense n=\"2\"><def>present oneself for purification</def></sense>\r\n\t\t\t\t</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -6173,12 +6461,13 @@
           "https://biblehub.com/hebrew/2893.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -6195,6 +6484,17 @@
           "meaningXml": "ceremonial <def>purification</def>; moral <def>purity</def>",
           "usageXml": "× is cleansed, cleansing, purification(-fying).",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ah.ad",
+          "entryBodyXml": "<w>טָֽהֳרָה</w> <pos>n.f</pos>. <def>purifying</def>, <def>cleansing</def>\r\n\t\t\t\t<sense n=\"1\"><def>purifying</def>, <def>menstruation</def></sense>\r\n\t\t\t\t<sense n=\"2\"><def>cleansing</def>, <def>purification</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -6558,12 +6858,13 @@
           "https://biblehub.com/hebrew/2895.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -6580,6 +6881,17 @@
           "meaningXml": "to <def>be</def> (transitively, <def>do</def> or <def>make</def>) <def>good</def> (or well) in the widest sense",
           "usageXml": "be (do) better, cheer, be (do, seem) good, (make) goodly, × please, (be, do, go, play) well.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ai.aa",
+          "entryBodyXml": "<w>טוֹב</w> <pos>vb</pos>. <def>pleasing</def>, <def>good</def>\r\n\t\t\t\t<sense><stem>Qal</stem>\r\n\t\t\t\t\t<sense n=\"1\"><def>be pleasant, delightful</def></sense>\r\n\t\t\t\t\t<sense n=\"2\"><def>be glad</def>, <def>joyful</def></sense>\r\n\t\t\t\t\t<sense n=\"3\">of rank, position, claim: <def>art thou really better than Balak</def>?</sense>\r\n\t\t\t\t\t<sense n=\"4\"><def>be well with</def>, <def>good for</def></sense>\r\n\t\t\t\t\t<sense n=\"5\"><def>be pleasing</def></sense>\r\n\t\t\t\t</sense>\r\n\t\t\t\t<sense><stem>Hiph</stem>. <def>do well</def>, <def>act right</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -6663,12 +6975,13 @@
           "https://biblehub.com/hebrew/2897.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -6685,6 +6998,17 @@
           "meaningXml": "<def>Tob</def>, a region apparently East of the Jordan",
           "usageXml": "Tob.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ai.ah",
+          "entryBodyXml": "<w>טוֹב</w> <pos>n.pr.loc</pos>. a region beyond Jordan, N. or NE. of Gilead, prob. Aramean",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -7160,12 +7484,13 @@
           "https://biblehub.com/hebrew/2898.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -7182,6 +7507,17 @@
           "meaningXml": "<def>good</def> (as a noun), in the widest sense, especially <def>goodness</def> (superlative concretely, the <def>best</def>), <def>beauty</def>, <def>gladness</def>, <def>welfare</def>",
           "usageXml": "fair, gladness, good(-ness, thing, -s), joy, go well with.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ai.ae",
+          "entryBodyXml": "<w>טוּב</w> <pos>n.m</pos>. <def>good things</def>, <def>goods</def>, <def>goodness</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -7223,12 +7559,13 @@
           "https://biblehub.com/hebrew/2899.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -7245,6 +7582,17 @@
           "meaningXml": "<def>Tob-Adonijah</def>, an Israelite",
           "usageXml": "Tob-adonijah.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ai.ad",
+          "entryBodyXml": "<w>טוֹב אֲדֹנִיָּה</w> <pos>n.pr.m</pos>. (<def>good is my Lord</def>, <w>י׳</w>)—in list of Levites assigned to reign of Jehoshaphat <ref r=\"2Chr.17.8\">2 Ch 17:8</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -7524,12 +7872,13 @@
           "https://biblehub.com/hebrew/2900.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -7546,6 +7895,17 @@
           "meaningXml": "<def>Tobijah</def>, the name of three Israelites and of one Samaritan",
           "usageXml": "Tobiah, Tobijah.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ai.ag",
+          "entryBodyXml": "<w>טוֹבִיָּ֫הוּ</w>, <w>טוֹבִיָּה</w> <pos>n.pr.m</pos>. (<def>Yah</def>(<def>u</def>) <def>is my good</def>)\r\n\t\t\t\t<sense n=\"1\">a Levite, assigned to reign of Jehoshaphat</sense>\r\n\t\t\t\t<sense n=\"2\">Ammonite adversary of Nehem.</sense>\r\n\t\t\t\t<sense n=\"3\">head of a family of returning exiles of doubtful lineage</sense>\r\n\t\t\t\t<sense n=\"4\">a chief of returning exiles</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -7601,12 +7961,13 @@
           "https://biblehub.com/hebrew/2901.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -7623,6 +7984,17 @@
           "meaningXml": "to <def>spin</def>",
           "usageXml": "spin.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.aj.aa",
+          "entryBodyXml": "[<w>טָוָה</w>] <pos>vb</pos>. <def>spin</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -7692,12 +8064,13 @@
           "https://biblehub.com/hebrew/2903.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -7714,6 +8087,17 @@
           "meaningXml": "a <def>fillet</def> for the forehead",
           "usageXml": "frontlet.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.as.ab",
+          "entryBodyXml": "<w>טוֹטָפוֹת</w> <pos>n.f.pl</pos>. <def>bands</def>—alw. <def>bands</def>, <def>frontlet-bands</def>, <def>between the eyes</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -7937,12 +8321,13 @@
           "https://biblehub.com/hebrew/2904.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -7959,6 +8344,17 @@
           "meaningXml": "to <def>pitch</def> over or <def>reel</def>; hence (transitively) to <def>cast</def> down or out",
           "usageXml": "carry away, (utterly) cast (down, forth, out), send out.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.am.aa",
+          "entryBodyXml": "[<w>טוּל</w>] <pos>vb</pos>. <stem>Pilp</stem>. etc., <def>hurl</def>, <def>cast</def>\r\n\t\t\t\t<sense><stem>Pilp</stem>. <def>hurleth thee</def> violently</sense>\r\n\t\t\t\t<sense><stem>Hiph</stem>. <def>cast</def>, <def>cast out</def></sense>\r\n\t\t\t\t<sense><stem>Hoph</stem>.\r\n\t\t\t\t\t<sense n=\"1\"><def>be hurled</def></sense>\r\n\t\t\t\t\t<sense n=\"2\">of inanimate thing, <def>be cast</def>, <def>thrown</def></sense>\r\n\t\t\t\t</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -8350,12 +8746,13 @@
           "https://biblehub.com/hebrew/2905.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -8372,6 +8769,17 @@
           "meaningXml": "a <def>row</def>; hence, a <def>wall</def>",
           "usageXml": "row.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.an.ab",
+          "entryBodyXml": "<w>טוּר</w> <pos>n.m</pos>. <ref r=\"Exod.28.17\">Ex 28:17</ref> <def>row</def>\r\n\t\t\t\t<sense n=\"1\"><def>row</def>, <def>course</def> of building-stones, in temple and in Solomon’s house</sense>\r\n\t\t\t\t<sense n=\"2\"><def>row</def> of jewels, on high priest’s breast-piece</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -8427,12 +8835,13 @@
           "https://biblehub.com/hebrew/2906.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -8449,6 +8858,17 @@
           "meaningXml": "a <def>rock</def> or <def>hill</def>",
           "usageXml": "mountain.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.aa.ad",
+          "entryBodyXml": "<w>טוּר</w> <pos>n.m</pos>. <def>mountain</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -8490,12 +8910,13 @@
           "https://biblehub.com/hebrew/2907.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -8512,6 +8933,17 @@
           "meaningXml": "to <def>pounce</def> as a bird of prey",
           "usageXml": "haste.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ao.aa",
+          "entryBodyXml": "[<w>טוּשׂ</w>] <pos>vb</pos>. <def>rush</def>, <def>dart</def>—only <stem>Qal</stem> <ref r=\"Job.9.26\">Jb 9:26</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -8553,12 +8985,13 @@
           "https://biblehub.com/hebrew/2908.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -8575,6 +9008,17 @@
           "meaningXml": "<def>hunger</def> (as twisting)",
           "usageXml": "fasting.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.aa.ae",
+          "entryBodyXml": "<w>טְוָת</w> <pos>adv</pos>. <def>fastingly</def>, <def>hungrily</def>;—<ref r=\"Dan.6.19\">Dn 6:19</ref>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -8616,12 +9060,13 @@
           "https://biblehub.com/hebrew/2909.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -8638,6 +9083,17 @@
           "meaningXml": "to <def>stretch</def> a bow, as an archer",
           "usageXml": "(bow-) shot.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ap.aa",
+          "entryBodyXml": "[<w>טָחָה</w>] <pos>vb</pos>. <def>hurl</def>, <def>shoot</def>—only <stem>Pil</stem>. <ref r=\"Gen.21.16\">Gn 21:16</ref> (E)",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -8679,12 +9135,13 @@
           "https://biblehub.com/hebrew/2911.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -8701,6 +9158,17 @@
           "meaningXml": "a <def>hand mill</def>; hence, a <def>millstone</def>",
           "usageXml": "to grind.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.aq.ac",
+          "entryBodyXml": "<w>טְחוֹן</w> <pos>n.[m.]</pos> <def>grinding-mill</def>, <def>hand-mill</def>; only <ref r=\"Lam.5.13\">La 5:13</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -8756,12 +9224,13 @@
           "https://biblehub.com/hebrew/2910.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -8778,6 +9247,17 @@
           "meaningXml": "(in the plural only) the <def>kidneys</def> (as being covered); hence (figuratively) the <def>inmost thought</def>",
           "usageXml": "inward parts.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ak.ac",
+          "entryBodyXml": "<w>טֻחוֹת</w> <pos>n.f.pl</pos>. <def>inward parts</def> (as <def>covered over</def>, concealed)",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -8917,12 +9397,13 @@
           "https://biblehub.com/hebrew/2912.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -8939,6 +9420,17 @@
           "meaningXml": "to <def>grind</def> meal; hence, to <def>be a concubine</def> (that being their employment)",
           "usageXml": "grind(-er).",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.aq.ab",
+          "entryBodyXml": "[<w>טָחַן</w>] <pos>vb</pos>. <def>grind</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -8980,12 +9472,13 @@
           "https://biblehub.com/hebrew/2913.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -9002,6 +9495,17 @@
           "meaningXml": "a <def>hand mill</def>; hence (figuratively) <def>chewing</def>",
           "usageXml": "grinding.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.aq.ad",
+          "entryBodyXml": "<w>טַחֲנָה</w> <pos>n.f</pos>. <def>mill</def> = foregoing [<w src=\"i.aq.ac\">i.aq.ac</w>], <ref r=\"Eccl.12.4\">Ec 12:4</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -9057,12 +9561,13 @@
           "https://biblehub.com/hebrew/2914.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -9079,6 +9584,17 @@
           "meaningXml": "a <def>boil</def> or <def>ulcer</def> (from the inflammation), especially a <def>tumor</def> in the anus or pudenda (the piles)",
           "usageXml": "emerod.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ar.ab",
+          "entryBodyXml": "[<w>טְחוֹר</w>] <pos>n.m</pos>. only pl. <def>tumours</def>, result of dysentery",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -9120,12 +9636,13 @@
           "https://biblehub.com/hebrew/2915.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -9142,6 +9659,17 @@
           "meaningXml": "<def>mortar</def> or <def>plaster</def>",
           "usageXml": "daubing.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ak.ab",
+          "entryBodyXml": "<w>טִיחַ</w> <pos>n.[m.]</pos> <def>a coating</def>, only <ref r=\"Ezek.13.12\">Ez 13:12</ref>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -9351,12 +9879,13 @@
           "https://biblehub.com/hebrew/2916.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -9373,6 +9902,17 @@
           "meaningXml": "<def>mud</def> or <def>clay</def>; figuratively, <def>calamity</def>",
           "usageXml": "clay, dirt, mire.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.al.ab",
+          "entryBodyXml": "<w>טִיט</w> <pos>n.m</pos>. <def>mud</def>, <def>mire</def>, <def>clay</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -9428,12 +9968,13 @@
           "https://biblehub.com/hebrew/2917.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -9450,6 +9991,17 @@
           "meaningXml": "<def>clay</def>",
           "usageXml": "miry.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.aa.af",
+          "entryBodyXml": "[<w>טִין</w>] <pos>n.[m.]</pos> <def>clay</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -9575,12 +10127,13 @@
           "https://biblehub.com/hebrew/2918.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -9597,6 +10150,17 @@
           "meaningXml": "a <def>wall</def>; hence, a <def>fortress</def> or a <def>hamlet</def>",
           "usageXml": "(goodly) castle, habitation, palace, row.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.an.ac",
+          "entryBodyXml": "[<w>טִירָה</w>] <pos>n.f</pos>. <def>encampment</def>, <def>battlement</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -10058,12 +10622,13 @@
           "https://biblehub.com/hebrew/2919.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -10080,6 +10645,17 @@
           "meaningXml": "<def>dew</def> (as <def>covering</def> vegetation)",
           "usageXml": "dew.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.av.ab",
+          "entryBodyXml": "<w>טַל</w> <pos>n.m</pos>. <def>night-mist</def>, <def>dew</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -10177,12 +10753,13 @@
           "https://biblehub.com/hebrew/2920.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -10200,6 +10777,17 @@
           "usageXml": "dew.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
           "verificationNote": "Strong XML has no meaning node for this entry; gloss taken from usage node."
+        },
+        "bdb": {
+          "entryId": "xi.aa.ag",
+          "entryBodyXml": "<w>טַל</w> <pos>n.[m.]</pos> <def>dew</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -10339,12 +10927,13 @@
           "https://biblehub.com/hebrew/2921.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -10361,6 +10950,17 @@
           "meaningXml": "properly, to <def>cover</def> with pieces; i.e. (by implication) to <def>spot</def> or <def>variegate</def> (as tapestry)",
           "usageXml": "clouted, with divers colours, spotted.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.at.aa",
+          "entryBodyXml": "[<w>טָלָא</w>] <pos>vb</pos>. <def>patch</def>, <def>spot</def>\r\n\t\t\t\t<sense><stem>Qal</stem> chiefly of <def>spotted</def>, <def>variegated</def> sheep and goats; of high places, <def>variegated</def> (gaily-coloured shrines)</sense>\r\n\t\t\t\t<sense><stem>Pu</stem>. <def>patched</def>, of sandals</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -10402,12 +11002,13 @@
           "https://biblehub.com/hebrew/2922.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -10424,6 +11025,17 @@
           "meaningXml": "a <def>lamb</def>",
           "usageXml": "lamb.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.au.ab",
+          "entryBodyXml": "<w>טָלֶה</w> <pos>n.m</pos>. <def>lamb</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -10465,12 +11077,13 @@
           "https://biblehub.com/hebrew/2923.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -10487,6 +11100,17 @@
           "meaningXml": "<def>Telaim</def>, a place in Palestine",
           "usageXml": "Telaim.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.at.ab",
+          "entryBodyXml": "<w>טְלָאִים</w> <pos>n.pr.loc</pos>. c. art., place where Saul mustered his forces <ref r=\"1Sam.15.4\">1 S 15:4</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -10542,12 +11166,13 @@
           "https://biblehub.com/hebrew/2924.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -10564,6 +11189,17 @@
           "meaningXml": "a <def>lamb</def>",
           "usageXml": "lamb.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.au.ab",
+          "entryBodyXml": "<w>טָלֶה</w> <pos>n.m</pos>. <def>lamb</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -10605,12 +11241,13 @@
           "https://biblehub.com/hebrew/2925.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -10627,6 +11264,17 @@
           "meaningXml": "<def>overthrow</def> or <def>rejection</def>",
           "usageXml": "captivity.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.am.ab",
+          "entryBodyXml": "<w>טַלְטֵלָה</w> <pos>n.f</pos>. <def>a hurling</def>, <ref r=\"Isa.22.17\">Is 22:17</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -10668,12 +11316,13 @@
           "https://biblehub.com/hebrew/2926.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -10690,6 +11339,17 @@
           "meaningXml": "properly, to <def>strew over</def>, i.e. (by implication) to <def>cover in</def> or <def>plate</def> (with beams)",
           "usageXml": "cover.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.aw.aa",
+          "entryBodyXml": "[<w>טָלַל</w>] <pos>vb</pos>. <def>cover over</def>, <def>roof</def>—only <stem>Pi</stem>. <ref r=\"Neh.3.15\">Ne 3:15</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -10731,12 +11391,13 @@
           "https://biblehub.com/hebrew/2927.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -10753,6 +11414,17 @@
           "meaningXml": "to <def>cover</def> with shade",
           "usageXml": "have a shadow.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.aa.ah",
+          "entryBodyXml": "[<w>טְלַל</w>] <pos>vb</pos>. <stem>Haph</stem>. <def>have shade</def>;—<ref r=\"Dan.4.9\">Dn 4:9</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -10808,12 +11480,13 @@
           "https://biblehub.com/hebrew/2928.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -10830,6 +11503,17 @@
           "meaningXml": "<def>Telem</def>, the name of a place in Idumaea, also of a temple doorkeeper",
           "usageXml": "Telem.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ax.ab",
+          "entryBodyXml": "<w>טֶ֫לֶם</w> <pos>n.pr.loc</pos>. et <pos>pers</pos>.\r\n\t\t\t\t<sense n=\"1\"><pos>n.pr.loc</pos>. in the Negeb of Judah</sense>\r\n\t\t\t\t<sense n=\"2\"><pos>n.pr.m</pos>. one of the porters</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -10927,12 +11611,13 @@
           "https://biblehub.com/hebrew/2929.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -10949,6 +11634,17 @@
           "meaningXml": "<def>Talmon</def>, a temple doorkeeper",
           "usageXml": "Talmon.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ax.ac",
+          "entryBodyXml": "<w>טַלְמֹן</w>, once <w>טַלְמוֹן</w> <pos>n.pr.m</pos>. name of porters",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -12208,12 +12904,13 @@
           "https://biblehub.com/hebrew/2931.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -12230,6 +12927,17 @@
           "meaningXml": "<def>foul</def> in a religious sense",
           "usageXml": "defiled,   infamous, polluted(-tion), unclean.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ay.ab",
+          "entryBodyXml": "<w>טָמֵא</w> <pos>adj</pos>. <def>unclean</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -12761,12 +13469,13 @@
           "https://biblehub.com/hebrew/2932.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -12783,6 +13492,17 @@
           "meaningXml": "religious <def>impurity</def>",
           "usageXml": "filthiness, unclean(-ness).",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ay.ac",
+          "entryBodyXml": "<w>טֻמְאָה</w> <pos>n.f</pos>. <def>uncleanness</def>\r\n\t\t\t\t<sense n=\"1\">sexual</sense>\r\n\t\t\t\t<sense n=\"2\">of a foul or filthy mass</sense>\r\n\t\t\t\t<sense n=\"3\">ethical and religious</sense>\r\n\t\t\t\t<sense n=\"4\">ritual</sense>\r\n\t\t\t\t<sense n=\"5\">local</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -12824,12 +13544,13 @@
           "https://biblehub.com/hebrew/2933.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -12846,6 +13567,17 @@
           "meaningXml": "to <def>be impure</def> in a religious sense",
           "usageXml": "be defiled, be reputed vile.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.az.aa",
+          "entryBodyXml": "[<w>טָמָה</w>] <pos>vb</pos>. only <stem>Niph</stem>. <def>we are stopped up</def>, <def>stupid</def> <ref r=\"Job.18.3\">Jb 18:3</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -13307,12 +14039,13 @@
           "https://biblehub.com/hebrew/2934.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -13329,6 +14062,17 @@
           "meaningXml": "to <def>hide</def> (by <def>covering</def> over)",
           "usageXml": "hide, lay privily, in secret.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.ba.aa",
+          "entryBodyXml": "<w>טָמַן</w> <pos>vb</pos>. <def>hide</def>, <def>conceal</def>\r\n\t\t\t\t<sense><stem>Qal</stem>\r\n\t\t\t\t\t<sense n=\"1\"><def>hide</def></sense>\r\n\t\t\t\t\t<sense n=\"2\">often of <def>hiding</def>, <def>concealing</def>, <def>secretly laying</def> a snare</sense>\r\n\t\t\t\t\t<sense n=\"3\"><def>that which is darkened</def> = <def>darkness</def></sense>\r\n\t\t\t\t</sense>\r\n\t\t\t\t<sense><stem>Niph</stem>. <def>hide thyself in the dust</def></sense>\r\n\t\t\t\t<sense><stem>Hiph</stem>. <def>and they went and hid</def> (it)</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -13412,12 +14156,13 @@
           "https://biblehub.com/hebrew/2935.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -13434,6 +14179,17 @@
           "meaningXml": "a <def>basket</def> (of interlaced osiers)",
           "usageXml": "basket.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bb.ab",
+          "entryBodyXml": "<w>טֶ֫נֶא</w> <pos>n.m</pos>. <def>basket</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -13475,12 +14231,13 @@
           "https://biblehub.com/hebrew/2936.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -13497,6 +14254,17 @@
           "meaningXml": "to <def>soil</def>",
           "usageXml": "defile.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bc.aa",
+          "entryBodyXml": "[<w>טָנַף</w>] <pos>vb</pos>. <def>soil</def>, <def>defile</def>—<stem>Pi</stem>. <ref r=\"Song.5.3\">Ct 5:3</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -13538,12 +14306,13 @@
           "https://biblehub.com/hebrew/2937.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -13560,6 +14329,17 @@
           "meaningXml": "to <def>wander</def>; causatively to <def>lead astray</def>",
           "usageXml": "seduce.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bd.aa",
+          "entryBodyXml": "[<w>טָעָה</w>] <pos>vb</pos>. <def>wander</def>, <def>stray</def>\r\n\t\t\t\t<sense><stem>Qal</stem> <def>like a wandering</def> (vagrant) <def>woman</def></sense>\r\n\t\t\t\t<sense><stem>Hiph</stem>. fig., <def>they have led astray my people</def>.</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -13741,12 +14521,13 @@
           "https://biblehub.com/hebrew/2938.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -13763,6 +14544,17 @@
           "meaningXml": "to <def>taste</def>; figuratively, to <def>perceive</def>",
           "usageXml": "× but, perceive, taste.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.be.aa",
+          "entryBodyXml": "<w>טָעַם</w> <pos>vb</pos>. <def>taste</def>, <def>perceive</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -13846,12 +14638,13 @@
           "https://biblehub.com/hebrew/2939.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -13868,6 +14661,17 @@
           "meaningXml": "to <def>taste</def>; causatively to <def>feed</def>",
           "usageXml": "make to eat, feed.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.ab.aa",
+          "entryBodyXml": "[<w>טְעֵם</w>] <pos>vb</pos>. <stem>Pa</stem>. <def>feed</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -14077,12 +14881,13 @@
           "https://biblehub.com/hebrew/2940.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -14099,6 +14904,17 @@
           "meaningXml": "properly, a <def>taste</def>, i.e. (figuratively) <def>perception</def>; by implication, <def>intelligence</def>; transitively, a <def>mandate</def>",
           "usageXml": "advice, behaviour, decree, discretion, judgment, reason, taste, understanding.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.be.ab",
+          "entryBodyXml": "<w>טַ֫עַם</w> <pos>n.m</pos>. <def>taste</def>, <def>judgment</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -14196,12 +15012,13 @@
           "https://biblehub.com/hebrew/2941.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -14218,6 +15035,17 @@
           "meaningXml": "properly, <def>a taste</def>, i.e. <def>a judicial sentence</def>",
           "usageXml": "account, × to be commanded, commandment, matter.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.ab.ab",
+          "entryBodyXml": "<w>טְעֵם</w> 30 <pos>n.m</pos>. <def>taste</def>, <def>judgment</def>, <def>command</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -14581,12 +15409,13 @@
           "https://biblehub.com/hebrew/2942.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -14603,6 +15432,17 @@
           "meaningXml": "properly, <def>flavor</def>; figuratively, <def>judgment</def> (both subjective and objective); hence, <def>account</def> (both subjectively and objectively)",
           "usageXml": "  chancellor,   command, commandment, decree,   regard, taste, wisdom.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.ab.ab",
+          "entryBodyXml": "<w>טְעֵם</w> 30 <pos>n.m</pos>. <def>taste</def>, <def>judgment</def>, <def>command</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -14644,12 +15484,13 @@
           "https://biblehub.com/hebrew/2943.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -14666,6 +15507,17 @@
           "meaningXml": "to <def>load</def> a beast",
           "usageXml": "lade.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bf.aa",
+          "entryBodyXml": "[<w>טָעַן</w>] <pos>vb</pos>. <def>load</def>—<stem>Qal</stem> <ref r=\"Gen.45.17\">Gn 45:17</ref> (E)",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -14707,12 +15559,13 @@
           "https://biblehub.com/hebrew/2944.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -14729,6 +15582,17 @@
           "meaningXml": "to <def>stab</def>",
           "usageXml": "thrust through.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bg.aa",
+          "entryBodyXml": "[<w>טָעַן</w>] <pos>vb</pos>. <def>pierce</def>—only <stem>Pu</stem>. <ref r=\"Isa.14.19\">Is 14:19</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -15344,12 +16208,13 @@
           "https://biblehub.com/hebrew/2945.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -15366,6 +16231,17 @@
           "meaningXml": "a <def>family</def> (mostly used collectively in the singular)",
           "usageXml": "(little) children (ones), families.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bj.ab",
+          "entryBodyXml": "<w>טַף</w> 42 <pos>n.m</pos>. coll. <def>children</def> (as going with <def>quick</def>, <def>tripping</def> steps)",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -15421,12 +16297,13 @@
           "https://biblehub.com/hebrew/2946.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -15443,6 +16320,17 @@
           "meaningXml": "to <def>flatten</def> out or <def>extend</def> (as a tent); figuratively, to <def>nurse</def> a child (as <def>promotive</def> of growth);",
           "usageXml": "span, swaddle.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bh.aa",
+          "entryBodyXml": "[<w>טָפַח</w>] <pos>vb</pos>. <def>extend</def>, <def>spread</def>—<stem>Pi</stem>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -15526,12 +16414,13 @@
           "https://biblehub.com/hebrew/2947.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -15548,6 +16437,17 @@
           "meaningXml": "a <def>spread of the hand</def>, i.e. a <def>palm-breadth</def> (not 'span' of the fingers); architecturally, a <def>corbel</def> (as a supporting palm)",
           "usageXml": "coping, hand-breadth.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bh.ac",
+          "entryBodyXml": "<w>טֶ֫פַח</w> <pos>n.[m.]</pos> 1. <def>a span</def>, <def>hand-breadth</def>; 2. <def>coping</def> (?)",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -15645,12 +16545,13 @@
           "https://biblehub.com/hebrew/2948.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -15667,6 +16568,17 @@
           "meaningXml": "(the same as <w src=\"H2947\">2947</w>)",
           "usageXml": "hand-breadth (broad).",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bh.ad",
+          "entryBodyXml": "<w>טֹ֫פַח</w> <pos>n.m</pos>. <def>span</def>, <def>hand-breadth</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -15708,12 +16620,13 @@
           "https://biblehub.com/hebrew/2949.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -15730,6 +16643,17 @@
           "meaningXml": "<def>nursing</def>",
           "usageXml": "span long.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bh.ab",
+          "entryBodyXml": "<w>טִפֻּחִים</w> <pos>n.[m.]pl.abstr</pos>. <def>dandling</def>, <ref r=\"Lam.2.20\">La 2:20</ref>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -15799,12 +16723,13 @@
           "https://biblehub.com/hebrew/2950.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -15821,6 +16746,17 @@
           "meaningXml": "properly, to <def>stick on as a patch</def>; figuratively, to <def>impute falsely</def>",
           "usageXml": "forge(-r), sew up.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bi.aa",
+          "entryBodyXml": "[<w>טָפַל</w>] <pos>vb</pos>. <def>smear</def> or <def>plaster</def> (over), <def>stick</def>, <def>glue</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -15876,12 +16812,13 @@
           "https://biblehub.com/hebrew/2951.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -15898,6 +16835,17 @@
           "meaningXml": "a <def>military governor</def>",
           "usageXml": "captain.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bi.ab",
+          "entryBodyXml": "<w>טִפְסָר</w> <pos>n.[m.]</pos> <def>scribe</def>, <def>marshal</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -15939,12 +16887,13 @@
           "https://biblehub.com/hebrew/2952.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -15961,6 +16910,17 @@
           "meaningXml": "to <def>trip</def> (with short steps) coquettishly",
           "usageXml": "mince.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bj.aa",
+          "entryBodyXml": "[<w>טָפַף</w>] <pos>vb</pos>. <def>trip</def>, <def>take quick little steps</def>—<stem>Qal</stem> <ref r=\"Isa.3.16\">Is 3:16</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -16016,12 +16976,13 @@
           "https://biblehub.com/hebrew/2953.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -16038,6 +16999,17 @@
           "meaningXml": "a <def>finger-nail</def>; also a <def>hoof</def> or <def>claw</def>",
           "usageXml": "nail.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.ab.ac",
+          "entryBodyXml": "[<w>טְפַר</w>] <pos>n.m</pos>. <def>nail</def>, <def>claw</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -16079,12 +17051,13 @@
           "https://biblehub.com/hebrew/2954.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -16101,6 +17074,17 @@
           "meaningXml": "properly, apparently to <def>be thick</def>; figuratively, to <def>be stupid</def>",
           "usageXml": "be fat.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bj.ac",
+          "entryBodyXml": "<w>טָפַשׁ</w> <pos>vb</pos>. <def>be gross</def>—metaph. <ref r=\"Ps.119.70\">ψ 119:70</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -16142,12 +17126,13 @@
           "https://biblehub.com/hebrew/2955.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -16164,6 +17149,17 @@
           "meaningXml": "<def>Taphath</def>, an Israelitess",
           "usageXml": "Taphath.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bj.ad",
+          "entryBodyXml": "<w>טָפַת</w> <pos>n.pr.f</pos>. daughter of Solomon, &amp; wife of <w>בֶּן־אֲבִינָדָב</w> <ref r=\"1Kgs.4.11\">1 K 4:11</ref>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -16219,12 +17215,13 @@
           "https://biblehub.com/hebrew/2956.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -16241,6 +17238,17 @@
           "meaningXml": "to <def>drive on</def>; figuratively, to <def>follow close</def>",
           "usageXml": "continual.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bk.aa",
+          "entryBodyXml": "[<w>טָרַד</w>] <pos>vb</pos>. <def>pursue</def>, <def>chase</def>, <def>be continuous</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -16324,12 +17332,13 @@
           "https://biblehub.com/hebrew/2957.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -16346,6 +17355,17 @@
           "meaningXml": "to <def>expel</def>",
           "usageXml": "drive.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.ac.aa",
+          "entryBodyXml": "[<w>טְרַד</w>] <pos>vb</pos>. <def>chase away</def>\r\n\t\t\t\t<sense><stem>Pe</stem>.</sense> \r\n\t\t\t\t<sense><stem>Pe‛îl</stem></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -16387,12 +17407,13 @@
           "https://biblehub.com/hebrew/2958.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -16409,6 +17430,17 @@
           "meaningXml": "<def>not yet</def>",
           "usageXml": "before.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bn.aa",
+          "entryBodyXml": "<w>טֶ֫רֶם</w> 54, once (<ref r=\"Ruth.3.14\">Ru 3:14</ref> Kt) <w>טְרוֹם</w>, <pos>adv. of time</pos> <def>not yet</def>, <def>ere</def>, <def>before that</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -16450,12 +17482,13 @@
           "https://biblehub.com/hebrew/2959.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -16472,6 +17505,17 @@
           "meaningXml": "to <def>overburden</def>",
           "usageXml": "weary.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bm.aa",
+          "entryBodyXml": "[<w>טָרַח</w>] <pos>vb</pos>. <def>toil</def>, <def>be burdened</def>—<stem>Hiph</stem>. <ref r=\"Job.37.11\">Jb 37:11</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -16527,12 +17571,13 @@
           "https://biblehub.com/hebrew/2960.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -16549,6 +17594,17 @@
           "meaningXml": "a <def>burden</def>",
           "usageXml": "cumbrance, trouble.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bm.ab",
+          "entryBodyXml": "<w>טֹ֫רַח</w> <pos>n.m</pos>. <def>burden</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -16604,12 +17660,13 @@
           "https://biblehub.com/hebrew/2961.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -16626,6 +17683,17 @@
           "meaningXml": "properly, <def>dripping</def>; hence, <def>fresh</def> (i.e. recently made such)",
           "usageXml": "new, putrefying.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bl.ab",
+          "entryBodyXml": "[<w>טָרִי</w>] <pos>adj</pos>. <def>fresh</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -17437,12 +18505,13 @@
           "https://biblehub.com/hebrew/2962.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -17459,6 +18528,17 @@
           "meaningXml": "properly, <def>non-occurrence</def>; used adverbially, <def>not yet</def> or <def>before</def>",
           "usageXml": "before, ere, not yet.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bn.aa",
+          "entryBodyXml": "<w>טֶ֫רֶם</w> 54, once (<ref r=\"Ruth.3.14\">Ru 3:14</ref> Kt) <w>טְרוֹם</w>, <pos>adv. of time</pos> <def>not yet</def>, <def>ere</def>, <def>before that</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -17836,12 +18916,13 @@
           "https://biblehub.com/hebrew/2963.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -17858,6 +18939,17 @@
           "meaningXml": "to <def>pluck off</def> or <def>pull to pieces</def>; causatively to <def>supply</def> with food (as in morsels)",
           "usageXml": "catch, × without doubt, feed, ravin, rend in pieces, × surely, tear (in pieces).",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bo.aa",
+          "entryBodyXml": "<w>טָרַף</w> <pos>vb</pos>. <def>tear</def>, <def>rend</def>, <def>pluck</def>\r\n\t\t\t\t<sense><stem>Qal</stem> <def>tear</def>, <def>rend</def></sense>\r\n\t\t\t\t<sense><stem>Niph</stem>. of animal <def>torn</def></sense>\r\n\t\t\t\t<sense><stem>Pu</stem>. <def>Joseph has certainly been torn in pieces</def></sense>\r\n\t\t\t\t<sense><stem>Hiph</stem>. <def>let me devour my appointed bread</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -18207,12 +19299,13 @@
           "https://biblehub.com/hebrew/2964.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -18229,6 +19322,17 @@
           "meaningXml": "something <def>torn</def>, i.e. a fragment, e.g. a <def>fresh</def> leaf, <def>prey</def>, <def>food</def>",
           "usageXml": "leaf, meat, prey, spoil.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bo.ac",
+          "entryBodyXml": "<w>טֶ֫רֶף</w> <pos>n.m</pos>. <def>prey</def>, <def>food</def>; <def>leaf</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -18270,12 +19374,13 @@
           "https://biblehub.com/hebrew/2965.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -18292,6 +19397,17 @@
           "meaningXml": "<def>recently torn off</def>, i.e. <def>fresh</def>",
           "usageXml": "pluckt off.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bo.ab",
+          "entryBodyXml": "<w>טָרָף</w> <pos>adj</pos>. <def>fresh-plucked</def>—<ref r=\"Gen.8.11\">Gn 8:11</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -18445,12 +19561,13 @@
           "https://biblehub.com/hebrew/2966.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -18467,6 +19584,17 @@
           "meaningXml": "<def>prey</def>, i.e. flocks devoured by animals",
           "usageXml": "ravin, (that which was) torn (of beasts, in pieces).",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "i.bo.ad",
+          "entryBodyXml": "<w>טְרֵפָה</w> <pos>n.f</pos>. <def>animal torn</def> (by wild beasts); <def>torn flesh</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     },
@@ -18508,12 +19636,13 @@
           "https://biblehub.com/hebrew/2967.htm"
         ],
         "dictionaries": [
-          "Strong"
+          "Strong",
+          "Brown-Driver-Briggs"
         ],
-        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "method": "Strong XML fields and BDB entry excerpt matched against pinned source blobs; Hebrew definitions are interpretive drafts pending editorial approval; occurrence verification tracked separately.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
-        "bdbSourceChecked": false,
+        "bdbSourceChecked": true,
         "occurrenceCountChecked": false
       },
       "definitionOriginalEnglish": {
@@ -18530,6 +19659,17 @@
           "meaningXml": "a <def>Tarpelite</def> (collectively) or inhabitants of Tarpel, a place in Assyria",
           "usageXml": "Tarpelites. y",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xi.ac.ab",
+          "entryBodyXml": "<w>טַרְפְּלָיֵא</w> <pos>n.pr.gent</pos>. so most, <ref r=\"Ezra.4.9\">Ezr 4:9</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched lexical index Strong-to-BDB cross-reference and exact BDB XML entry excerpt.",
+          "scope": "lexical-opening-excerpt"
         }
       }
     }
