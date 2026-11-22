@@ -39,16 +39,28 @@
           }
         }
       ],
-      "definitionEn": "Vedan; place in Arabia",
-      "definitionHe": "שם מקום הנזכר ברשימת המסחר של צור, ככל הנראה באזור ערב. זיהויו המדויק אינו ודאי.",
+      "definitionEn": "Apparently a place name; identification wholly doubtful.",
+      "definitionHe": "כנראה שם של מקום הנזכר בין שותפי המסחר של צור; מיקומו וזיהויו אינם ידועים בוודאות.",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
         "strongUrl": "https://biblehub.com/hebrew/2051.htm",
         "strongNumber": "2051"
       },
-      "definitionReviewStatus": "pending-human-review",
-      "definitionNote": "זיהוי גאוגרפי משוער לפי Strong."
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionNote": "BDB doubts the identification and possibly the underlying text.",
+      "definitionConfidence": "disputed",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2051.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
+        "editoriallyApproved": false
+      }
     },
     {
       "strongNumber": "2052",
@@ -73,16 +85,28 @@
           }
         }
       ],
-      "definitionEn": "Vaheb; place in Moab",
-      "definitionHe": "שם מקום הנזכר בשירת מלחמות ה׳. לפי Strong הוא נמצא במואב, אך זיהויו אינו ודאי.",
+      "definitionEn": "Perhaps a place in Moab; exact location unknown.",
+      "definitionHe": "כנראה שם מקום הנזכר בבמדבר כ״א, י״ד; ייתכן שהיה באזור מואב, אך מיקומו אינו ידוע.",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
         "strongUrl": "https://biblehub.com/hebrew/2052.htm",
         "strongNumber": "2052"
       },
-      "definitionReviewStatus": "pending-human-review",
-      "definitionNote": "מיקום המקום אינו מוכרע."
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionNote": "BDB: apparently a place name; its situation is unknown.",
+      "definitionConfidence": "uncertain",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2052.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
+        "editoriallyApproved": false
+      }
     },
     {
       "strongNumber": "2053",
@@ -275,15 +299,28 @@
           }
         }
       ],
-      "definitionEn": "Hook",
-      "definitionHe": "קרס או יתד מכופפת המשמשים לתלייה או לחיבור, כגון אביזרי העמודים במשכן.",
+      "definitionEn": "Hook, pin, or peg used to support tabernacle hangings.",
+      "definitionHe": "קרס, יתד או אביזר חיבור ששימש לתליית יריעות המשכן על עמודיו.",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
         "strongUrl": "https://biblehub.com/hebrew/2053.htm",
         "strongNumber": "2053"
       },
-      "definitionReviewStatus": "pending-human-review"
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionNote": "",
+      "definitionConfidence": "high",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2053.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
+        "editoriallyApproved": false
+      }
     },
     {
       "strongNumber": "2054",
@@ -308,16 +345,28 @@
           }
         }
       ],
-      "definitionEn": "Crime; guilt",
-      "definitionHe": "מילה נדירה שמשמעותה אינה ודאית; Strong מציע קשר לאשמה או למעשה פסול.",
+      "definitionEn": "Criminal, guilty; the reading of the text is doubtful.",
+      "definitionHe": "ככל הנראה אדם אשם או בעל התנהגות פסולה; משמעות המילה ונוסח הפסוק אינם ודאיים.",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
         "strongUrl": "https://biblehub.com/hebrew/2054.htm",
         "strongNumber": "2054"
       },
-      "definitionReviewStatus": "pending-human-review",
-      "definitionNote": "פירוש מסופק; נדרש עיון בהקשר וב־BDB."
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionNote": "Proverbs 21:8: BDB marks the text as dubious; do not present 'crime' as a certain noun meaning.",
+      "definitionConfidence": "disputed",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2054.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
+        "editoriallyApproved": false
+      }
     },
     {
       "strongNumber": "2055",
@@ -342,15 +391,28 @@
           }
         }
       ],
-      "definitionEn": "Son of Haman",
-      "definitionHe": "שמו של אחד מעשרת בני המן הנזכרים במגילת אסתר.",
+      "definitionEn": "A son of Haman.",
+      "definitionHe": "אחד מעשרת בני המן הנזכרים במגילת אסתר.",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
         "strongUrl": "https://biblehub.com/hebrew/2055.htm",
         "strongNumber": "2055"
       },
-      "definitionReviewStatus": "pending-human-review"
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionNote": "",
+      "definitionConfidence": "high",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2055.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
+        "editoriallyApproved": false
+      }
     },
     {
       "strongNumber": "2056",
@@ -375,15 +437,28 @@
           }
         }
       ],
-      "definitionEn": "Child; boy",
-      "definitionHe": "ילד, ובפרט בן זכר צעיר.",
+      "definitionEn": "Offspring, child.",
+      "definitionHe": "ילד או צאצא, בלי הבחנה הכרחית בין זכר לנקבה.",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
         "strongUrl": "https://biblehub.com/hebrew/2056.htm",
         "strongNumber": "2056"
       },
-      "definitionReviewStatus": "pending-human-review"
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionNote": "Genesis 11:30; earlier wording 'particularly a boy' was overly narrow.",
+      "definitionConfidence": "high",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2056.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
+        "editoriallyApproved": false
+      }
     },
     {
       "strongNumber": "2057",
@@ -408,15 +483,28 @@
           }
         }
       ],
-      "definitionEn": "Israelite personal name",
-      "definitionHe": "שמו של אדם מישראל הנזכר ברשימת האנשים שנשאו נשים נוכריות בימי עזרא.",
+      "definitionEn": "An Israelite listed among those who had foreign wives.",
+      "definitionHe": "אדם מישראל הנזכר ברשימת מי שנשאו נשים נוכריות בספר עזרא.",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
         "strongUrl": "https://biblehub.com/hebrew/2057.htm",
         "strongNumber": "2057"
       },
-      "definitionReviewStatus": "pending-human-review"
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionNote": "BDB notes uncertainty about the textual reading.",
+      "definitionConfidence": "uncertain",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2057.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
+        "editoriallyApproved": false
+      }
     },
     {
       "strongNumber": "2058",
@@ -441,15 +529,28 @@
           }
         }
       ],
-      "definitionEn": "Israelite personal name",
-      "definitionHe": "שמו של אביו של נַחְבִּי, האיש שנשלח מטעם שבט נפתלי לתור את ארץ כנען.",
+      "definitionEn": "A Naphtalite, father of Nahbi.",
+      "definitionHe": "אדם משבט נפתלי, אביו של נַחְבִּי שנשלח לתור את ארץ כנען.",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
         "strongUrl": "https://biblehub.com/hebrew/2058.htm",
         "strongNumber": "2058"
       },
-      "definitionReviewStatus": "pending-human-review"
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionNote": "BDB notes textual uncertainty.",
+      "definitionConfidence": "uncertain",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2058.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
+        "editoriallyApproved": false
+      }
     },
     {
       "strongNumber": "2059",
@@ -474,16 +575,28 @@
           }
         }
       ],
-      "definitionEn": "Israelite personal name",
-      "definitionHe": "שם המופיע ברשימת בני שמואל בספר דברי הימים.",
+      "definitionEn": "Possibly a personal name; alternatively a textual reading of 'and the second'.",
+      "definitionHe": "ייתכן שם אדם ברשימת בני שמואל; לפי קריאה אחרת אין זה שם פרטי, אלא חלק מהביטוי ״והשני״.",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
         "strongUrl": "https://biblehub.com/hebrew/2059.htm",
         "strongNumber": "2059"
       },
-      "definitionReviewStatus": "pending-human-review",
-      "definitionNote": "ייתכן קושי בזיהוי השם; דרושה בדיקת ההקשר."
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionNote": "BDB recommends an alternative reading with Joel the firstborn and Abijah the second; do not assert the identity as certain.",
+      "definitionConfidence": "disputed",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2059.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
+        "editoriallyApproved": false
+      }
     },
     {
       "strongNumber": "2060",
@@ -634,21 +747,34 @@
           }
         }
       ],
-      "definitionEn": "Persian queen",
-      "definitionHe": "מלכת פרס ואשת אחשוורוש, שהודחה ממעמדה לאחר שסירבה לבקשת המלך להופיע לפני אורחיו.",
+      "definitionEn": "Queen of Ahasuerus, king of Persia.",
+      "definitionHe": "מלכת אחשוורוש מלך פרס, שהודחה ממעמדה לאחר שסירבה להופיע לפני אורחי המלך.",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
         "strongUrl": "https://biblehub.com/hebrew/2060.htm",
         "strongNumber": "2060"
       },
-      "definitionReviewStatus": "pending-human-review"
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionNote": "",
+      "definitionConfidence": "high",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2060.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
+        "editoriallyApproved": false
+      }
     }
   ],
   "definitionPilot": {
     "letter": "ו",
-    "status": "pending-human-review",
-    "method": "Hebrew definitions drafted from checked Strong's Hebrew Dictionary entries; English glosses are summaries, not verbatim quotations.",
+    "status": "source-checked-pending-editorial-review",
+    "method": "Compared each of the ten entries with Strong and Brown-Driver-Briggs, including textual caveats; English summaries are not verbatim quotes.",
     "sourceUrl": "https://github.com/openscriptures/HebrewLexicon",
     "sourceLicense": "CC BY 4.0",
     "reviewedByHuman": false
