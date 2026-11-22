@@ -81,23 +81,29 @@ function normWord(value){
   return plain(value).replace(/[^א-ת]/g,"");
 }
 function highlightVerse(element,verseText,occurrence){
-  const tokens=verseText.match(/\S+/g)||[];
-  const needles=String(occurrence.form||"").split("/").map(normWord).filter(Boolean);
-  const matches=[];
-  for(let i=0;i<tokens.length;i++){
-    if(needles.includes(normWord(tokens[i])))matches.push(i);
-  }
+  // MorphHB uses "/" between morphemes (e.g. וָוֵי/הֶם),
+  // whereas Sefaria normally renders them as a single written word.
+  // Compare both the combined written form and its individual segments.
+  const parts=String(occurrence.form||"").split("/").map(normWord).filter(Boolean);
+  const joined=normWord(occurrence.form);
+  const needles=new Set([joined,...parts].filter(Boolean));
+  // Preserve the original verse and punctuation while locating Hebrew words.
+  const tokenMatches=[...verseText.matchAll(/[\u0591-\u05c7\u05d0-\u05ea]+/g)];
+  const candidates=tokenMatches.map((m,i)=>({match:m,index:i,normalized:normWord(m[0])}))
+    .filter(x=>needles.has(x.normalized));
   clear(element);
-  if(!matches.length){element.textContent=verseText;return false;}
-  // MorphHB tokenPosition is 1-based. Sefaria may tokenize Ketiv/Qere differently;
-  // highlight only when an unambiguous match exists, or the position matches exactly.
+  if(!candidates.length){element.textContent=verseText;return false;}
   const expected=Number(occurrence.tokenPosition)-1;
-  const chosen=matches.includes(expected)?expected:(matches.length===1?matches[0]:-1);
-  if(chosen<0){element.textContent=verseText;return false;}
-  for(let i=0;i<tokens.length;i++){
-    if(i)element.append(document.createTextNode(" "));
-    element.append(i===chosen?node("mark",tokens[i]):document.createTextNode(tokens[i]));
-  }
+  // Prefer exact whole-word matches. Position is only a tie-breaker when
+  // Sefaria's word boundaries agree with MorphHB.
+  const exact=candidates.filter(x=>x.normalized===joined);
+  const pool=exact.length?exact:candidates;
+  const chosen=pool.length===1?pool[0]:pool.find(x=>x.index===expected);
+  if(!chosen){element.textContent=verseText;return false;}
+  const m=chosen.match;
+  element.append(document.createTextNode(verseText.slice(0,m.index)));
+  element.append(node("mark",m[0]));
+  element.append(document.createTextNode(verseText.slice(m.index+m[0].length)));
   return true;
 }
 async function renderVerse(occurrence,target,renderId){
@@ -114,7 +120,7 @@ async function renderVerse(occurrence,target,renderId){
     const verse=textFromSefaria(html);
     if(!verse)throw Error("Empty verse");
     const highlighted=highlightVerse(target,verse,occurrence);
-    if(!highlighted)target.title="לא נמצאה התאמה חד-משמעית להדגשת המילה";
+    if(!highlighted){target.title="לא נמצאה התאמה חד-משמעית להדגשת המילה";target.parentElement.append(node("div","לא זוהתה התאמה ודאית למילה: "+occurrence.form,"small"));}
     target.parentElement.append(link);
   }catch(err){
     if(renderId!==verseRenderId||!target.isConnected)return;
