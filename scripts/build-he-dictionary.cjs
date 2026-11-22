@@ -31,7 +31,8 @@ async function main(){
  let corrected=0,checked=0;
  for(const e of data.entries){
   const id=e.strongNumber, source=entry(strong,'H'+id);
-  const idx=indexEntries.find(m=>new RegExp('strong="'+id+'"(?=[\\s/>])').test(m[2]));
+  const indexStrong=id==='2007'?'2004':id; // Strong H2007 is absent from the pinned LexicalIndex; H2004 shares the pronoun lemma.
+  const idx=indexEntries.find(m=>new RegExp('strong="'+indexStrong+'"(?=[\\s/>])').test(m[2]));
   assert(idx,'No index for H'+id);
   const bid=idx[2].match(/<xref[^>]*bdb="([^"]+)"/)?.[1];
   assert(bid,'No BDB index for H'+id);
@@ -42,7 +43,7 @@ async function main(){
   e.definitionSource={name:'Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)',url:'https://github.com/openscriptures/HebrewLexicon',strongUrl:'https://biblehub.com/hebrew/'+id+'.htm',strongNumber:id};
   e.definitionReviewStatus='source-checked-pending-editorial-review';e.definitionConfidence='source-based';
   e.definitionVerification={sources:[e.definitionSource.strongUrl],dictionaries:['Strong','Brown-Driver-Briggs'],method:'Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.',editoriallyApproved:false,strongSourceChecked:true,bdbSourceChecked:true,occurrenceCountChecked:true};
-  e.definitionOriginalEnglish={strong:{source:plain(f.source),meaning:plain(f.meaning),usage:plain(f.usage),sourceUrl:base+'/openscriptures/HebrewLexicon/'+revision+'/HebrewStrong.xml',entryId:'H'+id,license:'CC BY 4.0',format:'plain-text extraction of XML source, meaning and usage nodes',verifiedAgainstSource:true,sourceXml:f.source,meaningXml:f.meaning,usageXml:f.usage,sourceRevision:revision},bdb:{entryId:bid,entryBodyXml:bdbExcerpt,sourceUrl:base+'/openscriptures/HebrewLexicon/'+revision+'/BrownDriverBriggs.xml',license:'CC BY 4.0',verifiedAgainstSource:true,sourceFormat:'BDB XML entry body excluding status tag',sourceRevision:revision,verificationNote:'Matched pinned LexicalIndex and BDB source excerpt.',scope:'lexical-opening-excerpt'}};
+  e.definitionOriginalEnglish={strong:{source:plain(f.source),meaning:plain(f.meaning),usage:plain(f.usage),sourceUrl:base+'/openscriptures/HebrewLexicon/'+revision+'/HebrewStrong.xml',entryId:'H'+id,license:'CC BY 4.0',format:'plain-text extraction of XML source, meaning and usage nodes',verifiedAgainstSource:true,sourceXml:f.source,meaningXml:f.meaning,usageXml:f.usage,sourceRevision:revision},bdb:{entryId:bid,entryBodyXml:bdbExcerpt,sourceUrl:base+'/openscriptures/HebrewLexicon/'+revision+'/BrownDriverBriggs.xml',license:'CC BY 4.0',verifiedAgainstSource:true,sourceFormat:'BDB XML entry body excluding status tag',sourceRevision:revision,verificationNote:id==='2007'?'Strong H2007 has no direct LexicalIndex cross-reference; BDB excerpt is linked through the corresponding H2004 pronoun lemma.':'Matched pinned LexicalIndex and BDB source excerpt.',scope:'lexical-opening-excerpt'}};
   for(const o of e.occurrences){
    const list=verses[o.verseId];assert(list,'Missing verse '+o.verseId);
    const tok=list.find(t=>attr(t.attrs,'id')===o.tokenId);assert(tok,'Missing token '+o.tokenId);
