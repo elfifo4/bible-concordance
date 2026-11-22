@@ -5,6 +5,11 @@ on:
     paths:
       - 'scripts/build_alphabet_concordance.py'
       - '.github/workflows/generate-alphabet.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/build_alphabet_concordance.py'
+      - '.github/workflows/generate-alphabet.yml'
   workflow_dispatch:
 permissions:
   contents: write
