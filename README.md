@@ -1,5 +1,7 @@
 # Bible Concordance | קונקורדנציה לתנ״ך
 
+🌐 **האתר (GitHub Pages):** https://elfifo4.github.io/bible-concordance/
+
 An open, Hebrew-first concordance of the Hebrew Bible, designed for precise word lookup, grammatical analysis, and navigation to every occurrence in the biblical text.
 
 > **Status:** Planning / initial data-model design. The complete dataset has **not** been generated or verified yet.
