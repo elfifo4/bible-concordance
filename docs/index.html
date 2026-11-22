@@ -26,11 +26,15 @@
 const letters=[..."אבגדהוזחטיכלמנסעפצקרשת"], tabs=document.getElementById("tabs"),words=document.getElementById("words"),details=document.getElementById("details"),status=document.getElementById("status"),stats=document.getElementById("stats"),search=document.getElementById("search"),wordPager=document.getElementById("wordPager");
 let current="א", data=null, selected=null, wordPage=0,occPage=0,request=0;
 const cache=new Map(),wordSize=80,occSize=40;
-let pendingWord=new URLSearchParams(location.search).get("word");
-function updateWordUrl(word){
+const initialParams=new URLSearchParams(location.search);
+let pendingWord=initialParams.get("word");
+let pendingStrong=initialParams.get("strong");
+function updateWordUrl(word,strong=null){
   const url=new URL(location.href);
   if(word)url.searchParams.set("word",word);
   else url.searchParams.delete("word");
+  if(word&&strong)url.searchParams.set("strong",String(strong));
+  else url.searchParams.delete("strong");
   url.hash="";
   history.replaceState(null,"",url);
 }
@@ -40,14 +44,15 @@ function node(tag,text,cls){const e=document.createElement(tag);if(text!==undefi
 function clear(el){el.replaceChildren();}
 function pager(el,page,total,fn){clear(el);if(total<=1)return;const prev=node("button","הקודם");prev.disabled=page===0;prev.onclick=()=>fn(page-1);const next=node("button","הבא");next.disabled=page===total-1;next.onclick=()=>fn(page+1);el.append(prev,node("span",`${page+1} מתוך ${total}`,"small"),next);}
 function drawTabs(){clear(tabs);letters.forEach(l=>{const b=node("button",l);b.type="button";b.setAttribute("aria-selected",String(l===current));b.onclick=()=>setLetter(l);tabs.append(b);});}
-async function setLetter(l,{preserveSearch=false}={}){current=l;selected=null;wordPage=0;occPage=0;if(!preserveSearch){search.value="";pendingWord=null;updateWordUrl("");}drawTabs();clear(words);clear(wordPager);clear(details);details.append(node("p","בחרו מילה מהרשימה.","muted"));stats.textContent="";status.textContent="טוען את האות "+l+"…";const seq=++request;try{if(!cache.has(l)){const res=await fetch("./data/alphabet/"+encodeURIComponent(l)+".json");if(!res.ok)throw Error("HTTP "+res.status);const d=await res.json();if(!Array.isArray(d.entries)||d.letter!==l)throw Error("קובץ נתונים לא תקין");cache.set(l,d);}if(seq!==request)return;data=cache.get(l);status.textContent="";renderWords();
+async function setLetter(l,{preserveSearch=false}={}){current=l;selected=null;wordPage=0;occPage=0;if(!preserveSearch){search.value="";pendingWord=null;pendingStrong=null;updateWordUrl("");}drawTabs();clear(words);clear(wordPager);clear(details);details.append(node("p","בחרו מילה מהרשימה.","muted"));stats.textContent="";status.textContent="טוען את האות "+l+"…";const seq=++request;try{if(!cache.has(l)){const res=await fetch("./data/alphabet/"+encodeURIComponent(l)+".json");if(!res.ok)throw Error("HTTP "+res.status);const d=await res.json();if(!Array.isArray(d.entries)||d.letter!==l)throw Error("קובץ נתונים לא תקין");cache.set(l,d);}if(seq!==request)return;data=cache.get(l);status.textContent="";renderWords();
   if(pendingWord!==null){
     const word=plain(pendingWord.trim());
-    const match=data.entries.find(e=>plain(e.headword)===word);
-    pendingWord=null;
+    const matches=data.entries.filter(e=>plain(e.headword)===word);
+    const match=pendingStrong!==null?matches.find(e=>String(e.strongNumber)===pendingStrong):(matches.length===1?matches[0]:null);
+    pendingWord=null;pendingStrong=null;
     if(match){selected=match;occPage=0;renderWords();renderDetails();}
   }}catch(e){if(seq===request){data=null;status.textContent="שגיאה בטעינת הנתונים: "+e.message;status.className="error";}}}
-function renderWords(){if(!data)return;const q=plain(search.value.trim());const found=q?data.entries.filter(e=>plain(e.headword).includes(q)):data.entries;const pages=Math.max(1,Math.ceil(found.length/wordSize));wordPage=Math.min(wordPage,pages-1);stats.textContent=`${found.length.toLocaleString("he-IL")} ערכים • ${data.totalOccurrences.toLocaleString("he-IL")} היקרויות באות`;document.getElementById("listTitle").textContent="ערכים באות "+current;clear(words);const slice=found.slice(wordPage*wordSize,(wordPage+1)*wordSize);const frag=document.createDocumentFragment();slice.forEach(e=>{const b=node("button");b.className="word";b.setAttribute("aria-current",String(selected===e));b.append(node("b",e.headword),node("span",e.occurrenceCount.toLocaleString("he-IL"),"count"));b.onclick=()=>{selected=e;occPage=0;search.value=plain(e.headword);updateWordUrl(plain(e.headword));renderWords();renderDetails();};frag.append(b);});words.append(frag);pager(wordPager,wordPage,pages,p=>{wordPage=p;renderWords();words.scrollTop=0;});if(!found.length)words.append(node("p","לא נמצאו ערכים.","loading"));}
+function renderWords(){if(!data)return;const q=plain(search.value.trim());const found=q?data.entries.filter(e=>plain(e.headword).includes(q)):data.entries;const pages=Math.max(1,Math.ceil(found.length/wordSize));wordPage=Math.min(wordPage,pages-1);stats.textContent=`${found.length.toLocaleString("he-IL")} ערכים • ${data.totalOccurrences.toLocaleString("he-IL")} היקרויות באות`;document.getElementById("listTitle").textContent="ערכים באות "+current;clear(words);const slice=found.slice(wordPage*wordSize,(wordPage+1)*wordSize);const frag=document.createDocumentFragment();slice.forEach(e=>{const b=node("button");b.className="word";b.setAttribute("aria-current",String(selected===e));b.append(node("b",e.headword),node("span",e.occurrenceCount.toLocaleString("he-IL"),"count"));b.onclick=()=>{selected=e;occPage=0;search.value=plain(e.headword);updateWordUrl(plain(e.headword),e.strongNumber);renderWords();renderDetails();};frag.append(b);});words.append(frag);pager(wordPager,wordPage,pages,p=>{wordPage=p;renderWords();words.scrollTop=0;});if(!found.length)words.append(node("p","לא נמצאו ערכים.","loading"));}
 
 const bookNames={
 Gen:"Genesis",Exod:"Exodus",Lev:"Leviticus",Num:"Numbers",Deut:"Deuteronomy",
@@ -201,6 +206,7 @@ function renderDetails(){
 search.addEventListener("keydown",event=>{if(event.key==="Enter"){event.preventDefault();search.blur();}});
 search.addEventListener("input",()=>{
   pendingWord=null;
+  pendingStrong=null;
   selected=null;
   clear(details);
   details.append(node("p","בחרו מילה מהרשימה.","muted"));
