@@ -1,10 +1,5 @@
 name: Generate full Hebrew concordance (22 parallel letters)
 on:
-  push:
-    branches: [feat/full-alphabet-concordance]
-    paths:
-      - 'scripts/build_alphabet_concordance.py'
-      - '.github/workflows/generate-alphabet.yml'
   pull_request:
     branches: [main]
     paths:
@@ -12,7 +7,7 @@ on:
       - '.github/workflows/generate-alphabet.yml'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 jobs:
   prepare:
     runs-on: ubuntu-latest
@@ -75,7 +70,15 @@ jobs:
           name: letter-${{ matrix.letter }}
           path: data/alphabet/*.json
           retention-days: 2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: unresolved-${{ matrix.letter }}
+          path: build/unresolved-*.json
+          retention-days: 2
   publish:
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/feat/full-alphabet-concordance'
+    permissions:
+      contents: write
     needs: generate
     runs-on: ubuntu-latest
     steps:
@@ -87,6 +90,11 @@ jobs:
         with:
           pattern: letter-*
           path: data/alphabet
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: unresolved-*
+          path: data/alphabet/unresolved
           merge-multiple: true
       - name: Verify alphabet and publish generated JSON to branch
         run: |
