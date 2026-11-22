@@ -37,7 +37,7 @@ if(original){
     const originalField=field(source,tag);
     if(originalField===null){ assert.equal(original[tag+'Xml'],'',id+' '+tag+' unexpectedly stored'); continue; }
     assert.equal(original[tag+'Xml'],originalField,id+' '+tag+' XML differs from source');
-    assert.equal(original[tag].replace(/\\s+/g,' ').trim(),plain(originalField).replace(/\\s+/g,' ').trim(),id+' '+tag+' text differs from source');
+    assert.equal(original[tag].replace(/\s+/g,' ').trim(),plain(originalField).replace(/\s+/g,' ').trim(),id+' '+tag+' text differs from source');
   }
 }
 const bdb=e.definitionOriginalEnglish?.bdb;
