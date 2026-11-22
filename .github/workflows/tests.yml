@@ -76,7 +76,7 @@ jobs:
           import concurrent.futures,subprocess,json,pathlib
           letters="אבגדהוזחטיכלמנסעפצקרשת"
           def generate(letter):
-              subprocess.run(["python","scripts/build_alphabet_concordance.py","--tokens","build/tokens.jsonl","--lexicon","/tmp/lexicon","--letter",letter,"--output",f"data/alphabet/{letter}.json"],check=True)
+              subprocess.run(["python","-m","scripts.build_alphabet_concordance","--tokens","build/tokens.jsonl","--lexicon","/tmp/lexicon","--letter",letter,"--output",f"data/alphabet/{letter}.json"],check=True)
           with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
               list(pool.map(generate,letters))
           summary=[]
