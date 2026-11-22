@@ -88,7 +88,7 @@ function highlightVerse(element,verseText,occurrence){
   const joined=normWord(occurrence.form);
   const needles=new Set([joined,...parts].filter(Boolean));
   // Match Hebrew letters with their vowel/cantillation marks, but NOT maqaf (U+05BE),\n  // sof pasuq, or other punctuation. E.g. אל־טֶבַח must be two words.\n  // Preserve the original verse and punctuation while locating Hebrew words.
-  const tokenMatches=[...verseText.matchAll(/[\u05d0-\u05ea][\u0591-\u05bd\u05bf-\u05c7]*/g)];
+  const tokenMatches=[...verseText.matchAll(/(?:[\u05d0-\u05ea][\u0591-\u05bd\u05bf-\u05c7]*)+/g)];
   const candidates=tokenMatches.map((m,i)=>({match:m,index:i,normalized:normWord(m[0])}))
     .filter(x=>needles.has(x.normalized));
   clear(element);
