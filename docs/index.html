@@ -160,7 +160,15 @@ function renderDetails(){
   const p=node("div");p.className="pager";details.append(p);
   pager(p,occPage,pages,n=>{occPage=n;renderDetails();details.scrollIntoView({behavior:"smooth",block:"start"});});
 }
-search.addEventListener("input",()=>{\n  wordPage=0;\n  const first=plain(search.value.trim()).match(/[א-ת]/)?.[0];\n  if(first&&letters.includes(first)&&first!==current){\n    setLetter(first,{preserveSearch:true});\n  }else{\n    renderWords();\n  }\n});
+search.addEventListener("input",()=>{
+  wordPage=0;
+  const first=plain(search.value.trim()).match(/[א-ת]/)?.[0];
+  if(first&&letters.includes(first)&&first!==current){
+    setLetter(first,{preserveSearch:true});
+  }else{
+    renderWords();
+  }
+});
 const requested=decodeURIComponent(location.hash.slice(1));setLetter(letters.includes(requested)?requested:"א");
 </script>
 </body></html>
