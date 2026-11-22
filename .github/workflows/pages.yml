@@ -1,0 +1,44 @@
+name: Publish concordance to GitHub Pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'data/alphabet/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble static site
+        run: |
+          mkdir -p _site/data
+          cp docs/index.html _site/index.html
+          cp -r data/alphabet _site/data/
+          touch _site/.nojekyll
+          python - <<'PY'
+          import json,pathlib
+          root=pathlib.Path("_site/data/alphabet")
+          manifest=json.loads((root/"manifest.json").read_text())
+          assert len(manifest["letters"])==22
+          assert all((root/(x["letter"]+".json")).is_file() for x in manifest["letters"])
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
