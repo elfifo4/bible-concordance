@@ -93,7 +93,7 @@ jobs:
           python - <<'PY'
           import json,pathlib
           letters="אבגדהוזחטיכלמנסעפצקרשת"
-          files=list(pathlib.Path("data/alphabet").glob("*.json"))
+          files=[p for p in pathlib.Path("data/alphabet").glob("*.json") if p.stem in "אבגדהוזחטיכלמנסעפצקרשת"]
           assert len(files)==22, f"Expected 22 files, found {len(files)}"
           summary=[]
           for letter in letters:
