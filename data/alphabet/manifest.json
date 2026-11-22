@@ -1,0 +1,117 @@
+{
+  "status": "machine-generated-needs-human-review",
+  "letters": [
+    {
+      "letter": "א",
+      "entryCount": 832,
+      "occurrenceCount": 52808
+    },
+    {
+      "letter": "ב",
+      "entryCount": 448,
+      "occurrenceCount": 10626
+    },
+    {
+      "letter": "ג",
+      "entryCount": 314,
+      "occurrenceCount": 4400
+    },
+    {
+      "letter": "ד",
+      "entryCount": 202,
+      "occurrenceCount": 7071
+    },
+    {
+      "letter": "ה",
+      "entryCount": 156,
+      "occurrenceCount": 9669
+    },
+    {
+      "letter": "ו",
+      "entryCount": 10,
+      "occurrenceCount": 31
+    },
+    {
+      "letter": "ז",
+      "entryCount": 169,
+      "occurrenceCount": 4505
+    },
+    {
+      "letter": "ח",
+      "entryCount": 568,
+      "occurrenceCount": 8141
+    },
+    {
+      "letter": "ט",
+      "entryCount": 95,
+      "occurrenceCount": 990
+    },
+    {
+      "letter": "י",
+      "entryCount": 520,
+      "occurrenceCount": 28154
+    },
+    {
+      "letter": "כ",
+      "entryCount": 273,
+      "occurrenceCount": 11708
+    },
+    {
+      "letter": "ל",
+      "entryCount": 145,
+      "occurrenceCount": 8769
+    },
+    {
+      "letter": "מ",
+      "entryCount": 974,
+      "occurrenceCount": 20743
+    },
+    {
+      "letter": "נ",
+      "entryCount": 388,
+      "occurrenceCount": 11455
+    },
+    {
+      "letter": "ס",
+      "entryCount": 194,
+      "occurrenceCount": 2201
+    },
+    {
+      "letter": "ע",
+      "entryCount": 581,
+      "occurrenceCount": 12778
+    },
+    {
+      "letter": "פ",
+      "entryCount": 320,
+      "occurrenceCount": 6564
+    },
+    {
+      "letter": "צ",
+      "entryCount": 237,
+      "occurrenceCount": 3224
+    },
+    {
+      "letter": "ק",
+      "entryCount": 283,
+      "occurrenceCount": 5174
+    },
+    {
+      "letter": "ר",
+      "entryCount": 352,
+      "occurrenceCount": 6354
+    },
+    {
+      "letter": "ש",
+      "entryCount": 744,
+      "occurrenceCount": 20468
+    },
+    {
+      "letter": "ת",
+      "entryCount": 287,
+      "occurrenceCount": 3831
+    }
+  ],
+  "totalEntries": 8092,
+  "totalOccurrences": 239664
+}
