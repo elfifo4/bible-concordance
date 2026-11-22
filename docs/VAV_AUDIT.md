@@ -30,3 +30,14 @@
 
 ## מקורות מקראיים
 https://github.com/openscriptures/morphhb/tree/master/wlc — קובצי Gen, Exod, Num, Ezra, Esth, 1Chr, Prov, Ezek.
+
+## החלטת עבודה — 22 בנובמבר 2026
+המשתמש החליט **לדחות את הרצת בדיקות ה־CI**. בהמשך הוא יבקש מ־Claude להריץ את הבדיקות **מקומית על ה־MacBook שלו**. אין להציג את הבדיקות כאילו כבר הורצו או עברו, ואין לעכב את המשך פיתוח הקונקורדנציה רק בשל ההמתנה להרצה המקומית. לאחר ההרצה יש לתעד את הפקודות, התוצאות והשגיאות (אם יהיו) ולעדכן את סטטוס האימות בהתאם.
+
+פקודות מוצעות ל־Claude, מתוך שורש הריפו:
+```bash
+node tests/vav-definitions.test.cjs
+node tests/vav-source-audit.cjs
+for test in tests/*.test.cjs; do node "$test" || exit 1; done
+```
+הבדיקה `vav-source-audit.cjs` ניגשת למקורות ברשת, ולכן דורשת חיבור לאינטרנט.
