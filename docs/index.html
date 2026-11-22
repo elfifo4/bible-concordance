@@ -127,7 +127,7 @@ function renderDetails(){
   clear(details);
   if(!selected)return;
   const e=selected;
-  details.append(node("h2",e.headword),node("p",\`מספר Strong: \${e.strongNumber} · \${e.occurrenceCount.toLocaleString("he-IL")} היקרויות\`,"small"));
+  details.append(node("h2",e.headword),node("p",`מספר Strong: ${e.strongNumber} · ${e.occurrenceCount.toLocaleString("he-IL")} היקרויות`,"small"));
   details.append(node("p",e.definitionHe||"פירוש עברי מאומת טרם נוסף לערך זה.",e.definitionHe?"":"muted"));
   if(e.joinMethod!=="aug-index")details.append(node("p","שיוך מילוני לפי התאמה חלופית; טעון אימות.","small"));
   details.append(node("h3","היקרויות במקרא"));
@@ -137,7 +137,7 @@ function renderDetails(){
     const item=node("div");item.className="occ";
     item.append(node("div",o.verseId,"ref"));
     const verse=node("div","טוען פסוק מספריא…","verse verse-pending");
-    item.append(verse,node("div",\`מיקום \${o.tokenPosition} בפסוק · \${o.readingType==="ketiv"?"כתיב":"נוסח רגיל"}\`,"small"));
+    item.append(verse,node("div",`מיקום ${o.tokenPosition} בפסוק · ${o.readingType==="ketiv"?"כתיב":"נוסח רגיל"}`,"small"));
     list.append(item);
     renderVerse(o,verse,renderId);
   });
