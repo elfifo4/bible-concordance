@@ -58,7 +58,7 @@ jobs:
         env:
           LETTER: ${{ matrix.letter }}
         run: |
-          python scripts/build_alphabet_concordance.py --tokens build/tokens.jsonl --lexicon build --letter "$LETTER" --output "data/alphabet/$LETTER.json" --unresolved-output "build/unresolved-$LETTER.json"
+          python -m scripts.build_alphabet_concordance --tokens build/tokens.jsonl --lexicon build --letter "$LETTER" --output "data/alphabet/$LETTER.json" --unresolved-output "build/unresolved-$LETTER.json"
           python - "$LETTER" <<'PY'
           import json,sys
           letter=sys.argv[1]
