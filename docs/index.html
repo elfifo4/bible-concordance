@@ -138,6 +138,29 @@ async function renderVerse(occurrence,target,renderId){
   }
 }
 let verseRenderId=0;
+// Canonical Jewish Tanakh order: Torah, Nevi'im, Ketuvim.
+const canonicalBooks=[
+  "Gen","Exod","Lev","Num","Deut",
+  "Josh","Judg","1Sam","2Sam","1Kgs","2Kgs","Isa","Jer","Ezek",
+  "Hos","Joel","Amos","Obad","Jonah","Mic","Nah","Hab","Zeph","Hag","Zech","Mal",
+  "Ps","Prov","Job","Song","Ruth","Lam","Eccl","Esth","Dan","Ezra","Neh","1Chr","2Chr"
+];
+const canonicalAliases={
+  Sam1:"1Sam",Sam2:"2Sam",Kgs1:"1Kgs",Kgs2:"2Kgs",
+  Chr1:"1Chr",Chr2:"2Chr",SongOfSongs:"Song"
+};
+const canonicalRank=new Map(canonicalBooks.map((book,index)=>[book,index]));
+function occurrenceSortKey(occurrence){
+  const m=/^([A-Za-z0-9]+)\.(\d+)\.(\d+)$/.exec(occurrence.verseId||"");
+  if(!m)return [Number.MAX_SAFE_INTEGER,0,0,Number(occurrence.tokenPosition)||0];
+  const book=canonicalAliases[m[1]]||m[1];
+  return [canonicalRank.get(book)??Number.MAX_SAFE_INTEGER,Number(m[2]),Number(m[3]),Number(occurrence.tokenPosition)||0];
+}
+function compareOccurrences(a,b){
+  const x=occurrenceSortKey(a),y=occurrenceSortKey(b);
+  for(let i=0;i<x.length;i++)if(x[i]!==y[i])return x[i]-y[i];
+  return 0;
+}
 function renderDetails(){
   const renderId=++verseRenderId;
   clear(details);
@@ -148,7 +171,7 @@ function renderDetails(){
   if(e.joinMethod!=="aug-index")details.append(node("p","שיוך מילוני לפי התאמה חלופית; טעון אימות.","small"));
   details.append(node("h3","היקרויות במקרא"));
   const list=node("div");details.append(list);
-  const arr=e.occurrences||[],pages=Math.max(1,Math.ceil(arr.length/occSize));
+  const arr=[...(e.occurrences||[])].sort(compareOccurrences),pages=Math.max(1,Math.ceil(arr.length/occSize));
   arr.slice(occPage*occSize,(occPage+1)*occSize).forEach(o=>{
     const item=node("div");item.className="occ";
     item.append(node("div",o.verseId,"ref"));
