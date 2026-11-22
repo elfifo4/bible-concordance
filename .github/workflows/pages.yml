@@ -1,4 +1,4 @@
-name: Publish concordance to GitHub Pages
+name: Publish Hebrew concordance to GitHub Pages
 on:
   push:
     branches: [main]
