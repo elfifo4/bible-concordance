@@ -1454,7 +1454,7 @@
         }
       ],
       "definitionHe": "בשר של בעל חיים שנשחט או פעולת השחיטה.",
-      "definitionEn": "",
+      "definitionEn": "flesh; slaughter",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -1489,7 +1489,8 @@
           "sourceXml": "feminine of <w src=\"H2874\">2874</w> and meaning the same",
           "meaningXml": "",
           "usageXml": "flesh, slaughter.",
-          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Strong XML has no meaning node for this entry; gloss taken from usage node."
         }
       }
     },
@@ -10162,7 +10163,7 @@
         }
       ],
       "definitionHe": "טיפות לחות הנוצרות על פני השטח בלילה; מילה בארמית מקראית.",
-      "definitionEn": "",
+      "definitionEn": "dew",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -10197,7 +10198,8 @@
           "sourceXml": "(Aramaic) the same as <w src=\"H2919\">2919</w>",
           "meaningXml": "",
           "usageXml": "dew.",
-          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Strong XML has no meaning node for this entry; gloss taken from usage node."
         }
       }
     },
