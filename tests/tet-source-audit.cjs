@@ -53,7 +53,8 @@ assert.equal(list.indexOf(tok)+1,occ.tokenPosition,occ.tokenId+' position mismat
 assert.equal(tok.form,occ.form,occ.tokenId+' form mismatch');
 assert.equal(attr(tok.attrs,'lemma'),occ.lemmaRaw,occ.tokenId+' lemma mismatch');
 assert.equal(attr(tok.attrs,'morph'),occ.morphRaw,occ.tokenId+' morphology mismatch');
-assert(norm(tok.form).startsWith(norm(e.headword).slice(0,1)),occ.tokenId+' unexpected form');
+// Do not require surface forms to start with the lemma's letter: prefixes and inflections can change the first character.
+// Exact token ID, verse, position, form, lemma and morphology are already compared above.
 checked++;
 }
 console.log('PASS '+id+' '+e.headword+' '+e.occurrences.length+' occurrence(s)');
