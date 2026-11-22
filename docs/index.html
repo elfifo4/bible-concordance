@@ -80,25 +80,34 @@ function textFromSefaria(value){
 function normWord(value){
   return plain(value).replace(/[^א-ת]/g,"");
 }
+function spellingEquivalent(a,b){
+  if(a===b)return true;
+  // Conservative plene/defective orthography fallback: a single extra/missing
+  // vav or yod in one spelling, with every other letter identical.
+  if(Math.abs(a.length-b.length)!==1)return false;
+  const longer=a.length>b.length?a:b,shorter=a.length>b.length?b:a;
+  for(let i=0;i<longer.length;i++){
+    if((longer[i]==="ו"||longer[i]==="י")&&longer.slice(0,i)+longer.slice(i+1)===shorter)return true;
+  }
+  return false;
+}
 function highlightVerse(element,verseText,occurrence){
-  // MorphHB uses "/" between morphemes (e.g. וָוֵי/הֶם),
-  // whereas Sefaria normally renders them as a single written word.
-  // Compare both the combined written form and its individual segments.
   const parts=String(occurrence.form||"").split("/").map(normWord).filter(Boolean);
   const joined=normWord(occurrence.form);
-  const needles=new Set([joined,...parts].filter(Boolean));
-  // Match Hebrew letters with their vowel/cantillation marks, but NOT maqaf (U+05BE),\n  // sof pasuq, or other punctuation. E.g. אל־טֶבַח must be two words.\n  // Preserve the original verse and punctuation while locating Hebrew words.
-  const tokenMatches=[...verseText.matchAll(/(?:[\u05d0-\u05ea][\u0591-\u05bd\u05bf-\u05c7]*)+/g)];
-  const candidates=tokenMatches.map((m,i)=>({match:m,index:i,normalized:normWord(m[0])}))
-    .filter(x=>needles.has(x.normalized));
+  const needles=[...new Set([joined,...parts].filter(Boolean))];
+  // Maqaf is punctuation, not part of the word. Preserve original verse text.
+  const tokens=[...verseText.matchAll(/(?:[\u05d0-\u05ea][\u0591-\u05bd\u05bf-\u05c7]*)+/g)]
+    .map((m,index)=>({match:m,index,normalized:normWord(m[0])}));
+  const exact=tokens.filter(t=>needles.includes(t.normalized));
+  // Only try spelling variants if no exact match exists anywhere in the verse.
+  const candidates=exact.length?exact:tokens.filter(t=>needles.some(n=>spellingEquivalent(n,t.normalized)));
   clear(element);
   if(!candidates.length){element.textContent=verseText;return false;}
   const expected=Number(occurrence.tokenPosition)-1;
-  // Prefer exact whole-word matches. Position is only a tie-breaker when
-  // Sefaria's word boundaries agree with MorphHB.
-  const exact=candidates.filter(x=>x.normalized===joined);
-  const pool=exact.length?exact:candidates;
-  const chosen=pool.length===1?pool[0]:pool.find(x=>x.index===expected);
+  const preferred=candidates.filter(t=>t.normalized===joined);
+  const pool=preferred.length?preferred:candidates;
+  // Never guess when more than one candidate exists and tokenization differs.
+  const chosen=pool.length===1?pool[0]:pool.find(t=>t.index===expected);
   if(!chosen){element.textContent=verseText;return false;}
   const m=chosen.match;
   element.append(document.createTextNode(verseText.slice(0,m.index)));
