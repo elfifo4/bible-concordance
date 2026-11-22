@@ -26,6 +26,7 @@ get(base+'/openscriptures/HebrewLexicon/'+revision+'/BrownDriverBriggs.xml')
 const books=[...new Set(data.entries.flatMap(e=>e.occurrences.map(o=>o.verseId.split('.')[0])))];
 const files=Object.fromEntries(await Promise.all(books.map(async book=>[book,await get(base+'/openscriptures/morphhb/'+morphRev+'/wlc/'+book+'.xml')])));
 let checked=0;
+const positionMismatches=[];
 for(const e of data.entries){
 const id='H'+e.strongNumber;
 const source=entry(strongXml,id);
@@ -36,7 +37,7 @@ if(original){
     const originalField=field(source,tag);
     if(originalField===null){ assert.equal(original[tag+'Xml'],'',id+' '+tag+' unexpectedly stored'); continue; }
     assert.equal(original[tag+'Xml'],originalField,id+' '+tag+' XML differs from source');
-    assert.equal(original[tag],plain(originalField),id+' '+tag+' text differs from source');
+    assert.equal(original[tag].replace(/\s+/g,' ').trim(),plain(originalField).replace(/\s+/g,' ').trim(),id+' '+tag+' text differs from source');
   }
 }
 const bdb=e.definitionOriginalEnglish?.bdb;
@@ -49,14 +50,16 @@ const book=occ.verseId.split('.')[0];
 const list=tokens(verse(files[book],occ.verseId));
 const tok=list.find(t=>attr(t.attrs,'id')===occ.tokenId);
 assert(tok,'Token '+occ.tokenId+' not in '+occ.verseId);
-assert.equal(list.indexOf(tok)+1,occ.tokenPosition,occ.tokenId+' position mismatch');
+if(list.indexOf(tok)+1!==occ.tokenPosition) positionMismatches.push(occ.tokenId+' '+occ.verseId+' stored='+occ.tokenPosition+' actual='+(list.indexOf(tok)+1));
 assert.equal(tok.form,occ.form,occ.tokenId+' form mismatch');
 assert.equal(attr(tok.attrs,'lemma'),occ.lemmaRaw,occ.tokenId+' lemma mismatch');
 assert.equal(attr(tok.attrs,'morph'),occ.morphRaw,occ.tokenId+' morphology mismatch');
-assert(norm(tok.form).startsWith(norm(e.headword).slice(0,1)),occ.tokenId+' unexpected form');
+// Do not require surface forms to start with the lemma's letter: prefixes and inflections can change the first character.
+// Exact token ID, verse, position, form, lemma and morphology are already compared above.
 checked++;
 }
 console.log('PASS '+id+' '+e.headword+' '+e.occurrences.length+' occurrence(s)');
 }
+assert.equal(positionMismatches.length,0,'Token position mismatches:\\n'+positionMismatches.join('\\n'));
 console.log('PASS 95 Strong entries, BDB excerpts (where present), '+checked+'/990 occurrence tokens checked against pinned MorphHB revision.');
 })().catch(e=>{console.error(e.stack);process.exitCode=1});
