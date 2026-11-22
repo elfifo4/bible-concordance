@@ -15,10 +15,16 @@ for(const entry of data.entries){
   const original=entry.definitionOriginalEnglish?.strong;
   assert(original?.source&&original?.meaning&&original?.usage,entry.headword+" missing exact Strong original");
   assert.equal(original.entryId,"H"+entry.strongNumber);
-  assert.equal(original.verifiedAgainstSource,false,"Strong originals must not claim unchecked verification");
+  assert.equal(original.verifiedAgainstSource,true);
+  assert(original.sourceXml&&original.meaningXml&&original.usageXml);
+  assert.equal(original.sourceRevision,data.source.hebrewLexiconRevision);
+  assert.equal(original.usageXml,original.usage);
   const bdb=entry.definitionOriginalEnglish?.bdb;
   assert(bdb?.entryId&&bdb?.entryBodyXml,entry.headword+" missing BDB original");
   assert.equal(bdb.verifiedAgainstSource,true);
+  assert.equal(bdb.scope,"lexical-opening-excerpt");
+  assert.equal(bdb.sourceRevision,data.source.hebrewLexiconRevision);
+  assert.equal(entry.definitionVerification.occurrenceCountChecked,true);
   assert.equal(bdb.license,"CC BY 4.0");
   assert(bdb.entryBodyXml.includes("<w>"),"BDB XML missing headword");
   assert.equal(original.license,"CC BY 4.0");
