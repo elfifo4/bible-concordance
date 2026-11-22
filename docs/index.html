@@ -137,7 +137,9 @@ function highlightVerse(element,verseText,occurrence,headword){
       const group=tokens.slice(i,i+lexemeParts.length);
       if(!group.every((t,j)=>matchLexemePart(t.normalized,lexemeParts[j])))continue;
       // MorphHB's attested token form must anchor at least one phrase component.
-      if(!group.some(t=>needles.some(n=>matchLexemePart(t.normalized,n))))continue;
+      const attested=group.some(t=>needles.some(n=>matchLexemePart(t.normalized,n))) ||
+        (joined&&matchLexemePart(group.map(t=>t.normalized).join(""),joined));
+      if(!attested)continue;
       phrases.push({start:group[0].match.index,end:group[group.length-1].match.index+group[group.length-1].match[0].length,index:i});
     }
     // Only choose an unambiguous phrase. Position is not reliable across
