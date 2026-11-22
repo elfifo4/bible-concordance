@@ -26,6 +26,7 @@ get(base+'/openscriptures/HebrewLexicon/'+revision+'/BrownDriverBriggs.xml')
 const books=[...new Set(data.entries.flatMap(e=>e.occurrences.map(o=>o.verseId.split('.')[0])))];
 const files=Object.fromEntries(await Promise.all(books.map(async book=>[book,await get(base+'/openscriptures/morphhb/'+morphRev+'/wlc/'+book+'.xml')])));
 let checked=0;
+const positionMismatches=[];
 for(const e of data.entries){
 const id='H'+e.strongNumber,orig=e.definitionOriginalEnglish.strong;
 const source=entry(strongXml,id);
@@ -44,7 +45,7 @@ const book=occ.verseId.split('.')[0];
 const list=tokens(verse(files[book],occ.verseId));
 const tok=list.find(t=>attr(t.attrs,'id')===occ.tokenId);
 assert(tok,'Token '+occ.tokenId+' not in '+occ.verseId);
-assert.equal(list.indexOf(tok)+1,occ.tokenPosition,occ.tokenId+' position mismatch in '+occ.verseId+': stored='+occ.tokenPosition+', actual='+(list.indexOf(tok)+1));
+if(list.indexOf(tok)+1!==occ.tokenPosition) positionMismatches.push(occ.tokenId+' '+occ.verseId+' stored='+occ.tokenPosition+' actual='+(list.indexOf(tok)+1));
 assert.equal(tok.form,occ.form,occ.tokenId+' form mismatch');
 assert.equal(attr(tok.attrs,'lemma'),occ.lemmaRaw,occ.tokenId+' lemma mismatch');
 assert.equal(attr(tok.attrs,'morph'),occ.morphRaw,occ.tokenId+' morphology mismatch');
@@ -53,5 +54,6 @@ checked++;
 }
 console.log('PASS '+id+' '+e.headword+' '+e.occurrences.length+' occurrence(s)');
 }
+assert.equal(positionMismatches.length,0,'Token position mismatches:\n'+positionMismatches.join('\n'));
 console.log('PASS 10 Strong exact entries, 10 BDB exact excerpts, '+checked+'/31 occurrence tokens checked against pinned MorphHB revision.');
 })().catch(e=>{console.error(e.stack);process.exitCode=1});
