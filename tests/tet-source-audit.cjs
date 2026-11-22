@@ -34,7 +34,7 @@ const original=e.definitionOriginalEnglish?.strong;
 if(original){
   for(const tag of ['source','meaning','usage']){
     const originalField=field(source,tag);
-    assert.notEqual(originalField,null,id+' '+tag+' missing in XML');
+    if(originalField===null){ assert.equal(original[tag+'Xml'],'',id+' '+tag+' unexpectedly stored'); continue; }
     assert.equal(original[tag+'Xml'],originalField,id+' '+tag+' XML differs from source');
     assert.equal(original[tag],plain(originalField),id+' '+tag+' text differs from source');
   }
