@@ -181,9 +181,9 @@ function highlightVerse(element,verseText,occurrence,headword,strongNumber){
       if(String(strongNumber)==="3810"){
         const raw=group[0].match[0],normalized=normWord(raw);
         const variants=["לא","לו","לוא"];
-        const prefix=variants.some(v=>normalized===v)?0:
-          variants.some(v=>normalized.slice(1)===v)?1:
-          variants.some(v=>normalized.slice(2)===v)?2:0;
+        // Keep the mem in מלוא/מלו דבר as part of the attested place-name spelling.
+        // In בְּלוֹ דבר the attached bet is a separate preposition.
+        const prefix=normalized.startsWith("ב")&&variants.some(v=>normalized.slice(1)===v)?1:0;
         if(prefix){
           let letters=0,offset=0;
           while(offset<raw.length&&letters<prefix){
