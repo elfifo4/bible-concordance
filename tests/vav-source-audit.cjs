@@ -44,7 +44,7 @@ const book=occ.verseId.split('.')[0];
 const list=tokens(verse(files[book],occ.verseId));
 const tok=list.find(t=>attr(t.attrs,'id')===occ.tokenId);
 assert(tok,'Token '+occ.tokenId+' not in '+occ.verseId);
-assert.equal(list.indexOf(tok)+1,occ.tokenPosition,occ.tokenId+' position mismatch');
+assert.equal(list.indexOf(tok)+1,occ.tokenPosition,occ.tokenId+' position mismatch in '+occ.verseId+': stored='+occ.tokenPosition+', actual='+(list.indexOf(tok)+1));
 assert.equal(tok.form,occ.form,occ.tokenId+' form mismatch');
 assert.equal(attr(tok.attrs,'lemma'),occ.lemmaRaw,occ.tokenId+' lemma mismatch');
 assert.equal(attr(tok.attrs,'morph'),occ.morphRaw,occ.tokenId+' morphology mismatch');
