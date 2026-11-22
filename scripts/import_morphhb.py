@@ -66,7 +66,12 @@ def iter_tokens(path, revision, stats=None):
                 element.clear()
                 continue
             if in_note:
-                raise ValueError(f"{path}: unrecognized word inside note at {verse}")
+                # Non-qere note words occupy positions in the source XML,
+                # but are not part of the main concordance token stream.
+                position += 1
+                stack.pop()
+                element.clear()
+                continue
             if element.attrib.get("type") == "x-ketiv":
                 stats["ketivWords"] = stats.get("ketivWords", 0) + 1
             match = VERSE.fullmatch(verse)
