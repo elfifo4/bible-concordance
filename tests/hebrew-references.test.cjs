@@ -1,0 +1,16 @@
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+const vm=require("node:vm");
+const html=fs.readFileSync("docs/index.html","utf8");
+const start=html.indexOf("const hebrewBookNames=");
+const end=html.indexOf("const chapterCache=",start);
+assert(start>=0&&end>start,"Hebrew reference formatter missing");
+const ctx={};vm.createContext(ctx);
+vm.runInContext(html.slice(start,end),ctx);
+assert.equal(ctx.hebrewVerseRef("Gen.22.3"),"בראשית כ״ב, ג׳");
+assert.equal(ctx.hebrewVerseRef("2Sam.9.4"),"שמואל ב׳ ט׳, ד׳");
+assert.equal(ctx.hebrewVerseRef("Deut.28.28"),"דברים כ״ח, כ״ח");
+assert.equal(ctx.hebrewVerseRef("Ps.119.15"),"תהילים קי״ט, ט״ו");
+assert.equal(ctx.hebrewVerseRef("Zech.12.16"),"זכריה י״ב, ט״ז");
+assert.equal(ctx.hebrewVerseRef("Unknown.1.1"),"Unknown.1.1");
+console.log("Hebrew Bible references passed");
