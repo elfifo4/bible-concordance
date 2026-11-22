@@ -70,7 +70,16 @@
           "entryId": "H2051",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
-          "verifiedAgainstSource": true
+          "verifiedAgainstSource": false,
+          "verificationNote": "Original Strong text imported previously; exact XML transcription has not been independently rechecked in this change."
+        },
+        "bdb": {
+          "entryId": "f.ab.ab",
+          "entryBodyXml": "<w>וְדָן</w>, appar. <pos>n.pr.loc</pos>., only in <ref r=\"Ezek.27.19\">Ez 27:19</ref> but identif. wholly dub.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag"
         }
       }
     },
@@ -128,7 +137,16 @@
           "entryId": "H2052",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
-          "verifiedAgainstSource": true
+          "verifiedAgainstSource": false,
+          "verificationNote": "Original Strong text imported previously; exact XML transcription has not been independently rechecked in this change."
+        },
+        "bdb": {
+          "entryId": "f.ab.ac",
+          "entryBodyXml": "<w>וָהֵב</w>, appar. <pos>n.pr.loc</pos>. <ref r=\"Num.21.14\">Nu 21:14</ref>, obj. of a vb. now lost out of the text",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag"
         }
       }
     },
@@ -354,7 +372,16 @@
           "entryId": "H2053",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
-          "verifiedAgainstSource": true
+          "verifiedAgainstSource": false,
+          "verificationNote": "Original Strong text imported previously; exact XML transcription has not been independently rechecked in this change."
+        },
+        "bdb": {
+          "entryId": "f.ab.ad",
+          "entryBodyXml": "[<w>וָו</w>] <pos>n.[m.]</pos> <def>hook</def>, <def>pin</def> or <def>peg</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag"
         }
       }
     },
@@ -412,7 +439,16 @@
           "entryId": "H2054",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
-          "verifiedAgainstSource": true
+          "verifiedAgainstSource": false,
+          "verificationNote": "Original Strong text imported previously; exact XML transcription has not been independently rechecked in this change."
+        },
+        "bdb": {
+          "entryId": "f.ac.ab",
+          "entryBodyXml": "<w>וָזָר</w> <pos>adj</pos>. <def>criminal</def>, <def>guilty</def> <ref r=\"Prov.21.8\">Pr 21:8</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag"
         }
       }
     },
@@ -470,7 +506,16 @@
           "entryId": "H2055",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
-          "verifiedAgainstSource": true
+          "verifiedAgainstSource": false,
+          "verificationNote": "Original Strong text imported previously; exact XML transcription has not been independently rechecked in this change."
+        },
+        "bdb": {
+          "entryId": "f.ac.ac",
+          "entryBodyXml": "<w>וַיְזָתָא</w> <pos>n.pr.m</pos>. a son of Haman <ref r=\"Esth.9.9\">Est 9:9</ref>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag"
         }
       }
     },
@@ -528,7 +573,17 @@
           "entryId": "H2056",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
-          "verifiedAgainstSource": true
+          "verifiedAgainstSource": false,
+          "verificationNote": "Original Strong text imported previously; exact XML transcription has not been independently rechecked in this change."
+        },
+        "bdb": {
+          "entryId": "j.bn.ab",
+          "entryBodyXml": "<w>וָלָד</w> <pos>n.m</pos>. <def>offspring</def>, <def>child</def>, only <ref r=\"Gen.11.30\">Gn 11:30</ref> (J)",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "note": "BDB f.ac.ad is a cross-reference; full lexical entry is j.bn.ab."
         }
       }
     },
@@ -586,7 +641,16 @@
           "entryId": "H2057",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
-          "verifiedAgainstSource": true
+          "verifiedAgainstSource": false,
+          "verificationNote": "Original Strong text imported previously; exact XML transcription has not been independently rechecked in this change."
+        },
+        "bdb": {
+          "entryId": "f.ac.ae",
+          "entryBodyXml": "<w>וַנְיָה</w> <pos>n.pr.m</pos>. one of those with strange wives, <ref r=\"Ezra.10.36\">Ezr 10:36</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag"
         }
       }
     },
@@ -644,7 +708,16 @@
           "entryId": "H2058",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
-          "verifiedAgainstSource": true
+          "verifiedAgainstSource": false,
+          "verificationNote": "Original Strong text imported previously; exact XML transcription has not been independently rechecked in this change."
+        },
+        "bdb": {
+          "entryId": "f.ac.af",
+          "entryBodyXml": "<w>וָפְסִי</w> <pos>n.pr.m</pos>. a man of Naphtali, <ref r=\"Num.13.14\">Nu 13:14</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag"
         }
       }
     },
@@ -702,7 +775,16 @@
           "entryId": "H2059",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
-          "verifiedAgainstSource": true
+          "verifiedAgainstSource": false,
+          "verificationNote": "Original Strong text imported previously; exact XML transcription has not been independently rechecked in this change."
+        },
+        "bdb": {
+          "entryId": "f.ac.ag",
+          "entryBodyXml": "<w>וַשְׁנִי</w> acc. to MT appar. <pos>n.pr.m</pos>. son of Samuel, only <ref r=\"1Chr.6.13\">1 Ch 6:13</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag"
         }
       }
     },
@@ -886,7 +968,16 @@
           "entryId": "H2060",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
-          "verifiedAgainstSource": true
+          "verifiedAgainstSource": false,
+          "verificationNote": "Original Strong text imported previously; exact XML transcription has not been independently rechecked in this change."
+        },
+        "bdb": {
+          "entryId": "f.ac.ah",
+          "entryBodyXml": "<w>וַשְׁתִּי</w> <pos>n.pr.f</pos>. queen of Ahasuerus (Xerxes) king of Persia",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag"
         }
       }
     }
@@ -899,6 +990,7 @@
     "sourceLicense": "CC BY 4.0",
     "reviewedByHuman": false,
     "originalEnglishSource": "Open Scriptures HebrewStrong.xml (Strong entries H2051–H2060)",
-    "originalEnglishCoverage": "10/10 Strong; BDB originals not imported"
+    "originalEnglishCoverage": "10/10 BDB original entry bodies; 10/10 previously imported Strong fields (Strong exactness requires independent recheck)",
+    "bdbSourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml"
   }
 }
