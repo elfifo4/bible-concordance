@@ -111,31 +111,57 @@ function spellingEquivalent(a,b){
   }
   return false;
 }
-function highlightVerse(element,verseText,occurrence){
+function matchLexemePart(token,part){
+  if(token===part||spellingEquivalent(token,part))return true;
+  // Attached Hebrew prepositions/conjunctions can precede a lexical word.
+  // Limit to two prefix letters to avoid arbitrary suffix matches.
+  for(let n=1;n<=2&&n<token.length;n++){
+    if(!/^[ובכלמשה]+$/.test(token.slice(0,n)))continue;
+    if(token.slice(n)===part||spellingEquivalent(token.slice(n),part))return true;
+  }
+  return false;
+}
+function highlightVerse(element,verseText,occurrence,headword){
   const parts=String(occurrence.form||"").split("/").map(normWord).filter(Boolean);
   const joined=normWord(occurrence.form);
   const needles=[...new Set([joined,...parts].filter(Boolean))];
-  // Maqaf is punctuation, not part of the word. Preserve original verse text.
   const tokens=[...verseText.matchAll(/(?:[\u05d0-\u05ea][\u0591-\u05bd\u05bf-\u05c7]*)+/g)]
     .map((m,index)=>({match:m,index,normalized:normWord(m[0])}));
-  const exact=tokens.filter(t=>needles.includes(t.normalized));
-  // Only try spelling variants if no exact match exists anywhere in the verse.
-  const candidates=exact.length?exact:tokens.filter(t=>needles.some(n=>spellingEquivalent(n,t.normalized)));
+  const lexemeParts=String(headword||"").trim().split(/[\s\u05be]+/).map(normWord).filter(Boolean);
+  let chosen=null;
+  if(lexemeParts.length>1){
+    // Multiword lexemes must be highlighted as a complete adjacent phrase.
+    // Do not silently highlight only the last word (e.g. דבר in לא דבר).
+    const phrases=[];
+    for(let i=0;i<=tokens.length-lexemeParts.length;i++){
+      const group=tokens.slice(i,i+lexemeParts.length);
+      if(!group.every((t,j)=>matchLexemePart(t.normalized,lexemeParts[j])))continue;
+      // MorphHB's attested token form must anchor at least one phrase component.
+      const attested=group.some(t=>needles.some(n=>matchLexemePart(t.normalized,n))) ||
+        (joined&&matchLexemePart(group.map(t=>t.normalized).join(""),joined));
+      if(!attested)continue;
+      phrases.push({start:group[0].match.index,end:group[group.length-1].match.index+group[group.length-1].match[0].length,index:i});
+    }
+    // Only choose an unambiguous phrase. Position is not reliable across
+    // MorphHB and Sefaria tokenization, so never guess among duplicates.
+    if(phrases.length===1)chosen=phrases[0];
+  }else{
+    const exact=tokens.filter(t=>needles.includes(t.normalized));
+    const candidates=exact.length?exact:tokens.filter(t=>needles.some(n=>spellingEquivalent(n,t.normalized)));
+    const expected=Number(occurrence.tokenPosition)-1;
+    const preferred=candidates.filter(t=>t.normalized===joined);
+    const pool=preferred.length?preferred:candidates;
+    const t=pool.length===1?pool[0]:pool.find(t=>t.index===expected);
+    if(t)chosen={start:t.match.index,end:t.match.index+t.match[0].length};
+  }
   clear(element);
-  if(!candidates.length){element.textContent=verseText;return false;}
-  const expected=Number(occurrence.tokenPosition)-1;
-  const preferred=candidates.filter(t=>t.normalized===joined);
-  const pool=preferred.length?preferred:candidates;
-  // Never guess when more than one candidate exists and tokenization differs.
-  const chosen=pool.length===1?pool[0]:pool.find(t=>t.index===expected);
   if(!chosen){element.textContent=verseText;return false;}
-  const m=chosen.match;
-  element.append(document.createTextNode(verseText.slice(0,m.index)));
-  element.append(node("mark",m[0]));
-  element.append(document.createTextNode(verseText.slice(m.index+m[0].length)));
+  element.append(document.createTextNode(verseText.slice(0,chosen.start)));
+  element.append(node("mark",verseText.slice(chosen.start,chosen.end)));
+  element.append(document.createTextNode(verseText.slice(chosen.end)));
   return true;
 }
-async function renderVerse(occurrence,target,renderId){
+async function renderVerse(occurrence,target,renderId,headword){
   const ref=parseRef(occurrence.verseId);
   if(!ref){target.textContent="לא ניתן לזהות את מראה המקום במקור ספריא.";return;}
   const link=node("a","פתיחה בספריא","sefaria-link");
@@ -148,7 +174,7 @@ async function renderVerse(occurrence,target,renderId){
     if(typeof html!=="string")throw Error("Verse missing");
     const verse=textFromSefaria(html);
     if(!verse)throw Error("Empty verse");
-    const highlighted=highlightVerse(target,verse,occurrence);
+    const highlighted=highlightVerse(target,verse,occurrence,headword);
     if(!highlighted){target.title="לא נמצאה התאמה חד-משמעית להדגשת המילה";target.parentElement.append(node("div","לא זוהתה התאמה ודאית למילה: "+occurrence.form,"small"));}
     target.parentElement.append(link);
   }catch(err){
@@ -198,7 +224,7 @@ function renderDetails(){
     const verse=node("div","טוען פסוק מספריא…","verse verse-pending");
     item.append(verse,node("div",`מיקום ${o.tokenPosition} בפסוק · ${o.readingType==="ketiv"?"כתיב":"נוסח רגיל"}`,"small"));
     list.append(item);
-    renderVerse(o,verse,renderId);
+    renderVerse(o,verse,renderId,e.headword);
   });
   const p=node("div");p.className="pager";details.append(p);
   pager(p,occPage,pages,n=>{occPage=n;renderDetails();details.scrollIntoView({behavior:"smooth",block:"start"});});
