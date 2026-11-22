@@ -40,7 +40,7 @@ jobs:
             build/tokens.jsonl
             build/LexicalIndex.xml
             build/AugIndex.xml
-          retention-days: 2
+          retention-days: 3
   generate:
     needs: prepare
     runs-on: ubuntu-latest
