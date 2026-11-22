@@ -71,8 +71,9 @@ jobs:
           path: data/alphabet/*.json
           retention-days: 2
       - uses: actions/upload-artifact@v4
+        if: matrix.letter == 'א'
         with:
-          name: unresolved-${{ matrix.letter }}
+          name: unresolved-א
           path: build/unresolved-*.json
           retention-days: 2
   publish:
@@ -93,7 +94,7 @@ jobs:
           merge-multiple: true
       - uses: actions/download-artifact@v4
         with:
-          pattern: unresolved-*
+          name: unresolved-א
           path: data/alphabet/unresolved
           merge-multiple: true
       - name: Verify alphabet and publish generated JSON to branch
