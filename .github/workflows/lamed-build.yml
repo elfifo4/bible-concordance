@@ -3,10 +3,17 @@ on:
   push:
     branches:
       - feat/lamed-dictionary-20261122
+      - main
     paths:
       - 'scripts/build-lamed-dictionary.cjs'
       - 'data/lamed-hebrew-drafts.txt'
+      - 'data/alphabet/ל.json'
       - '.github/workflows/lamed-build.yml'
+  pull_request:
+    paths:
+      - 'scripts/build-lamed-dictionary.cjs'
+      - 'data/lamed-hebrew-drafts.txt'
+      - 'data/alphabet/ל.json'
   workflow_dispatch:
 permissions:
   contents: write
@@ -39,7 +46,8 @@ jobs:
           }
           console.log('PASS all 145 entries and 8769 occurrences');
           NODE
-      - name: Commit verified generated dictionary
+      - name: Commit verified generated dictionary on feature branch
+        if: github.event_name == 'push' && github.ref == 'refs/heads/feat/lamed-dictionary-20261122'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -48,3 +56,6 @@ jobs:
             git commit -m "data: complete pinned-source enrichment and token audit for Lamed"
             git push origin HEAD:feat/lamed-dictionary-20261122
           fi
+      - name: Ensure generated dictionary is reproducible
+        if: github.event_name != 'push' || github.ref != 'refs/heads/feat/lamed-dictionary-20261122'
+        run: git diff --exit-code -- 'data/alphabet/ל.json'
