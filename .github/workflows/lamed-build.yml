@@ -1,19 +1,5 @@
 name: Build and verify Lamed dictionary
 on:
-  push:
-    branches:
-      - feat/lamed-dictionary-20261122
-      - main
-    paths:
-      - 'scripts/build-lamed-dictionary.cjs'
-      - 'data/lamed-hebrew-drafts.txt'
-      - 'data/alphabet/ל.json'
-      - '.github/workflows/lamed-build.yml'
-  pull_request:
-    paths:
-      - 'scripts/build-lamed-dictionary.cjs'
-      - 'data/lamed-hebrew-drafts.txt'
-      - 'data/alphabet/ל.json'
   workflow_dispatch:
 permissions:
   contents: write

@@ -1,19 +1,5 @@
 name: Build and verify He dictionary
 on:
-  push:
-    branches:
-      - feat/he-dictionary-20261122
-      - main
-    paths:
-      - 'scripts/build-he-dictionary.cjs'
-      - 'data/he-hebrew-drafts.txt'
-      - 'data/alphabet/ה.json'
-      - '.github/workflows/he-build.yml'
-  pull_request:
-    paths:
-      - 'scripts/build-he-dictionary.cjs'
-      - 'data/he-hebrew-drafts.txt'
-      - 'data/alphabet/ה.json'
   workflow_dispatch:
 permissions:
   contents: write

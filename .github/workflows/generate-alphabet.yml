@@ -1,10 +1,5 @@
 name: Generate full Hebrew concordance (22 parallel letters)
 on:
-  pull_request:
-    branches: [main]
-    paths:
-      - 'scripts/build_alphabet_concordance.py'
-      - '.github/workflows/generate-alphabet.yml'
   workflow_dispatch:
 permissions:
   contents: read

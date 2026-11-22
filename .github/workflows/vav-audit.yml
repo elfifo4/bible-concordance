@@ -1,11 +1,5 @@
 name: Letter Vav source audit
 on:
-  push:
-    paths:
-      - 'data/alphabet/ו.json'
-      - 'tests/**'
-      - '.github/workflows/vav-audit.yml'
-  pull_request:
   workflow_dispatch:
 jobs:
   audit:
