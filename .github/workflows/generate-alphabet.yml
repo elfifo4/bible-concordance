@@ -1,0 +1,105 @@
+name: Generate full Hebrew concordance (22 parallel letters)
+on:
+  push:
+    branches: [feat/full-alphabet-concordance]
+    paths:
+      - 'scripts/build_alphabet_concordance.py'
+      - '.github/workflows/generate-alphabet.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch pinned source corpora
+        run: |
+          git clone --depth 1 https://github.com/openscriptures/morphhb.git /tmp/morphhb
+          git -C /tmp/morphhb fetch --depth 1 origin db6c5c9b46b8f39346f10915ddb1a70dcd429901
+          git -C /tmp/morphhb checkout --detach db6c5c9b46b8f39346f10915ddb1a70dcd429901
+          git clone --depth 1 https://github.com/openscriptures/HebrewLexicon.git /tmp/lexicon
+          git -C /tmp/lexicon fetch --depth 1 origin 21c9add13bc727d3a951361778e97e3ff7afd1ce
+          git -C /tmp/lexicon checkout --detach 21c9add13bc727d3a951361778e97e3ff7afd1ce
+          python scripts/import_morphhb.py --input /tmp/morphhb/wlc --output build/tokens.jsonl --revision db6c5c9b46b8f39346f10915ddb1a70dcd429901
+          cp /tmp/lexicon/LexicalIndex.xml build/LexicalIndex.xml
+          cp /tmp/lexicon/AugIndex.xml build/AugIndex.xml
+          python scripts/audit_morphhb.py --input /tmp/morphhb/wlc --output build/tokens.jsonl
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pinned-sources
+          path: |
+            build/tokens.jsonl
+            build/LexicalIndex.xml
+            build/AugIndex.xml
+          retention-days: 2
+  generate:
+    needs: prepare
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        letter: [א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: pinned-sources
+          path: build
+      - name: Generate letter with independent validation
+        env:
+          LETTER: ${{ matrix.letter }}
+        run: |
+          python scripts/build_alphabet_concordance.py --tokens build/tokens.jsonl --lexicon build --letter "$LETTER" --output "data/alphabet/$LETTER.json" --unresolved-output "build/unresolved-$LETTER.json"
+          python - "$LETTER" <<'PY'
+          import json,sys
+          letter=sys.argv[1]
+          d=json.load(open(f"data/alphabet/{letter}.json"))
+          assert d["letter"]==letter
+          assert d["entryCount"]==len(d["entries"])
+          assert d["totalOccurrences"]==sum(e["occurrenceCount"] for e in d["entries"])
+          assert all(e["occurrenceCount"]==len(e["occurrences"]) for e in d["entries"])
+          assert len({(e["strongNumber"],e["lexiconEntryId"]) for e in d["entries"]})==len(d["entries"])
+          assert all(len({o["tokenId"] for o in e["occurrences"]})==len(e["occurrences"]) for e in d["entries"])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: letter-${{ matrix.letter }}
+          path: data/alphabet/*.json
+          retention-days: 2
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/full-alphabet-concordance
+          persist-credentials: true
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: letter-*
+          path: data/alphabet
+          merge-multiple: true
+      - name: Verify alphabet and publish generated JSON to branch
+        run: |
+          python - <<'PY'
+          import json,pathlib
+          letters="אבגדהוזחטיכלמנסעפצקרשת"
+          files=list(pathlib.Path("data/alphabet").glob("*.json"))
+          assert len(files)==22, f"Expected 22 files, found {len(files)}"
+          summary=[]
+          for letter in letters:
+              d=json.loads(pathlib.Path(f"data/alphabet/{letter}.json").read_text())
+              summary.append({"letter":letter,"entryCount":d["entryCount"],"occurrenceCount":d["totalOccurrences"]})
+          pathlib.Path("data/alphabet/manifest.json").write_text(json.dumps({"status":"machine-generated-needs-human-review","letters":summary,"totalEntries":sum(x["entryCount"] for x in summary),"totalOccurrences":sum(x["occurrenceCount"] for x in summary)},ensure_ascii=False,indent=2)+"\n")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/alphabet
+          if ! git diff --cached --quiet; then
+            git commit -m "data: generate concordance for all 22 Hebrew letters"
+            git push origin HEAD:feat/full-alphabet-concordance
+          fi
