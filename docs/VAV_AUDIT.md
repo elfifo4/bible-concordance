@@ -41,3 +41,8 @@ node tests/vav-source-audit.cjs
 for test in tests/*.test.cjs; do node "$test" || exit 1; done
 ```
 הבדיקה `vav-source-audit.cjs` ניגשת למקורות ברשת, ולכן דורשת חיבור לאינטרנט.
+
+## בדיקת מקור אוטומטית — 22 בנובמבר 2026
+- `node tests/vav-source-audit.cjs` עבר ב־GitHub Actions עבור 10 ערכים וכל 31 ההיקרויות מול גרסאות המקור המקובעות.
+- תוקנו מיקומי שני טוקנים: `0235f` מ־13 ל־14, ו־`17qry` מ־11 ל־12, גם בקובץ האות וגם בקובץ ההיקרויות הנפרד.
+- **בקרת עריכה לשונית של הפירושים בעברית עדיין ממתינה**; אין לסמן `editoriallyApproved` כאמת.
