@@ -1,0 +1,61 @@
+name: Build and verify Lamed dictionary
+on:
+  push:
+    branches:
+      - feat/lamed-dictionary-20261122
+      - main
+    paths:
+      - 'scripts/build-lamed-dictionary.cjs'
+      - 'data/lamed-hebrew-drafts.txt'
+      - 'data/alphabet/ל.json'
+      - '.github/workflows/lamed-build.yml'
+  pull_request:
+    paths:
+      - 'scripts/build-lamed-dictionary.cjs'
+      - 'data/lamed-hebrew-drafts.txt'
+      - 'data/alphabet/ל.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Enrich all entries and audit pinned sources
+        run: node scripts/build-lamed-dictionary.cjs
+      - name: Verify generated JSON and entry counts
+        run: |
+          node - <<'NODE'
+          const fs=require('fs'),assert=require('assert/strict');
+          const d=JSON.parse(fs.readFileSync('data/alphabet/ל.json','utf8'));
+          assert.equal(d.entries.length,145);
+          assert.equal(d.entries.reduce((n,e)=>n+e.occurrences.length,0),8769);
+          for(const e of d.entries){
+            assert(e.definitionHe);
+            assert(e.definitionOriginalEnglish.strong);
+            assert(e.definitionOriginalEnglish.bdb);
+            assert.equal(e.definitionVerification.editoriallyApproved,false);
+            assert.equal(e.definitionVerification.occurrenceCountChecked,true);
+          }
+          console.log('PASS all 145 entries and 8769 occurrences');
+          NODE
+      - name: Commit verified generated dictionary on feature branch
+        if: github.event_name == 'push' && github.ref == 'refs/heads/feat/lamed-dictionary-20261122'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 'data/alphabet/ל.json'
+          if ! git diff --cached --quiet; then
+            git commit -m "data: complete pinned-source enrichment and token audit for Lamed"
+            git push origin HEAD:feat/lamed-dictionary-20261122
+          fi
+      - name: Ensure generated dictionary is reproducible
+        if: github.event_name != 'push' || github.ref != 'refs/heads/feat/lamed-dictionary-20261122'
+        run: git diff --exit-code -- 'data/alphabet/ל.json'
