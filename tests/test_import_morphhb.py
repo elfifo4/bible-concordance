@@ -55,6 +55,19 @@ class MorphHBImportTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "outside verse"):
                 list(iter_tokens(path, self.REV))
 
+    def test_note_words_preserve_source_positions(self):
+        xml = ('<osis><verse osisID="Exod.27.11" sID="Exod.27.11"/>'
+               '<w id="first">א</w>'
+               '<note><w id="embedded">ב</w></note>'
+               '<w id="last">ג</w>'
+               '<verse eID="Exod.27.11"/></osis>')
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "Exod.xml"
+            path.write_text(xml, encoding="utf-8")
+            tokens = list(iter_tokens(path, self.REV))
+            self.assertEqual([token["tokenId"] for token in tokens], ["first", "last"])
+            self.assertEqual([token["tokenPosition"] for token in tokens], [1, 3])
+
     def test_qere_does_not_count_as_extra_written_word(self):
         xml = ('<osis><verse osisID="Ruth.1.8" sID="Ruth.1.8"/>'
                '<w id="08abc" type="x-ketiv" lemma="6213">יעשה</w>'
