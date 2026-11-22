@@ -1,6 +1,6 @@
 {
   "letter": "ט",
-  "status": "machine-generated-needs-human-review",
+  "status": "source-checked-pending-editorial-review",
   "scope": "MorphHB-attested-headwords-standard-and-ketiv-only",
   "source": {
     "morphhbRevision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
@@ -38,7 +38,46 @@
             "sourceTokenId": "27n62"
           }
         }
-      ]
+      ],
+      "definitionHe": "לשמוח או לעלוץ; פועל בארמית מקראית.",
+      "definitionEn": "to rejoice",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2868.htm",
+        "strongNumber": "2868"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2868.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) a primitive root;",
+          "meaning": "to rejoice",
+          "usage": "be glad",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2868",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) a primitive root;",
+          "meaningXml": "to <def>rejoice</def>",
+          "usageXml": "be glad",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2894",
@@ -62,7 +101,46 @@
             "sourceTokenId": "231ou"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסלק לכלוך או עצמים באמצעות טאטוא.",
+      "definitionEn": "to sweep away",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2894.htm",
+        "strongNumber": "2894"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2894.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to sweep away",
+          "usage": "sweep.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2894",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>sweep away</def>",
+          "usageXml": "sweep.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2869",
@@ -100,7 +178,46 @@
             "sourceTokenId": "15kRy"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבר נאה, ראוי או מועיל; מילה בארמית מקראית.",
+      "definitionEn": "good",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2869.htm",
+        "strongNumber": "2869"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2869.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "the same as 2896;",
+          "meaning": "good",
+          "usage": "fine, good.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2869",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "the same as <w src=\"H2896\">2896</w>;",
+          "meaningXml": "<def>good</def>",
+          "usageXml": "fine, good.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2871",
@@ -124,7 +241,46 @@
             "sourceTokenId": "268D6"
           }
         }
-      ]
+      ],
+      "definitionHe": "בגד צבוע, כנראה כיסוי ראש צבעוני.",
+      "definitionEn": "properly, dyed, i.e. a turban (probably as of colored stuff)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2871.htm",
+        "strongNumber": "2871"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2871.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "passive participle of 2881;",
+          "meaning": "properly, dyed, i.e. a turban (probably as of colored stuff)",
+          "usage": "dyed attire.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2871",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "passive participle of <w src=\"H2881\">2881</w>;",
+          "meaningXml": "properly, <def>dyed</def>, i.e. a <def>turban</def> (probably as of colored stuff)",
+          "usageXml": "dyed attire.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2872",
@@ -162,7 +318,46 @@
             "sourceTokenId": "07Vcf"
           }
         }
-      ]
+      ],
+      "definitionHe": "מרכזו של אזור או חלקו האמצעי; לעיתים גובה בולט.",
+      "definitionEn": "properly, accumulated; i.e. (by implication) a summit",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2872.htm",
+        "strongNumber": "2872"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2872.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from an unused root meaning to pile up;",
+          "meaning": "properly, accumulated; i.e. (by implication) a summit",
+          "usage": "middle, midst.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2872",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from an unused root meaning to pile up;",
+          "meaningXml": "properly, <def>accumulated</def>; i.e. (by implication) a <def>summit</def>",
+          "usageXml": "middle, midst.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2873",
@@ -326,7 +521,46 @@
             "sourceTokenId": "195ZG"
           }
         }
-      ]
+      ],
+      "definitionHe": "להמית אדם או בעל חיים באמצעות שחיטה או הריגה.",
+      "definitionEn": "to slaughter (animals or men)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2873.htm",
+        "strongNumber": "2873"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2873.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to slaughter (animals or men)",
+          "usage": "kill, (make) slaughter, slay.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2873",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>slaughter</def> (animals or men)",
+          "usageXml": "kill, (make) slaughter, slay.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2874",
@@ -504,7 +738,46 @@
             "sourceTokenId": "20J1i"
           }
         }
-      ]
+      ],
+      "definitionHe": "בעל חיים שנשחט או בשרו; גם מעשה שחיטה או מקום שבו שוחטים.",
+      "definitionEn": "properly, something slaughtered; hence, a beast (or meat, as butchered); abstractly butchery (or concretely, a place of slaughter)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2874.htm",
+        "strongNumber": "2874"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2874.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2873;",
+          "meaning": "properly, something slaughtered; hence, a beast (or meat, as butchered); abstractly butchery (or concretely, a place of slaughter)",
+          "usage": "× beast, slaughter, × slay, × sore.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2874",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2873\">2873</w>;",
+          "meaningXml": "properly, something <def>slaughtered</def>; hence, a <def>beast</def> (or <def>meat</def>, as butchered); abstractly <def>butchery</def> (or concretely, a place of slaughter)",
+          "usageXml": "× beast, slaughter, × slay, × sore.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2875",
@@ -528,7 +801,46 @@
             "sourceTokenId": "01yDf"
           }
         }
-      ]
+      ],
+      "definitionHe": "שם של אדם הנזכר ברשימות יוחסין במקרא.",
+      "definitionEn": "Tebach, the name of a Mesopotamian and of an Israelite",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2875.htm",
+        "strongNumber": "2875"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2875.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "the same as 2874; massacre;",
+          "meaning": "Tebach, the name of a Mesopotamian and of an Israelite",
+          "usage": "Tebah.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2875",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "the same as <w src=\"H2874\">2874</w>; massacre;",
+          "meaningXml": "<def>Tebach</def>, the name of a Mesopotamian and of an Israelite",
+          "usageXml": "Tebah.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2876",
@@ -986,7 +1298,46 @@
             "sourceTokenId": "24M8r"
           }
         }
-      ]
+      ],
+      "definitionHe": "אדם הממונה על הכנת מזון, על שחיטה או על משמר המלך.",
+      "definitionEn": "properly, a butcher; hence, a lifeguardsman (because he was acting as an executioner); also a cook (usually slaughtering the animal for food)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2876.htm",
+        "strongNumber": "2876"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2876.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2873;",
+          "meaning": "properly, a butcher; hence, a lifeguardsman (because he was acting as an executioner); also a cook (usually slaughtering the animal for food)",
+          "usage": "cook, guard.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2876",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2873\">2873</w>;",
+          "meaningXml": "properly, a <def>butcher</def>; hence, a <def>lifeguardsman</def> (because he was acting as an executioner); also a <def>cook</def> (usually slaughtering the animal for food)",
+          "usageXml": "cook, guard.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2877",
@@ -1010,7 +1361,46 @@
             "sourceTokenId": "27YQ8"
           }
         }
-      ]
+      ],
+      "definitionHe": "איש ממשמר המלך; מילה בארמית מקראית.",
+      "definitionEn": "a lifeguardsman",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2877.htm",
+        "strongNumber": "2877"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2877.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) the same as 2876;",
+          "meaning": "a lifeguardsman",
+          "usage": "guard.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2877",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) the same as <w src=\"H2876\">2876</w>;",
+          "meaningXml": "a <def>lifeguardsman</def>",
+          "usageXml": "guard.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2878",
@@ -1062,7 +1452,46 @@
             "sourceTokenId": "19XqJ"
           }
         }
-      ]
+      ],
+      "definitionHe": "בשר של בעל חיים שנשחט או פעולת השחיטה.",
+      "definitionEn": "",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2878.htm",
+        "strongNumber": "2878"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2878.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "feminine of 2874 and meaning the same",
+          "meaning": "",
+          "usage": "flesh, slaughter.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2878",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "feminine of <w src=\"H2874\">2874</w> and meaning the same",
+          "meaningXml": "",
+          "usageXml": "flesh, slaughter.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2879",
@@ -1086,7 +1515,46 @@
             "sourceTokenId": "09159"
           }
         }
-      ]
+      ],
+      "definitionHe": "אישה העוסקת בהכנת מזון.",
+      "definitionEn": "a female cook",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2879.htm",
+        "strongNumber": "2879"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2879.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "feminine of 2876;",
+          "meaning": "a female cook",
+          "usage": "cook.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2879",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "feminine of <w src=\"H2876\">2876</w>;",
+          "meaningXml": "a <def>female cook</def>",
+          "usageXml": "cook.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2880",
@@ -1110,7 +1578,46 @@
             "sourceTokenId": "136vQ"
           }
         }
-      ]
+      ],
+      "definitionHe": "שם מקום בארם, הנזכר בדברי הימים.",
+      "definitionEn": "Tibchath, a place in Syria",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2880.htm",
+        "strongNumber": "2880"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2880.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2878; slaughter;",
+          "meaning": "Tibchath, a place in Syria",
+          "usage": "Tibhath.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2880",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2878\">2878</w>; slaughter;",
+          "meaningXml": "<def>Tibchath</def>, a place in Syria",
+          "usageXml": "Tibhath.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2881",
@@ -1344,7 +1851,46 @@
             "sourceTokenId": "08qVv"
           }
         }
-      ]
+      ],
+      "definitionHe": "להכניס דבר לתוך נוזל, באופן חלקי או מלא.",
+      "definitionEn": "to dip, to immerse",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2881.htm",
+        "strongNumber": "2881"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2881.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to dip, to immerse",
+          "usage": "dip, plunge.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2881",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>dip</def>, to <def>immerse</def>",
+          "usageXml": "dip, plunge.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2882",
@@ -1368,7 +1914,46 @@
             "sourceTokenId": "132Pn"
           }
         }
-      ]
+      ],
+      "definitionHe": "אדם משבט לוי הנזכר בדברי הימים.",
+      "definitionEn": "Tebaljah, an Israelite",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2882.htm",
+        "strongNumber": "2882"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2882.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2881 and 3050; Jah has dipped;",
+          "meaning": "Tebaljah, an Israelite",
+          "usage": "Tebaliah.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2882",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2881\">2881</w> and <w src=\"H3050\">3050</w>; <def>Jah has dipped</def>;",
+          "meaningXml": "<def>Tebaljah</def>, an Israelite",
+          "usageXml": "Tebaliah.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2883",
@@ -1518,7 +2103,46 @@
             "sourceTokenId": "193YR"
           }
         }
-      ]
+      ],
+      "definitionHe": "לשקוע בתוך מים או חומר רך; גם לקבע דבר בתוכם.",
+      "definitionEn": "to sink",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2883.htm",
+        "strongNumber": "2883"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2883.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to sink",
+          "usage": "drown, fasten, settle, sink.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2883",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>sink</def>",
+          "usageXml": "drown, fasten, settle, sink.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2884",
@@ -1556,7 +2180,46 @@
             "sourceTokenId": "16s9p"
           }
         }
-      ]
+      ],
+      "definitionHe": "אחד מן הנתינים, שקבוצת צאצאיו נזכרת בספר עזרא.",
+      "definitionEn": "Tabbaoth, one of the Nethinim",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2884.htm",
+        "strongNumber": "2884"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2884.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "plural of 2885; rings;",
+          "meaning": "Tabbaoth, one of the Nethinim",
+          "usage": "Tabaoth.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2884",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "plural of <w src=\"H2885\">2885</w>; rings;",
+          "meaningXml": "<def>Tabbaoth</def>, one of the Nethinim",
+          "usageXml": "Tabaoth.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2885",
@@ -2252,7 +2915,46 @@
             "sourceTokenId": "04qBa"
           }
         }
-      ]
+      ],
+      "definitionHe": "חישוק עגול, לעיתים ממתכת, המשמש לענידה, לאחיזה או לחיבור.",
+      "definitionEn": "properly, a seal (as sunk into the wax), i.e. signet (for sealing); hence (generally) a ring of any kind",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2885.htm",
+        "strongNumber": "2885"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2885.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2883;",
+          "meaning": "properly, a seal (as sunk into the wax), i.e. signet (for sealing); hence (generally) a ring of any kind",
+          "usage": "ring.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2885",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2883\">2883</w>;",
+          "meaningXml": "properly, a <def>seal</def> (as <def>sunk</def> into the wax), i.e. <def>signet</def> (for sealing); hence (generally) a <def>ring</def> of any kind",
+          "usageXml": "ring.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2886",
@@ -2276,7 +2978,46 @@
             "sourceTokenId": "11CZZ"
           }
         }
-      ]
+      ],
+      "definitionHe": "אביו של בן־הדד מלך ארם, הנזכר בספר מלכים.",
+      "definitionEn": "Tabrimmon, a Syrian",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2886.htm",
+        "strongNumber": "2886"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2886.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2895 and 7417; pleasing (to) Rimmon;",
+          "meaning": "Tabrimmon, a Syrian",
+          "usage": "Tabrimmon.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2886",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2895\">2895</w> and <w src=\"H7417\">7417</w>; pleasing (to) Rimmon;",
+          "meaningXml": "<def>Tabrimmon</def>, a Syrian",
+          "usageXml": "Tabrimmon.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2887",
@@ -2300,7 +3041,46 @@
             "sourceTokenId": "17krV"
           }
         }
-      ]
+      ],
+      "definitionHe": "שמו של החודש העשירי במניין החודשים המקראי.",
+      "definitionEn": "Tebeth, the tenth Hebrew month",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2887.htm",
+        "strongNumber": "2887"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2887.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "probably of foreign derivation;",
+          "meaning": "Tebeth, the tenth Hebrew month",
+          "usage": "Tebeth.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2887",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "probably of foreign derivation;",
+          "meaningXml": "<def>Tebeth</def>, the tenth Hebrew month",
+          "usageXml": "Tebeth.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2888",
@@ -2324,7 +3104,46 @@
             "sourceTokenId": "07Lva"
           }
         }
-      ]
+      ],
+      "definitionHe": "שם מקום בעבר הירדן, הנזכר בספר שופטים.",
+      "definitionEn": "Tabbath, a place East of the Jordan",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2888.htm",
+        "strongNumber": "2888"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2888.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "of uncertain derivation;",
+          "meaning": "Tabbath, a place East of the Jordan",
+          "usage": "Tabbath.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2888",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "of uncertain derivation;",
+          "meaningXml": "<def>Tabbath</def>, a place East of the Jordan",
+          "usageXml": "Tabbath.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2889",
@@ -3636,7 +4455,46 @@
             "sourceTokenId": "38JB6"
           }
         }
-      ]
+      ],
+      "definitionHe": "נקי מלכלוך או מזיהום; גם מי שאינו פסול מבחינה פולחנית או מוסרית.",
+      "definitionEn": "pure (in a physical, chemical, ceremonial or moral sense)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2889.htm",
+        "strongNumber": "2889"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2889.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or טָהֹר; from 2891;",
+          "meaning": "pure (in a physical, chemical, ceremonial or moral sense)",
+          "usage": "clean, fair, pure(-ness).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2889",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"taw-hore'\" xlit=\"ṭâhôr\">טָהֹר</w>; from <w src=\"H2891\">2891</w>;",
+          "meaningXml": "<def>pure</def> (in a physical, chemical, ceremonial or moral sense)",
+          "usageXml": "clean, fair, pure(-ness).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2890",
@@ -3660,7 +4518,46 @@
             "sourceTokenId": "35YWU"
           }
         }
-      ]
+      ],
+      "definitionHe": "מצב של ניקיון או זוך; מילה בארמית מקראית.",
+      "definitionEn": "purity",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2890.htm",
+        "strongNumber": "2890"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2890.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2891;",
+          "meaning": "purity",
+          "usage": "pureness.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2890",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2891\">2891</w>;",
+          "meaningXml": "<def>purity</def>",
+          "usageXml": "pureness.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2891",
@@ -5000,7 +5897,46 @@
             "sourceTokenId": "19g3H"
           }
         }
-      ]
+      ],
+      "definitionHe": "להיות נקי או כשר מבחינה פולחנית, או להביא אדם או חפץ למצב כזה.",
+      "definitionEn": "to be pure (physical sound, clear, unadulterated; Levitically, uncontaminated; morally, innocent or holy)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2891.htm",
+        "strongNumber": "2891"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2891.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root; properly, to be bright; i.e. (by implication)",
+          "meaning": "to be pure (physical sound, clear, unadulterated; Levitically, uncontaminated; morally, innocent or holy)",
+          "usage": "be (make, make self, pronounce) clean, cleanse (self), purge, purify(-ier, self).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2891",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root; properly, to be bright; i.e. (by implication)",
+          "meaningXml": "to <def>be pure</def> (physical sound, clear, unadulterated; Levitically, uncontaminated; morally, innocent or holy)",
+          "usageXml": "be (make, make self, pronounce) clean, cleanse (self), purge, purify(-ier, self).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2893",
@@ -5220,7 +6156,46 @@
             "sourceTokenId": "04Bqs"
           }
         }
-      ]
+      ],
+      "definitionHe": "פעולה המסירה פסול פולחני או מצב של ניקיון מוסרי.",
+      "definitionEn": "ceremonial purification; moral purity",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2893.htm",
+        "strongNumber": "2893"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2893.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "feminine of 2892;",
+          "meaning": "ceremonial purification; moral purity",
+          "usage": "× is cleansed, cleansing, purification(-fying).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2893",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "feminine of <w src=\"H2892\">2892</w>;",
+          "meaningXml": "ceremonial <def>purification</def>; moral <def>purity</def>",
+          "usageXml": "× is cleansed, cleansing, purification(-fying).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2895",
@@ -5566,7 +6541,46 @@
             "sourceTokenId": "22EL8"
           }
         }
-      ]
+      ],
+      "definitionHe": "להיות מועיל, ראוי או נעים; גם לעשות דבר כראוי או להיטיב.",
+      "definitionEn": "to be (transitively, do or make) good (or well) in the widest sense",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2895.htm",
+        "strongNumber": "2895"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2895.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root,",
+          "meaning": "to be (transitively, do or make) good (or well) in the widest sense",
+          "usage": "be (do) better, cheer, be (do, seem) good, (make) goodly, × please, (be, do, go, play) well.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2895",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root,",
+          "meaningXml": "to <def>be</def> (transitively, <def>do</def> or <def>make</def>) <def>good</def> (or well) in the widest sense",
+          "usageXml": "be (do) better, cheer, be (do, seem) good, (make) goodly, × please, (be, do, go, play) well.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2897",
@@ -5632,7 +6646,46 @@
             "sourceTokenId": "07nB1"
           }
         }
-      ]
+      ],
+      "definitionHe": "שם חבל ארץ ממזרח לירדן, שאליו נמלט יפתח.",
+      "definitionEn": "Tob, a region apparently East of the Jordan",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2897.htm",
+        "strongNumber": "2897"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2897.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "the same as 2896; good;",
+          "meaning": "Tob, a region apparently East of the Jordan",
+          "usage": "Tob.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2897",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "the same as <w src=\"H2896\">2896</w>; good;",
+          "meaningXml": "<def>Tob</def>, a region apparently East of the Jordan",
+          "usageXml": "Tob.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2898",
@@ -6090,7 +7143,46 @@
             "sourceTokenId": "38G3b"
           }
         }
-      ]
+      ],
+      "definitionHe": "שפע של דברים מועילים או נעימים, כגון רווחה, יופי ושמחה.",
+      "definitionEn": "good (as a noun), in the widest sense, especially goodness (superlative concretely, the best), beauty, gladness, welfare",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2898.htm",
+        "strongNumber": "2898"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2898.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2895;",
+          "meaning": "good (as a noun), in the widest sense, especially goodness (superlative concretely, the best), beauty, gladness, welfare",
+          "usage": "fair, gladness, good(-ness, thing, -s), joy, go well with.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2898",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2895\">2895</w>;",
+          "meaningXml": "<def>good</def> (as a noun), in the widest sense, especially <def>goodness</def> (superlative concretely, the <def>best</def>), <def>beauty</def>, <def>gladness</def>, <def>welfare</def>",
+          "usageXml": "fair, gladness, good(-ness, thing, -s), joy, go well with.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2899",
@@ -6114,7 +7206,46 @@
             "sourceTokenId": "14tA2"
           }
         }
-      ]
+      ],
+      "definitionHe": "אדם משבט לוי הנזכר בימי יהושפט מלך יהודה.",
+      "definitionEn": "Tob-Adonijah, an Israelite",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2899.htm",
+        "strongNumber": "2899"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2899.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2896 and 138; pleasing (to) Adonijah;",
+          "meaning": "Tob-Adonijah, an Israelite",
+          "usage": "Tob-adonijah.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2899",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2896\">2896</w> and <w src=\"H138\">138</w>; pleasing (to) Adonijah;",
+          "meaningXml": "<def>Tob-Adonijah</def>, an Israelite",
+          "usageXml": "Tob-adonijah.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2900",
@@ -6376,7 +7507,46 @@
             "sourceTokenId": "38usA"
           }
         }
-      ]
+      ],
+      "definitionHe": "שם של כמה אנשים במקרא, ובהם יריבו של נחמיה.",
+      "definitionEn": "Tobijah, the name of three Israelites and of one Samaritan",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2900.htm",
+        "strongNumber": "2900"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2900.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or טוֹבִיָּהוּ; from 2896 and 3050; goodness of Jehovah;",
+          "meaning": "Tobijah, the name of three Israelites and of one Samaritan",
+          "usage": "Tobiah, Tobijah.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2900",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"tobee-yaw'-hoo\" xlit=\"Ṭôwbîyâhûw\">טוֹבִיָּהוּ</w>; from <w src=\"H2896\">2896</w> and <w src=\"H3050\">3050</w>; goodness of Jehovah;",
+          "meaningXml": "<def>Tobijah</def>, the name of three Israelites and of one Samaritan",
+          "usageXml": "Tobiah, Tobijah.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2901",
@@ -6414,7 +7584,46 @@
             "sourceTokenId": "02csg"
           }
         }
-      ]
+      ],
+      "definitionHe": "להפוך סיבים לחוט באמצעות פיתול.",
+      "definitionEn": "to spin",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2901.htm",
+        "strongNumber": "2901"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2901.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to spin",
+          "usage": "spin.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2901",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>spin</def>",
+          "usageXml": "spin.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2903",
@@ -6466,7 +7675,46 @@
             "sourceTokenId": "023kt"
           }
         }
-      ]
+      ],
+      "definitionHe": "סימן הנקשר על המצח; במקרא קשור לציווי לזכור את דברי התורה.",
+      "definitionEn": "a fillet for the forehead",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2903.htm",
+        "strongNumber": "2903"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2903.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from an unused root meaning to go around or bind;",
+          "meaning": "a fillet for the forehead",
+          "usage": "frontlet.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2903",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from an unused root meaning to <def>go around</def> or <def>bind</def>;",
+          "meaningXml": "a <def>fillet</def> for the forehead",
+          "usageXml": "frontlet.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2904",
@@ -6672,7 +7920,46 @@
             "sourceTokenId": "19bHu"
           }
         }
-      ]
+      ],
+      "definitionHe": "להשליך או להטיל דבר ממקום למקום, לעיתים בכוח.",
+      "definitionEn": "to pitch over or reel; hence (transitively) to cast down or out",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2904.htm",
+        "strongNumber": "2904"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2904.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to pitch over or reel; hence (transitively) to cast down or out",
+          "usage": "carry away, (utterly) cast (down, forth, out), send out.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2904",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>pitch</def> over or <def>reel</def>; hence (transitively) to <def>cast</def> down or out",
+          "usageXml": "carry away, (utterly) cast (down, forth, out), send out.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2905",
@@ -7046,7 +8333,46 @@
             "sourceTokenId": "26zzo"
           }
         }
-      ]
+      ],
+      "definitionHe": "סדרה של עצמים המסודרים זה לצד זה בקו אחד.",
+      "definitionEn": "a row; hence, a wall",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2905.htm",
+        "strongNumber": "2905"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2905.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from an unused root meaning to range in a regular manner;",
+          "meaning": "a row; hence, a wall",
+          "usage": "row.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2905",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from an unused root meaning to <def>range</def> in a regular manner;",
+          "meaningXml": "a <def>row</def>; hence, a <def>wall</def>",
+          "usageXml": "row.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2906",
@@ -7084,7 +8410,46 @@
             "sourceTokenId": "27tvR"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלע או הר; מילה בארמית מקראית.",
+      "definitionEn": "a rock or hill",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2906.htm",
+        "strongNumber": "2906"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2906.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) corresponding to 6697;",
+          "meaning": "a rock or hill",
+          "usage": "mountain.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2906",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) corresponding to <w src=\"H6697\">6697</w>;",
+          "meaningXml": "a <def>rock</def> or <def>hill</def>",
+          "usageXml": "mountain.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2907",
@@ -7108,7 +8473,46 @@
             "sourceTokenId": "18gza"
           }
         }
-      ]
+      ],
+      "definitionHe": "למהר או להסתער בתנועה חדה, בדומה לעוף דורס.",
+      "definitionEn": "to pounce as a bird of prey",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2907.htm",
+        "strongNumber": "2907"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2907.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to pounce as a bird of prey",
+          "usage": "haste.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2907",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>pounce</def> as a bird of prey",
+          "usageXml": "haste.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2908",
@@ -7132,7 +8536,46 @@
             "sourceTokenId": "27my2"
           }
         }
-      ]
+      ],
+      "definitionHe": "רעב או הימנעות מאכילה; מילה בארמית מקראית.",
+      "definitionEn": "hunger (as twisting)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2908.htm",
+        "strongNumber": "2908"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2908.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) from a root corresponding to 2901;",
+          "meaning": "hunger (as twisting)",
+          "usage": "fasting.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2908",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) from a root corresponding to <w src=\"H2901\">2901</w>;",
+          "meaningXml": "<def>hunger</def> (as twisting)",
+          "usageXml": "fasting.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2909",
@@ -7156,7 +8599,46 @@
             "sourceTokenId": "01TJ7"
           }
         }
-      ]
+      ],
+      "definitionHe": "למתוח קשת לצורך יריית חץ.",
+      "definitionEn": "to stretch a bow, as an archer",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2909.htm",
+        "strongNumber": "2909"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2909.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to stretch a bow, as an archer",
+          "usage": "(bow-) shot.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2909",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>stretch</def> a bow, as an archer",
+          "usageXml": "(bow-) shot.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2911",
@@ -7180,7 +8662,46 @@
             "sourceTokenId": "25EPr"
           }
         }
-      ]
+      ],
+      "definitionHe": "כלי לטחינת דגן, ובפרט אבן המשמשת לטחינה.",
+      "definitionEn": "a hand mill; hence, a millstone",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2911.htm",
+        "strongNumber": "2911"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2911.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2912;",
+          "meaning": "a hand mill; hence, a millstone",
+          "usage": "to grind.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2911",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2912\">2912</w>;",
+          "meaningXml": "a <def>hand mill</def>; hence, a <def>millstone</def>",
+          "usageXml": "to grind.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2910",
@@ -7218,7 +8739,46 @@
             "sourceTokenId": "19wM8"
           }
         }
-      ]
+      ],
+      "definitionHe": "החלקים הפנימיים והנסתרים של האדם; בהשאלה, מחשבותיו הכמוסות.",
+      "definitionEn": "(in the plural only) the kidneys (as being covered); hence (figuratively) the inmost thought",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2910.htm",
+        "strongNumber": "2910"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2910.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2909 (or 2902) in the sense of overlaying;",
+          "meaning": "(in the plural only) the kidneys (as being covered); hence (figuratively) the inmost thought",
+          "usage": "inward parts.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2910",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2909\">2909</w> (or <w src=\"H2902\">2902</w>) in the sense of overlaying;",
+          "meaningXml": "(in the plural only) the <def>kidneys</def> (as being covered); hence (figuratively) the <def>inmost thought</def>",
+          "usageXml": "inward parts.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2912",
@@ -7340,7 +8900,46 @@
             "sourceTokenId": "04nXP"
           }
         }
-      ]
+      ],
+      "definitionHe": "לפורר גרעיני דגן או חומר אחר לאבקה באמצעות לחץ ושחיקה.",
+      "definitionEn": "to grind meal; hence, to be a concubine (that being their employment)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2912.htm",
+        "strongNumber": "2912"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2912.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to grind meal; hence, to be a concubine (that being their employment)",
+          "usage": "grind(-er).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2912",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>grind</def> meal; hence, to <def>be a concubine</def> (that being their employment)",
+          "usageXml": "grind(-er).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2913",
@@ -7364,7 +8963,46 @@
             "sourceTokenId": "21VX8"
           }
         }
-      ]
+      ],
+      "definitionHe": "פעולת פירור גרעינים או חומרים באמצעות אבני ריחיים.",
+      "definitionEn": "a hand mill; hence (figuratively) chewing",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2913.htm",
+        "strongNumber": "2913"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2913.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2912;",
+          "meaning": "a hand mill; hence (figuratively) chewing",
+          "usage": "grinding.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2913",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2912\">2912</w>;",
+          "meaningXml": "a <def>hand mill</def>; hence (figuratively) <def>chewing</def>",
+          "usageXml": "grinding.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2914",
@@ -7402,7 +9040,46 @@
             "sourceTokenId": "09uxn"
           }
         }
-      ]
+      ],
+      "definitionHe": "נפיחות או פצע מכאיב, כנראה באזור פי הטבעת.",
+      "definitionEn": "a boil or ulcer (from the inflammation), especially a tumor in the anus or pudenda (the piles)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2914.htm",
+        "strongNumber": "2914"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2914.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from an unused root meaning to burn;",
+          "meaning": "a boil or ulcer (from the inflammation), especially a tumor in the anus or pudenda (the piles)",
+          "usage": "emerod.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2914",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from an unused root meaning to burn;",
+          "meaningXml": "a <def>boil</def> or <def>ulcer</def> (from the inflammation), especially a <def>tumor</def> in the anus or pudenda (the piles)",
+          "usageXml": "emerod.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2915",
@@ -7426,7 +9103,46 @@
             "sourceTokenId": "26R1Q"
           }
         }
-      ]
+      ],
+      "definitionHe": "חומר המשמש לציפוי קירות ולסתימת סדקים, כגון טיח או מלט.",
+      "definitionEn": "mortar or plaster",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2915.htm",
+        "strongNumber": "2915"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2915.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from (the equiv. of) 2902;",
+          "meaning": "mortar or plaster",
+          "usage": "daubing.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2915",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from (the equiv. of) <w src=\"H2902\">2902</w>;",
+          "meaningXml": "<def>mortar</def> or <def>plaster</def>",
+          "usageXml": "daubing.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2916",
@@ -7618,7 +9334,46 @@
             "sourceTokenId": "38RGB"
           }
         }
-      ]
+      ],
+      "definitionHe": "אדמה רטובה ודביקה; בהשאלה, מצב של מצוקה.",
+      "definitionEn": "mud or clay; figuratively, calamity",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2916.htm",
+        "strongNumber": "2916"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2916.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from an unused root meaning apparently to be sticky (rather perhaps a demonstrative); from 2894, through the idea of dirt to be swept away);",
+          "meaning": "mud or clay; figuratively, calamity",
+          "usage": "clay, dirt, mire.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2916",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from an unused root meaning apparently to <def>be sticky</def> (rather perhaps a demonstrative); from <w src=\"H2894\">2894</w>, through the idea of dirt to be <def>swept</def> away);",
+          "meaningXml": "<def>mud</def> or <def>clay</def>; figuratively, <def>calamity</def>",
+          "usageXml": "clay, dirt, mire.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2917",
@@ -7656,7 +9411,46 @@
             "sourceTokenId": "27Ci2"
           }
         }
-      ]
+      ],
+      "definitionHe": "אדמה לחה ודביקה, המשמשת גם כחומר בנייה.",
+      "definitionEn": "clay",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2917.htm",
+        "strongNumber": "2917"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2917.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) perhaps, by interchange, for a word corresponding to 2916;",
+          "meaning": "clay",
+          "usage": "miry.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2917",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) perhaps, by interchange, for a word corresponding to <w src=\"H2916\">2916</w>;",
+          "meaningXml": "<def>clay</def>",
+          "usageXml": "miry.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2918",
@@ -7764,7 +9558,46 @@
             "sourceTokenId": "22zfG"
           }
         }
-      ]
+      ],
+      "definitionHe": "מבנה מוקף חומה או מתחם מגורים מבוצר.",
+      "definitionEn": "a wall; hence, a fortress or a hamlet",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2918.htm",
+        "strongNumber": "2918"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2918.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "feminine of (an equivalent to) 2905;",
+          "meaning": "a wall; hence, a fortress or a hamlet",
+          "usage": "(goodly) castle, habitation, palace, row.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2918",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "feminine of (an equivalent to) <w src=\"H2905\">2905</w>;",
+          "meaningXml": "a <def>wall</def>; hence, a <def>fortress</def> or a <def>hamlet</def>",
+          "usageXml": "(goodly) castle, habitation, palace, row.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2919",
@@ -8208,7 +10041,46 @@
             "sourceTokenId": "38124"
           }
         }
-      ]
+      ],
+      "definitionHe": "טיפות מים המצטברות על צמחים ועל הקרקע בלילה.",
+      "definitionEn": "dew (as covering vegetation)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2919.htm",
+        "strongNumber": "2919"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2919.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2926;",
+          "meaning": "dew (as covering vegetation)",
+          "usage": "dew.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2919",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2926\">2926</w>;",
+          "meaningXml": "<def>dew</def> (as <def>covering</def> vegetation)",
+          "usageXml": "dew.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2920",
@@ -8288,7 +10160,46 @@
             "sourceTokenId": "27A9P"
           }
         }
-      ]
+      ],
+      "definitionHe": "טיפות לחות הנוצרות על פני השטח בלילה; מילה בארמית מקראית.",
+      "definitionEn": "",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2920.htm",
+        "strongNumber": "2920"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2920.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) the same as 2919",
+          "meaning": "",
+          "usage": "dew.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2920",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) the same as <w src=\"H2919\">2919</w>",
+          "meaningXml": "",
+          "usageXml": "dew.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2921",
@@ -8410,7 +10321,46 @@
             "sourceTokenId": "06XRt"
           }
         }
-      ]
+      ],
+      "definitionHe": "לכסות בבד מטולא או ליצור מראה מנומר בכתמים.",
+      "definitionEn": "properly, to cover with pieces; i.e. (by implication) to spot or variegate (as tapestry)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2921.htm",
+        "strongNumber": "2921"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2921.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "properly, to cover with pieces; i.e. (by implication) to spot or variegate (as tapestry)",
+          "usage": "clouted, with divers colours, spotted.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2921",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "properly, to <def>cover</def> with pieces; i.e. (by implication) to <def>spot</def> or <def>variegate</def> (as tapestry)",
+          "usageXml": "clouted, with divers colours, spotted.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2922",
@@ -8434,7 +10384,46 @@
             "sourceTokenId": "23dqs"
           }
         }
-      ]
+      ],
+      "definitionHe": "צאצא צעיר של כבש; מילה בארמית מקראית.",
+      "definitionEn": "a lamb",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2922.htm",
+        "strongNumber": "2922"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2922.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "apparently from 2921 in the (orig.) sense of covering (for protection); (compare 2924)",
+          "meaning": "a lamb",
+          "usage": "lamb.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2922",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "apparently from <w src=\"H2921\">2921</w> in the (orig.) sense of <def>covering</def> (for protection); (compare <w src=\"H2924\">2924</w>)",
+          "meaningXml": "a <def>lamb</def>",
+          "usageXml": "lamb.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2923",
@@ -8458,7 +10447,46 @@
             "sourceTokenId": "09FnR"
           }
         }
-      ]
+      ],
+      "definitionHe": "שם מקום הנזכר בסיפור מלחמת שאול בעמלק.",
+      "definitionEn": "Telaim, a place in Palestine",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2923.htm",
+        "strongNumber": "2923"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2923.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from the plural of 2922; lambs;",
+          "meaning": "Telaim, a place in Palestine",
+          "usage": "Telaim.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2923",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from the plural of <w src=\"H2922\">2922</w>; lambs;",
+          "meaningXml": "<def>Telaim</def>, a place in Palestine",
+          "usageXml": "Telaim.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2924",
@@ -8496,7 +10524,46 @@
             "sourceTokenId": "23T31"
           }
         }
-      ]
+      ],
+      "definitionHe": "צאצא צעיר של כבש.",
+      "definitionEn": "a lamb",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2924.htm",
+        "strongNumber": "2924"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2924.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "by variation for 2922;",
+          "meaning": "a lamb",
+          "usage": "lamb.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2924",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "by variation for <w src=\"H2922\">2922</w>;",
+          "meaningXml": "a <def>lamb</def>",
+          "usageXml": "lamb.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2925",
@@ -8520,7 +10587,46 @@
             "sourceTokenId": "23UXx"
           }
         }
-      ]
+      ],
+      "definitionHe": "טלטול, עקירה או גירוש ממקום.",
+      "definitionEn": "overthrow or rejection",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2925.htm",
+        "strongNumber": "2925"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2925.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2904;",
+          "meaning": "overthrow or rejection",
+          "usage": "captivity.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2925",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2904\">2904</w>;",
+          "meaningXml": "<def>overthrow</def> or <def>rejection</def>",
+          "usageXml": "captivity.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2926",
@@ -8544,7 +10650,46 @@
             "sourceTokenId": "163r3"
           }
         }
-      ]
+      ],
+      "definitionHe": "לכסות משטח או מבנה, ובפרט בקורות.",
+      "definitionEn": "properly, to strew over, i.e. (by implication) to cover in or plate (with beams)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2926.htm",
+        "strongNumber": "2926"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2926.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "properly, to strew over, i.e. (by implication) to cover in or plate (with beams)",
+          "usage": "cover.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2926",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "properly, to <def>strew over</def>, i.e. (by implication) to <def>cover in</def> or <def>plate</def> (with beams)",
+          "usageXml": "cover.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2927",
@@ -8568,7 +10713,46 @@
             "sourceTokenId": "27Sx5"
           }
         }
-      ]
+      ],
+      "definitionHe": "להצל על מקום באמצעות כיסוי; מילה בארמית מקראית.",
+      "definitionEn": "to cover with shade",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2927.htm",
+        "strongNumber": "2927"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2927.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) corresponding to 2926;",
+          "meaning": "to cover with shade",
+          "usage": "have a shadow.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2927",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) corresponding to <w src=\"H2926\">2926</w>;",
+          "meaningXml": "to <def>cover</def> with shade",
+          "usageXml": "have a shadow.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2928",
@@ -8606,7 +10790,46 @@
             "sourceTokenId": "06yoM"
           }
         }
-      ]
+      ],
+      "definitionHe": "שם של מקום בדרום יהודה, וגם שמו של אדם משומרי המקדש.",
+      "definitionEn": "Telem, the name of a place in Idumaea, also of a temple doorkeeper",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2928.htm",
+        "strongNumber": "2928"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2928.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from an unused root meaning to break up or treat violently; oppression;",
+          "meaning": "Telem, the name of a place in Idumaea, also of a temple doorkeeper",
+          "usage": "Telem.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2928",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from an unused root meaning to break up or treat violently; oppression;",
+          "meaningXml": "<def>Telem</def>, the name of a place in Idumaea, also of a temple doorkeeper",
+          "usageXml": "Telem.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2929",
@@ -8686,7 +10909,46 @@
             "sourceTokenId": "16GCu"
           }
         }
-      ]
+      ],
+      "definitionHe": "שם של אדם ממשפחות שוערי בית המקדש.",
+      "definitionEn": "Talmon, a temple doorkeeper",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2929.htm",
+        "strongNumber": "2929"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2929.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from the same as 2728; oppressive;",
+          "meaning": "Talmon, a temple doorkeeper",
+          "usage": "Talmon.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2929",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from the same as <w src=\"H2728\">2728</w>; oppressive;",
+          "meaningXml": "<def>Talmon</def>, a temple doorkeeper",
+          "usageXml": "Talmon.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2931",
@@ -9928,7 +12190,46 @@
             "sourceTokenId": "04ow7"
           }
         }
-      ]
+      ],
+      "definitionHe": "מי שאינו כשר למגע עם הקודש לפי דיני הפולחן; גם דבר מגונה מבחינה מוסרית.",
+      "definitionEn": "foul in a religious sense",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2931.htm",
+        "strongNumber": "2931"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2931.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2930;",
+          "meaning": "foul in a religious sense",
+          "usage": "defiled, infamous, polluted(-tion), unclean.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2931",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2930\">2930</w>;",
+          "meaningXml": "<def>foul</def> in a religious sense",
+          "usageXml": "defiled,   infamous, polluted(-tion), unclean.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2932",
@@ -10442,7 +12743,46 @@
             "sourceTokenId": "3864m"
           }
         }
-      ]
+      ],
+      "definitionHe": "מצב של פסול פולחני המונע השתתפות בפעולות קודש; גם זוהמה מוסרית.",
+      "definitionEn": "religious impurity",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2932.htm",
+        "strongNumber": "2932"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2932.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2930;",
+          "meaning": "religious impurity",
+          "usage": "filthiness, unclean(-ness).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2932",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2930\">2930</w>;",
+          "meaningXml": "religious <def>impurity</def>",
+          "usageXml": "filthiness, unclean(-ness).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2933",
@@ -10466,7 +12806,46 @@
             "sourceTokenId": "18u2w"
           }
         }
-      ]
+      ],
+      "definitionHe": "להיעשות פסול מבחינה פולחנית או להיחשב מגונה.",
+      "definitionEn": "to be impure in a religious sense",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2933.htm",
+        "strongNumber": "2933"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2933.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a collateral form of 2930;",
+          "meaning": "to be impure in a religious sense",
+          "usage": "be defiled, be reputed vile.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2933",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a collateral form of <w src=\"H2930\">2930</w>;",
+          "meaningXml": "to <def>be impure</def> in a religious sense",
+          "usageXml": "be defiled, be reputed vile.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2934",
@@ -10910,7 +13289,46 @@
             "sourceTokenId": "19enL"
           }
         }
-      ]
+      ],
+      "definitionHe": "להסתיר דבר באמצעות כיסוי או הטמנה בקרקע.",
+      "definitionEn": "to hide (by covering over)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2934.htm",
+        "strongNumber": "2934"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2934.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to hide (by covering over)",
+          "usage": "hide, lay privily, in secret.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2934",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>hide</def> (by <def>covering</def> over)",
+          "usageXml": "hide, lay privily, in secret.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2935",
@@ -10976,7 +13394,46 @@
             "sourceTokenId": "05AYk"
           }
         }
-      ]
+      ],
+      "definitionHe": "כלי קיבול קלוע המשמש לנשיאת פירות או חפצים.",
+      "definitionEn": "a basket (of interlaced osiers)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2935.htm",
+        "strongNumber": "2935"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2935.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from an unused root probably meaning to weave;",
+          "meaning": "a basket (of interlaced osiers)",
+          "usage": "basket.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2935",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from an unused root probably meaning to weave;",
+          "meaningXml": "a <def>basket</def> (of interlaced osiers)",
+          "usageXml": "basket.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2936",
@@ -11000,7 +13457,46 @@
             "sourceTokenId": "22JPp"
           }
         }
-      ]
+      ],
+      "definitionHe": "ללכלך או להכתים דבר.",
+      "definitionEn": "to soil",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2936.htm",
+        "strongNumber": "2936"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2936.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to soil",
+          "usage": "defile.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2936",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>soil</def>",
+          "usageXml": "defile.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2937",
@@ -11024,7 +13520,46 @@
             "sourceTokenId": "26wY4"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסטות מן הדרך הנכונה או לגרום לאחר לסטות ממנה.",
+      "definitionEn": "to wander; causatively to lead astray",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2937.htm",
+        "strongNumber": "2937"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2937.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to wander; causatively to lead astray",
+          "usage": "seduce.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2937",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>wander</def>; causatively to <def>lead astray</def>",
+          "usageXml": "seduce.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2938",
@@ -11188,7 +13723,46 @@
             "sourceTokenId": "19SNp"
           }
         }
-      ]
+      ],
+      "definitionHe": "לחוש את טעמו של מאכל בפה; בהשאלה, להבין או להבחין.",
+      "definitionEn": "to taste; figuratively, to perceive",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2938.htm",
+        "strongNumber": "2938"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2938.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to taste; figuratively, to perceive",
+          "usage": "× but, perceive, taste.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2938",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>taste</def>; figuratively, to <def>perceive</def>",
+          "usageXml": "× but, perceive, taste.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2939",
@@ -11254,7 +13828,46 @@
             "sourceTokenId": "27Khz"
           }
         }
-      ]
+      ],
+      "definitionHe": "לאכול או להאכיל; פועל בארמית מקראית.",
+      "definitionEn": "to taste; causatively to feed",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2939.htm",
+        "strongNumber": "2939"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2939.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) corresponding to 2938;",
+          "meaning": "to taste; causatively to feed",
+          "usage": "make to eat, feed.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2939",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) corresponding to <w src=\"H2938\">2938</w>;",
+          "meaningXml": "to <def>taste</def>; causatively to <def>feed</def>",
+          "usageXml": "make to eat, feed.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2940",
@@ -11446,7 +14059,46 @@
             "sourceTokenId": "19H2H"
           }
         }
-      ]
+      ],
+      "definitionHe": "הבחנה ושיקול דעת; גם עצה, התנהגות או הוראה מחייבת.",
+      "definitionEn": "properly, a taste, i.e. (figuratively) perception; by implication, intelligence; transitively, a mandate",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2940.htm",
+        "strongNumber": "2940"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2940.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2938;",
+          "meaning": "properly, a taste, i.e. (figuratively) perception; by implication, intelligence; transitively, a mandate",
+          "usage": "advice, behaviour, decree, discretion, judgment, reason, taste, understanding.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2940",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2938\">2938</w>;",
+          "meaningXml": "properly, a <def>taste</def>, i.e. (figuratively) <def>perception</def>; by implication, <def>intelligence</def>; transitively, a <def>mandate</def>",
+          "usageXml": "advice, behaviour, decree, discretion, judgment, reason, taste, understanding.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2941",
@@ -11526,7 +14178,46 @@
             "sourceTokenId": "15zSa"
           }
         }
-      ]
+      ],
+      "definitionHe": "פקודה, החלטה או עניין רשמי; מילה בארמית מקראית.",
+      "definitionEn": "properly, a taste, i.e. a judicial sentence",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2941.htm",
+        "strongNumber": "2941"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2941.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) from 2939; compare 2940)",
+          "meaning": "properly, a taste, i.e. a judicial sentence",
+          "usage": "account, × to be commanded, commandment, matter.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2941",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) from <w src=\"H2939\">2939</w>; compare <w src=\"H2940\">2940</w>)",
+          "meaningXml": "properly, <def>a taste</def>, i.e. <def>a judicial sentence</def>",
+          "usageXml": "account, × to be commanded, commandment, matter.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2942",
@@ -11872,7 +14563,46 @@
             "sourceTokenId": "15dr4"
           }
         }
-      ]
+      ],
+      "definitionHe": "החלטה, צו או שיקול דעת; מילה בארמית מקראית.",
+      "definitionEn": "properly, flavor; figuratively, judgment (both subjective and objective); hence, account (both subjectively and objectively)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2942.htm",
+        "strongNumber": "2942"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2942.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) from 2939, and equivalent to 2941;",
+          "meaning": "properly, flavor; figuratively, judgment (both subjective and objective); hence, account (both subjectively and objectively)",
+          "usage": "chancellor, command, commandment, decree, regard, taste, wisdom.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2942",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) from <w src=\"H2939\">2939</w>, and equivalent to <w src=\"H2941\">2941</w>;",
+          "meaningXml": "properly, <def>flavor</def>; figuratively, <def>judgment</def> (both subjective and objective); hence, <def>account</def> (both subjectively and objectively)",
+          "usageXml": "  chancellor,   command, commandment, decree,   regard, taste, wisdom.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2943",
@@ -11896,7 +14626,46 @@
             "sourceTokenId": "01qki"
           }
         }
-      ]
+      ],
+      "definitionHe": "להעמיס משא על בעל חיים.",
+      "definitionEn": "to load a beast",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2943.htm",
+        "strongNumber": "2943"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2943.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to load a beast",
+          "usage": "lade.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2943",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>load</def> a beast",
+          "usageXml": "lade.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2944",
@@ -11920,7 +14689,46 @@
             "sourceTokenId": "23Y7e"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדקור או לנעוץ חפץ חד בגוף.",
+      "definitionEn": "to stab",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2944.htm",
+        "strongNumber": "2944"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2944.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to stab",
+          "usage": "thrust through.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2944",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>stab</def>",
+          "usageXml": "thrust through.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2945",
@@ -12518,7 +15326,46 @@
             "sourceTokenId": "04pKX"
           }
         }
-      ]
+      ],
+      "definitionHe": "ילדים צעירים ובני משפחה התלויים במבוגרים.",
+      "definitionEn": "a family (mostly used collectively in the singular)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2945.htm",
+        "strongNumber": "2945"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2945.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2952 (perhaps referring to the tripping gait of children);",
+          "meaning": "a family (mostly used collectively in the singular)",
+          "usage": "(little) children (ones), families.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2945",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2952\">2952</w> (perhaps referring to the tripping gait of children);",
+          "meaningXml": "a <def>family</def> (mostly used collectively in the singular)",
+          "usageXml": "(little) children (ones), families.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2946",
@@ -12556,7 +15403,46 @@
             "sourceTokenId": "25eQs"
           }
         }
-      ]
+      ],
+      "definitionHe": "לפרוש או להרחיב דבר; גם לטפל בתינוק ולגדלו.",
+      "definitionEn": "to flatten out or extend (as a tent); figuratively, to nurse a child (as promotive of growth);",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2946.htm",
+        "strongNumber": "2946"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2946.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root; or perhaps a denominative from 2947, from dandling on the palms",
+          "meaning": "to flatten out or extend (as a tent); figuratively, to nurse a child (as promotive of growth);",
+          "usage": "span, swaddle.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2946",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root; or perhaps a denominative from <w src=\"H2947\">2947</w>, from dandling on the palms",
+          "meaningXml": "to <def>flatten</def> out or <def>extend</def> (as a tent); figuratively, to <def>nurse</def> a child (as <def>promotive</def> of growth);",
+          "usageXml": "span, swaddle.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2947",
@@ -12622,7 +15508,46 @@
             "sourceTokenId": "19vTf"
           }
         }
-      ]
+      ],
+      "definitionHe": "מידת אורך השווה לרוחב כף יד, בקירוב ארבע אצבעות.",
+      "definitionEn": "a spread of the hand, i.e. a palm-breadth (not 'span' of the fingers); architecturally, a corbel (as a supporting palm)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2947.htm",
+        "strongNumber": "2947"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2947.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2946;",
+          "meaning": "a spread of the hand, i.e. a palm-breadth (not 'span' of the fingers); architecturally, a corbel (as a supporting palm)",
+          "usage": "coping, hand-breadth.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2947",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2946\">2946</w>;",
+          "meaningXml": "a <def>spread of the hand</def>, i.e. a <def>palm-breadth</def> (not 'span' of the fingers); architecturally, a <def>corbel</def> (as a supporting palm)",
+          "usageXml": "coping, hand-breadth.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2948",
@@ -12702,7 +15627,46 @@
             "sourceTokenId": "26Rat"
           }
         }
-      ]
+      ],
+      "definitionHe": "מידת אורך השווה לרוחב כף יד, בקירוב ארבע אצבעות.",
+      "definitionEn": "(the same as 2947)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2948.htm",
+        "strongNumber": "2948"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2948.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2946",
+          "meaning": "(the same as 2947)",
+          "usage": "hand-breadth (broad).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2948",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2946\">2946</w>",
+          "meaningXml": "(the same as <w src=\"H2947\">2947</w>)",
+          "usageXml": "hand-breadth (broad).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2949",
@@ -12726,7 +15690,46 @@
             "sourceTokenId": "2562T"
           }
         }
-      ]
+      ],
+      "definitionHe": "טיפול בתינוק וגידולו.",
+      "definitionEn": "nursing",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2949.htm",
+        "strongNumber": "2949"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2949.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2946;",
+          "meaning": "nursing",
+          "usage": "span long.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2949",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2946\">2946</w>;",
+          "meaningXml": "<def>nursing</def>",
+          "usageXml": "span long.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2950",
@@ -12778,7 +15781,46 @@
             "sourceTokenId": "19owz"
           }
         }
-      ]
+      ],
+      "definitionHe": "לחבר דבר לדבר, ובהשאלה לייחס לאדם דברים שאינם אמת.",
+      "definitionEn": "properly, to stick on as a patch; figuratively, to impute falsely",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2950.htm",
+        "strongNumber": "2950"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2950.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "properly, to stick on as a patch; figuratively, to impute falsely",
+          "usage": "forge(-r), sew up.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2950",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "properly, to <def>stick on as a patch</def>; figuratively, to <def>impute falsely</def>",
+          "usageXml": "forge(-r), sew up.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2951",
@@ -12816,7 +15858,46 @@
             "sourceTokenId": "34CFo"
           }
         }
-      ]
+      ],
+      "definitionHe": "מפקד צבאי או בעל תפקיד שלטוני בכיר.",
+      "definitionEn": "a military governor",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2951.htm",
+        "strongNumber": "2951"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2951.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "of foreign derivation;",
+          "meaning": "a military governor",
+          "usage": "captain.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2951",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "of foreign derivation;",
+          "meaningXml": "a <def>military governor</def>",
+          "usageXml": "captain.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2952",
@@ -12840,7 +15921,46 @@
             "sourceTokenId": "23Uq9"
           }
         }
-      ]
+      ],
+      "definitionHe": "ללכת בצעדים קטנים ומדודים מתוך גנדרנות.",
+      "definitionEn": "to trip (with short steps) coquettishly",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2952.htm",
+        "strongNumber": "2952"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2952.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root; apparently",
+          "meaning": "to trip (with short steps) coquettishly",
+          "usage": "mince.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2952",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root; apparently",
+          "meaningXml": "to <def>trip</def> (with short steps) coquettishly",
+          "usageXml": "mince.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2953",
@@ -12878,7 +15998,46 @@
             "sourceTokenId": "27pej"
           }
         }
-      ]
+      ],
+      "definitionHe": "החלק הקשה שבקצה האצבע, או ציפורן של בעל חיים.",
+      "definitionEn": "a finger-nail; also a hoof or claw",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2953.htm",
+        "strongNumber": "2953"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2953.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) from a root corresponding to 6852, and meaning the same as 6856;",
+          "meaning": "a finger-nail; also a hoof or claw",
+          "usage": "nail.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2953",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) from a root corresponding to <w src=\"H6852\">6852</w>, and meaning the same as <w src=\"H6856\">6856</w>;",
+          "meaningXml": "a <def>finger-nail</def>; also a <def>hoof</def> or <def>claw</def>",
+          "usageXml": "nail.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2954",
@@ -12902,7 +16061,46 @@
             "sourceTokenId": "19jdT"
           }
         }
-      ]
+      ],
+      "definitionHe": "להיעשות אטום להבנה או חסר תבונה.",
+      "definitionEn": "properly, apparently to be thick; figuratively, to be stupid",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2954.htm",
+        "strongNumber": "2954"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2954.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "properly, apparently to be thick; figuratively, to be stupid",
+          "usage": "be fat.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2954",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "properly, apparently to <def>be thick</def>; figuratively, to <def>be stupid</def>",
+          "usageXml": "be fat.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2955",
@@ -12926,7 +16124,46 @@
             "sourceTokenId": "11qQN"
           }
         }
-      ]
+      ],
+      "definitionHe": "בתו של שלמה המלך, שנישאה לאחד מנציביו.",
+      "definitionEn": "Taphath, an Israelitess",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2955.htm",
+        "strongNumber": "2955"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2955.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "probably from 5197; a dropping (of ointment);",
+          "meaning": "Taphath, an Israelitess",
+          "usage": "Taphath.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2955",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "probably from <w src=\"H5197\">5197</w>; a dropping (of ointment);",
+          "meaningXml": "<def>Taphath</def>, an Israelitess",
+          "usageXml": "Taphath.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2956",
@@ -12964,7 +16201,46 @@
             "sourceTokenId": "20kXh"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדחוף או להטריד ברציפות.",
+      "definitionEn": "to drive on; figuratively, to follow close",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2956.htm",
+        "strongNumber": "2956"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2956.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to drive on; figuratively, to follow close",
+          "usage": "continual.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2956",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>drive on</def>; figuratively, to <def>follow close</def>",
+          "usageXml": "continual.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2957",
@@ -13030,7 +16306,46 @@
             "sourceTokenId": "27MpA"
           }
         }
-      ]
+      ],
+      "definitionHe": "לגרש או לסלק בכוח; מילה בארמית מקראית.",
+      "definitionEn": "to expel",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2957.htm",
+        "strongNumber": "2957"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2957.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) corresponding to 2956;",
+          "meaning": "to expel",
+          "usage": "drive.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2957",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) corresponding to <w src=\"H2956\">2956</w>;",
+          "meaningXml": "to <def>expel</def>",
+          "usageXml": "drive.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2958",
@@ -13054,7 +16369,46 @@
             "sourceTokenId": "087Vm"
           }
         }
-      ]
+      ],
+      "definitionHe": "לפני שהתרחש דבר מסוים; מילה בארמית מקראית.",
+      "definitionEn": "not yet",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2958.htm",
+        "strongNumber": "2958"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2958.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a variation of 2962;",
+          "meaning": "not yet",
+          "usage": "before.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2958",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a variation of <w src=\"H2962\">2962</w>;",
+          "meaningXml": "<def>not yet</def>",
+          "usageXml": "before.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2959",
@@ -13078,7 +16432,46 @@
             "sourceTokenId": "18eQh"
           }
         }
-      ]
+      ],
+      "definitionHe": "להכביד על אדם בעבודה או במאמץ.",
+      "definitionEn": "to overburden",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2959.htm",
+        "strongNumber": "2959"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2959.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to overburden",
+          "usage": "weary.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2959",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>overburden</def>",
+          "usageXml": "weary.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2960",
@@ -13116,7 +16509,46 @@
             "sourceTokenId": "23wJn"
           }
         }
-      ]
+      ],
+      "definitionHe": "משא מכביד או קושי הגורם לטרחה.",
+      "definitionEn": "a burden",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2960.htm",
+        "strongNumber": "2960"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2960.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2959;",
+          "meaning": "a burden",
+          "usage": "cumbrance, trouble.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2960",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2959\">2959</w>;",
+          "meaningXml": "a <def>burden</def>",
+          "usageXml": "cumbrance, trouble.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2961",
@@ -13154,7 +16586,46 @@
             "sourceTokenId": "07Qvc"
           }
         }
-      ]
+      ],
+      "definitionHe": "חדש או רענן; בהקשר של פצע, כזה שעדיין לא הגליד.",
+      "definitionEn": "properly, dripping; hence, fresh (i.e. recently made such)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2961.htm",
+        "strongNumber": "2961"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2961.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from an unused root apparently meaning to be moist;",
+          "meaning": "properly, dripping; hence, fresh (i.e. recently made such)",
+          "usage": "new, putrefying.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2961",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from an unused root apparently meaning to be <def>moist</def>;",
+          "meaningXml": "properly, <def>dripping</def>; hence, <def>fresh</def> (i.e. recently made such)",
+          "usageXml": "new, putrefying.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2962",
@@ -13948,7 +17419,46 @@
             "sourceTokenId": "36yDv"
           }
         }
-      ]
+      ],
+      "definitionHe": "לפני התרחשות דבר מסוים, או כאשר הוא עדיין לא התרחש.",
+      "definitionEn": "properly, non-occurrence; used adverbially, not yet or before",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2962.htm",
+        "strongNumber": "2962"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2962.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from an unused root apparently meaning to interrupt or suspend;",
+          "meaning": "properly, non-occurrence; used adverbially, not yet or before",
+          "usage": "before, ere, not yet.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2962",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from an unused root apparently meaning to interrupt or suspend;",
+          "meaningXml": "properly, <def>non-occurrence</def>; used adverbially, <def>not yet</def> or <def>before</def>",
+          "usageXml": "before, ere, not yet.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2963",
@@ -14308,7 +17818,46 @@
             "sourceTokenId": "196Gp"
           }
         }
-      ]
+      ],
+      "definitionHe": "לקרוע או לתלוש דבר לגזרים; גם להשיג מזון כטרף.",
+      "definitionEn": "to pluck off or pull to pieces; causatively to supply with food (as in morsels)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2963.htm",
+        "strongNumber": "2963"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2963.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to pluck off or pull to pieces; causatively to supply with food (as in morsels)",
+          "usage": "catch, × without doubt, feed, ravin, rend in pieces, × surely, tear (in pieces).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2963",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>pluck off</def> or <def>pull to pieces</def>; causatively to <def>supply</def> with food (as in morsels)",
+          "usageXml": "catch, × without doubt, feed, ravin, rend in pieces, × surely, tear (in pieces).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2964",
@@ -14640,7 +18189,46 @@
             "sourceTokenId": "1987c"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבר שנקרע או נתלש, כגון עלה; גם מזון שנלקח בציד.",
+      "definitionEn": "something torn, i.e. a fragment, e.g. a fresh leaf, prey, food",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2964.htm",
+        "strongNumber": "2964"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2964.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2963;",
+          "meaning": "something torn, i.e. a fragment, e.g. a fresh leaf, prey, food",
+          "usage": "leaf, meat, prey, spoil.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2964",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2963\">2963</w>;",
+          "meaningXml": "something <def>torn</def>, i.e. a fragment, e.g. a <def>fresh</def> leaf, <def>prey</def>, <def>food</def>",
+          "usageXml": "leaf, meat, prey, spoil.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2965",
@@ -14664,7 +18252,46 @@
             "sourceTokenId": "01rMa"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבר שנתלש זה מקרוב, ולכן עדיין רענן.",
+      "definitionEn": "recently torn off, i.e. fresh",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2965.htm",
+        "strongNumber": "2965"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2965.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "from 2963;",
+          "meaning": "recently torn off, i.e. fresh",
+          "usage": "pluckt off.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2965",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "from <w src=\"H2963\">2963</w>;",
+          "meaningXml": "<def>recently torn off</def>, i.e. <def>fresh</def>",
+          "usageXml": "pluckt off.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2966",
@@ -14800,7 +18427,46 @@
             "sourceTokenId": "346zt"
           }
         }
-      ]
+      ],
+      "definitionHe": "בעל חיים שנקרע בידי חיה טורפת, או בשרו.",
+      "definitionEn": "prey, i.e. flocks devoured by animals",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2966.htm",
+        "strongNumber": "2966"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2966.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "feminine (collectively) of 2964;",
+          "meaning": "prey, i.e. flocks devoured by animals",
+          "usage": "ravin, (that which was) torn (of beasts, in pieces).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2966",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "feminine (collectively) of <w src=\"H2964\">2964</w>;",
+          "meaningXml": "<def>prey</def>, i.e. flocks devoured by animals",
+          "usageXml": "ravin, (that which was) torn (of beasts, in pieces).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     },
     {
       "strongNumber": "2967",
@@ -14824,7 +18490,46 @@
             "sourceTokenId": "15Sho"
           }
         }
-      ]
+      ],
+      "definitionHe": "בני קבוצה שהוגלתה לארץ שומרון בידי מלך אשור, כנראה מאזור ששמו טרפל.",
+      "definitionEn": "a Tarpelite (collectively) or inhabitants of Tarpel, a place in Assyria",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2967.htm",
+        "strongNumber": "2967"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2967.htm"
+        ],
+        "dictionaries": [
+          "Strong"
+        ],
+        "method": "English Strong meaning and usage checked against pinned HebrewStrong.xml; Hebrew definition manually drafted and pending editorial review; BDB comparison not yet completed.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) from a name of foreign derivation;",
+          "meaning": "a Tarpelite (collectively) or inhabitants of Tarpel, a place in Assyria",
+          "usage": "Tarpelites. y",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+          "entryId": "H2967",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) from a name of foreign derivation;",
+          "meaningXml": "a <def>Tarpelite</def> (collectively) or inhabitants of Tarpel, a place in Assyria",
+          "usageXml": "Tarpelites. y",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        }
+      }
     }
   ]
 }
