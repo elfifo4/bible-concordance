@@ -1,10 +1,5 @@
 name: Generate full Hebrew concordance (22 parallel letters)
 on:
-  push:
-    branches: [feat/full-alphabet-concordance]
-    paths:
-      - 'scripts/build_alphabet_concordance.py'
-      - '.github/workflows/generate-alphabet.yml'
   pull_request:
     branches: [main]
     paths:
@@ -12,7 +7,7 @@ on:
       - '.github/workflows/generate-alphabet.yml'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 jobs:
   prepare:
     runs-on: ubuntu-latest
@@ -40,7 +35,7 @@ jobs:
             build/tokens.jsonl
             build/LexicalIndex.xml
             build/AugIndex.xml
-          retention-days: 2
+          retention-days: 3
   generate:
     needs: prepare
     runs-on: ubuntu-latest
@@ -58,7 +53,7 @@ jobs:
         env:
           LETTER: ${{ matrix.letter }}
         run: |
-          python scripts/build_alphabet_concordance.py --tokens build/tokens.jsonl --lexicon build --letter "$LETTER" --output "data/alphabet/$LETTER.json" --unresolved-output "build/unresolved-$LETTER.json"
+          python -m scripts.build_alphabet_concordance --tokens build/tokens.jsonl --lexicon build --letter "$LETTER" --output "data/alphabet/$LETTER.json" --unresolved-output "build/unresolved-$LETTER.json"
           python - "$LETTER" <<'PY'
           import json,sys
           letter=sys.argv[1]
@@ -75,7 +70,16 @@ jobs:
           name: letter-${{ matrix.letter }}
           path: data/alphabet/*.json
           retention-days: 2
+      - uses: actions/upload-artifact@v4
+        if: matrix.letter == 'א'
+        with:
+          name: unresolved-א
+          path: build/unresolved-*.json
+          retention-days: 2
   publish:
+    if: (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/feat/full-alphabet-concordance') || (github.event_name == 'pull_request' && github.head_ref == 'feat/full-alphabet-concordance' && github.event.pull_request.head.repo.full_name == github.repository)
+    permissions:
+      contents: write
     needs: generate
     runs-on: ubuntu-latest
     steps:
@@ -88,12 +92,17 @@ jobs:
           pattern: letter-*
           path: data/alphabet
           merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with:
+          name: unresolved-א
+          path: data/alphabet/unresolved
+          merge-multiple: true
       - name: Verify alphabet and publish generated JSON to branch
         run: |
           python - <<'PY'
           import json,pathlib
           letters="אבגדהוזחטיכלמנסעפצקרשת"
-          files=list(pathlib.Path("data/alphabet").glob("*.json"))
+          files=[p for p in pathlib.Path("data/alphabet").glob("*.json") if p.stem in "אבגדהוזחטיכלמנסעפצקרשת"]
           assert len(files)==22, f"Expected 22 files, found {len(files)}"
           summary=[]
           for letter in letters:

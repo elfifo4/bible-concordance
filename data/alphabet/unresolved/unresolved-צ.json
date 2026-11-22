@@ -1,0 +1,3245 @@
+{
+  "status": "unassigned-to-letter",
+  "entries": [
+    {
+      "strongNumber": "122",
+      "tokenCount": 9,
+      "exampleVerse": "2Kgs.3.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "176",
+      "tokenCount": 321,
+      "exampleVerse": "1Kgs.8.46",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "193",
+      "tokenCount": 2,
+      "exampleVerse": "2Kgs.24.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "217",
+      "tokenCount": 6,
+      "exampleVerse": "Ezek.5.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "218",
+      "tokenCount": 5,
+      "exampleVerse": "1Chr.11.35",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "219",
+      "tokenCount": 4,
+      "exampleVerse": "2Kgs.4.39",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "223",
+      "tokenCount": 39,
+      "exampleVerse": "1Chr.11.41",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "227",
+      "tokenCount": 141,
+      "exampleVerse": "1Chr.11.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "244",
+      "tokenCount": 2,
+      "exampleVerse": "Num.26.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "310",
+      "tokenCount": 715,
+      "exampleVerse": "1Chr.2.21",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "328",
+      "tokenCount": 6,
+      "exampleVerse": "1Kgs.21.27",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "349",
+      "tokenCount": 82,
+      "exampleVerse": "1Kgs.12.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "352",
+      "tokenCount": 184,
+      "exampleVerse": "1Chr.15.26",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "359",
+      "tokenCount": 8,
+      "exampleVerse": "1Kgs.9.26",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "441",
+      "tokenCount": 69,
+      "exampleVerse": "1Chr.1.51",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "454",
+      "tokenCount": 9,
+      "exampleVerse": "1Chr.3.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "518",
+      "tokenCount": 1070,
+      "exampleVerse": "1Chr.2.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "520",
+      "tokenCount": 248,
+      "exampleVerse": "1Chr.11.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "565",
+      "tokenCount": 37,
+      "exampleVerse": "2Sam.22.31",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "576",
+      "tokenCount": 16,
+      "exampleVerse": "Dan.2.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "581",
+      "tokenCount": 4,
+      "exampleVerse": "Dan.2.44",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "657",
+      "tokenCount": 44,
+      "exampleVerse": "1Sam.2.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "671",
+      "tokenCount": 3,
+      "exampleVerse": "Ezra.4.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "682",
+      "tokenCount": 7,
+      "exampleVerse": "1Chr.8.37",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "738",
+      "tokenCount": 79,
+      "exampleVerse": "1Chr.11.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "746",
+      "tokenCount": 7,
+      "exampleVerse": "Dan.2.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "783",
+      "tokenCount": 15,
+      "exampleVerse": "Ezra.4.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "805",
+      "tokenCount": 2,
+      "exampleVerse": "2Sam.2.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "834",
+      "tokenCount": 5502,
+      "exampleVerse": "1Chr.1.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "838",
+      "tokenCount": 9,
+      "exampleVerse": "Job.23.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "859",
+      "tokenCount": 1092,
+      "exampleVerse": "1Chr.11.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "862",
+      "tokenCount": 5,
+      "exampleVerse": "Ezek.41.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "899",
+      "tokenCount": 217,
+      "exampleVerse": "1Kgs.1.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "953",
+      "tokenCount": 67,
+      "exampleVerse": "1Chr.11.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "973",
+      "tokenCount": 2,
+      "exampleVerse": "Prov.20.21",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1004",
+      "tokenCount": 2054,
+      "exampleVerse": "1Chr.2.55",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1090",
+      "tokenCount": 11,
+      "exampleVerse": "1Chr.4.29",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1101",
+      "tokenCount": 43,
+      "exampleVerse": "Exod.29.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1106",
+      "tokenCount": 14,
+      "exampleVerse": "1Chr.1.43",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1109",
+      "tokenCount": 61,
+      "exampleVerse": "1Chr.6.55",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1121",
+      "tokenCount": 4931,
+      "exampleVerse": "1Chr.1.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1168",
+      "tokenCount": 80,
+      "exampleVerse": "1Chr.4.33",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1197",
+      "tokenCount": 94,
+      "exampleVerse": "1Kgs.14.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1238",
+      "tokenCount": 9,
+      "exampleVerse": "Hos.10.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1250",
+      "tokenCount": 14,
+      "exampleVerse": "Amos.5.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1254",
+      "tokenCount": 54,
+      "exampleVerse": "1Sam.2.29",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1268",
+      "tokenCount": 2,
+      "exampleVerse": "2Sam.8.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1300",
+      "tokenCount": 21,
+      "exampleVerse": "2Sam.22.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1304",
+      "tokenCount": 3,
+      "exampleVerse": "Exod.28.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1328",
+      "tokenCount": 10,
+      "exampleVerse": "1Chr.4.30",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1350",
+      "tokenCount": 104,
+      "exampleVerse": "1Kgs.16.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1356",
+      "tokenCount": 4,
+      "exampleVerse": "1Kgs.6.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1419",
+      "tokenCount": 527,
+      "exampleVerse": "1Chr.11.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1430",
+      "tokenCount": 4,
+      "exampleVerse": "Exod.22.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1436",
+      "tokenCount": 32,
+      "exampleVerse": "1Chr.25.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1460",
+      "tokenCount": 7,
+      "exampleVerse": "Isa.38.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1462",
+      "tokenCount": 3,
+      "exampleVerse": "Amos.7.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1471",
+      "tokenCount": 561,
+      "exampleVerse": "1Chr.14.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1481",
+      "tokenCount": 98,
+      "exampleVerse": "1Chr.16.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1524",
+      "tokenCount": 10,
+      "exampleVerse": "Dan.1.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1550",
+      "tokenCount": 4,
+      "exampleVerse": "1Kgs.6.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1633",
+      "tokenCount": 3,
+      "exampleVerse": "Ezek.23.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1688",
+      "tokenCount": 14,
+      "exampleVerse": "1Chr.6.43",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1699",
+      "tokenCount": 3,
+      "exampleVerse": "Isa.5.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1713",
+      "tokenCount": 4,
+      "exampleVerse": "Ps.20.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1719",
+      "tokenCount": 11,
+      "exampleVerse": "1Chr.1.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1754",
+      "tokenCount": 3,
+      "exampleVerse": "Ezek.24.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1760",
+      "tokenCount": 11,
+      "exampleVerse": "Isa.11.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1793",
+      "tokenCount": 3,
+      "exampleVerse": "Isa.57.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1799",
+      "tokenCount": 3,
+      "exampleVerse": "Ezra.4.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1803",
+      "tokenCount": 8,
+      "exampleVerse": "2Kgs.24.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1817",
+      "tokenCount": 88,
+      "exampleVerse": "1Chr.22.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1826",
+      "tokenCount": 30,
+      "exampleVerse": "1Sam.2.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1861",
+      "tokenCount": 2,
+      "exampleVerse": "1Sam.13.21",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1888",
+      "tokenCount": 2,
+      "exampleVerse": "Dan.2.43",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1913",
+      "tokenCount": 4,
+      "exampleVerse": "1Chr.1.21",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1933",
+      "tokenCount": 6,
+      "exampleVerse": "Eccl.2.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1984",
+      "tokenCount": 165,
+      "exampleVerse": "1Chr.16.4",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "1995",
+      "tokenCount": 83,
+      "exampleVerse": "1Chr.29.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2006",
+      "tokenCount": 18,
+      "exampleVerse": "Dan.2.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2030",
+      "tokenCount": 16,
+      "exampleVerse": "1Sam.4.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2048",
+      "tokenCount": 10,
+      "exampleVerse": "1Kgs.18.27",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2094",
+      "tokenCount": 22,
+      "exampleVerse": "2Chr.19.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2109",
+      "tokenCount": 1,
+      "exampleVerse": "Jer.5.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2114",
+      "tokenCount": 77,
+      "exampleVerse": "1Kgs.3.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2119",
+      "tokenCount": 3,
+      "exampleVerse": "Deut.32.24",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2123",
+      "tokenCount": 3,
+      "exampleVerse": "Isa.66.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2131",
+      "tokenCount": 7,
+      "exampleVerse": "Isa.45.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2148",
+      "tokenCount": 43,
+      "exampleVerse": "1Chr.5.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2151",
+      "tokenCount": 8,
+      "exampleVerse": "Deut.21.20",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2174",
+      "tokenCount": 15,
+      "exampleVerse": "1Chr.2.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2186",
+      "tokenCount": 20,
+      "exampleVerse": "1Chr.28.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2222",
+      "tokenCount": 1,
+      "exampleVerse": "Ps.72.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2235",
+      "tokenCount": 2,
+      "exampleVerse": "Dan.1.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2254",
+      "tokenCount": 27,
+      "exampleVerse": "Amos.2.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2256",
+      "tokenCount": 62,
+      "exampleVerse": "1Chr.16.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2258",
+      "tokenCount": 4,
+      "exampleVerse": "Ezek.18.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2275",
+      "tokenCount": 71,
+      "exampleVerse": "1Chr.2.42",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2286",
+      "tokenCount": 2,
+      "exampleVerse": "Ezra.2.45",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2290",
+      "tokenCount": 7,
+      "exampleVerse": "1Kgs.2.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2292",
+      "tokenCount": 11,
+      "exampleVerse": "Ezra.5.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2300",
+      "tokenCount": 6,
+      "exampleVerse": "Ezek.21.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2342",
+      "tokenCount": 60,
+      "exampleVerse": "1Chr.10.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2363",
+      "tokenCount": 19,
+      "exampleVerse": "1Sam.20.38",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2366",
+      "tokenCount": 4,
+      "exampleVerse": "1Chr.7.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2403",
+      "tokenCount": 294,
+      "exampleVerse": "1Kgs.8.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2416",
+      "tokenCount": 500,
+      "exampleVerse": "1Kgs.1.29",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2427",
+      "tokenCount": 7,
+      "exampleVerse": "Exod.15.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2470",
+      "tokenCount": 75,
+      "exampleVerse": "1Kgs.13.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2490",
+      "tokenCount": 142,
+      "exampleVerse": "1Chr.1.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2491",
+      "tokenCount": 94,
+      "exampleVerse": "1Chr.5.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2492",
+      "tokenCount": 30,
+      "exampleVerse": "Dan.2.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2502",
+      "tokenCount": 44,
+      "exampleVerse": "1Chr.12.24",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2505",
+      "tokenCount": 65,
+      "exampleVerse": "1Chr.16.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2506",
+      "tokenCount": 67,
+      "exampleVerse": "1Kgs.12.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2513",
+      "tokenCount": 29,
+      "exampleVerse": "1Chr.11.13",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2529",
+      "tokenCount": 10,
+      "exampleVerse": "2Sam.17.29",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2530",
+      "tokenCount": 28,
+      "exampleVerse": "2Chr.20.25",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2532",
+      "tokenCount": 18,
+      "exampleVerse": "1Sam.9.20",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2556",
+      "tokenCount": 6,
+      "exampleVerse": "Exod.12.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2557",
+      "tokenCount": 13,
+      "exampleVerse": "Amos.4.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2560",
+      "tokenCount": 6,
+      "exampleVerse": "Exod.2.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2563",
+      "tokenCount": 31,
+      "exampleVerse": "Exod.1.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2575",
+      "tokenCount": 2,
+      "exampleVerse": "1Chr.2.55",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2590",
+      "tokenCount": 5,
+      "exampleVerse": "Gen.50.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2603",
+      "tokenCount": 78,
+      "exampleVerse": "1Kgs.8.33",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2608",
+      "tokenCount": 29,
+      "exampleVerse": "1Chr.3.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2616",
+      "tokenCount": 3,
+      "exampleVerse": "2Sam.22.26",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2617",
+      "tokenCount": 247,
+      "exampleVerse": "1Chr.16.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2654",
+      "tokenCount": 75,
+      "exampleVerse": "1Kgs.9.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2660",
+      "tokenCount": 9,
+      "exampleVerse": "1Chr.4.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2682",
+      "tokenCount": 21,
+      "exampleVerse": "1Kgs.18.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2686",
+      "tokenCount": 3,
+      "exampleVerse": "Job.21.21",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2691",
+      "tokenCount": 189,
+      "exampleVerse": "1Chr.4.32",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2712",
+      "tokenCount": 2,
+      "exampleVerse": "1Chr.6.60",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2717",
+      "tokenCount": 42,
+      "exampleVerse": "2Kgs.3.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2720",
+      "tokenCount": 8,
+      "exampleVerse": "Ezek.36.35",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2721",
+      "tokenCount": 16,
+      "exampleVerse": "Ezek.29.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2742",
+      "tokenCount": 18,
+      "exampleVerse": "Amos.1.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2763",
+      "tokenCount": 52,
+      "exampleVerse": "1Chr.4.41",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2764",
+      "tokenCount": 38,
+      "exampleVerse": "1Chr.2.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2771",
+      "tokenCount": 12,
+      "exampleVerse": "1Chr.2.46",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2775",
+      "tokenCount": 4,
+      "exampleVerse": "Deut.28.27",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2778",
+      "tokenCount": 41,
+      "exampleVerse": "1Chr.20.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2790",
+      "tokenCount": 72,
+      "exampleVerse": "1Kgs.19.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2791",
+      "tokenCount": 3,
+      "exampleVerse": "Isa.3.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2818",
+      "tokenCount": 2,
+      "exampleVerse": "Dan.3.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2836",
+      "tokenCount": 11,
+      "exampleVerse": "1Kgs.9.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2844",
+      "tokenCount": 5,
+      "exampleVerse": "1Sam.2.4",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2859",
+      "tokenCount": 33,
+      "exampleVerse": "1Kgs.3.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2870",
+      "tokenCount": 2,
+      "exampleVerse": "Ezra.4.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2892",
+      "tokenCount": 2,
+      "exampleVerse": "Exod.24.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2896",
+      "tokenCount": 564,
+      "exampleVerse": "1Chr.4.40",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2902",
+      "tokenCount": 12,
+      "exampleVerse": "1Chr.29.4",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "2930",
+      "tokenCount": 162,
+      "exampleVerse": "2Chr.36.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3026",
+      "tokenCount": 2,
+      "exampleVerse": "Gen.31.47",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3039",
+      "tokenCount": 9,
+      "exampleVerse": "Deut.33.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3136",
+      "tokenCount": 5,
+      "exampleVerse": "Ezra.3.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3162",
+      "tokenCount": 141,
+      "exampleVerse": "1Chr.10.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3227",
+      "tokenCount": 5,
+      "exampleVerse": "1Sam.9.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3239",
+      "tokenCount": 3,
+      "exampleVerse": "2Kgs.15.29",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3272",
+      "tokenCount": 3,
+      "exampleVerse": "Dan.6.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3293",
+      "tokenCount": 59,
+      "exampleVerse": "1Chr.16.33",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3326",
+      "tokenCount": 8,
+      "exampleVerse": "1Chr.5.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3384",
+      "tokenCount": 84,
+      "exampleVerse": "1Chr.10.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3399",
+      "tokenCount": 2,
+      "exampleVerse": "Job.16.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3470",
+      "tokenCount": 39,
+      "exampleVerse": "1Chr.3.21",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3499",
+      "tokenCount": 101,
+      "exampleVerse": "1Chr.19.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3512",
+      "tokenCount": 3,
+      "exampleVerse": "Dan.11.30",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3520",
+      "tokenCount": 3,
+      "exampleVerse": "Ezek.23.41",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3543",
+      "tokenCount": 8,
+      "exampleVerse": "1Sam.3.13",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3559",
+      "tokenCount": 219,
+      "exampleVerse": "1Chr.9.32",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3563",
+      "tokenCount": 33,
+      "exampleVerse": "1Kgs.7.26",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3568",
+      "tokenCount": 30,
+      "exampleVerse": "1Chr.1.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3581",
+      "tokenCount": 126,
+      "exampleVerse": "1Chr.26.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3588",
+      "tokenCount": 4487,
+      "exampleVerse": "1Chr.1.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3635",
+      "tokenCount": 7,
+      "exampleVerse": "Ezra.4.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3641",
+      "tokenCount": 3,
+      "exampleVerse": "Amos.6.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3651",
+      "tokenCount": 770,
+      "exampleVerse": "1Chr.11.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3667",
+      "tokenCount": 94,
+      "exampleVerse": "1Chr.1.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3669",
+      "tokenCount": 73,
+      "exampleVerse": "1Chr.2.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3708",
+      "tokenCount": 25,
+      "exampleVerse": "1Kgs.15.30",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3713",
+      "tokenCount": 12,
+      "exampleVerse": "1Chr.28.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3715",
+      "tokenCount": 32,
+      "exampleVerse": "Amos.3.4",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3722",
+      "tokenCount": 103,
+      "exampleVerse": "1Chr.6.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3724",
+      "tokenCount": 17,
+      "exampleVerse": "1Sam.6.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3733",
+      "tokenCount": 16,
+      "exampleVerse": "1Sam.15.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3734",
+      "tokenCount": 9,
+      "exampleVerse": "1Kgs.5.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3738",
+      "tokenCount": 17,
+      "exampleVerse": "2Chr.16.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3739",
+      "tokenCount": 3,
+      "exampleVerse": "2Kgs.6.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3820",
+      "tokenCount": 595,
+      "exampleVerse": "1Chr.12.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3823",
+      "tokenCount": 5,
+      "exampleVerse": "2Sam.13.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3833",
+      "tokenCount": 14,
+      "exampleVerse": "Deut.33.20",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3835",
+      "tokenCount": 8,
+      "exampleVerse": "Dan.11.35",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3837",
+      "tokenCount": 55,
+      "exampleVerse": "Deut.1.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3856",
+      "tokenCount": 2,
+      "exampleVerse": "Gen.47.13",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3867",
+      "tokenCount": 26,
+      "exampleVerse": "Dan.11.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3885",
+      "tokenCount": 83,
+      "exampleVerse": "1Chr.9.27",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3886",
+      "tokenCount": 2,
+      "exampleVerse": "Job.6.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3898",
+      "tokenCount": 177,
+      "exampleVerse": "1Chr.10.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3919",
+      "tokenCount": 6,
+      "exampleVerse": "1Sam.25.44",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3971",
+      "tokenCount": 21,
+      "exampleVerse": "2Sam.14.25",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "3988",
+      "tokenCount": 76,
+      "exampleVerse": "1Sam.8.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4024",
+      "tokenCount": 6,
+      "exampleVerse": "Exod.14.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4057",
+      "tokenCount": 271,
+      "exampleVerse": "1Chr.5.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4060",
+      "tokenCount": 55,
+      "exampleVerse": "1Chr.11.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4070",
+      "tokenCount": 4,
+      "exampleVerse": "Dan.2.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4116",
+      "tokenCount": 64,
+      "exampleVerse": "1Chr.12.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4118",
+      "tokenCount": 18,
+      "exampleVerse": "Deut.4.26",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4135",
+      "tokenCount": 36,
+      "exampleVerse": "Deut.10.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4149",
+      "tokenCount": 3,
+      "exampleVerse": "Deut.10.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4172",
+      "tokenCount": 12,
+      "exampleVerse": "Deut.4.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4206",
+      "tokenCount": 3,
+      "exampleVerse": "Isa.23.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4207",
+      "tokenCount": 7,
+      "exampleVerse": "1Chr.28.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4224",
+      "tokenCount": 2,
+      "exampleVerse": "1Sam.23.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4229",
+      "tokenCount": 36,
+      "exampleVerse": "2Kgs.14.27",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4245",
+      "tokenCount": 6,
+      "exampleVerse": "1Kgs.8.37",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4364",
+      "tokenCount": 2,
+      "exampleVerse": "Isa.51.20",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4365",
+      "tokenCount": 3,
+      "exampleVerse": "Hab.1.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4409",
+      "tokenCount": 7,
+      "exampleVerse": "1Chr.6.29",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4414",
+      "tokenCount": 5,
+      "exampleVerse": "Exod.30.35",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4427",
+      "tokenCount": 348,
+      "exampleVerse": "1Chr.1.43",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4445",
+      "tokenCount": 5,
+      "exampleVerse": "1Chr.8.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4448",
+      "tokenCount": 5,
+      "exampleVerse": "Gen.21.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4455",
+      "tokenCount": 8,
+      "exampleVerse": "Isa.49.24",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4478",
+      "tokenCount": 14,
+      "exampleVerse": "Deut.8.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4480",
+      "tokenCount": 1227,
+      "exampleVerse": "1Chr.4.40",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4506",
+      "tokenCount": 3,
+      "exampleVerse": "1Chr.1.40",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4531",
+      "tokenCount": 5,
+      "exampleVerse": "Deut.4.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4541",
+      "tokenCount": 28,
+      "exampleVerse": "1Kgs.14.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4551",
+      "tokenCount": 2,
+      "exampleVerse": "1Kgs.6.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4569",
+      "tokenCount": 11,
+      "exampleVerse": "1Sam.13.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4609",
+      "tokenCount": 48,
+      "exampleVerse": "1Chr.17.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4654",
+      "tokenCount": 3,
+      "exampleVerse": "Isa.17.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4659",
+      "tokenCount": 3,
+      "exampleVerse": "Prov.8.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4685",
+      "tokenCount": 6,
+      "exampleVerse": "Eccl.7.26",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4686",
+      "tokenCount": 23,
+      "exampleVerse": "1Chr.11.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4718",
+      "tokenCount": 2,
+      "exampleVerse": "Isa.51.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4723",
+      "tokenCount": 12,
+      "exampleVerse": "1Chr.29.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4759",
+      "tokenCount": 11,
+      "exampleVerse": "1Sam.3.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4853",
+      "tokenCount": 65,
+      "exampleVerse": "1Chr.15.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4869",
+      "tokenCount": 17,
+      "exampleVerse": "2Sam.22.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4880",
+      "tokenCount": 2,
+      "exampleVerse": "Ezek.27.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4881",
+      "tokenCount": 2,
+      "exampleVerse": "Isa.5.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4888",
+      "tokenCount": 26,
+      "exampleVerse": "Exod.25.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4893",
+      "tokenCount": 2,
+      "exampleVerse": "Isa.52.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4894",
+      "tokenCount": 3,
+      "exampleVerse": "Ezek.26.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4911",
+      "tokenCount": 16,
+      "exampleVerse": "Ezek.12.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4915",
+      "tokenCount": 3,
+      "exampleVerse": "Dan.11.4",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4916",
+      "tokenCount": 10,
+      "exampleVerse": "Deut.12.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4924",
+      "tokenCount": 7,
+      "exampleVerse": "Dan.11.24",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4937",
+      "tokenCount": 5,
+      "exampleVerse": "2Sam.22.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4938",
+      "tokenCount": 12,
+      "exampleVerse": "2Kgs.4.29",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "4945",
+      "tokenCount": 19,
+      "exampleVerse": "1Kgs.10.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5007",
+      "tokenCount": 5,
+      "exampleVerse": "2Kgs.19.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5015",
+      "tokenCount": 13,
+      "exampleVerse": "1Chr.5.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5034",
+      "tokenCount": 25,
+      "exampleVerse": "2Sam.22.46",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5035",
+      "tokenCount": 38,
+      "exampleVerse": "1Chr.13.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5077",
+      "tokenCount": 3,
+      "exampleVerse": "2Kgs.17.21",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5090",
+      "tokenCount": 31,
+      "exampleVerse": "1Chr.13.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5094",
+      "tokenCount": 3,
+      "exampleVerse": "Dan.2.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5102",
+      "tokenCount": 6,
+      "exampleVerse": "Isa.2.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5108",
+      "tokenCount": 2,
+      "exampleVerse": "Isa.57.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5115",
+      "tokenCount": 2,
+      "exampleVerse": "Exod.15.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5116",
+      "tokenCount": 35,
+      "exampleVerse": "1Chr.17.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5130",
+      "tokenCount": 37,
+      "exampleVerse": "2Kgs.5.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5132",
+      "tokenCount": 3,
+      "exampleVerse": "Lam.4.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5137",
+      "tokenCount": 24,
+      "exampleVerse": "2Kgs.9.33",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5144",
+      "tokenCount": 10,
+      "exampleVerse": "Ezek.14.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5158",
+      "tokenCount": 141,
+      "exampleVerse": "1Chr.11.32",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5170",
+      "tokenCount": 2,
+      "exampleVerse": "Jer.8.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5178",
+      "tokenCount": 140,
+      "exampleVerse": "1Chr.15.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5183",
+      "tokenCount": 8,
+      "exampleVerse": "Eccl.4.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5198",
+      "tokenCount": 2,
+      "exampleVerse": "Exod.30.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5216",
+      "tokenCount": 48,
+      "exampleVerse": "1Chr.28.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5218",
+      "tokenCount": 4,
+      "exampleVerse": "Isa.16.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5234",
+      "tokenCount": 49,
+      "exampleVerse": "1Kgs.14.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5243",
+      "tokenCount": 5,
+      "exampleVerse": "Gen.17.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5257",
+      "tokenCount": 6,
+      "exampleVerse": "Dan.11.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5258",
+      "tokenCount": 25,
+      "exampleVerse": "1Chr.11.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5271",
+      "tokenCount": 47,
+      "exampleVerse": "1Kgs.18.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5273",
+      "tokenCount": 13,
+      "exampleVerse": "2Sam.1.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5274",
+      "tokenCount": 8,
+      "exampleVerse": "2Chr.28.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5279",
+      "tokenCount": 5,
+      "exampleVerse": "1Kgs.14.21",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5292",
+      "tokenCount": 4,
+      "exampleVerse": "1Chr.4.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5299",
+      "tokenCount": 4,
+      "exampleVerse": "1Kgs.4.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5310",
+      "tokenCount": 22,
+      "exampleVerse": "1Kgs.5.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5322",
+      "tokenCount": 4,
+      "exampleVerse": "Deut.14.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5327",
+      "tokenCount": 11,
+      "exampleVerse": "2Kgs.19.25",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5344",
+      "tokenCount": 24,
+      "exampleVerse": "1Chr.12.32",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5355",
+      "tokenCount": 43,
+      "exampleVerse": "1Kgs.15.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5356",
+      "tokenCount": 5,
+      "exampleVerse": "Amos.4.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5362",
+      "tokenCount": 19,
+      "exampleVerse": "1Kgs.7.24",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5387",
+      "tokenCount": 134,
+      "exampleVerse": "1Chr.2.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5391",
+      "tokenCount": 16,
+      "exampleVerse": "Amos.5.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5401",
+      "tokenCount": 35,
+      "exampleVerse": "1Chr.12.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5410",
+      "tokenCount": 26,
+      "exampleVerse": "Hos.2.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5425",
+      "tokenCount": 8,
+      "exampleVerse": "2Sam.22.33",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5433",
+      "tokenCount": 5,
+      "exampleVerse": "Ezek.23.42",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5483",
+      "tokenCount": 139,
+      "exampleVerse": "1Kgs.5.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5492",
+      "tokenCount": 16,
+      "exampleVerse": "Amos.1.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5512",
+      "tokenCount": 6,
+      "exampleVerse": "Exod.16.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5518",
+      "tokenCount": 34,
+      "exampleVerse": "1Kgs.7.45",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5526",
+      "tokenCount": 24,
+      "exampleVerse": "1Chr.28.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5531",
+      "tokenCount": 7,
+      "exampleVerse": "Eccl.1.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5533",
+      "tokenCount": 2,
+      "exampleVerse": "Eccl.10.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5541",
+      "tokenCount": 4,
+      "exampleVerse": "Job.28.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5543",
+      "tokenCount": 6,
+      "exampleVerse": "1Chr.9.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5587",
+      "tokenCount": 3,
+      "exampleVerse": "1Kgs.18.21",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5591",
+      "tokenCount": 24,
+      "exampleVerse": "2Kgs.2.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5592",
+      "tokenCount": 32,
+      "exampleVerse": "1Chr.9.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5596",
+      "tokenCount": 6,
+      "exampleVerse": "1Sam.2.36",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5599",
+      "tokenCount": 5,
+      "exampleVerse": "2Kgs.19.29",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5606",
+      "tokenCount": 10,
+      "exampleVerse": "1Kgs.20.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5607",
+      "tokenCount": 2,
+      "exampleVerse": "Job.20.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5608",
+      "tokenCount": 161,
+      "exampleVerse": "1Chr.2.55",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5612",
+      "tokenCount": 186,
+      "exampleVerse": "1Chr.9.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5633",
+      "tokenCount": 22,
+      "exampleVerse": "1Chr.12.20",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5640",
+      "tokenCount": 14,
+      "exampleVerse": "2Chr.32.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5642",
+      "tokenCount": 2,
+      "exampleVerse": "Dan.2.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5643",
+      "tokenCount": 36,
+      "exampleVerse": "1Sam.19.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5674",
+      "tokenCount": 555,
+      "exampleVerse": "1Chr.12.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5697",
+      "tokenCount": 14,
+      "exampleVerse": "1Sam.16.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5710",
+      "tokenCount": 10,
+      "exampleVerse": "Ezek.16.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5713",
+      "tokenCount": 26,
+      "exampleVerse": "Deut.4.45",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5730",
+      "tokenCount": 5,
+      "exampleVerse": "2Sam.1.24",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5731",
+      "tokenCount": 16,
+      "exampleVerse": "2Chr.29.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5737",
+      "tokenCount": 10,
+      "exampleVerse": "1Chr.12.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5740",
+      "tokenCount": 3,
+      "exampleVerse": "1Chr.23.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5749",
+      "tokenCount": 44,
+      "exampleVerse": "1Kgs.2.42",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5753",
+      "tokenCount": 17,
+      "exampleVerse": "1Kgs.8.47",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5766",
+      "tokenCount": 53,
+      "exampleVerse": "1Chr.17.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5774",
+      "tokenCount": 30,
+      "exampleVerse": "1Sam.14.28",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5788",
+      "tokenCount": 3,
+      "exampleVerse": "Deut.28.28",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5798",
+      "tokenCount": 14,
+      "exampleVerse": "1Chr.6.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5800",
+      "tokenCount": 215,
+      "exampleVerse": "1Chr.10.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5844",
+      "tokenCount": 17,
+      "exampleVerse": "1Sam.28.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5848",
+      "tokenCount": 16,
+      "exampleVerse": "Gen.30.42",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5849",
+      "tokenCount": 7,
+      "exampleVerse": "1Sam.23.26",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5858",
+      "tokenCount": 8,
+      "exampleVerse": "1Chr.1.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5860",
+      "tokenCount": 2,
+      "exampleVerse": "1Sam.15.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5867",
+      "tokenCount": 28,
+      "exampleVerse": "1Chr.1.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5868",
+      "tokenCount": 1,
+      "exampleVerse": "Isa.11.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5869",
+      "tokenCount": 887,
+      "exampleVerse": "1Chr.2.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5892",
+      "tokenCount": 1095,
+      "exampleVerse": "1Chr.1.43",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5921",
+      "tokenCount": 5774,
+      "exampleVerse": "1Chr.5.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5930",
+      "tokenCount": 288,
+      "exampleVerse": "1Chr.6.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5945",
+      "tokenCount": 53,
+      "exampleVerse": "1Chr.7.24",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5953",
+      "tokenCount": 20,
+      "exampleVerse": "1Chr.10.4",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5971",
+      "tokenCount": 1868,
+      "exampleVerse": "1Chr.5.25",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "5973",
+      "tokenCount": 1049,
+      "exampleVerse": "1Chr.4.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6001",
+      "tokenCount": 9,
+      "exampleVerse": "Eccl.2.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6014",
+      "tokenCount": 3,
+      "exampleVerse": "Deut.21.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6016",
+      "tokenCount": 14,
+      "exampleVerse": "Deut.24.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6030",
+      "tokenCount": 329,
+      "exampleVerse": "1Chr.12.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6031",
+      "tokenCount": 83,
+      "exampleVerse": "1Kgs.2.26",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6049",
+      "tokenCount": 11,
+      "exampleVerse": "2Chr.33.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6060",
+      "tokenCount": 3,
+      "exampleVerse": "Judg.8.26",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6075",
+      "tokenCount": 2,
+      "exampleVerse": "Hab.2.4",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6076",
+      "tokenCount": 9,
+      "exampleVerse": "1Sam.5.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6087",
+      "tokenCount": 17,
+      "exampleVerse": "1Chr.4.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6089",
+      "tokenCount": 7,
+      "exampleVerse": "Gen.3.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6090",
+      "tokenCount": 4,
+      "exampleVerse": "1Chr.4.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6105",
+      "tokenCount": 20,
+      "exampleVerse": "Dan.8.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6121",
+      "tokenCount": 3,
+      "exampleVerse": "Hos.6.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6131",
+      "tokenCount": 7,
+      "exampleVerse": "1Chr.18.4",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6152",
+      "tokenCount": 6,
+      "exampleVerse": "1Kgs.10.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6154",
+      "tokenCount": 15,
+      "exampleVerse": "Exod.12.38",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6163",
+      "tokenCount": 9,
+      "exampleVerse": "2Chr.17.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6166",
+      "tokenCount": 5,
+      "exampleVerse": "1Chr.8.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6186",
+      "tokenCount": 76,
+      "exampleVerse": "1Chr.12.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6211",
+      "tokenCount": 12,
+      "exampleVerse": "Dan.4.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6213",
+      "tokenCount": 2629,
+      "exampleVerse": "1Chr.4.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6245",
+      "tokenCount": 2,
+      "exampleVerse": "Jer.5.28",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6282",
+      "tokenCount": 2,
+      "exampleVerse": "Ezek.8.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6286",
+      "tokenCount": 14,
+      "exampleVerse": "Deut.24.20",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6288",
+      "tokenCount": 7,
+      "exampleVerse": "Ezek.17.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6306",
+      "tokenCount": 3,
+      "exampleVerse": "Exod.21.30",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6327",
+      "tokenCount": 67,
+      "exampleVerse": "1Kgs.22.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6335",
+      "tokenCount": 4,
+      "exampleVerse": "Hab.1.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6341",
+      "tokenCount": 27,
+      "exampleVerse": "Amos.3.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6363",
+      "tokenCount": 12,
+      "exampleVerse": "Exod.13.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6411",
+      "tokenCount": 3,
+      "exampleVerse": "1Chr.3.24",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6412",
+      "tokenCount": 24,
+      "exampleVerse": "2Kgs.9.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6452",
+      "tokenCount": 8,
+      "exampleVerse": "1Kgs.18.21",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6485",
+      "tokenCount": 303,
+      "exampleVerse": "1Chr.21.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6524",
+      "tokenCount": 36,
+      "exampleVerse": "Exod.9.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6537",
+      "tokenCount": 3,
+      "exampleVerse": "Dan.5.25",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6544",
+      "tokenCount": 16,
+      "exampleVerse": "2Chr.28.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6565",
+      "tokenCount": 50,
+      "exampleVerse": "1Kgs.15.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6567",
+      "tokenCount": 5,
+      "exampleVerse": "Ezek.34.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6571",
+      "tokenCount": 57,
+      "exampleVerse": "1Chr.18.4",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6572",
+      "tokenCount": 4,
+      "exampleVerse": "Esth.3.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6595",
+      "tokenCount": 15,
+      "exampleVerse": "1Kgs.17.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6601",
+      "tokenCount": 28,
+      "exampleVerse": "1Kgs.22.20",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6605",
+      "tokenCount": 144,
+      "exampleVerse": "1Kgs.7.36",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6612",
+      "tokenCount": 19,
+      "exampleVerse": "Ezek.45.20",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6632",
+      "tokenCount": 3,
+      "exampleVerse": "Isa.66.20",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6635",
+      "tokenCount": 485,
+      "exampleVerse": "1Chr.5.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6643",
+      "tokenCount": 32,
+      "exampleVerse": "1Chr.12.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6658",
+      "tokenCount": 3,
+      "exampleVerse": "1Sam.24.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6670",
+      "tokenCount": 9,
+      "exampleVerse": "Esth.8.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6672",
+      "tokenCount": 24,
+      "exampleVerse": "1Kgs.18.26",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6677",
+      "tokenCount": 41,
+      "exampleVerse": "Deut.28.48",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6679",
+      "tokenCount": 18,
+      "exampleVerse": "Ezek.13.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6692",
+      "tokenCount": 9,
+      "exampleVerse": "Ezek.7.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6695",
+      "tokenCount": 4,
+      "exampleVerse": "Dan.9.25",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6696",
+      "tokenCount": 36,
+      "exampleVerse": "1Chr.20.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6718",
+      "tokenCount": 17,
+      "exampleVerse": "Gen.10.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6731",
+      "tokenCount": 15,
+      "exampleVerse": "1Kgs.6.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6735",
+      "tokenCount": 12,
+      "exampleVerse": "1Sam.4.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6743",
+      "tokenCount": 65,
+      "exampleVerse": "1Chr.22.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6756",
+      "tokenCount": 3,
+      "exampleVerse": "2Sam.23.28",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6767",
+      "tokenCount": 6,
+      "exampleVerse": "2Sam.6.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6781",
+      "tokenCount": 7,
+      "exampleVerse": "Ezek.16.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6793",
+      "tokenCount": 22,
+      "exampleVerse": "1Chr.12.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6800",
+      "tokenCount": 2,
+      "exampleVerse": "Mic.6.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6807",
+      "tokenCount": 3,
+      "exampleVerse": "1Chr.14.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6848",
+      "tokenCount": 5,
+      "exampleVerse": "Isa.11.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6862",
+      "tokenCount": 110,
+      "exampleVerse": "1Chr.12.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6867",
+      "tokenCount": 3,
+      "exampleVerse": "Lev.13.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6869",
+      "tokenCount": 73,
+      "exampleVerse": "1Kgs.1.29",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6872",
+      "tokenCount": 10,
+      "exampleVerse": "1Sam.9.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6887",
+      "tokenCount": 53,
+      "exampleVerse": "1Kgs.8.37",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6892",
+      "tokenCount": 4,
+      "exampleVerse": "Isa.19.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6924",
+      "tokenCount": 87,
+      "exampleVerse": "1Kgs.5.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6957",
+      "tokenCount": 18,
+      "exampleVerse": "2Chr.4.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6960",
+      "tokenCount": 49,
+      "exampleVerse": "Gen.1.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6963",
+      "tokenCount": 506,
+      "exampleVerse": "1Chr.14.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6965",
+      "tokenCount": 628,
+      "exampleVerse": "1Chr.10.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6979",
+      "tokenCount": 6,
+      "exampleVerse": "2Kgs.19.24",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6996",
+      "tokenCount": 101,
+      "exampleVerse": "1Chr.12.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "6999",
+      "tokenCount": 116,
+      "exampleVerse": "1Chr.6.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7014",
+      "tokenCount": 18,
+      "exampleVerse": "Gen.4.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7024",
+      "tokenCount": 5,
+      "exampleVerse": "2Kgs.16.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7049",
+      "tokenCount": 7,
+      "exampleVerse": "1Kgs.6.29",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7050",
+      "tokenCount": 22,
+      "exampleVerse": "1Kgs.6.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7087",
+      "tokenCount": 4,
+      "exampleVerse": "Exod.15.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7097",
+      "tokenCount": 97,
+      "exampleVerse": "1Kgs.9.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7105",
+      "tokenCount": 54,
+      "exampleVerse": "1Sam.6.13",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7106",
+      "tokenCount": 2,
+      "exampleVerse": "Ezek.46.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7110",
+      "tokenCount": 29,
+      "exampleVerse": "1Chr.27.24",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7114",
+      "tokenCount": 49,
+      "exampleVerse": "1Sam.6.13",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7133",
+      "tokenCount": 82,
+      "exampleVerse": "Ezek.20.28",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7136",
+      "tokenCount": 27,
+      "exampleVerse": "1Sam.28.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7161",
+      "tokenCount": 76,
+      "exampleVerse": "1Chr.25.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7183",
+      "tokenCount": 5,
+      "exampleVerse": "2Chr.6.40",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7189",
+      "tokenCount": 2,
+      "exampleVerse": "Prov.22.21",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7197",
+      "tokenCount": 8,
+      "exampleVerse": "1Kgs.17.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7203",
+      "tokenCount": 6,
+      "exampleVerse": "1Sam.9.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7218",
+      "tokenCount": 599,
+      "exampleVerse": "1Chr.4.42",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7227",
+      "tokenCount": 461,
+      "exampleVerse": "1Chr.4.27",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7235",
+      "tokenCount": 230,
+      "exampleVerse": "1Chr.4.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7280",
+      "tokenCount": 13,
+      "exampleVerse": "Deut.28.65",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7285",
+      "tokenCount": 2,
+      "exampleVerse": "Ps.55.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7287",
+      "tokenCount": 27,
+      "exampleVerse": "1Kgs.5.4",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7298",
+      "tokenCount": 4,
+      "exampleVerse": "Exod.2.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7311",
+      "tokenCount": 189,
+      "exampleVerse": "1Chr.15.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7348",
+      "tokenCount": 8,
+      "exampleVerse": "Ezra.2.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7356",
+      "tokenCount": 44,
+      "exampleVerse": "1Chr.21.13",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7363",
+      "tokenCount": 3,
+      "exampleVerse": "Deut.32.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7384",
+      "tokenCount": 2,
+      "exampleVerse": "1Chr.1.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7389",
+      "tokenCount": 7,
+      "exampleVerse": "Prov.6.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7397",
+      "tokenCount": 5,
+      "exampleVerse": "1Chr.4.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7411",
+      "tokenCount": 13,
+      "exampleVerse": "1Chr.12.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7417",
+      "tokenCount": 16,
+      "exampleVerse": "1Chr.4.32",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7423",
+      "tokenCount": 15,
+      "exampleVerse": "Hos.7.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7442",
+      "tokenCount": 53,
+      "exampleVerse": "1Chr.16.33",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7447",
+      "tokenCount": 2,
+      "exampleVerse": "Amos.6.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7451",
+      "tokenCount": 664,
+      "exampleVerse": "1Chr.2.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7461",
+      "tokenCount": 6,
+      "exampleVerse": "Exod.15.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7462",
+      "tokenCount": 164,
+      "exampleVerse": "1Chr.11.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7488",
+      "tokenCount": 20,
+      "exampleVerse": "1Kgs.14.23",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7489",
+      "tokenCount": 102,
+      "exampleVerse": "1Chr.16.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7497",
+      "tokenCount": 25,
+      "exampleVerse": "1Chr.11.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7531",
+      "tokenCount": 8,
+      "exampleVerse": "2Chr.7.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7597",
+      "tokenCount": 9,
+      "exampleVerse": "1Chr.3.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7602",
+      "tokenCount": 14,
+      "exampleVerse": "Amos.2.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7623",
+      "tokenCount": 11,
+      "exampleVerse": "1Chr.16.35",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7628",
+      "tokenCount": 48,
+      "exampleVerse": "2Chr.28.17",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7641",
+      "tokenCount": 19,
+      "exampleVerse": "Gen.41.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7652",
+      "tokenCount": 10,
+      "exampleVerse": "1Chr.5.13",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7663",
+      "tokenCount": 8,
+      "exampleVerse": "Esth.9.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7673",
+      "tokenCount": 71,
+      "exampleVerse": "2Chr.16.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7685",
+      "tokenCount": 4,
+      "exampleVerse": "Job.8.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7699",
+      "tokenCount": 24,
+      "exampleVerse": "Ezek.16.7",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7704",
+      "tokenCount": 333,
+      "exampleVerse": "1Chr.1.46",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7711",
+      "tokenCount": 6,
+      "exampleVerse": "1Kgs.8.37",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7722",
+      "tokenCount": 12,
+      "exampleVerse": "Ezek.38.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7737",
+      "tokenCount": 21,
+      "exampleVerse": "2Sam.22.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7739",
+      "tokenCount": 2,
+      "exampleVerse": "Dan.3.29",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7751",
+      "tokenCount": 13,
+      "exampleVerse": "2Chr.16.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7754",
+      "tokenCount": 2,
+      "exampleVerse": "Judg.9.48",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7760",
+      "tokenCount": 582,
+      "exampleVerse": "1Chr.10.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7771",
+      "tokenCount": 3,
+      "exampleVerse": "Isa.22.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7777",
+      "tokenCount": 2,
+      "exampleVerse": "1Chr.7.36",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7791",
+      "tokenCount": 4,
+      "exampleVerse": "2Sam.22.30",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7819",
+      "tokenCount": 81,
+      "exampleVerse": "1Kgs.18.40",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7892",
+      "tokenCount": 90,
+      "exampleVerse": "1Chr.6.16",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7919",
+      "tokenCount": 63,
+      "exampleVerse": "1Chr.28.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7921",
+      "tokenCount": 23,
+      "exampleVerse": "1Sam.15.33",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7936",
+      "tokenCount": 21,
+      "exampleVerse": "1Chr.19.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7975",
+      "tokenCount": 2,
+      "exampleVerse": "Isa.8.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7991",
+      "tokenCount": 17,
+      "exampleVerse": "1Kgs.9.22",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7997",
+      "tokenCount": 16,
+      "exampleVerse": "Ezek.26.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "7999",
+      "tokenCount": 116,
+      "exampleVerse": "1Chr.19.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8019",
+      "tokenCount": 6,
+      "exampleVerse": "1Chr.3.19",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8077",
+      "tokenCount": 58,
+      "exampleVerse": "Dan.9.18",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8088",
+      "tokenCount": 18,
+      "exampleVerse": "1Kgs.10.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8110",
+      "tokenCount": 5,
+      "exampleVerse": "1Chr.7.1",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8138",
+      "tokenCount": 22,
+      "exampleVerse": "1Kgs.14.2",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8163",
+      "tokenCount": 59,
+      "exampleVerse": "2Chr.11.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8165",
+      "tokenCount": 39,
+      "exampleVerse": "1Chr.1.38",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8173",
+      "tokenCount": 9,
+      "exampleVerse": "Isa.6.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8175",
+      "tokenCount": 8,
+      "exampleVerse": "Dan.11.40",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8178",
+      "tokenCount": 4,
+      "exampleVerse": "Ezek.27.35",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8186",
+      "tokenCount": 4,
+      "exampleVerse": "Hos.6.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8197",
+      "tokenCount": 2,
+      "exampleVerse": "1Chr.8.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8227",
+      "tokenCount": 34,
+      "exampleVerse": "2Chr.34.8",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8240",
+      "tokenCount": 2,
+      "exampleVerse": "Ezek.40.43",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8296",
+      "tokenCount": 2,
+      "exampleVerse": "Lev.19.28",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8302",
+      "tokenCount": 9,
+      "exampleVerse": "1Kgs.22.34",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8314",
+      "tokenCount": 7,
+      "exampleVerse": "Deut.8.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8321",
+      "tokenCount": 3,
+      "exampleVerse": "Gen.49.11",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8336",
+      "tokenCount": 41,
+      "exampleVerse": "Esth.1.6",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8385",
+      "tokenCount": 2,
+      "exampleVerse": "Jer.2.24",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8388",
+      "tokenCount": 8,
+      "exampleVerse": "Isa.44.13",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8433",
+      "tokenCount": 28,
+      "exampleVerse": "2Kgs.19.3",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8438",
+      "tokenCount": 43,
+      "exampleVerse": "Deut.28.39",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8453",
+      "tokenCount": 14,
+      "exampleVerse": "1Chr.29.15",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8523",
+      "tokenCount": 2,
+      "exampleVerse": "Dan.2.39",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8556",
+      "tokenCount": 6,
+      "exampleVerse": "Josh.19.50",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8577",
+      "tokenCount": 26,
+      "exampleVerse": "Deut.32.33",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8585",
+      "tokenCount": 11,
+      "exampleVerse": "1Kgs.18.32",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8599",
+      "tokenCount": 6,
+      "exampleVerse": "1Chr.2.43",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8602",
+      "tokenCount": 7,
+      "exampleVerse": "Ezek.13.10",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8615",
+      "tokenCount": 34,
+      "exampleVerse": "Ezek.19.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8625",
+      "tokenCount": 3,
+      "exampleVerse": "Dan.5.25",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8632",
+      "tokenCount": 2,
+      "exampleVerse": "Dan.2.37",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "strongNumber": "8649",
+      "tokenCount": 6,
+      "exampleVerse": "Jer.8.5",
+      "reason": "ambiguous-strong"
+    }
+  ]
+}
