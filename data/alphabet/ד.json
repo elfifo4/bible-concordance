@@ -1,6 +1,6 @@
 {
   "letter": "ד",
-  "status": "machine-generated-needs-human-review",
+  "status": "hebrew-glosses-drafted-pending-source-and-editorial-review",
   "scope": "MorphHB-attested-headwords-standard-and-ketiv-only",
   "source": {
     "morphhbRevision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
@@ -108,7 +108,15 @@
             "sourceTokenId": "27anU"
           }
         }
-      ]
+      ],
+      "definitionHe": "זאת; כינוי רמז בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1669",
@@ -160,7 +168,15 @@
             "sourceTokenId": "193Nf"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדאוב; לכאוב או להתאבל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1670",
@@ -184,7 +200,15 @@
             "sourceTokenId": "182Lj"
           }
         }
-      ]
+      ],
+      "definitionHe": "דאבה; כאב או עצב.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1671",
@@ -208,7 +232,15 @@
             "sourceTokenId": "05BUi"
           }
         }
-      ]
+      ],
+      "definitionHe": "דאבון; צער עמוק.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1672",
@@ -316,7 +348,15 @@
             "sourceTokenId": "1993D"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדאוג; לחשוש או להצטער.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1673",
@@ -410,7 +450,15 @@
             "sourceTokenId": "199eX"
           }
         }
-      ]
+      ],
+      "definitionHe": "דואג; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1674",
@@ -504,7 +552,15 @@
             "sourceTokenId": "20QL7"
           }
         }
-      ]
+      ],
+      "definitionHe": "דאגה; חשש או חרדה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1675",
@@ -570,7 +626,15 @@
             "sourceTokenId": "19bwc"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדאות; לעוף או לרחף.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1676",
@@ -594,7 +658,15 @@
             "sourceTokenId": "03q3W"
           }
         }
-      ]
+      ],
+      "definitionHe": "דאה; עוף דורס.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1756",
@@ -702,7 +774,15 @@
             "sourceTokenId": "07D3a"
           }
         }
-      ]
+      ],
+      "definitionHe": "דואר; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1677",
@@ -880,7 +960,15 @@
             "sourceTokenId": "20zPq"
           }
         }
-      ]
+      ],
+      "definitionHe": "דוב; בעל חיים טורף.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1678",
@@ -904,7 +992,15 @@
             "sourceTokenId": "274Jj"
           }
         }
-      ]
+      ],
+      "definitionHe": "דוב; בעל חיים טורף; צורה מילונית נפרדת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1679",
@@ -928,7 +1024,15 @@
             "sourceTokenId": "058K1"
           }
         }
-      ]
+      ],
+      "definitionHe": "דובא; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1680",
@@ -952,7 +1056,15 @@
             "sourceTokenId": "229d7"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדובב; לגרום לדיבור או לזרום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1681",
@@ -1088,7 +1200,15 @@
             "sourceTokenId": "192RT"
           }
         }
-      ]
+      ],
+      "definitionHe": "דיבה; דברי גנאי או ידיעה רעה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1682",
@@ -1154,7 +1274,15 @@
             "sourceTokenId": "19Yzr"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבורה; חרק המייצר דבש.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1683",
@@ -1304,7 +1432,15 @@
             "sourceTokenId": "07v4c"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבורה; שופטת ונביאה בישראל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1684",
@@ -1328,7 +1464,15 @@
             "sourceTokenId": "156E3"
           }
         }
-      ]
+      ],
+      "definitionHe": "לזבוח; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1685",
@@ -1352,7 +1496,15 @@
             "sourceTokenId": "156P5"
           }
         }
-      ]
+      ],
+      "definitionHe": "זבח; קרבן; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1687",
@@ -1586,7 +1738,15 @@
             "sourceTokenId": "19UqP"
           }
         }
-      ]
+      ],
+      "definitionHe": "דביר; החדר הפנימי במקדש או שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1689",
@@ -1610,7 +1770,15 @@
             "sourceTokenId": "26Mos"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבלה; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1690",
@@ -1690,7 +1858,15 @@
             "sourceTokenId": "23R73"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבלה; עוגת תאנים מיובשות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1691",
@@ -1714,7 +1890,15 @@
             "sourceTokenId": "28NQN"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבליים; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1692",
@@ -2480,7 +2664,15 @@
             "sourceTokenId": "08dWm"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדבוק; להיצמד או להיאחז.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1693",
@@ -2504,7 +2696,15 @@
             "sourceTokenId": "27fbk"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדבוק; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1694",
@@ -2556,7 +2756,15 @@
             "sourceTokenId": "23BVz"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבק; חומר מדביק או חיבור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1695",
@@ -2608,7 +2816,15 @@
             "sourceTokenId": "205ax"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבק; צמוד או מחובר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1696",
@@ -18606,7 +18822,15 @@
             "sourceTokenId": "36fv8"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדבר; לומר או להודיע.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1697",
@@ -38804,7 +39028,15 @@
             "sourceTokenId": "36HjU"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבר; אמירה, עניין או מאורע.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1698",
@@ -39500,7 +39732,15 @@
             "sourceTokenId": "19FEc"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבר; מגפה או מחלה קטלנית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1700",
@@ -39580,7 +39820,15 @@
             "sourceTokenId": "19hEj"
           }
         }
-      ]
+      ],
+      "definitionHe": "דברה; סיבה או עניין; משמעות תלויה בהקשר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1701",
@@ -39618,7 +39866,15 @@
             "sourceTokenId": "27CNX"
           }
         }
-      ]
+      ],
+      "definitionHe": "דברה; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1702",
@@ -39642,7 +39898,15 @@
             "sourceTokenId": "115e6"
           }
         }
-      ]
+      ],
+      "definitionHe": "דוברות; דברות או רפסודות; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1704",
@@ -39666,7 +39930,15 @@
             "sourceTokenId": "03eU2"
           }
         }
-      ]
+      ],
+      "definitionHe": "דברי; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1703",
@@ -39690,7 +39962,15 @@
             "sourceTokenId": "05GY8"
           }
         }
-      ]
+      ],
+      "definitionHe": "דברת; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1705",
@@ -39742,7 +40022,15 @@
             "sourceTokenId": "06JaA"
           }
         }
-      ]
+      ],
+      "definitionHe": "דברת; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1706",
@@ -40508,7 +40796,15 @@
             "sourceTokenId": "22vL9"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבש; חומר מתוק מדבורים או מפירות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1707",
@@ -40532,7 +40828,15 @@
             "sourceTokenId": "23qNE"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבשת; גבנון בגב גמל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1708",
@@ -40556,7 +40860,15 @@
             "sourceTokenId": "06AEb"
           }
         }
-      ]
+      ],
+      "definitionHe": "דבשת; בליטה או גבנון.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1709",
@@ -40832,7 +41144,15 @@
             "sourceTokenId": "36YWU"
           }
         }
-      ]
+      ],
+      "definitionHe": "דג; בעל חיים החי במים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1710",
@@ -41052,7 +41372,15 @@
             "sourceTokenId": "19qKB"
           }
         }
-      ]
+      ],
+      "definitionHe": "דגה; דגים כקבוצה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1711",
@@ -41076,7 +41404,15 @@
             "sourceTokenId": "01U8G"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדוג; לתפוס דגים או להרבות; משמעות תלויה בהקשר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1712",
@@ -41268,7 +41604,15 @@
             "sourceTokenId": "076e3"
           }
         }
-      ]
+      ],
+      "definitionHe": "דגון; אלוהות פלשתית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1714",
@@ -41474,7 +41818,15 @@
             "sourceTokenId": "22SaV"
           }
         }
-      ]
+      ],
+      "definitionHe": "דגל; נס או סימן של מחנה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1715",
@@ -42044,7 +42396,15 @@
             "sourceTokenId": "388w5"
           }
         }
-      ]
+      ],
+      "definitionHe": "דגן; תבואה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1716",
@@ -42082,7 +42442,15 @@
             "sourceTokenId": "243VF"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדגור; לשבת על ביצים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1717",
@@ -42148,7 +42516,15 @@
             "sourceTokenId": "20bh3"
           }
         }
-      ]
+      ],
+      "definitionHe": "דד; שד או פטמה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1718",
@@ -42186,7 +42562,15 @@
             "sourceTokenId": "19C22"
           }
         }
-      ]
+      ],
+      "definitionHe": "דדה; להתקדם בצעדים קטנים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1733",
@@ -42238,7 +42622,15 @@
             "sourceTokenId": "03Rdm"
           }
         }
-      ]
+      ],
+      "definitionHe": "דודה; קרובת משפחה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1720",
@@ -42262,7 +42654,15 @@
             "sourceTokenId": "23rbG"
           }
         }
-      ]
+      ],
+      "definitionHe": "דדני; בן דדן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1722",
@@ -42594,7 +42994,15 @@
             "sourceTokenId": "15DJR"
           }
         }
-      ]
+      ],
+      "definitionHe": "זהב; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1724",
@@ -42618,7 +43026,15 @@
             "sourceTokenId": "24F8v"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדהום; להיבהל או להשתומם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1725",
@@ -42642,7 +43058,15 @@
             "sourceTokenId": "34Lsp"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדהור; לרוץ במהירות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1726",
@@ -42680,7 +43104,15 @@
             "sourceTokenId": "07dXz"
           }
         }
-      ]
+      ],
+      "definitionHe": "דהרה; ריצה מהירה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1727",
@@ -42704,7 +43136,15 @@
             "sourceTokenId": "03gUV"
           }
         }
-      ]
+      ],
+      "definitionHe": "דוב; בעל חיים טורף.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1728",
@@ -42742,7 +43182,15 @@
             "sourceTokenId": "24yVJ"
           }
         }
-      ]
+      ],
+      "definitionHe": "דייג; מי שדג דגים; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1729",
@@ -42766,7 +43214,15 @@
             "sourceTokenId": "302SX"
           }
         }
-      ]
+      ],
+      "definitionHe": "דוגה; דיג או דגים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1730",
@@ -43630,7 +44086,15 @@
             "sourceTokenId": "22DLP"
           }
         }
-      ]
+      ],
+      "definitionHe": "דוד; קרוב משפחה או אהוב.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1731",
@@ -43738,7 +44202,15 @@
             "sourceTokenId": "19SyT"
           }
         }
-      ]
+      ],
+      "definitionHe": "דוד; כלי לבישול או סל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1732",
@@ -58798,7 +59270,15 @@
             "sourceTokenId": "38d4u"
           }
         }
-      ]
+      ],
+      "definitionHe": "דוד; מלך ישראל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1734",
@@ -58878,7 +59358,15 @@
             "sourceTokenId": "0726U"
           }
         }
-      ]
+      ],
+      "definitionHe": "דודו; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1735",
@@ -58902,7 +59390,15 @@
             "sourceTokenId": "14F1o"
           }
         }
-      ]
+      ],
+      "definitionHe": "דודוהו; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1736",
@@ -59010,7 +59506,15 @@
             "sourceTokenId": "22sJk"
           }
         }
-      ]
+      ],
+      "definitionHe": "דודאים; צמח בעל פירות ריחניים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1737",
@@ -59034,7 +59538,15 @@
             "sourceTokenId": "13fvv"
           }
         }
-      ]
+      ],
+      "definitionHe": "דודי; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1738",
@@ -59058,7 +59570,15 @@
             "sourceTokenId": "03X5d"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדוות; להיות חולה או כואב.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1739",
@@ -59138,7 +59658,15 @@
             "sourceTokenId": "03ywh"
           }
         }
-      ]
+      ],
+      "definitionHe": "דווה; חולה או כאוב.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1740",
@@ -59204,7 +59732,15 @@
             "sourceTokenId": "24Eok"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדוח; להדיח או לשטוף.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1741",
@@ -59242,7 +59778,15 @@
             "sourceTokenId": "19TCv"
           }
         }
-      ]
+      ],
+      "definitionHe": "דווי; כאב או מחלה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1742",
@@ -59294,7 +59838,15 @@
             "sourceTokenId": "25KPU"
           }
         }
-      ]
+      ],
+      "definitionHe": "דווי; כאב או חולי.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1743",
@@ -59318,7 +59870,15 @@
             "sourceTokenId": "04rR7"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדוך; לכתוש או לרסק.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1744",
@@ -59356,7 +59916,15 @@
             "sourceTokenId": "03HgW"
           }
         }
-      ]
+      ],
+      "definitionHe": "דוכיפת; עוף.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1745",
@@ -59394,7 +59962,15 @@
             "sourceTokenId": "19kNa"
           }
         }
-      ]
+      ],
+      "definitionHe": "דומה; שם מקום או עם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1746",
@@ -59460,7 +60036,15 @@
             "sourceTokenId": "06YUp"
           }
         }
-      ]
+      ],
+      "definitionHe": "דומה; דממה או שקט.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1747",
@@ -59526,7 +60110,15 @@
             "sourceTokenId": "19iFH"
           }
         }
-      ]
+      ],
+      "definitionHe": "דומייה; שתיקה או שקט.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1748",
@@ -59578,7 +60170,15 @@
             "sourceTokenId": "251GH"
           }
         }
-      ]
+      ],
+      "definitionHe": "דומם; בשקט או בדממה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1749",
@@ -59644,7 +60244,15 @@
             "sourceTokenId": "19c6c"
           }
         }
-      ]
+      ],
+      "definitionHe": "דונג; שעווה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1750",
@@ -59668,7 +60276,15 @@
             "sourceTokenId": "18goP"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדוץ; לשמוח או לעלוץ.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1752",
@@ -59692,7 +60308,15 @@
             "sourceTokenId": "19BUr"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדור; לגור או לשכון.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1753",
@@ -59800,7 +60424,15 @@
             "sourceTokenId": "27v1o"
           }
         }
-      ]
+      ],
+      "definitionHe": "דור; תקופת חיים או קבוצת בני דור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1755",
@@ -62148,7 +62780,15 @@
             "sourceTokenId": "19HHv"
           }
         }
-      ]
+      ],
+      "definitionHe": "דור; שם עיר כנענית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1757",
@@ -62172,7 +62812,15 @@
             "sourceTokenId": "27eAA"
           }
         }
-      ]
+      ],
+      "definitionHe": "דורא; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1758",
@@ -62378,7 +63026,15 @@
             "sourceTokenId": "33E2x"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדוש; לרמוס תבואה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1759",
@@ -62402,7 +63058,15 @@
             "sourceTokenId": "27uDX"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדוש; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1761",
@@ -62426,7 +63090,15 @@
             "sourceTokenId": "27Cn7"
           }
         }
-      ]
+      ],
+      "definitionHe": "דחווה; הודעה או הצהרה; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1762",
@@ -62464,7 +63136,15 @@
             "sourceTokenId": "19cVC"
           }
         }
-      ]
+      ],
+      "definitionHe": "דחי; דחייה או מעידה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1763",
@@ -62558,7 +63238,15 @@
             "sourceTokenId": "273ye"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדחול; לפחד; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1764",
@@ -62582,7 +63270,15 @@
             "sourceTokenId": "26rnW"
           }
         }
-      ]
+      ],
+      "definitionHe": "דוחן; מין דגן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1765",
@@ -62648,7 +63344,15 @@
             "sourceTokenId": "17bJx"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדחוף; להדוף או לדחוק.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1766",
@@ -62686,7 +63390,15 @@
             "sourceTokenId": "07iPC"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדחוק; ללחוץ או להצר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1767",
@@ -63242,7 +63954,15 @@
             "sourceTokenId": "38qeW"
           }
         }
-      ]
+      ],
+      "definitionHe": "די; מספיק או כמות מספקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1768",
@@ -68096,7 +68816,15 @@
             "sourceTokenId": "24ns5"
           }
         }
-      ]
+      ],
+      "definitionHe": "די; אשר או ש־; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1769",
@@ -68260,7 +68988,15 @@
             "sourceTokenId": "04cGB"
           }
         }
-      ]
+      ],
+      "definitionHe": "דיבון; שם עיר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1770",
@@ -68284,7 +69020,15 @@
             "sourceTokenId": "24cbJ"
           }
         }
-      ]
+      ],
+      "definitionHe": "דיג; מלאכת תפיסת דגים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1771",
@@ -68308,7 +69052,15 @@
             "sourceTokenId": "23GqS"
           }
         }
-      ]
+      ],
+      "definitionHe": "דייג; תופס דגים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1772",
@@ -68346,7 +69098,15 @@
             "sourceTokenId": "23V6f"
           }
         }
-      ]
+      ],
+      "definitionHe": "דיה; עוף דורס.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1773",
@@ -68370,7 +69130,15 @@
             "sourceTokenId": "24jrm"
           }
         }
-      ]
+      ],
+      "definitionHe": "דיו; נוזל לכתיבה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1774",
@@ -68394,7 +69162,15 @@
             "sourceTokenId": "05thY"
           }
         }
-      ]
+      ],
+      "definitionHe": "די זהב; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1775",
@@ -68432,7 +69208,15 @@
             "sourceTokenId": "23iXd"
           }
         }
-      ]
+      ],
+      "definitionHe": "דימון; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1776",
@@ -68456,7 +69240,15 @@
             "sourceTokenId": "061wE"
           }
         }
-      ]
+      ],
+      "definitionHe": "דימונה; שם עיר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1777",
@@ -68802,7 +69594,15 @@
             "sourceTokenId": "38w7p"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדון; לשפוט או לריב.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1778",
@@ -68826,7 +69626,15 @@
             "sourceTokenId": "15pMT"
           }
         }
-      ]
+      ],
+      "definitionHe": "דין; משפט או פסק דין.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1779",
@@ -69116,7 +69924,15 @@
             "sourceTokenId": "19GNf"
           }
         }
-      ]
+      ],
+      "definitionHe": "דין; משפט; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1780",
@@ -69196,7 +70012,15 @@
             "sourceTokenId": "15nKy"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדון; לשפוט; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1781",
@@ -69234,7 +70058,15 @@
             "sourceTokenId": "19iH4"
           }
         }
-      ]
+      ],
+      "definitionHe": "דיין; שופט.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1782",
@@ -69258,7 +70090,15 @@
             "sourceTokenId": "159ci"
           }
         }
-      ]
+      ],
+      "definitionHe": "דיין; שופט; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1783",
@@ -69380,7 +70220,15 @@
             "sourceTokenId": "01dxH"
           }
         }
-      ]
+      ],
+      "definitionHe": "דינה; בת יעקב.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1784",
@@ -69404,7 +70252,15 @@
             "sourceTokenId": "15jJf"
           }
         }
-      ]
+      ],
+      "definitionHe": "דינאים; שם קבוצת אנשים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1785",
@@ -69498,7 +70354,15 @@
             "sourceTokenId": "24WGs"
           }
         }
-      ]
+      ],
+      "definitionHe": "דייק; סוללת מצור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1786",
@@ -69522,7 +70386,15 @@
             "sourceTokenId": "03jFs"
           }
         }
-      ]
+      ],
+      "definitionHe": "דיש; פעולת הפרדת גרעיני תבואה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1787",
@@ -69630,7 +70502,15 @@
             "sourceTokenId": "01KYu"
           }
         }
-      ]
+      ],
+      "definitionHe": "דישון; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1788",
@@ -69654,7 +70534,15 @@
             "sourceTokenId": "05nhG"
           }
         }
-      ]
+      ],
+      "definitionHe": "דישון; בעל חיים או שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1789",
@@ -69734,7 +70622,15 @@
             "sourceTokenId": "01tZn"
           }
         }
-      ]
+      ],
+      "definitionHe": "דישן; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1790",
@@ -69800,7 +70696,15 @@
             "sourceTokenId": "191Xd"
           }
         }
-      ]
+      ],
+      "definitionHe": "דך; מדוכא או עני.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1791",
@@ -69992,7 +70896,15 @@
             "sourceTokenId": "15iuc"
           }
         }
-      ]
+      ],
+      "definitionHe": "דך; זה; בארמית, משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1792",
@@ -70254,7 +71166,15 @@
             "sourceTokenId": "19g8e"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדכא; לשבור או להשפיל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1794",
@@ -70334,7 +71254,15 @@
             "sourceTokenId": "19A7A"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדכות; לדכא או לשבור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1795",
@@ -70358,7 +71286,15 @@
             "sourceTokenId": "05rWo"
           }
         }
-      ]
+      ],
+      "definitionHe": "דכה; שבור או מדוכא.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1796",
@@ -70382,7 +71318,15 @@
             "sourceTokenId": "19Uik"
           }
         }
-      ]
+      ],
+      "definitionHe": "דכי; דיכוי או שפלות; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1797",
@@ -70434,7 +71378,15 @@
             "sourceTokenId": "27faU"
           }
         }
-      ]
+      ],
+      "definitionHe": "דכן; כך או בזה האופן; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1798",
@@ -70486,7 +71438,15 @@
             "sourceTokenId": "15Vib"
           }
         }
-      ]
+      ],
+      "definitionHe": "דכר; זכר; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1800",
@@ -71154,7 +72114,15 @@
             "sourceTokenId": "36Yu7"
           }
         }
-      ]
+      ],
+      "definitionHe": "דל; עני, חלש או דק.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1801",
@@ -71234,7 +72202,15 @@
             "sourceTokenId": "36VA9"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדלג; לקפוץ או לפסוח.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1802",
@@ -71314,7 +72290,15 @@
             "sourceTokenId": "19Y2o"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדלות; לשאוב מים או להעלות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1804",
@@ -71366,7 +72350,15 @@
             "sourceTokenId": "26bMN"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדלוח; להיות עכור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1805",
@@ -71404,7 +72396,15 @@
             "sourceTokenId": "04aFe"
           }
         }
-      ]
+      ],
+      "definitionHe": "דלי; כלי לשאיבת מים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1806",
@@ -71512,7 +72512,15 @@
             "sourceTokenId": "16Moi"
           }
         }
-      ]
+      ],
+      "definitionHe": "דליהו; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1808",
@@ -71634,7 +72642,15 @@
             "sourceTokenId": "24ZqP"
           }
         }
-      ]
+      ],
+      "definitionHe": "דליות; ענפי גפן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1807",
@@ -71728,7 +72744,15 @@
             "sourceTokenId": "07oeK"
           }
         }
-      ]
+      ],
+      "definitionHe": "דלילה; אישה מסיפור שמשון.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1809",
@@ -71864,7 +72888,15 @@
             "sourceTokenId": "19oAH"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדלול; להיות דל או להידלדל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1810",
@@ -71888,7 +72920,15 @@
             "sourceTokenId": "06aw2"
           }
         }
-      ]
+      ],
+      "definitionHe": "דלען; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1811",
@@ -71940,7 +72980,15 @@
             "sourceTokenId": "19wvB"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדלוף; לנזול טיפות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1812",
@@ -71978,7 +73026,15 @@
             "sourceTokenId": "20SDq"
           }
         }
-      ]
+      ],
+      "definitionHe": "דלף; טפטוף מים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1813",
@@ -72002,7 +73058,15 @@
             "sourceTokenId": "17BTS"
           }
         }
-      ]
+      ],
+      "definitionHe": "דלפון; בן המן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1814",
@@ -72138,7 +73202,15 @@
             "sourceTokenId": "19QZx"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדלוק; לבעור או לרדוף.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1815",
@@ -72162,7 +73234,15 @@
             "sourceTokenId": "27r5Y"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדלק; לרדוף; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1816",
@@ -72186,7 +73266,15 @@
             "sourceTokenId": "05U2V"
           }
         }
-      ]
+      ],
+      "definitionHe": "דלקת; בערה או חום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1818",
@@ -77236,7 +78324,15 @@
             "sourceTokenId": "36xCL"
           }
         }
-      ]
+      ],
+      "definitionHe": "דם; נוזל החיים בגוף.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1819",
@@ -77652,7 +78748,15 @@
             "sourceTokenId": "22Wgd"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדמות; להיות דומה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1820",
@@ -77886,7 +78990,15 @@
             "sourceTokenId": "36SWL"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדמות; לחשוב או לדמיין.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1821",
@@ -77924,7 +79036,15 @@
             "sourceTokenId": "27JsT"
           }
         }
-      ]
+      ],
+      "definitionHe": "דמה; דמיון או שקט; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1822",
@@ -77948,7 +79068,15 @@
             "sourceTokenId": "26ezp"
           }
         }
-      ]
+      ],
+      "definitionHe": "דומה; דממה או השתקה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1823",
@@ -78308,7 +79436,15 @@
             "sourceTokenId": "194LX"
           }
         }
-      ]
+      ],
+      "definitionHe": "דמות; צורה או מראה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1824",
@@ -78374,7 +79510,15 @@
             "sourceTokenId": "19b77"
           }
         }
-      ]
+      ],
+      "definitionHe": "דומי; שתיקה או שקט.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1825",
@@ -78398,7 +79542,15 @@
             "sourceTokenId": "19eKy"
           }
         }
-      ]
+      ],
+      "definitionHe": "דמיון; דמות או דמיון.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1827",
@@ -78450,7 +79602,15 @@
             "sourceTokenId": "19YFZ"
           }
         }
-      ]
+      ],
+      "definitionHe": "דממה; שקט מוחלט.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1828",
@@ -78544,7 +79704,15 @@
             "sourceTokenId": "19bbv"
           }
         }
-      ]
+      ],
+      "definitionHe": "דומן; אשפה או זבל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1829",
@@ -78568,7 +79736,15 @@
             "sourceTokenId": "0624M"
           }
         }
-      ]
+      ],
+      "definitionHe": "דמנה; שם עיר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1830",
@@ -78606,7 +79782,15 @@
             "sourceTokenId": "24D4D"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדמוע; להזיל דמעות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1831",
@@ -78630,7 +79814,15 @@
             "sourceTokenId": "02BLU"
           }
         }
-      ]
+      ],
+      "definitionHe": "דמע; דמעות או נוזל מטפטף.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1832",
@@ -78962,7 +80154,15 @@
             "sourceTokenId": "19nCf"
           }
         }
-      ]
+      ],
+      "definitionHe": "דמעה; טיפת בכי.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1833",
@@ -78986,7 +80186,15 @@
             "sourceTokenId": "30Mjg"
           }
         }
-      ]
+      ],
+      "definitionHe": "דמשק; עיר בסוריה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1834",
@@ -79626,7 +80834,15 @@
             "sourceTokenId": "38Fr5"
           }
         }
-      ]
+      ],
+      "definitionHe": "דמשק; שם העיר דמשק.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1835",
@@ -80616,7 +81832,15 @@
             "sourceTokenId": "045qs"
           }
         }
-      ]
+      ],
+      "definitionHe": "דן; בן יעקב ושבט בישראל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1842",
@@ -80640,7 +81864,15 @@
             "sourceTokenId": "10KHG"
           }
         }
-      ]
+      ],
+      "definitionHe": "דן יען; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1840",
@@ -81056,7 +82288,15 @@
             "sourceTokenId": "16Ky8"
           }
         }
-      ]
+      ],
+      "definitionHe": "דנאל; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1836",
@@ -81878,7 +83118,15 @@
             "sourceTokenId": "24gaD"
           }
         }
-      ]
+      ],
+      "definitionHe": "דנה; זה; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1837",
@@ -81902,7 +83150,15 @@
             "sourceTokenId": "06Qsp"
           }
         }
-      ]
+      ],
+      "definitionHe": "דנה; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1838",
@@ -81940,7 +83196,15 @@
             "sourceTokenId": "01wmE"
           }
         }
-      ]
+      ],
+      "definitionHe": "דנהבה; שם עיר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1839",
@@ -82020,7 +83284,15 @@
             "sourceTokenId": "07yj6"
           }
         }
-      ]
+      ],
+      "definitionHe": "דני; בן שבט דן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1841",
@@ -82758,7 +84030,15 @@
             "sourceTokenId": "27BdE"
           }
         }
-      ]
+      ],
+      "definitionHe": "דניאל; שם נביא או חכם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1843",
@@ -82838,7 +84118,15 @@
             "sourceTokenId": "18zu5"
           }
         }
-      ]
+      ],
+      "definitionHe": "דעה; ידע או הבנה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1844",
@@ -82932,7 +84220,15 @@
             "sourceTokenId": "19Ju6"
           }
         }
-      ]
+      ],
+      "definitionHe": "דעה; ידיעה או מחשבה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1845",
@@ -82998,7 +84294,15 @@
             "sourceTokenId": "04dmq"
           }
         }
-      ]
+      ],
+      "definitionHe": "דעואל; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1846",
@@ -83134,7 +84438,15 @@
             "sourceTokenId": "19pPA"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדעוך; לכבות או להיחלש.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1847",
@@ -84446,7 +85758,15 @@
             "sourceTokenId": "19KcL"
           }
         }
-      ]
+      ],
+      "definitionHe": "דעת; ידע או תבונה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1848",
@@ -84470,7 +85790,15 @@
             "sourceTokenId": "19Kkd"
           }
         }
-      ]
+      ],
+      "definitionHe": "דופי; פגם או גנאי.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1849",
@@ -84522,7 +85850,15 @@
             "sourceTokenId": "22rWk"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדפוק; להכות או להקיש.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1850",
@@ -84560,7 +85896,15 @@
             "sourceTokenId": "04L4P"
           }
         }
-      ]
+      ],
+      "definitionHe": "דופקה; שם תחנה במדבר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1851",
@@ -84766,7 +86110,15 @@
             "sourceTokenId": "035AM"
           }
         }
-      ]
+      ],
+      "definitionHe": "דק; דקיק או קטן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1852",
@@ -84790,7 +86142,15 @@
             "sourceTokenId": "23mHA"
           }
         }
-      ]
+      ],
+      "definitionHe": "דוק; שכבה דקה או מעטה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1853",
@@ -84828,7 +86188,15 @@
             "sourceTokenId": "01cXS"
           }
         }
-      ]
+      ],
+      "definitionHe": "דקלה; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1854",
@@ -85020,7 +86388,15 @@
             "sourceTokenId": "33oSR"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדקק; לכתוש או לעשות דק.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1855",
@@ -85170,7 +86546,15 @@
             "sourceTokenId": "27xoq"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדקק; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1856",
@@ -85334,7 +86718,15 @@
             "sourceTokenId": "38Eoc"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדקור; לנעוץ חפץ חד.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1858",
@@ -85358,7 +86750,15 @@
             "sourceTokenId": "17NPq"
           }
         }
-      ]
+      ],
+      "definitionHe": "דר; פנינה או אבן יקרה; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1859",
@@ -85424,7 +86824,15 @@
             "sourceTokenId": "27eJu"
           }
         }
-      ]
+      ],
+      "definitionHe": "דר; דור או מגורים; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1860",
@@ -85462,7 +86870,15 @@
             "sourceTokenId": "23ttH"
           }
         }
-      ]
+      ],
+      "definitionHe": "דראון; חרפה או תיעוב.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1862",
@@ -85486,7 +86902,15 @@
             "sourceTokenId": "11wvJ"
           }
         }
-      ]
+      ],
+      "definitionHe": "דרדע; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1863",
@@ -85524,7 +86948,15 @@
             "sourceTokenId": "28u5M"
           }
         }
-      ]
+      ],
+      "definitionHe": "דרדר; צמח קוצני.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1864",
@@ -85772,7 +87204,15 @@
             "sourceTokenId": "18p7f"
           }
         }
-      ]
+      ],
+      "definitionHe": "דרום; כיוון דרום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1865",
@@ -85894,7 +87334,15 @@
             "sourceTokenId": "03FRD"
           }
         }
-      ]
+      ],
+      "definitionHe": "דרור; חופש או שחרור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1866",
@@ -85932,7 +87380,15 @@
             "sourceTokenId": "19i8v"
           }
         }
-      ]
+      ],
+      "definitionHe": "דרור; ציפור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1867",
@@ -86082,7 +87538,15 @@
             "sourceTokenId": "38c5a"
           }
         }
-      ]
+      ],
+      "definitionHe": "דריוש; מלך פרס.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1868",
@@ -86302,7 +87766,15 @@
             "sourceTokenId": "15K8B"
           }
         }
-      ]
+      ],
+      "definitionHe": "דריוש; מלך פרס; ערך נפרד.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1869",
@@ -87194,7 +88666,15 @@
             "sourceTokenId": "38Eya"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדרוך; לדרוך ברגל או למתוח קשת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1870",
@@ -97088,7 +98568,15 @@
             "sourceTokenId": "38iCi"
           }
         }
-      ]
+      ],
+      "definitionHe": "דרך; נתיב או אורח חיים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1871",
@@ -97154,7 +98642,15 @@
             "sourceTokenId": "16YWx"
           }
         }
-      ]
+      ],
+      "definitionHe": "דרכמון; מטבע זהב.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1872",
@@ -97178,7 +98674,15 @@
             "sourceTokenId": "27yMS"
           }
         }
-      ]
+      ],
+      "definitionHe": "זרוע; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1873",
@@ -97202,7 +98706,15 @@
             "sourceTokenId": "1389r"
           }
         }
-      ]
+      ],
+      "definitionHe": "זרוע; כוח או איבר גוף; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1874",
@@ -97240,7 +98752,15 @@
             "sourceTokenId": "16HP6"
           }
         }
-      ]
+      ],
+      "definitionHe": "דרקון; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1875",
@@ -99546,7 +101066,15 @@
             "sourceTokenId": "3687B"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדרוש; לחפש, לשאול או לבקש.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1876",
@@ -99584,7 +101112,15 @@
             "sourceTokenId": "294CS"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדשא; להצמיח עשב.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1877",
@@ -99804,7 +101340,15 @@
             "sourceTokenId": "19Kk2"
           }
         }
-      ]
+      ],
+      "definitionHe": "דשא; צמחייה ירוקה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1878",
@@ -99968,7 +101512,15 @@
             "sourceTokenId": "19sAH"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדשן; להיות שמן או להעשיר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1879",
@@ -100020,7 +101572,15 @@
             "sourceTokenId": "198cp"
           }
         }
-      ]
+      ],
+      "definitionHe": "דשן; שמן או עשיר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1880",
@@ -100240,7 +101800,15 @@
             "sourceTokenId": "19HHu"
           }
         }
-      ]
+      ],
+      "definitionHe": "דשן; אפר הקרבנות או שומן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1881",
@@ -100544,7 +102112,15 @@
             "sourceTokenId": "15MnE"
           }
         }
-      ]
+      ],
+      "definitionHe": "דת; חוק או גזירה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1882",
@@ -100750,7 +102326,15 @@
             "sourceTokenId": "15S1Z"
           }
         }
-      ]
+      ],
+      "definitionHe": "דת; חוק; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1883",
@@ -100788,7 +102372,15 @@
             "sourceTokenId": "27vNa"
           }
         }
-      ]
+      ],
+      "definitionHe": "דתא; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1884",
@@ -100826,7 +102418,15 @@
             "sourceTokenId": "27MZK"
           }
         }
-      ]
+      ],
+      "definitionHe": "דתבר; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1885",
@@ -100976,7 +102576,15 @@
             "sourceTokenId": "19SpP"
           }
         }
-      ]
+      ],
+      "definitionHe": "דתן; בן אליאב.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "1886",
@@ -101028,7 +102636,15 @@
             "sourceTokenId": "01zSU"
           }
         }
-      ]
+      ],
+      "definitionHe": "דותן; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     }
   ]
 }
