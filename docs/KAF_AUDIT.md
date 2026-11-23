@@ -1,3 +1,8 @@
-# Kaf audit
+# אות כ׳ — בקרת מילון ומקורות
 
-273 preliminary Hebrew glosses saved in data/kaf-hebrew-drafts.txt; all Strong keys matched the existing 273 entries. The 11,708 occurrences remain unaudited. Two attempts to update the large alphabet JSON failed with HTTP/2 transport errors; integration is not confirmed. The local builder is prepared but unrun; review its mappings and run locally. No source or editorial verification is claimed. Do not enable automatic CI.
+- 273 פירושים עבריים ראשוניים; 273 התאמות Strong ו־273 התאמות BDB דרך LexicalIndex, ללא חוסרים.
+- 11,708 היקרויות ב־39 ספרים הושוו למקור MorphHB לפי מזהה, פסוק, צורת מילה, למה ומורפולוגיה; ללא אי־התאמות בשדות אלו. 363 מיקומי טוקנים תוקנו ונבדקו מחדש מול דוחות הבקרה.
+- HebrewLexicon: `21c9add13bc727d3a951361778e97e3ff7afd1ce`; MorphHB: `db6c5c9b46b8f39346f10915ddb1a70dcd429901`.
+- נתוני היקרויות ופירושים: `data/alphabet/כ.json`; מקור מילוני מלא לפי מזהה Strong: `data/alphabet/כ.sources.json`. האתר משלב את הקבצים בעת הטעינה. הפיצול נדרש עקב מגבלת העלאת קובץ גדול.
+- דוחות אימות לפי קבוצות ספרים: `data/kaf-audit/morphhb-01.json` עד `morphhb-05.json`.
+- להרצה חוזרת מקומית: `node scripts/build-kaf-dictionary.cjs`; אפשר להוסיף `--check-only`. CI מקומי ובדיקת דפדפן עדיין לא הורצו. אין אישור עריכתי אנושי לפירושים בעברית או לשיוך משמעויות לכל היקרות.

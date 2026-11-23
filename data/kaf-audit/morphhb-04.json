@@ -1,0 +1,179 @@
+{
+  "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+  "results": [
+    {
+      "book": "Num",
+      "checked": 679,
+      "corrections": [
+        [
+          "04nDg",
+          6
+        ],
+        [
+          "04L1P",
+          13
+        ],
+        [
+          "04pPf",
+          17
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "book": "Zech",
+      "checked": 111,
+      "corrections": [
+        [
+          "38m3h",
+          12
+        ],
+        [
+          "38y7b",
+          22
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "book": "Amos",
+      "checked": 73,
+      "corrections": [],
+      "errors": []
+    },
+    {
+      "book": "Song",
+      "checked": 42,
+      "corrections": [],
+      "errors": []
+    },
+    {
+      "book": "Eccl",
+      "checked": 148,
+      "corrections": [
+        [
+          "21oeq",
+          12
+        ],
+        [
+          "21yBx",
+          7
+        ],
+        [
+          "21iWB",
+          9
+        ],
+        [
+          "215Ve",
+          12
+        ],
+        [
+          "21FUa",
+          12
+        ],
+        [
+          "21LeR",
+          7
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "book": "Esth",
+      "checked": 129,
+      "corrections": [
+        [
+          "17hEs",
+          16
+        ],
+        [
+          "176w9",
+          19
+        ],
+        [
+          "17v8V",
+          22
+        ],
+        [
+          "17JSM",
+          9
+        ],
+        [
+          "17sKp",
+          22
+        ],
+        [
+          "173Wn",
+          20
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "book": "Hos",
+      "checked": 72,
+      "corrections": [
+        [
+          "28evD",
+          7
+        ],
+        [
+          "28iTM",
+          3
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "book": "Josh",
+      "checked": 373,
+      "corrections": [
+        [
+          "06azc",
+          4
+        ],
+        [
+          "06qpX",
+          14
+        ],
+        [
+          "06sC3",
+          12
+        ],
+        [
+          "06D9B",
+          25
+        ],
+        [
+          "06wpp",
+          11
+        ],
+        [
+          "06mAC",
+          10
+        ],
+        [
+          "068hT",
+          24
+        ],
+        [
+          "061Q7",
+          12
+        ],
+        [
+          "06ZvX",
+          23
+        ],
+        [
+          "06VkB",
+          12
+        ],
+        [
+          "06u2w",
+          14
+        ]
+      ],
+      "errors": []
+    }
+  ]
+}
