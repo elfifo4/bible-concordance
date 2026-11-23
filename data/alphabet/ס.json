@@ -1,6 +1,6 @@
 {
   "letter": "ס",
-  "status": "machine-generated-needs-human-review",
+  "status": "hebrew-glosses-drafted-pending-source-and-editorial-review",
   "scope": "MorphHB-attested-headwords-standard-and-ketiv-only",
   "source": {
     "morphhbRevision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
@@ -150,7 +150,15 @@
             "sourceTokenId": "01gmz"
           }
         }
-      ]
+      ],
+      "definitionHe": "סאה; מידת נפח לתבואה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5430",
@@ -174,7 +182,15 @@
             "sourceTokenId": "23enN"
           }
         }
-      ]
+      ],
+      "definitionHe": "שאון; רעש מלחמה או המולה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5431",
@@ -198,7 +214,15 @@
             "sourceTokenId": "23vBq"
           }
         }
-      ]
+      ],
+      "definitionHe": "לרעוש או להרעיש.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5432",
@@ -222,7 +246,15 @@
             "sourceTokenId": "23Rz1"
           }
         }
-      ]
+      ],
+      "definitionHe": "במידה מדודה; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5434",
@@ -288,7 +320,15 @@
             "sourceTokenId": "19G3J"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבא; שם עם או ארץ.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5435",
@@ -354,7 +394,15 @@
             "sourceTokenId": "34zQ2"
           }
         }
-      ]
+      ],
+      "definitionHe": "סובא; שכרות או שתייה מרובה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5436",
@@ -378,7 +426,15 @@
             "sourceTokenId": "23Yik"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבאים; בני עם סבא.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5437",
@@ -2586,7 +2642,15 @@
             "sourceTokenId": "38ydy"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסובב, להקיף או לפנות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5438",
@@ -2610,7 +2674,15 @@
             "sourceTokenId": "11BAD"
           }
         }
-      ]
+      ],
+      "definitionHe": "סיבה; גורם או נסיבה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5439",
@@ -7310,7 +7382,15 @@
             "sourceTokenId": "38MDm"
           }
         }
-      ]
+      ],
+      "definitionHe": "סביב; מכל הצדדים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5440",
@@ -7348,7 +7428,15 @@
             "sourceTokenId": "34iy2"
           }
         }
-      ]
+      ],
+      "definitionHe": "להסתבך או להיאחז.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5441",
@@ -7372,7 +7460,15 @@
             "sourceTokenId": "244wi"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבך; ענפים סבוכים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5442",
@@ -7438,7 +7534,15 @@
             "sourceTokenId": "19syj"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבך; מקום שיחים צפוף.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5444",
@@ -7504,7 +7608,15 @@
             "sourceTokenId": "10Dxs"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבכי; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5445",
@@ -7640,7 +7752,15 @@
             "sourceTokenId": "19baX"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסבול; לשאת משא.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5446",
@@ -7664,7 +7784,15 @@
             "sourceTokenId": "15BqY"
           }
         }
-      ]
+      ],
+      "definitionHe": "לשאת משא; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5447",
@@ -7716,7 +7844,15 @@
             "sourceTokenId": "19S4t"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבל; משא או עבודה קשה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5448",
@@ -7768,7 +7904,15 @@
             "sourceTokenId": "23FES"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבל; משא כבד.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5449",
@@ -7848,7 +7992,15 @@
             "sourceTokenId": "162B3"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבל; נושא משאות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5450",
@@ -7942,7 +8094,15 @@
             "sourceTokenId": "02c5N"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבלה; משא או עבודת כפייה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5451",
@@ -7966,7 +8126,15 @@
             "sourceTokenId": "07zYd"
           }
         }
-      ]
+      ],
+      "definitionHe": "סיבולת; שיבולת תבואה או זרם מים, לפי ההקשר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5452",
@@ -7990,7 +8158,15 @@
             "sourceTokenId": "27ubY"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסבור או לחשוב; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5453",
@@ -8014,7 +8190,15 @@
             "sourceTokenId": "26XJW"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבריים; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5454",
@@ -8052,7 +8236,15 @@
             "sourceTokenId": "01iMR"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבתה; שם אדם או עם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5455",
@@ -8090,7 +8282,15 @@
             "sourceTokenId": "01YEU"
           }
         }
-      ]
+      ],
+      "definitionHe": "סבתכא; שם אדם או עם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5456",
@@ -8170,7 +8370,15 @@
             "sourceTokenId": "23iQ1"
           }
         }
-      ]
+      ],
+      "definitionHe": "להשתחוות או לסגוד.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5457",
@@ -8348,7 +8556,15 @@
             "sourceTokenId": "27rPn"
           }
         }
-      ]
+      ],
+      "definitionHe": "להשתחוות; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5458",
@@ -8386,7 +8602,15 @@
             "sourceTokenId": "18Sin"
           }
         }
-      ]
+      ],
+      "definitionHe": "סגור; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5459",
@@ -8508,7 +8732,15 @@
             "sourceTokenId": "19W12"
           }
         }
-      ]
+      ],
+      "definitionHe": "סגולה; רכוש יקר או אוצר מיוחד.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5460",
@@ -8588,7 +8820,15 @@
             "sourceTokenId": "271WV"
           }
         }
-      ]
+      ],
+      "definitionHe": "סגן; פקיד או שליט משנה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5461",
@@ -8836,7 +9076,15 @@
             "sourceTokenId": "16WW5"
           }
         }
-      ]
+      ],
+      "definitionHe": "סגן; בעל תפקיד שלטוני.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5462",
@@ -10120,7 +10368,15 @@
             "sourceTokenId": "19KfS"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסגור, לנעול או להסגיר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5463",
@@ -10144,7 +10400,15 @@
             "sourceTokenId": "27dve"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסגור; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5464",
@@ -10168,7 +10432,15 @@
             "sourceTokenId": "20gMf"
           }
         }
-      ]
+      ],
+      "definitionHe": "סגריר; גשם ממושך או מזג אוויר קודר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5465",
@@ -10206,7 +10478,15 @@
             "sourceTokenId": "182TP"
           }
         }
-      ]
+      ],
+      "definitionHe": "סד; מתקן כבילה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5466",
@@ -10272,7 +10552,15 @@
             "sourceTokenId": "20rdY"
           }
         }
-      ]
+      ],
+      "definitionHe": "סדין; בגד או יריעת בד.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5467",
@@ -10828,7 +11116,15 @@
             "sourceTokenId": "36awE"
           }
         }
-      ]
+      ],
+      "definitionHe": "סדום; עיר בכיכר הירדן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5468",
@@ -10852,7 +11148,15 @@
             "sourceTokenId": "18pX4"
           }
         }
-      ]
+      ],
+      "definitionHe": "סדר; ארגון או מערך.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5469",
@@ -10876,7 +11180,15 @@
             "sourceTokenId": "22KTp"
           }
         }
-      ]
+      ],
+      "definitionHe": "סהר; צורה עגולה או קישוט עגול.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5470",
@@ -10998,7 +11310,15 @@
             "sourceTokenId": "018w2"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוהר; בית כלא.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5471",
@@ -11022,7 +11342,15 @@
             "sourceTokenId": "12FZr"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוא; שם מלך מצרים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5253",
@@ -11158,7 +11486,15 @@
             "sourceTokenId": "20eEz"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסוג; לסגת או להתרחק.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5472",
@@ -11364,7 +11700,15 @@
             "sourceTokenId": "36YUq"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסוג; לסגת או לסור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5473",
@@ -11388,7 +11732,15 @@
             "sourceTokenId": "22eHZ"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסוג; לסגת או לסור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5474",
@@ -11412,7 +11764,15 @@
             "sourceTokenId": "265Q5"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוגר; כלוב או מכלאה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5475",
@@ -11716,7 +12076,15 @@
             "sourceTokenId": "19YFM"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוד; עצה חשאית או חוג קרוב.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5476",
@@ -11740,7 +12108,15 @@
             "sourceTokenId": "043VC"
           }
         }
-      ]
+      ],
+      "definitionHe": "סודי; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5477",
@@ -11764,7 +12140,15 @@
             "sourceTokenId": "13C5C"
           }
         }
-      ]
+      ],
+      "definitionHe": "לשוח; להתכופף או לשוחח; משמעות תלויה בהקשר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5478",
@@ -11788,7 +12172,15 @@
             "sourceTokenId": "23jWU"
           }
         }
-      ]
+      ],
+      "definitionHe": "שוחה; בור או שקע.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5479",
@@ -11826,7 +12218,15 @@
             "sourceTokenId": "16jVW"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוטי; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5480",
@@ -11962,7 +12362,15 @@
             "sourceTokenId": "08k7w"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסוך; למרוח בשמן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5481",
@@ -12014,7 +12422,15 @@
             "sourceTokenId": "27cMr"
           }
         }
-      ]
+      ],
+      "definitionHe": "סומפוניה; כלי נגינה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5482",
@@ -12052,7 +12468,15 @@
             "sourceTokenId": "26Esn"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוונה; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5484",
@@ -12076,7 +12500,15 @@
             "sourceTokenId": "22d5m"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוסה; נקבת הסוס.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5485",
@@ -12100,7 +12532,15 @@
             "sourceTokenId": "04Yeh"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוסי; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5486",
@@ -12194,7 +12634,15 @@
             "sourceTokenId": "36thY"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוף; צמח מים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5487",
@@ -12232,7 +12680,15 @@
             "sourceTokenId": "27q8B"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוף; קצה או תום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5488",
@@ -12634,7 +13090,15 @@
             "sourceTokenId": "19kWX"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוף; קצה או תום; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5489",
@@ -12658,7 +13122,15 @@
             "sourceTokenId": "05EVS"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוף; קנה או צמח מים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5490",
@@ -12738,7 +13210,15 @@
             "sourceTokenId": "29ieN"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוף; קץ או אחרית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5491",
@@ -12818,7 +13298,15 @@
             "sourceTokenId": "27Pwx"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוף; קצה או תום; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5493",
@@ -17028,7 +17516,15 @@
             "sourceTokenId": "36nps"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסור; לסטות, להתרחק או לפנות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5494",
@@ -17052,7 +17548,15 @@
             "sourceTokenId": "24AF1"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסור; לסור או להתרחק.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5495",
@@ -17076,7 +17580,15 @@
             "sourceTokenId": "12hdS"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסור; לסור או להתרחק; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5496",
@@ -17338,7 +17850,15 @@
             "sourceTokenId": "07CQo"
           }
         }
-      ]
+      ],
+      "definitionHe": "כיסוי או בגד; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5497",
@@ -17362,7 +17882,15 @@
             "sourceTokenId": "0186h"
           }
         }
-      ]
+      ],
+      "definitionHe": "לכסות או לעטוף; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5498",
@@ -17442,7 +17970,15 @@
             "sourceTokenId": "24m2k"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסחוב; לגרור או לשאת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5499",
@@ -17480,7 +18016,15 @@
             "sourceTokenId": "24QGH"
           }
         }
-      ]
+      ],
+      "definitionHe": "סחבה; בגד בלוי או סמרטוט.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5500",
@@ -17504,7 +18048,15 @@
             "sourceTokenId": "26ph7"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסחות; לשטוף או להסיר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5501",
@@ -17528,7 +18080,15 @@
             "sourceTokenId": "25MRd"
           }
         }
-      ]
+      ],
+      "definitionHe": "סחי; לכלוך או פסולת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "7823",
@@ -17566,7 +18126,15 @@
             "sourceTokenId": "23JSH"
           }
         }
-      ]
+      ],
+      "definitionHe": "סחיש; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5502",
@@ -17604,7 +18172,15 @@
             "sourceTokenId": "20HdC"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסחוף; לגרוף בזרם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5503",
@@ -17908,7 +18484,15 @@
             "sourceTokenId": "19gcE"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסחור; לקנות ולמכור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5504",
@@ -17974,7 +18558,15 @@
             "sourceTokenId": "20q1a"
           }
         }
-      ]
+      ],
+      "definitionHe": "סחר; מסחר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5505",
@@ -18026,7 +18618,15 @@
             "sourceTokenId": "20MDS"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוחר; אדם העוסק במסחר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5506",
@@ -18050,7 +18650,15 @@
             "sourceTokenId": "26r2K"
           }
         }
-      ]
+      ],
+      "definitionHe": "סחורה; מוצרים למסחר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5507",
@@ -18074,7 +18682,15 @@
             "sourceTokenId": "19uf2"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוחרה; משמעות מסופקת; יש לבדוק מול המילון.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5508",
@@ -18098,7 +18714,15 @@
             "sourceTokenId": "17d5m"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוחרת; סחורה או מסחר; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5509",
@@ -18220,7 +18844,15 @@
             "sourceTokenId": "19Dt6"
           }
         }
-      ]
+      ],
+      "definitionHe": "סיג; פסולת מתכת או חומר בלתי טהור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5510",
@@ -18244,7 +18876,15 @@
             "sourceTokenId": "1765v"
           }
         }
-      ]
+      ],
+      "definitionHe": "סיוון; שם חודש.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5511",
@@ -18772,7 +19412,15 @@
             "sourceTokenId": "19VG8"
           }
         }
-      ]
+      ],
+      "definitionHe": "סיחון; מלך האמורי.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5513",
@@ -18810,7 +19458,15 @@
             "sourceTokenId": "01kBm"
           }
         }
-      ]
+      ],
+      "definitionHe": "סיני; איש סין או שם עם קדום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5514",
@@ -19310,7 +19966,15 @@
             "sourceTokenId": "19gTK"
           }
         }
-      ]
+      ],
+      "definitionHe": "סיני; הר סיני או מדבר סיני.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5515",
@@ -19334,7 +19998,15 @@
             "sourceTokenId": "23Un6"
           }
         }
-      ]
+      ],
+      "definitionHe": "סינים; שם עם או ארץ.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5516",
@@ -19638,7 +20310,15 @@
             "sourceTokenId": "19V4z"
           }
         }
-      ]
+      ],
+      "definitionHe": "סיסרא; שר צבא יבין.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5517",
@@ -19676,7 +20356,15 @@
             "sourceTokenId": "166gk"
           }
         }
-      ]
+      ],
+      "definitionHe": "סיעא; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5519",
@@ -19700,7 +20388,15 @@
             "sourceTokenId": "19B7n"
           }
         }
-      ]
+      ],
+      "definitionHe": "סך; סכום או מספר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5520",
@@ -19766,7 +20462,15 @@
             "sourceTokenId": "19LBK"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוך; מחסה או סוכה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5521",
@@ -20210,7 +20914,15 @@
             "sourceTokenId": "38vwy"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוכה; מבנה ארעי או מחסה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5522",
@@ -20234,7 +20946,15 @@
             "sourceTokenId": "30Gjw"
           }
         }
-      ]
+      ],
+      "definitionHe": "סיכות; שם אליל או עצם פולחני.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5523",
@@ -20496,7 +21216,15 @@
             "sourceTokenId": "19TQj"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוכות; שם מקום או חג.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5524",
@@ -20520,7 +21248,15 @@
             "sourceTokenId": "12KvZ"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוכות בנות; שם אליל או פולחן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5525",
@@ -20544,7 +21280,15 @@
             "sourceTokenId": "14wqi"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוכיים; שם עם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5527",
@@ -20568,7 +21312,15 @@
             "sourceTokenId": "06djv"
           }
         }
-      ]
+      ],
+      "definitionHe": "סככה; מקום מחסה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5528",
@@ -20690,7 +21442,15 @@
             "sourceTokenId": "23LiK"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסכל; להיות חסר תבונה או לנהוג בסכלות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5529",
@@ -20714,7 +21474,15 @@
             "sourceTokenId": "21nTK"
           }
         }
-      ]
+      ],
+      "definitionHe": "סכל; טיפשות או אדם טיפש.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5530",
@@ -20822,7 +21590,15 @@
             "sourceTokenId": "24XBu"
           }
         }
-      ]
+      ],
+      "definitionHe": "סכל; טיפש או חסר תבונה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5532",
@@ -21000,7 +21776,15 @@
             "sourceTokenId": "19Pkw"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסכון; להועיל או להתרגל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5534",
@@ -21052,7 +21836,15 @@
             "sourceTokenId": "19vJw"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסכור; לחסום או לסגור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5535",
@@ -21076,7 +21868,15 @@
             "sourceTokenId": "059r4"
           }
         }
-      ]
+      ],
+      "definitionHe": "לשתוק או להחריש; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5536",
@@ -21296,7 +22096,15 @@
             "sourceTokenId": "04Vdb"
           }
         }
-      ]
+      ],
+      "definitionHe": "סל; כלי קלוע לנשיאה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5537",
@@ -21320,7 +22128,15 @@
             "sourceTokenId": "25fJd"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלא; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5538",
@@ -21344,7 +22160,15 @@
             "sourceTokenId": "12CvK"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלא; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5539",
@@ -21368,7 +22192,15 @@
             "sourceTokenId": "187tY"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסלוד; לרעוד או להירתע.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5540",
@@ -21406,7 +22238,15 @@
             "sourceTokenId": "134LW"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלד; רעד או בהלה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5542",
@@ -22452,7 +23292,15 @@
             "sourceTokenId": "19zKY"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלה; מונח מוזיקלי או ליטורגי שמשמעותו אינה ודאית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5544",
@@ -22490,7 +23338,15 @@
             "sourceTokenId": "26bFF"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלון; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5545",
@@ -23158,7 +24014,15 @@
             "sourceTokenId": "19Zii"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסלוח; למחול על עוון.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5546",
@@ -23182,7 +24046,15 @@
             "sourceTokenId": "19g4u"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלח; סולח או נוטה למחילה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5547",
@@ -23234,7 +24106,15 @@
             "sourceTokenId": "19LCC"
           }
         }
-      ]
+      ],
+      "definitionHe": "סליחה; מחילה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5548",
@@ -23300,7 +24180,15 @@
             "sourceTokenId": "06RBD"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלכה; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5549",
@@ -23478,7 +24366,15 @@
             "sourceTokenId": "19dRu"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסלול; להרים דרך או להכין מסילה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5550",
@@ -23642,7 +24538,15 @@
             "sourceTokenId": "24y1s"
           }
         }
-      ]
+      ],
+      "definitionHe": "סוללה; תל עפר או מצור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5551",
@@ -23666,7 +24570,15 @@
             "sourceTokenId": "013vf"
           }
         }
-      ]
+      ],
+      "definitionHe": "סולם; מתקן לעלייה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5552",
@@ -23690,7 +24602,15 @@
             "sourceTokenId": "24ngx"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלסלה; כלי קלוע.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5553",
@@ -24526,7 +25446,15 @@
             "sourceTokenId": "22ErQ"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלע; אבן גדולה או מצוק.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5554",
@@ -24578,7 +25506,15 @@
             "sourceTokenId": "23C29"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלע; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5555",
@@ -24602,7 +25538,15 @@
             "sourceTokenId": "09byL"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלע המחלקות; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5556",
@@ -24626,7 +25570,15 @@
             "sourceTokenId": "03gob"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלעם; מין ארבה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5557",
@@ -24734,7 +25686,15 @@
             "sourceTokenId": "20HAZ"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסלף; לעוות או לעקם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5558",
@@ -24772,7 +25732,15 @@
             "sourceTokenId": "20KH4"
           }
         }
-      ]
+      ],
+      "definitionHe": "סלף; עיוות או סילוף.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5266",
@@ -24796,7 +25764,15 @@
             "sourceTokenId": "19BPg"
           }
         }
-      ]
+      ],
+      "definitionHe": "לעלות או להסתלק; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5559",
@@ -24876,7 +25852,15 @@
             "sourceTokenId": "151NW"
           }
         }
-      ]
+      ],
+      "definitionHe": "לעלות; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5560",
@@ -25628,7 +26612,15 @@
             "sourceTokenId": "04ysQ"
           }
         }
-      ]
+      ],
+      "definitionHe": "סולת; קמח מנופה ומשובח.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5561",
@@ -25862,7 +26854,15 @@
             "sourceTokenId": "04Jdo"
           }
         }
-      ]
+      ],
+      "definitionHe": "סם; בושם או חומר ריחני.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5562",
@@ -25886,7 +26886,15 @@
             "sourceTokenId": "24rML"
           }
         }
-      ]
+      ],
+      "definitionHe": "סמגר נבו; שם בעל תפקיד בבלי.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5563",
@@ -25938,7 +26946,15 @@
             "sourceTokenId": "22Q98"
           }
         }
-      ]
+      ],
+      "definitionHe": "סמדר; פריחת הגפן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5564",
@@ -26620,7 +27636,15 @@
             "sourceTokenId": "22wJn"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסמוך; להישען, לתמוך או להניח יד.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5565",
@@ -26644,7 +27668,15 @@
             "sourceTokenId": "13Y9V"
           }
         }
-      ]
+      ],
+      "definitionHe": "סמכיהו; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5566",
@@ -26724,7 +27756,15 @@
             "sourceTokenId": "263VZ"
           }
         }
-      ]
+      ],
+      "definitionHe": "סמל; פסל או דמות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5567",
@@ -26748,7 +27788,15 @@
             "sourceTokenId": "23awb"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסמן; לקבוע סימן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5568",
@@ -26786,7 +27834,15 @@
             "sourceTokenId": "19Pa4"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסמור; להזדקר או להסתמר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5569",
@@ -26810,7 +27866,15 @@
             "sourceTokenId": "24Yit"
           }
         }
-      ]
+      ],
+      "definitionHe": "סמר; רעד או זקיפת שיער.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5570",
@@ -26862,7 +27926,15 @@
             "sourceTokenId": "16kWu"
           }
         }
-      ]
+      ],
+      "definitionHe": "סנאה; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5571",
@@ -27012,7 +28084,15 @@
             "sourceTokenId": "16jaB"
           }
         }
-      ]
+      ],
+      "definitionHe": "סנבלט; מתנגד לבניית חומת ירושלים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5572",
@@ -27106,7 +28186,15 @@
             "sourceTokenId": "02j8W"
           }
         }
-      ]
+      ],
+      "definitionHe": "סנה; שיח קוצני.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5573",
@@ -27130,7 +28218,15 @@
             "sourceTokenId": "09KVW"
           }
         }
-      ]
+      ],
+      "definitionHe": "סנה; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5574",
@@ -27168,7 +28264,15 @@
             "sourceTokenId": "162md"
           }
         }
-      ]
+      ],
+      "definitionHe": "סנואה; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5575",
@@ -27220,7 +28324,15 @@
             "sourceTokenId": "01QZQ"
           }
         }
-      ]
+      ],
+      "definitionHe": "סנוורים; עיוורון או טשטוש ראייה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5576",
@@ -27412,7 +28524,15 @@
             "sourceTokenId": "23qn3"
           }
         }
-      ]
+      ],
+      "definitionHe": "סנחריב; מלך אשור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5578",
@@ -27436,7 +28556,15 @@
             "sourceTokenId": "06LDD"
           }
         }
-      ]
+      ],
+      "definitionHe": "סנסנה; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5577",
@@ -27460,7 +28588,15 @@
             "sourceTokenId": "22c7o"
           }
         }
-      ]
+      ],
+      "definitionHe": "סנסינים; ענפי דקל או אשכולות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5579",
@@ -27540,7 +28676,15 @@
             "sourceTokenId": "03tFR"
           }
         }
-      ]
+      ],
+      "definitionHe": "סנפיר; איבר תנועה של דג.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5580",
@@ -27564,7 +28708,15 @@
             "sourceTokenId": "234Za"
           }
         }
-      ]
+      ],
+      "definitionHe": "סס; עש המזיק לבגדים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5581",
@@ -27602,7 +28754,15 @@
             "sourceTokenId": "13Baw"
           }
         }
-      ]
+      ],
+      "definitionHe": "ססמי; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5582",
@@ -27780,7 +28940,15 @@
             "sourceTokenId": "196gF"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסעוד; לתמוך או לחזק.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5583",
@@ -27804,7 +28972,15 @@
             "sourceTokenId": "156YP"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסעוד; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5584",
@@ -27828,7 +29004,15 @@
             "sourceTokenId": "19F3m"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסער או להרעיש; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5585",
@@ -27922,7 +29106,15 @@
             "sourceTokenId": "07X37"
           }
         }
-      ]
+      ],
+      "definitionHe": "סעיף; ענף או מחשבה מסתעפת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5586",
@@ -27946,7 +29138,15 @@
             "sourceTokenId": "23jgC"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסעוף; להסתעף או להתפצל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5588",
@@ -27970,7 +29170,15 @@
             "sourceTokenId": "196va"
           }
         }
-      ]
+      ],
+      "definitionHe": "סעף; ענף מסועף.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5589",
@@ -28008,7 +29216,15 @@
             "sourceTokenId": "26fgn"
           }
         }
-      ]
+      ],
+      "definitionHe": "סעפה; הסתעפות או מחשבה מסועפת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5590",
@@ -28116,7 +29332,15 @@
             "sourceTokenId": "38mvJ"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסער; לרעוש או להיטלטל.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5593",
@@ -28140,7 +29364,15 @@
             "sourceTokenId": "10DKw"
           }
         }
-      ]
+      ],
+      "definitionHe": "סף; מפתן או כלי קיבול.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5594",
@@ -28598,7 +29830,15 @@
             "sourceTokenId": "38zuk"
           }
         }
-      ]
+      ],
+      "definitionHe": "לספוד; להתאבל או לקונן.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5595",
@@ -28888,7 +30128,15 @@
             "sourceTokenId": "19rN2"
           }
         }
-      ]
+      ],
+      "definitionHe": "לספות; לכלות, להשמיד או להוסיף; תלוי בהקשר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5597",
@@ -28926,7 +30174,15 @@
             "sourceTokenId": "03xzK"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספחת; נגע עור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5598",
@@ -28950,7 +30206,15 @@
             "sourceTokenId": "13GF5"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספי; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5600",
@@ -28974,7 +30238,15 @@
             "sourceTokenId": "32mwU"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספינה; כלי שיט.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5601",
@@ -29138,7 +30410,15 @@
             "sourceTokenId": "22UDg"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספיר; אבן יקרה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5602",
@@ -29176,7 +30456,15 @@
             "sourceTokenId": "07qti"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספל; כלי שתייה או קיבול.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5603",
@@ -29270,7 +30558,15 @@
             "sourceTokenId": "24EbD"
           }
         }
-      ]
+      ],
+      "definitionHe": "לספון; לחפות או לצפות בלוחות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5604",
@@ -29294,7 +30590,15 @@
             "sourceTokenId": "11pM2"
           }
         }
-      ]
+      ],
+      "definitionHe": "סיפון; ציפוי או תקרה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5605",
@@ -29318,7 +30622,15 @@
             "sourceTokenId": "19DoC"
           }
         }
-      ]
+      ],
+      "definitionHe": "להסתופף; לעמוד בסף או לחסות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5609",
@@ -29398,7 +30710,15 @@
             "sourceTokenId": "15DiF"
           }
         }
-      ]
+      ],
+      "definitionHe": "לספר; למנות או לספר דבר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5610",
@@ -29422,7 +30742,15 @@
             "sourceTokenId": "14vwH"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספר; כתב או מגילה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5611",
@@ -29446,7 +30774,15 @@
             "sourceTokenId": "017qP"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספר; כתב או ספר; בארמית.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5613",
@@ -29540,7 +30876,15 @@
             "sourceTokenId": "15rH2"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספיר; אבן יקרה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5614",
@@ -29564,7 +30908,15 @@
             "sourceTokenId": "31e6B"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספרד; שם מקום.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5615",
@@ -29588,7 +30940,15 @@
             "sourceTokenId": "19UEp"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספורה; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5616",
@@ -29612,7 +30972,15 @@
             "sourceTokenId": "12qAN"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספרוי; בן ספרווים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5617",
@@ -29706,7 +31074,15 @@
             "sourceTokenId": "23jY8"
           }
         }
-      ]
+      ],
+      "definitionHe": "ספרווים; שם מקום או עם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5618",
@@ -29744,7 +31120,15 @@
             "sourceTokenId": "16TXT"
           }
         }
-      ]
+      ],
+      "definitionHe": "סופרת; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5619",
@@ -30062,7 +31446,15 @@
             "sourceTokenId": "06EPL"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסקל; להשליך אבנים או לפנות אבנים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5620",
@@ -30114,7 +31506,15 @@
             "sourceTokenId": "11X68"
           }
         }
-      ]
+      ],
+      "definitionHe": "סר; שר או ממונה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5621",
@@ -30138,7 +31538,15 @@
             "sourceTokenId": "26eeF"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסרב; למרוד או להתעקש.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5622",
@@ -30176,7 +31584,15 @@
             "sourceTokenId": "27xqq"
           }
         }
-      ]
+      ],
+      "definitionHe": "סרבל; בגד או מכנסיים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5623",
@@ -30200,7 +31616,15 @@
             "sourceTokenId": "23pJA"
           }
         }
-      ]
+      ],
+      "definitionHe": "סרגון; מלך אשור.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5624",
@@ -30238,7 +31662,15 @@
             "sourceTokenId": "04q52"
           }
         }
-      ]
+      ],
+      "definitionHe": "שרד; כלי כתיבה או סימון; משמעות מסופקת.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5625",
@@ -30262,7 +31694,15 @@
             "sourceTokenId": "04zSj"
           }
         }
-      ]
+      ],
+      "definitionHe": "סרדי; בן שבט או משפחה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5627",
@@ -30384,7 +31824,15 @@
             "sourceTokenId": "24i4d"
           }
         }
-      ]
+      ],
+      "definitionHe": "סרה; סטייה או מרד.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5628",
@@ -30492,7 +31940,15 @@
             "sourceTokenId": "2497j"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסרוח; להימתח או להשתרך.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5629",
@@ -30516,7 +31972,15 @@
             "sourceTokenId": "02a4D"
           }
         }
-      ]
+      ],
+      "definitionHe": "סרח; שם אישה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5630",
@@ -30554,7 +32018,15 @@
             "sourceTokenId": "24JES"
           }
         }
-      ]
+      ],
+      "definitionHe": "שריון; מגן גוף או לבוש מלחמה.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5631",
@@ -31152,7 +32624,15 @@
             "sourceTokenId": "24ZNF"
           }
         }
-      ]
+      ],
+      "definitionHe": "סריס; פקיד חצר או גבר מסורס.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5632",
@@ -31232,7 +32712,15 @@
             "sourceTokenId": "27KJT"
           }
         }
-      ]
+      ],
+      "definitionHe": "סורך; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5634",
@@ -31256,7 +32744,15 @@
             "sourceTokenId": "26Mb3"
           }
         }
-      ]
+      ],
+      "definitionHe": "שרעפים; מחשבות מטרידות.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5635",
@@ -31280,7 +32776,15 @@
             "sourceTokenId": "30noN"
           }
         }
-      ]
+      ],
+      "definitionHe": "לשרוף; להעלות באש.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5636",
@@ -31304,7 +32808,15 @@
             "sourceTokenId": "231ex"
           }
         }
-      ]
+      ],
+      "definitionHe": "סרפד; צמח קוצני.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5637",
@@ -31552,7 +33064,15 @@
             "sourceTokenId": "38id4"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסרור; למרוד או להיות סורר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5639",
@@ -31576,7 +33096,15 @@
             "sourceTokenId": "04FkQ"
           }
         }
-      ]
+      ],
+      "definitionHe": "סתור; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5638",
@@ -31600,7 +33128,15 @@
             "sourceTokenId": "22wA4"
           }
         }
-      ]
+      ],
+      "definitionHe": "סתיו; עונת הגשמים.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5641",
@@ -32744,7 +34280,15 @@
             "sourceTokenId": "36Ew6"
           }
         }
-      ]
+      ],
+      "definitionHe": "לסתור; להרוס או להסתיר; תלוי בהקשר.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     },
     {
       "strongNumber": "5644",
@@ -32768,7 +34312,15 @@
             "sourceTokenId": "02eoV"
           }
         }
-      ]
+      ],
+      "definitionHe": "סתרי; שם אדם.",
+      "definitionReviewStatus": "draft-pending-source-and-editorial-review",
+      "definitionVerification": {
+        "editoriallyApproved": false,
+        "strongSourceChecked": false,
+        "bdbSourceChecked": false,
+        "occurrenceCountChecked": false
+      }
     }
   ]
 }
