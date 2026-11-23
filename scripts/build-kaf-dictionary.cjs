@@ -62,7 +62,14 @@ async function main(){
  assert.equal(checked,11708);
  data.status='source-cross-checked-pending-editorial-review';
  if(!process.argv.includes('--check-only')) {
-  fs.writeFileSync(path+'.tmp',JSON.stringify(data,null,2)+'\n');
+  const sourcePath='data/alphabet/כ.sources.json';
+  const sourceKeys=['definitionEn','definitionSource','definitionReviewStatus','definitionConfidence','definitionVerification','definitionOriginalEnglish'];
+  const sources=Object.fromEntries(data.entries.map(e=>[e.strongNumber,Object.fromEntries(sourceKeys.map(k=>[k,e[k]]))]));
+  for(const e of data.entries){delete e.definitionSource;delete e.definitionVerification;delete e.definitionOriginalEnglish;}
+  data.definitionSourcesFile='כ.sources.json';
+  fs.writeFileSync(sourcePath+'.tmp',JSON.stringify(sources)+'\n');
+  fs.writeFileSync(path+'.tmp',JSON.stringify(data)+'\n');
+  fs.renameSync(sourcePath+'.tmp',sourcePath);
   fs.renameSync(path+'.tmp',path);
  }
  console.log('PASS 273 Hebrew drafts; 273 Strong XML entries; 273 BDB excerpts; '+checked+' MorphHB tokens; '+corrected+' token positions corrected across '+books.length+' books.');
