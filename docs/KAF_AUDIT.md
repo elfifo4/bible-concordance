@@ -1,3 +1,7 @@
 # Kaf audit
 
-273 preliminary Hebrew glosses saved in data/kaf-hebrew-drafts.txt; all Strong keys matched the existing 273 entries. The 11,708 occurrences remain unaudited. Two attempts to update the large alphabet JSON failed with HTTP/2 transport errors; integration is not confirmed. The local builder is prepared but unrun; review its mappings and run locally. No source or editorial verification is claimed. Do not enable automatic CI.
+- 273 Hebrew draft glosses integrated into `data/alphabet/כ.json`.
+- All 273 Strong IDs match exactly; 11,708 occurrence records and 11,708 unique token IDs retained. The uploaded Git blob was read back and parsed successfully.
+- Compact JSON was used to avoid the transport limit; original occurrence data was not modified.
+- Strong/BDB pinned-source comparison, MorphHB token verification and editorial review remain pending. No source or editorial approval is claimed.
+- Run `node scripts/build-kaf-dictionary.cjs` locally to perform source verification and generate the final data; `--check-only` avoids writing output. Do not enable automatic CI; per project decision, execute locally on the MacBook.
