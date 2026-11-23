@@ -1,7 +1,8 @@
-# Kaf audit
+# אות כ׳ — בקרת מילון ומקורות
 
-- 273 Hebrew draft glosses integrated into `data/alphabet/כ.json`.
-- All 273 Strong IDs match exactly; 11,708 occurrence records and 11,708 unique token IDs retained. The uploaded Git blob was read back and parsed successfully.
-- Compact JSON was used to avoid the transport limit; original occurrence data was not modified.
-- Strong/BDB pinned-source comparison, MorphHB token verification and editorial review remain pending. No source or editorial approval is claimed.
-- Run `node scripts/build-kaf-dictionary.cjs` locally to perform source verification and generate the final data; `--check-only` avoids writing output. Do not enable automatic CI; per project decision, execute locally on the MacBook.
+- 273 פירושים עבריים ראשוניים; 273 התאמות Strong ו־273 התאמות BDB דרך LexicalIndex, ללא חוסרים.
+- 11,708 היקרויות ב־39 ספרים הושוו למקור MorphHB לפי מזהה, פסוק, צורת מילה, למה ומורפולוגיה; ללא אי־התאמות בשדות אלו. 363 מיקומי טוקנים תוקנו ונבדקו מחדש מול דוחות הבקרה.
+- HebrewLexicon: `21c9add13bc727d3a951361778e97e3ff7afd1ce`; MorphHB: `db6c5c9b46b8f39346f10915ddb1a70dcd429901`.
+- נתוני היקרויות ופירושים: `data/alphabet/כ.json`; מקור מילוני מלא לפי מזהה Strong: `data/alphabet/כ.sources.json`. האתר משלב את הקבצים בעת הטעינה. הפיצול נדרש עקב מגבלת העלאת קובץ גדול.
+- דוחות אימות לפי קבוצות ספרים: `data/kaf-audit/morphhb-01.json` עד `morphhb-05.json`.
+- להרצה חוזרת מקומית: `node scripts/build-kaf-dictionary.cjs`; אפשר להוסיף `--check-only`. CI מקומי ובדיקת דפדפן עדיין לא הורצו. אין אישור עריכתי אנושי לפירושים בעברית או לשיוך משמעויות לכל היקרות.
