@@ -1,0 +1,105 @@
+{
+  "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+  "results": [
+    {
+      "book": "Mic",
+      "checked": 41,
+      "corrections": [],
+      "errors": []
+    },
+    {
+      "book": "Ezra",
+      "checked": 209,
+      "corrections": [
+        [
+          "15K76",
+          19
+        ],
+        [
+          "15VX8",
+          17
+        ],
+        [
+          "15Bbn",
+          18
+        ],
+        [
+          "15Bqk",
+          14
+        ],
+        [
+          "15u7g",
+          19
+        ],
+        [
+          "15GDR",
+          9
+        ],
+        [
+          "15iTM",
+          15
+        ],
+        [
+          "156Dh",
+          5
+        ],
+        [
+          "15E9Z",
+          10
+        ],
+        [
+          "158Zr",
+          7
+        ],
+        [
+          "15YBK",
+          18
+        ],
+        [
+          "15kfR",
+          17
+        ],
+        [
+          "15vcq",
+          15
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "book": "Obad",
+      "checked": 9,
+      "corrections": [],
+      "errors": []
+    },
+    {
+      "book": "Ruth",
+      "checked": 36,
+      "corrections": [
+        [
+          "08T85",
+          14
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "book": "Joel",
+      "checked": 30,
+      "corrections": [],
+      "errors": []
+    },
+    {
+      "book": "Zeph",
+      "checked": 42,
+      "corrections": [],
+      "errors": []
+    },
+    {
+      "book": "Jonah",
+      "checked": 6,
+      "corrections": [],
+      "errors": []
+    }
+  ]
+}
