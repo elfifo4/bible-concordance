@@ -2,6 +2,9 @@
 
 > **Read this document first.** It captures the project's goals, data provenance, past work, decisions, and a read-only assessment assignment. Verify all historical details against the current repository before treating them as facts.
 
+
+> **Update 2026-11-25.** The per-letter builders (`scripts/build-*-dictionary.cjs`), the `data/*-hebrew-drafts.txt` files and `data/kaf-audit/` described below were replaced by the general CLI `scripts/concordance.py` and `data/drafts/<letter>.txt`, and have been deleted. All 22 letters are regenerated, glossed and audited; see `docs/STATUS.md`, `docs/DATA_MODEL.md` (tokenPosition decision) and the per-letter `docs/*_AUDIT.md`. The historical sections below are kept as context.
+
 ## Your immediate assignment
 
 Become familiar with the repository and prepare to complete the remaining Hebrew alphabet letters in future sessions. **For this first assignment, investigate only:** do not edit source/data files, create commits or PRs, merge branches, or re-enable GitHub Actions. You may run genuinely read-only local tests. Write your assessment in your response; prepare the contents of `PROJECT_ASSESSMENT.md` for approval rather than committing or creating it without permission.

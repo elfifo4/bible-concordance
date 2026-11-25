@@ -4,7 +4,9 @@
 
 An open, Hebrew-first concordance of the Hebrew Bible, designed for precise word lookup, grammatical analysis, and navigation to every occurrence in the biblical text.
 
-> **Status:** Planning / initial data-model design. The complete dataset has **not** been generated or verified yet.
+> **Status (2026-11-25):** all 22 letters are generated from the pinned MorphHB and HebrewLexicon revisions (9,241 entries, 299,536 occurrences); every entry has a Hebrew gloss draft with byte-exact Strong and BDB excerpts, and every occurrence is audited against the source. **No entry is editorially approved yet.** Per-letter status: [docs/STATUS.md](docs/STATUS.md). Tooling: `scripts/concordance.py` (see `python3 scripts/concordance.py --help`).
+>
+> **מצב (25.11.2026):** כל 22 האותיות נוצרו מגרסאות המקור המקובעות; לכל ערך טיוטת פירוש עברי וקטעי Strong ו-BDB מאומתים. **אף ערך טרם אושר עריכתית.**
 
 ## מטרת הפרויקט
 
