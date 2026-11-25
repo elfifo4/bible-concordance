@@ -8,14 +8,14 @@
 | ב | 487 | 18,712 | 487 | 487 | 487 | 487 | 0 | source-cross-checked-pending-editorial-review |
 | ג | 339 | 5,764 | 339 | 339 | 339 | 339 | 0 | source-cross-checked-pending-editorial-review |
 | ד | 225 | 7,251 | 225 | 225 | 225 | 225 | 0 | source-cross-checked-pending-editorial-review |
-| ה | 156 | 9,669 | 156 | 156 | 156 | 156 | 0 | source-cross-checked-pending-editorial-review |
-| ו | 10 | 31 | 10 | 10 | 10 | 10 | 0 | machine-generated-needs-human-review |
-| ז | 169 | 4,505 | 169 | 0 | 0 | 0 | 0 | hebrew-glosses-drafted-pending-source-and-editorial-review |
+| ה | 172 | 9,963 | 172 | 172 | 172 | 172 | 0 | source-cross-checked-pending-editorial-review |
+| ו | 10 | 31 | 10 | 10 | 10 | 10 | 0 | source-cross-checked-pending-editorial-review |
+| ז | 191 | 4,707 | 191 | 191 | 191 | 191 | 0 | source-cross-checked-pending-editorial-review |
 | ח | 692 | 10,921 | 692 | 692 | 692 | 692 | 0 | source-cross-checked-pending-editorial-review |
-| ט | 95 | 990 | 95 | 95 | 95 | 0 | 0 | source-checked-pending-editorial-review |
+| ט | 106 | 1,733 | 106 | 106 | 106 | 106 | 0 | source-cross-checked-pending-editorial-review |
 | י | 544 | 28,622 | 544 | 544 | 544 | 544 | 0 | source-cross-checked-pending-editorial-review |
-| כ | 273 | 11,708 | 273 | 0 | 0 | 0 | 0 | source-cross-checked-pending-editorial-review |
-| ל | 145 | 8,769 | 145 | 145 | 145 | 145 | 0 | source-cross-checked-pending-editorial-review |
+| כ | 323 | 18,474 | 323 | 323 | 323 | 323 | 0 | source-cross-checked-pending-editorial-review |
+| ל | 172 | 9,753 | 172 | 172 | 172 | 172 | 0 | source-cross-checked-pending-editorial-review |
 | מ | 1091 | 23,481 | 1091 | 1091 | 1091 | 1091 | 0 | source-cross-checked-pending-editorial-review |
 | נ | 475 | 12,554 | 475 | 475 | 475 | 475 | 0 | source-cross-checked-pending-editorial-review |
 | ס | 239 | 2,941 | 239 | 239 | 239 | 239 | 0 | source-cross-checked-pending-editorial-review |
@@ -26,4 +26,4 @@
 | ר | 410 | 9,058 | 410 | 410 | 410 | 410 | 0 | source-cross-checked-pending-editorial-review |
 | ש | 855 | 22,449 | 855 | 855 | 855 | 855 | 0 | source-cross-checked-pending-editorial-review |
 | ת | 319 | 4,054 | 319 | 319 | 319 | 319 | 0 | source-cross-checked-pending-editorial-review |
-| **סה״כ** | **9,115** | **290,547** | **9115** | **8673** | **8673** | **8578** | **0** | |
+| **סה״כ** | **9,241** | **299,536** | **9241** | **9241** | **9241** | **9241** | **0** | |
