@@ -3,6 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from scripts import concordance as cli
 from scripts.concordance import lemma_refs, resolve, generate_all, merge_letter, letter_status
 from scripts.import_morphhb import run as import_run
 
@@ -111,6 +112,122 @@ class GenerateTest(unittest.TestCase):
         self.assertEqual(letter_status(s), "hebrew-glosses-drafted-pending-source-and-editorial-review")
         s.update(editoriallyApproved=2)
         self.assertEqual(letter_status(s), "editorially-approved")
+
+
+STRONG_XML = ('<?xml version="1.0"?>\r\n<lexicon>\r\n<entry id="H2053">\r\n\t<w pos="n-m" xml:lang="heb">וָו</w>\r\n'
+              '\t<source>probably a <def>hook</def>;</source>\r\n\t<meaning>a <def>hook</def></meaning>\r\n'
+              '\t<usage>hook.</usage>\r\n</entry>\r\n<entry id="H5921">\r\n\t<w pos="prep">עַל</w>\r\n'
+              '\t<meaning><def>above</def></meaning>\r\n\t<usage>above, upon.</usage>\r\n</entry>\r\n</lexicon>\r\n')
+BDB_XML = ('<?xml version="1.0"?>\r\n<lexicon>\r\n<entry id="f.aa.ab"><w>וָו</w> <pos>n.m.</pos>\r\n'
+           '<def>hook</def>, <def>peg</def>.<status p="255">done</status></entry>\r\n</lexicon>\r\n')
+
+
+def letter_doc():
+    occ = lambda tid, lemma, morph: {"tokenId": tid, "verseId": "Exod.1.1", "tokenPosition": 1, "form": "x",
+                                     "readingType": "standard", "lemmaRaw": lemma, "morphRaw": morph, "source": "s"}
+    return {"letter": "ו", "status": "x", "summary": {}, "entries": [
+        {"strongNumber": "2053", "lexiconEntryId": "del", "headword": "וָו", "occurrenceCount": 2,
+         "occurrences": [occ("t2", "c/2053", "HC/Ncmsa"), occ("t9", "2053", "HNcmpa")]},
+        {"strongNumber": "5921", "lexiconEntryId": "frj", "headword": "עֹל", "occurrenceCount": 1,
+         "occurrences": [occ("t4", "5921 b", "HNcmsa")]}]}
+
+
+class EnrichLintTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        root = Path(self.tmp.name)
+        lex = root / "build" / "sources" / f"hebrewlexicon-{cli.LEXICON_REV}"
+        lex.mkdir(parents=True)
+        (lex / "LexicalIndex.xml").write_text(LEXICAL_INDEX, encoding="utf-8")
+        (lex / "AugIndex.xml").write_text(AUG_INDEX, encoding="utf-8")
+        for name, text in (("HebrewStrong.xml", STRONG_XML), ("BrownDriverBriggs.xml", BDB_XML)):
+            with (lex / name).open("w", encoding="utf-8", newline="") as fh:
+                fh.write(text)
+        self.build = root / "build"
+        self.letter_file = root / "ו.json"
+        self.letter_file.write_text(json.dumps(letter_doc(), ensure_ascii=False), encoding="utf-8")
+        self._orig = cli.letter_path
+        cli.letter_path = lambda letter: self.letter_file
+        self.drafts = root / "drafts.txt"
+        self.drafts.write_text("# comment\n2053|del|קרס או יתד לתליית יריעות המשכן.\n5921|frj|מוט עץ על צוואר בהמת משא.\n",
+                               encoding="utf-8")
+
+    def tearDown(self):
+        cli.letter_path = self._orig
+        self.tmp.cleanup()
+
+    def run_cli(self, *argv):
+        return cli.main(["--build", str(self.build), *argv])
+
+    def test_morph_pos_uses_the_segment_of_the_strong_number(self):
+        o = {"lemmaRaw": "c/2053", "morphRaw": "HC/Ncmsa"}
+        self.assertEqual(cli.morph_pos(o, "2053"), "Nc")
+        self.assertEqual(cli.morph_pos({"lemmaRaw": "b/5432", "morphRaw": "HR/Vqc"}, "5432"), "Vq")
+        self.assertEqual(cli.morph_pos({"lemmaRaw": "5433 b", "morphRaw": "HNpm"}, "5433"), "Npm")
+        self.assertEqual(cli.morph_pos({"lemmaRaw": "5922", "morphRaw": "ANcmsa"}, "5922"), "A:Nc")
+
+    def test_worksheet_has_one_line_per_entry(self):
+        self.run_cli("worksheet", "--letter", "ו")
+        rows = (self.build / "worksheets" / "ו.tsv").read_text(encoding="utf-8").splitlines()
+        self.assertEqual(len(rows), 3)
+        cols = rows[1].split("\t")
+        self.assertEqual(cols[:5], ["2053", "del", "וָו", "Nc|n-m", "2"])
+        self.assertEqual(cols[5], "a hook")
+        self.assertEqual(cols[7], "וָו n.m. hook, peg.")
+        self.assertEqual(rows[2].split("\t")[7], "")       # frj has no BDB xref
+
+    def test_parse_drafts_reports_malformed_and_duplicates(self):
+        self.drafts.write_text("2053|del|א\nbad line\n2053|del|ב\n", encoding="utf-8")
+        drafts, errors = cli.parse_drafts(self.drafts)
+        self.assertEqual(drafts, {("2053", "del"): "ב"})
+        self.assertEqual(len(errors), 2)
+
+    def test_enrich_fills_fields_byte_exact_and_flags_only_found_sources(self):
+        before = json.loads(self.letter_file.read_text(encoding="utf-8"))
+        self.run_cli("enrich", "--letter", "ו", "--drafts", str(self.drafts))
+        d = json.loads(self.letter_file.read_text(encoding="utf-8"))
+        vav, ol = d["entries"]
+        self.assertEqual([e["occurrences"] for e in d["entries"]], [e["occurrences"] for e in before["entries"]])
+        self.assertEqual(vav["definitionHe"], "קרס או יתד לתליית יריעות המשכן.")
+        self.assertEqual(vav["definitionReviewStatus"], "source-checked-pending-editorial-review")
+        self.assertEqual(vav["definitionOriginalEnglish"]["strong"]["meaningXml"], "a <def>hook</def>")
+        self.assertEqual(vav["definitionOriginalEnglish"]["bdb"]["entryBodyXml"],
+                         "<w>וָו</w> <pos>n.m.</pos>\r\n<def>hook</def>, <def>peg</def>.")
+        v = vav["definitionVerification"]
+        self.assertEqual((v["strongSourceChecked"], v["bdbSourceChecked"], v["editoriallyApproved"],
+                          v["occurrenceCountChecked"]), (True, True, False, False))   # no audit report yet
+        w = ol["definitionVerification"]
+        self.assertEqual((w["strongSourceChecked"], w["bdbSourceChecked"]), (True, False))
+        self.assertEqual(ol["definitionReviewStatus"], "draft")
+        self.assertIn("no mapping was invented", ol["definitionNote"])
+        rep = json.loads((self.build / "reports" / "enrich-ו.json").read_text(encoding="utf-8"))
+        self.assertEqual(rep["exceptions"][0]["missing"], ["BDB"])
+
+    def test_enrich_marks_occurrences_checked_only_after_a_passing_audit(self):
+        (self.build / "reports").mkdir(parents=True)
+        (self.build / "reports" / "audit-ו.json").write_text(json.dumps({"pass": True, "checkedOccurrences": 3}))
+        self.run_cli("enrich", "--letter", "ו", "--drafts", str(self.drafts))
+        d = json.loads(self.letter_file.read_text(encoding="utf-8"))
+        self.assertTrue(all(e["definitionVerification"]["occurrenceCountChecked"] for e in d["entries"]))
+
+    def test_enrich_refuses_drafts_for_unknown_entries(self):
+        self.drafts.write_text("9999|nope|משהו\n", encoding="utf-8")
+        with self.assertRaises(SystemExit):
+            self.run_cli("enrich", "--letter", "ו", "--drafts", str(self.drafts))
+        self.assertNotIn("definitionHe", json.loads(self.letter_file.read_text(encoding="utf-8"))["entries"][0])
+
+    def test_lint_rules(self):
+        e = {"strongNumber": "5483", "headword": "סוּס", "occurrences": [{"lemmaRaw": "5483", "morphRaw": "HNcmsa"}]}
+        self.assertEqual(cli.lint_entry(dict(e)), ["missing"])
+        self.assertEqual(cli.lint_entry(dict(e, definitionHe="בעל חיים לרכיבה ולמלחמה.")), [])
+        self.assertEqual(cli.lint_entry(dict(e, definitionHe="סוס; בעל חיים.")), ["repeats-headword"])
+        self.assertEqual(cli.lint_entry(dict(e, definitionHe="רוכב על הסוסים.")), [])          # plural is not the headword
+        self.assertEqual(cli.lint_entry(dict(e, definitionHe="רוכב והסוס.")), ["repeats-headword"])  # prefixes stripped
+        self.assertIn("more-than-two-sentences", cli.lint_entry(dict(e, definitionHe="א. ב. ג.")))
+        self.assertIn("over-160-chars", cli.lint_entry(dict(e, definitionHe="מילה " * 40)))
+        name = {"strongNumber": "5482", "headword": "סְוֵנֵה", "occurrences": [{"lemmaRaw": "5482", "morphRaw": "HNpl"}]}
+        self.assertEqual(cli.lint_entry(dict(name, definitionHe="שם מקום.")), ["proper-name-without-context"])
+        self.assertEqual(cli.lint_entry(dict(name, definitionHe="עיר בגבול הדרומי של מצרים.")), [])
 
 
 if __name__ == "__main__":

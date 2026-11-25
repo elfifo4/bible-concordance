@@ -16,6 +16,12 @@ Sub-commands
                   --dry-run reports the delta without writing anything
   audit           compare every stored occurrence and every stored Strong/BDB
                   excerpt with the pinned sources, offline from the cache
+  worksheet       build/worksheets/<letter>.tsv: one compact line per entry
+                  (the only input the LLM reads to write Hebrew glosses)
+  enrich          join data/drafts/<letter>.txt (strong|lexId|gloss) with the
+                  Strong/BDB excerpts and fill the definition* fields
+  lint            report glosses that are missing, repeat the headword, are too
+                  long, or are proper names without context
   status          22-letter status table (markdown), optionally to a file
 
 tokenPosition semantics (decision of 2026-11-22): 1-based index in the WRITTEN
@@ -459,6 +465,246 @@ def bdb_by_entry_for_strong(strong_id, bdb_by_entry, lexicon_dir):
     bdbs = {bdb_by_entry.get(i) for i in ids} - {None}
     return next(iter(bdbs)) if len(bdbs) == 1 else None
 
+# --------------------------------------------- worksheet / enrich / lint
+
+FINALS = str.maketrans("ךםןףץ", "כמנפצ")
+HEDGES = ("כנראה", "ייתכן", "אינו ודאי", "אינה ודאית", "לא ודאי", "לא ודאית", "מסופק", "מסופקת")
+PREFIXES = "והבכלמש"
+STRONG_RAW = f"https://raw.githubusercontent.com/openscriptures/HebrewLexicon/{LEXICON_REV}/HebrewStrong.xml"
+BDB_RAW = f"https://raw.githubusercontent.com/openscriptures/HebrewLexicon/{LEXICON_REV}/BrownDriverBriggs.xml"
+VERIFY_METHOD = ("Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending "
+                 "editorial review. MorphHB token fields checked directly.")
+
+def letter_path(letter):
+    return ROOT / "data" / "alphabet" / f"{letter}.json"
+
+def read_xml_exact(path):
+    # newline="" keeps CRLF: stored excerpts must be byte-exact copies of the XML.
+    with Path(path).open(encoding="utf-8", newline="") as fh:
+        return fh.read()
+
+def morph_pos(occ, number):
+    """Part-of-speech code of the segment of morphRaw that carries Strong `number`:
+    'Nc', 'Np' + type (Npm/Npf/Npl), 'Vq' (verb + stem), 'Aa', 'R' ...; Aramaic gets 'A:'."""
+    lem, morph = (occ.get("lemmaRaw") or "").split("/"), occ.get("morphRaw") or ""
+    if not morph:
+        return "?"
+    lang, segs = morph[0], morph[1:].split("/")
+    idx = next((i for i, s in enumerate(lem) if re.match(r"\s*0*" + number + r"\b", s)), len(lem) - 1)
+    seg = segs[idx] if idx < len(segs) else segs[-1]
+    code = seg[:3] if seg.startswith("Np") else seg[:2] if seg[:1] in "NVAP" else seg[:1]
+    return ("A:" if lang == "A" else "") + code
+
+def entry_pos(entry):
+    c = Counter(morph_pos(o, entry["strongNumber"]) for o in entry["occurrences"])
+    return c.most_common(1)[0][0] if c else "?"
+
+class Sources:
+    """Pinned Strong + BDB XML and the LexicalIndex xref map, loaded once."""
+    def __init__(self, lexicon_dir):
+        self.strong_xml = read_xml_exact(lexicon_dir / "HebrewStrong.xml")
+        self.bdb_xml = read_xml_exact(lexicon_dir / "BrownDriverBriggs.xml")
+        self.entries, self.strong_index, _, self.bdb_by_entry = load_lexicon(lexicon_dir)
+
+    def strong(self, number):
+        body = xml_entry(self.strong_xml, "H" + number)
+        if body is None:
+            return None
+        w = re.search(r'<w\b[^>]*\bpos="([^"]*)"', body)
+        raw = {tag: xml_field(body, tag) or "" for tag in ("source", "meaning", "usage")}
+        return {"pos": w.group(1) if w else "", "raw": raw, "plain": {k: xml_plain(v) for k, v in raw.items()}}
+
+    def bdb(self, lex_id):
+        bid = self.bdb_by_entry.get(lex_id)
+        body = xml_entry(self.bdb_xml, bid) if bid else None
+        if body is None:
+            return None
+        return {"entryId": bid, "entryBodyXml": body.split("<status", 1)[0].strip()}
+
+def tsv_cell(s, limit=None):
+    s = re.sub(r"\s+", " ", s or "").strip()
+    return s[:limit - 1] + "…" if limit and len(s) > limit else s
+
+def cmd_worksheet(args):
+    p = paths(args.build)
+    src = Sources(p["lexicon"])
+    d = read_json(letter_path(args.letter))
+    out = p["build"] / "worksheets" / f"{args.letter}.tsv"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    lines = ["strong\tlexId\theadword\tpos\tcount\tmeaning\tusage\tbdb\tverse"]
+    missing = Counter()
+    for e in d["entries"]:
+        st, bdb = src.strong(e["strongNumber"]), src.bdb(e["lexiconEntryId"])
+        missing["strong"] += st is None
+        missing["bdb"] += bdb is None
+        pos = entry_pos(e) + ("|" + st["pos"] if st and st["pos"] else "")
+        lines.append("\t".join([e["strongNumber"], e["lexiconEntryId"], e["headword"], pos, str(len(e["occurrences"])),
+                                tsv_cell(st and st["plain"]["meaning"], args.width),
+                                tsv_cell(st and st["plain"]["usage"], args.width),
+                                tsv_cell(bdb and xml_plain(bdb["entryBodyXml"]), args.bdb_width),
+                                e["occurrences"][0]["verseId"] if e["occurrences"] else ""]))
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    log(f"{args.letter}: {len(d['entries'])} rows -> {out.relative_to(p['build'].parent) if out.is_relative_to(p['build'].parent) else out} "
+        f"(no Strong {missing['strong']}, no BDB {missing['bdb']})")
+
+def parse_drafts(path):
+    """'strong|lexId|gloss' lines -> {(strong, lexId): gloss}; '#' comments and blanks ignored."""
+    drafts, errors = {}, []
+    for n, line in enumerate(Path(path).read_text(encoding="utf-8").splitlines(), 1):
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        parts = [x.strip() for x in line.split("|", 2)]
+        if len(parts) != 3 or not parts[0].isdigit() or not parts[1] or not parts[2]:
+            errors.append(f"line {n}: malformed")
+            continue
+        key = (str(int(parts[0])), parts[1])
+        if key in drafts:
+            errors.append(f"line {n}: duplicate {key}")
+        drafts[key] = parts[2]
+    return drafts, errors
+
+def audit_passed(p, letter, total):
+    f = p["reports"] / f"audit-{letter}.json"
+    if not f.exists():
+        return False
+    rep = read_json(f)
+    return bool(rep.get("pass")) and rep.get("checkedOccurrences") == total
+
+def build_definition(entry, gloss, strong, bdb, occ_checked, exception=None):
+    """Definition fields in the format of the ה/ו letters. Flags are true only for sources actually found."""
+    number = entry["strongNumber"]
+    hedged = any(h in gloss for h in HEDGES)
+    both = strong is not None and bdb is not None
+    fields = {
+        "definitionHe": gloss,
+        "definitionEn": strong["plain"]["meaning"] if strong else "",
+        "definitionSource": {"name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+                             "url": "https://github.com/openscriptures/HebrewLexicon",
+                             "strongUrl": f"https://biblehub.com/hebrew/{number}.htm", "strongNumber": number},
+        "definitionReviewStatus": "source-checked-pending-editorial-review" if both else "draft",
+        "definitionConfidence": "uncertain" if hedged else "source-based",
+        "definitionVerification": {
+            "sources": [f"https://biblehub.com/hebrew/{number}.htm"],
+            "dictionaries": [n for n, s in (("Strong", strong), ("Brown-Driver-Briggs", bdb)) if s is not None],
+            "method": VERIFY_METHOD, "editoriallyApproved": False,
+            "strongSourceChecked": strong is not None, "bdbSourceChecked": bdb is not None,
+            "occurrenceCountChecked": bool(occ_checked)},
+        "definitionOriginalEnglish": {},
+    }
+    if exception:
+        fields["definitionNote"] = exception
+    if strong:
+        fields["definitionOriginalEnglish"]["strong"] = {
+            **strong["plain"], "sourceUrl": STRONG_RAW, "entryId": "H" + number, "license": LICENSE,
+            "format": "plain-text extraction of XML source, meaning and usage nodes", "verifiedAgainstSource": True,
+            "sourceXml": strong["raw"]["source"], "meaningXml": strong["raw"]["meaning"],
+            "usageXml": strong["raw"]["usage"], "sourceRevision": LEXICON_REV}
+    if bdb:
+        fields["definitionOriginalEnglish"]["bdb"] = {
+            "entryId": bdb["entryId"], "entryBodyXml": bdb["entryBodyXml"], "sourceUrl": BDB_RAW, "license": LICENSE,
+            "verifiedAgainstSource": True, "sourceFormat": "BDB XML entry body excluding status tag",
+            "sourceRevision": LEXICON_REV, "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+            "scope": "lexical-opening-excerpt"}
+    return fields
+
+def cmd_enrich(args):
+    p = paths(args.build)
+    path = letter_path(args.letter)
+    d = read_json(path)
+    occ_before = json.dumps([e["occurrences"] for e in d["entries"]], ensure_ascii=False)
+    n_entries, n_occ = len(d["entries"]), sum(len(e["occurrences"]) for e in d["entries"])
+    drafts, errors = parse_drafts(args.drafts)
+    src = Sources(p["lexicon"])
+    exceptions = load_exceptions()
+    occ_checked = audit_passed(p, args.letter, n_occ)
+    keys = {(e["strongNumber"], e["lexiconEntryId"]) for e in d["entries"]}
+    errors += [f"draft for unknown entry {k}" for k in sorted(set(drafts) - keys)]
+    rep = {"letter": args.letter, "occurrenceCountChecked": occ_checked, "errors": errors,
+           "exceptions": [], "withoutDraft": [], "enriched": 0}
+    for e in d["entries"]:
+        key = (e["strongNumber"], e["lexiconEntryId"])
+        if key not in drafts:
+            rep["withoutDraft"].append(f"{key[0]}|{key[1]}|{e['headword']}")
+            continue
+        strong, bdb = src.strong(e["strongNumber"]), src.bdb(e["lexiconEntryId"])
+        note = None
+        if strong is None or bdb is None:
+            exc = exceptions.get("H" + e["strongNumber"])
+            missing = [n for n, s in (("Strong", strong), ("BDB", bdb)) if s is None]
+            note = (f"{' and '.join(missing)} entry not found for H{e['strongNumber']} / {e['lexiconEntryId']} "
+                    f"in the pinned lexicon; no mapping was invented."
+                    + (f" Documented exception: {exc['reason']}" if exc else ""))
+            rep["exceptions"].append({"entry": "H" + e["strongNumber"], "lexiconEntryId": e["lexiconEntryId"],
+                                      "headword": e["headword"], "missing": missing})
+        for k in [k for k in e if k.startswith("definition")]:
+            del e[k]
+        e.update(build_definition(e, drafts[key], strong, bdb, occ_checked, note))
+        rep["enriched"] += 1
+    assert len(d["entries"]) == n_entries, "entry count changed"
+    assert sum(len(e["occurrences"]) for e in d["entries"]) == n_occ, "occurrence count changed"
+    assert json.dumps([e["occurrences"] for e in d["entries"]], ensure_ascii=False) == occ_before, "occurrences changed"
+    summary = letter_summary(d["entries"])
+    d["summary"], d["status"] = summary, letter_status(summary)
+    p["reports"].mkdir(parents=True, exist_ok=True)
+    (p["reports"] / f"enrich-{args.letter}.json").write_text(json.dumps(rep, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if errors:
+        for err in errors[:10]:
+            log("ERROR " + err)
+        raise SystemExit(f"{len(errors)} draft errors; nothing written (build/reports/enrich-{args.letter}.json)")
+    changed = write_json_if_changed(path, d)
+    log(f"{args.letter}: enriched {rep['enriched']}/{n_entries}, without draft {len(rep['withoutDraft'])}, "
+        f"source exceptions {len(rep['exceptions'])}, occurrenceCountChecked={occ_checked}; "
+        f"{'written' if changed else 'unchanged'}; status {d['status']}")
+    for x in rep["exceptions"][:10]:
+        log(f"  exception {x['entry']} {x['lexiconEntryId']} {x['headword']}: missing {'/'.join(x['missing'])}")
+
+def norm_cons(word):
+    return consonants(word).translate(FINALS)
+
+def repeats_headword(gloss, headword):
+    head = norm_cons(headword)
+    if len(head) < 2:
+        return False
+    head_m = head[0] + head[1:].replace("ו", "").replace("י", "")
+    for word in re.findall(r"[֐-׿]+", gloss):
+        w = norm_cons(word)
+        cands = {w}
+        while len(w) > len(head) and w[0] in PREFIXES:
+            w = w[1:]
+            cands.add(w)
+        if head in cands:
+            return True
+        if len(head_m) >= 3 and any(c[0] + c[1:].replace("ו", "").replace("י", "") == head_m for c in cands if c):
+            return True
+    return False
+
+def sentence_count(gloss):
+    return len([s for s in re.split(r"[.!?](?:\s|$)", gloss) if s.strip()])
+
+def lint_entry(e):
+    gloss = (e.get("definitionHe") or "").strip()
+    if not gloss:
+        return ["missing"]
+    issues = []
+    if repeats_headword(gloss, e["headword"]):
+        issues.append("repeats-headword")
+    if sentence_count(gloss) > 2:
+        issues.append("more-than-two-sentences")
+    if len(gloss) > 160:
+        issues.append("over-160-chars")
+    if "Np" in entry_pos(e) and len(re.findall(r"[֐-׿]+", gloss)) < 4:
+        issues.append("proper-name-without-context")
+    return issues
+
+def cmd_lint(args):
+    d = read_json(letter_path(args.letter))
+    bad = [(e, lint_entry(e)) for e in d["entries"]]
+    bad = [(e, i) for e, i in bad if i]
+    for e, issues in bad[:args.max]:
+        log(f"{e['strongNumber']}|{e['lexiconEntryId']}|{e['headword']}: {','.join(issues)} :: {e.get('definitionHe', '')}")
+    log(f"{args.letter}: {len(bad)} of {len(d['entries'])} entries with lint violations")
+    return 1 if bad else 0
+
 # ------------------------------------------------------------------ status
 
 def cmd_status(args):
@@ -506,6 +752,13 @@ def main(argv=None):
             g.add_argument("--dry-run", action="store_true", help="report the delta only (default)")
             g.add_argument("--write", action="store_true", help="write data/alphabet files")
         s.set_defaults(fn=fn)
+    s = sub.add_parser("worksheet", help="compact TSV per entry: the only input for writing glosses")
+    s.add_argument("--letter", required=True); s.add_argument("--width", type=int, default=140)
+    s.add_argument("--bdb-width", type=int, default=200); s.set_defaults(fn=cmd_worksheet)
+    s = sub.add_parser("enrich", help="join drafts with Strong/BDB excerpts and fill definition fields")
+    s.add_argument("--letter", required=True); s.add_argument("--drafts", required=True); s.set_defaults(fn=cmd_enrich)
+    s = sub.add_parser("lint", help="report missing/circular/too-long glosses")
+    s.add_argument("--letter", required=True); s.add_argument("--max", type=int, default=40); s.set_defaults(fn=cmd_lint)
     s = sub.add_parser("status"); s.add_argument("--write", metavar="PATH"); s.set_defaults(fn=cmd_status)
     args = ap.parse_args(argv)
     return args.fn(args) or 0
