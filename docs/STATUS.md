@@ -11,7 +11,7 @@
 | ה | 156 | 9,669 | 156 | 156 | 156 | 156 | 0 | source-cross-checked-pending-editorial-review |
 | ו | 10 | 31 | 10 | 10 | 10 | 10 | 0 | machine-generated-needs-human-review |
 | ז | 169 | 4,505 | 169 | 0 | 0 | 0 | 0 | hebrew-glosses-drafted-pending-source-and-editorial-review |
-| ח | 568 | 8,141 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
+| ח | 692 | 10,921 | 692 | 692 | 692 | 692 | 0 | source-cross-checked-pending-editorial-review |
 | ט | 95 | 990 | 95 | 95 | 95 | 0 | 0 | source-checked-pending-editorial-review |
 | י | 544 | 28,622 | 544 | 544 | 544 | 544 | 0 | source-cross-checked-pending-editorial-review |
 | כ | 273 | 11,708 | 273 | 0 | 0 | 0 | 0 | source-cross-checked-pending-editorial-review |
@@ -26,4 +26,4 @@
 | ר | 410 | 9,058 | 410 | 410 | 410 | 410 | 0 | source-cross-checked-pending-editorial-review |
 | ש | 744 | 20,468 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ת | 319 | 4,054 | 319 | 319 | 319 | 319 | 0 | source-cross-checked-pending-editorial-review |
-| **סה״כ** | **8,696** | **273,965** | **5578** | **5136** | **5136** | **5041** | **0** | |
+| **סה״כ** | **8,820** | **276,745** | **6270** | **5828** | **5828** | **5733** | **0** | |
