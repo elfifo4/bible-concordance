@@ -18,8 +18,8 @@
     },
     {
       "letter": "ג",
-      "entryCount": 314,
-      "occurrenceCount": 4400
+      "entryCount": 339,
+      "occurrenceCount": 5764
     },
     {
       "letter": "ד",
@@ -117,6 +117,6 @@
       "occurrenceCount": 4054
     }
   ],
-  "totalEntries": 8308,
-  "totalOccurrences": 243941
+  "totalEntries": 8333,
+  "totalOccurrences": 245305
 }
