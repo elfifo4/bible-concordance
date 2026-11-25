@@ -1,16 +1,14 @@
-# אות ס׳ — דוח עבודה
+# ס — audit (2026-11-25)
 
-- בקובץ `data/alphabet/ס.json` קיימים **194 ערכים מילוניים** ו־**2,201 היקרויות** לפי נתוני הבסיס.
-- נוסחו ושולבו **194 פירושים עבריים ראשוניים** ב־`data/samekh-hebrew-drafts.txt` וב־JSON.
-- **הפירושים הם טיוטות בלבד.** אין לראות בהם פירושים מאומתים, ובפרט יש לבחון היטב הומוגרפים, ערכים נדירים ומשמעויות מסופקות.
-- כל ערכי `definitionVerification` נשמרו במצב `false`: לא בוצעה הצלבה מוצלחת מול Strong/BDB או אימות מחדש של כל היקרויות MorphHB.
-- נוסף `scripts/build-samekh-dictionary.cjs`, המבוסס על מנגנון האות ה׳, להצלבת המקורות המקובעים ולאימות מיקומי טוקנים. **הסקריפט לא הורץ כאן.** ייתכן שיידרשו תיקונים לחריגי LexicalIndex ולניתוח הטוקנים לפני הרצה מוצלחת.
-- ההחלטה הקיימת נשמרת: בדיקות ובנייה מקומיות דרך Claude Code במקבוק; אין להפעיל GitHub Actions אוטומטית.
+Pinned sources: MorphHB `db6c5c9b`, HebrewLexicon `21c9add1`. All commands run locally.
 
-## משימות פתוחות
+| Command | Result |
+|---|---|
+| `python3 scripts/concordance.py generate --letter ס --write` | 194→239 entries (+45 homograph entries via AugIndex), 2,201→2,941 occurrences, 0 position changes |
+| `python3 scripts/concordance.py worksheet --letter ס` | 239 rows; Strong found 239, BDB found 239 |
+| `python3 scripts/concordance.py enrich --letter ס --drafts data/drafts/ס.txt` | 239/239 enriched, 0 source exceptions, occurrence count checked |
+| `python3 scripts/concordance.py lint --letter ס` | 0 violations |
+| `python3 scripts/concordance.py audit --letter ס` | PASS: 2,941/2,941 occurrences, 0 Strong/BDB excerpt failures |
+| `python3 -m unittest discover -s tests` | 35 tests OK |
 
-1. להריץ את הסקריפט תחילה על עותק עבודה נקי, לבדוק side effects ולהצליב את 194 ערכי Strong/BDB.
-2. לבדוק את כל 2,201 הטוקנים מול MorphHB, ולתקן רק פערים שהוכחו במקור.
-3. לבצע בקרת איכות לשונית ופרשנית, במיוחד עבור ערכים עם משמעות מסופקת, ולתקן את הטיוטות.
-4. להריץ בדיקות רגרסיה לממשק ולייבוא.
-5. לעדכן את הדוח עם תוצאות מדויקות; לא לסמן אישור עריכתי אוטומטית.
+Glosses: 239 drafts, 45 marked `definitionConfidence: "uncertain"` (hedged rare words and names). Status `source-checked-pending-editorial-review`; `editoriallyApproved: false` for all 239.
