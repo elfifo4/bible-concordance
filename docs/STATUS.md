@@ -21,9 +21,9 @@
 | ס | 239 | 2,941 | 239 | 239 | 239 | 239 | 0 | source-cross-checked-pending-editorial-review |
 | ע | 581 | 12,778 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | פ | 320 | 6,564 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
-| צ | 237 | 3,224 | 237 | 0 | 0 | 0 | 0 | hebrew-glosses-drafted-pending-source-and-editorial-review |
+| צ | 302 | 4,295 | 302 | 302 | 302 | 302 | 0 | source-cross-checked-pending-editorial-review |
 | ק | 283 | 5,174 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ר | 352 | 6,354 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ש | 744 | 20,468 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ת | 287 | 3,831 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
-| **סה״כ** | **8,160** | **240,584** | **1549** | **870** | **870** | **775** | **0** | |
+| **סה״כ** | **8,225** | **241,655** | **1614** | **1172** | **1172** | **1077** | **0** | |
