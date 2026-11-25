@@ -7,7 +7,7 @@
 | א | 832 | 52,808 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ב | 448 | 10,626 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ג | 314 | 4,400 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
-| ד | 202 | 7,071 | 202 | 0 | 0 | 0 | 0 | hebrew-glosses-drafted-pending-source-and-editorial-review |
+| ד | 225 | 7,251 | 225 | 225 | 225 | 225 | 0 | source-cross-checked-pending-editorial-review |
 | ה | 156 | 9,669 | 156 | 156 | 156 | 156 | 0 | source-cross-checked-pending-editorial-review |
 | ו | 10 | 31 | 10 | 10 | 10 | 10 | 0 | machine-generated-needs-human-review |
 | ז | 169 | 4,505 | 169 | 0 | 0 | 0 | 0 | hebrew-glosses-drafted-pending-source-and-editorial-review |
@@ -26,4 +26,4 @@
 | ר | 352 | 6,354 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ש | 744 | 20,468 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ת | 287 | 3,831 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
-| **סה״כ** | **8,137** | **240,404** | **1526** | **645** | **645** | **550** | **0** | |
+| **סה״כ** | **8,160** | **240,584** | **1549** | **870** | **870** | **775** | **0** | |
