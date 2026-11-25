@@ -46,3 +46,11 @@ for test in tests/*.test.cjs; do node "$test" || exit 1; done
 - `node tests/vav-source-audit.cjs` עבר ב־GitHub Actions עבור 10 ערכים וכל 31 ההיקרויות מול גרסאות המקור המקובעות.
 - תוקנו מיקומי שני טוקנים: `0235f` מ־13 ל־14, ו־`17qry` מ־11 ל־12, גם בקובץ האות וגם בקובץ ההיקרויות הנפרד.
 - **בקרת עריכה לשונית של הפירושים בעברית עדיין ממתינה**; אין לסמן `editoriallyApproved` כאמת.
+
+## Regenerated with scripts/concordance.py (2026-11-25)
+- `generate --letter ו --write`: ערכים 10→10 (ערכי הומוגרף לפי AugIndex), היקרויות 31→31, 2 מיקומי `tokenPosition` הוחזרו לסמנטיקת הזרם הכתוב (מילות קרי בהערה אינן מקבלות מיקום).
+- `data/drafts/ו.txt`: הוסרה קידומת "ערך;" מ־0 פירושים; נכתבו 0 פירושים חדשים ונוסחו מחדש 0 פירושים (דלים, חוזרים על השורש, סימוני "לבדיקה", ארמית ללא "בארמית:").
+- `enrich` לא הורץ על ו׳ כדי לשמור את ערכי `definitionConfidence` שנקבעו ידנית בפיילוט (high/uncertain/disputed); `data/drafts/ו.txt` נשמר לעיון בלבד.
+- `lint --letter ו` → 0 הפרות; `audit --letter ו` → PASS (0 כשלי מיקום/צורה/למה/מורפולוגיה, 0 כשלי קטעי Strong/BDB); `audit --all` → 22/22.
+- כל הערכים: פירוש עברי, קטעי Strong ו־BDB מקוריים, `editoriallyApproved: false`. הסקריפט הישן של האות אינו בשימוש עוד ואין להריצו (ידרוס את התיקונים).
+

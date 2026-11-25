@@ -1,20 +1,43 @@
 {
   "letter": "ו",
-  "status": "machine-generated-needs-human-review",
+  "status": "source-cross-checked-pending-editorial-review",
   "scope": "MorphHB-attested-headwords-standard-and-ketiv-only",
   "source": {
     "morphhbRevision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
     "hebrewLexiconRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
     "license": "CC BY 4.0"
   },
+  "tokenPositionSemantics": "1-based index in the written token stream of the verse; Qere note words take no position",
   "limitations": [
     "Attested MorphHB Strong references only; not a complete dictionary of unattested lexemes",
-    "Unmapped or ambiguous Strong references cannot be assigned to an initial letter",
+    "Unmapped or genuinely ambiguous Strong references cannot be assigned to an initial letter",
     "Qere alternatives excluded pending explicit Ketiv-Qere alignment",
     "Machine lexicon joins and headwords are not independently scholarly reviewed"
   ],
   "entryCount": 10,
   "totalOccurrences": 31,
+  "summary": {
+    "entries": 10,
+    "withDefinitionHe": 10,
+    "strongSourceChecked": 10,
+    "bdbSourceChecked": 10,
+    "occurrenceCountChecked": 10,
+    "editoriallyApproved": 0
+  },
+  "definitionPilot": {
+    "letter": "ו",
+    "status": "source-checked-pending-editorial-review",
+    "method": "Compared each of the ten entries with Strong and Brown-Driver-Briggs, including textual caveats; English summaries are not verbatim quotes.",
+    "sourceUrl": "https://github.com/openscriptures/HebrewLexicon",
+    "sourceLicense": "CC BY 4.0",
+    "reviewedByHuman": false,
+    "originalEnglishSource": "Open Scriptures HebrewStrong.xml (Strong entries H2051–H2060)",
+    "originalEnglishCoverage": "10/10 Strong exact XML source/meaning/usage fields; 10/10 BDB verified lexical opening excerpts (not full entries)",
+    "bdbSourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+    "strongSourceVerified": true,
+    "bdbExcerptVerified": true,
+    "notes": "Source check is not independent scholarly editorial approval. Occurrence counts and lexeme matches need separate text audit."
+  },
   "entries": [
     {
       "strongNumber": "2051",
@@ -223,7 +246,7 @@
         {
           "tokenId": "0235f",
           "verseId": "Exod.27.11",
-          "tokenPosition": 14,
+          "tokenPosition": 13,
           "form": "וָוֵ֧י",
           "readingType": "standard",
           "lemmaRaw": "2053",
@@ -945,7 +968,7 @@
         {
           "tokenId": "17qry",
           "verseId": "Esth.1.16",
-          "tokenPosition": 12,
+          "tokenPosition": 11,
           "form": "וַשְׁתִּ֣י",
           "readingType": "standard",
           "lemmaRaw": "2060",
@@ -1081,19 +1104,5 @@
         }
       }
     }
-  ],
-  "definitionPilot": {
-    "letter": "ו",
-    "status": "source-checked-pending-editorial-review",
-    "method": "Compared each of the ten entries with Strong and Brown-Driver-Briggs, including textual caveats; English summaries are not verbatim quotes.",
-    "sourceUrl": "https://github.com/openscriptures/HebrewLexicon",
-    "sourceLicense": "CC BY 4.0",
-    "reviewedByHuman": false,
-    "originalEnglishSource": "Open Scriptures HebrewStrong.xml (Strong entries H2051–H2060)",
-    "originalEnglishCoverage": "10/10 Strong exact XML source/meaning/usage fields; 10/10 BDB verified lexical opening excerpts (not full entries)",
-    "bdbSourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
-    "strongSourceVerified": true,
-    "bdbExcerptVerified": true,
-    "notes": "Source check is not independent scholarly editorial approval. Occurrence counts and lexeme matches need separate text audit."
-  }
+  ]
 }
