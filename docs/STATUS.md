@@ -5,7 +5,7 @@
 | אות | ערכים | היקרויות | פירוש עברי | Strong נבדק | BDB נבדק | טוקנים נבדקו | מאושר עריכתית | סטטוס |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
 | א | 832 | 52,808 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
-| ב | 448 | 10,626 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
+| ב | 487 | 18,712 | 487 | 487 | 487 | 487 | 0 | source-cross-checked-pending-editorial-review |
 | ג | 339 | 5,764 | 339 | 339 | 339 | 339 | 0 | source-cross-checked-pending-editorial-review |
 | ד | 225 | 7,251 | 225 | 225 | 225 | 225 | 0 | source-cross-checked-pending-editorial-review |
 | ה | 156 | 9,669 | 156 | 156 | 156 | 156 | 0 | source-cross-checked-pending-editorial-review |
@@ -26,4 +26,4 @@
 | ר | 410 | 9,058 | 410 | 410 | 410 | 410 | 0 | source-cross-checked-pending-editorial-review |
 | ש | 744 | 20,468 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ת | 319 | 4,054 | 319 | 319 | 319 | 319 | 0 | source-cross-checked-pending-editorial-review |
-| **סה״כ** | **8,524** | **249,993** | **3857** | **3415** | **3415** | **3320** | **0** | |
+| **סה״כ** | **8,563** | **258,079** | **4344** | **3902** | **3902** | **3807** | **0** | |
