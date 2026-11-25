@@ -25,5 +25,5 @@
 | ק | 283 | 5,174 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ר | 352 | 6,354 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ש | 744 | 20,468 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
-| ת | 287 | 3,831 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
-| **סה״כ** | **8,225** | **241,655** | **1614** | **1172** | **1172** | **1077** | **0** | |
+| ת | 319 | 4,054 | 319 | 319 | 319 | 319 | 0 | source-cross-checked-pending-editorial-review |
+| **סה״כ** | **8,257** | **241,878** | **1933** | **1491** | **1491** | **1396** | **0** | |
