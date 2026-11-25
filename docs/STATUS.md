@@ -24,6 +24,6 @@
 | צ | 302 | 4,295 | 302 | 302 | 302 | 302 | 0 | source-cross-checked-pending-editorial-review |
 | ק | 334 | 7,237 | 334 | 334 | 334 | 334 | 0 | source-cross-checked-pending-editorial-review |
 | ר | 410 | 9,058 | 410 | 410 | 410 | 410 | 0 | source-cross-checked-pending-editorial-review |
-| ש | 744 | 20,468 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
+| ש | 855 | 22,449 | 855 | 855 | 855 | 855 | 0 | source-cross-checked-pending-editorial-review |
 | ת | 319 | 4,054 | 319 | 319 | 319 | 319 | 0 | source-cross-checked-pending-editorial-review |
-| **סה״כ** | **8,820** | **276,745** | **6270** | **5828** | **5828** | **5733** | **0** | |
+| **סה״כ** | **8,931** | **278,726** | **7125** | **6683** | **6683** | **6588** | **0** | |
