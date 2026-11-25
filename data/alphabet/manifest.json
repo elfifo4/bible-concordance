@@ -23,8 +23,8 @@
     },
     {
       "letter": "ד",
-      "entryCount": 202,
-      "occurrenceCount": 7071
+      "entryCount": 225,
+      "occurrenceCount": 7251
     },
     {
       "letter": "ה",
@@ -117,6 +117,6 @@
       "occurrenceCount": 3831
     }
   ],
-  "totalEntries": 8137,
-  "totalOccurrences": 240404
+  "totalEntries": 8160,
+  "totalOccurrences": 240584
 }
