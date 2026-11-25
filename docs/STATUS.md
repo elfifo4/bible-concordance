@@ -23,7 +23,7 @@
 | פ | 366 | 7,449 | 366 | 366 | 366 | 366 | 0 | source-cross-checked-pending-editorial-review |
 | צ | 302 | 4,295 | 302 | 302 | 302 | 302 | 0 | source-cross-checked-pending-editorial-review |
 | ק | 334 | 7,237 | 334 | 334 | 334 | 334 | 0 | source-cross-checked-pending-editorial-review |
-| ר | 352 | 6,354 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
+| ר | 410 | 9,058 | 410 | 410 | 410 | 410 | 0 | source-cross-checked-pending-editorial-review |
 | ש | 744 | 20,468 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
 | ת | 319 | 4,054 | 319 | 319 | 319 | 319 | 0 | source-cross-checked-pending-editorial-review |
-| **סה״כ** | **8,379** | **246,190** | **2972** | **2530** | **2530** | **2435** | **0** | |
+| **סה״כ** | **8,437** | **248,894** | **3382** | **2940** | **2940** | **2845** | **0** | |
