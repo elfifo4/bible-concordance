@@ -62,8 +62,8 @@
           }
         }
       ],
+      "definitionEn": "Apparently a place name; identification wholly doubtful.",
       "definitionHe": "כנראה שם מקום הנזכר בין שותפי המסחר של צור; זיהויו ומיקומו מסופקים.",
-      "definitionEn": "Vedan (or Aden), a place in Arabia",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -71,7 +71,8 @@
         "strongNumber": "2051"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "uncertain",
+      "definitionNote": "BDB doubts the identification and possibly the underlying text.",
+      "definitionConfidence": "disputed",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2051.htm"
@@ -80,7 +81,7 @@
           "Strong",
           "Brown-Driver-Briggs"
         ],
-        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
         "bdbSourceChecked": true,
@@ -91,11 +92,12 @@
           "source": "perhaps for 5730;",
           "meaning": "Vedan (or Aden), a place in Arabia",
           "usage": "Dan also.",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
           "entryId": "H2051",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
           "verifiedAgainstSource": true,
+          "verificationNote": "Compared Strong XML source/meaning/usage nodes with Open Scriptures HebrewStrong.xml H2051 (source version pinned below).",
           "sourceXml": "perhaps for <w src=\"H5730\">5730</w>;",
           "meaningXml": "<def>Vedan</def> (or Aden), a place in Arabia",
           "usageXml": "Dan also.",
@@ -104,12 +106,12 @@
         "bdb": {
           "entryId": "f.ab.ab",
           "entryBodyXml": "<w>וְדָן</w>, appar. <pos>n.pr.loc</pos>., only in <ref r=\"Ezek.27.19\">Ez 27:19</ref> but identif. wholly dub.",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
           "license": "CC BY 4.0",
           "verifiedAgainstSource": true,
           "sourceFormat": "BDB XML entry body excluding status tag",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
-          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "verificationNote": "Verified BDB entry excerpt against BrownDriverBriggs.xml; this is the lexical opening text, not the entire dictionary entry including metadata/status.",
           "scope": "lexical-opening-excerpt"
         }
       }
@@ -137,8 +139,8 @@
           }
         }
       ],
+      "definitionEn": "Perhaps a place in Moab; exact location unknown.",
       "definitionHe": "כנראה שם מקום הנזכר בבמדבר כ״א, י״ד; ייתכן שהיה באזור מואב, אך מיקומו אינו ידוע.",
-      "definitionEn": "Vaheb, a place in Moab",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -146,6 +148,7 @@
         "strongNumber": "2052"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionNote": "BDB: apparently a place name; its situation is unknown.",
       "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
@@ -155,7 +158,7 @@
           "Strong",
           "Brown-Driver-Briggs"
         ],
-        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
         "bdbSourceChecked": true,
@@ -166,11 +169,12 @@
           "source": "of uncertain derivation;",
           "meaning": "Vaheb, a place in Moab",
           "usage": "what he did.",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
           "entryId": "H2052",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
           "verifiedAgainstSource": true,
+          "verificationNote": "Compared Strong XML source/meaning/usage nodes with Open Scriptures HebrewStrong.xml H2052 (source version pinned below).",
           "sourceXml": "of uncertain derivation;",
           "meaningXml": "<def>Vaheb</def>, a place in Moab",
           "usageXml": "what he did.",
@@ -179,12 +183,12 @@
         "bdb": {
           "entryId": "f.ab.ac",
           "entryBodyXml": "<w>וָהֵב</w>, appar. <pos>n.pr.loc</pos>. <ref r=\"Num.21.14\">Nu 21:14</ref>, obj. of a vb. now lost out of the text",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
           "license": "CC BY 4.0",
           "verifiedAgainstSource": true,
           "sourceFormat": "BDB XML entry body excluding status tag",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
-          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "verificationNote": "Verified BDB entry excerpt against BrownDriverBriggs.xml; this is the lexical opening text, not the entire dictionary entry including metadata/status.",
           "scope": "lexical-opening-excerpt"
         }
       }
@@ -380,8 +384,8 @@
           }
         }
       ],
+      "definitionEn": "Hook, pin, or peg used to support tabernacle hangings.",
       "definitionHe": "קרס או יתד ששימשו לחיבור יריעות או לתלייתן על עמודי המשכן.",
-      "definitionEn": "a hook (the name of the sixth Hebrew letter)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -389,7 +393,8 @@
         "strongNumber": "2053"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionNote": "",
+      "definitionConfidence": "high",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2053.htm"
@@ -398,7 +403,7 @@
           "Strong",
           "Brown-Driver-Briggs"
         ],
-        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
         "bdbSourceChecked": true,
@@ -409,11 +414,12 @@
           "source": "probably",
           "meaning": "a hook (the name of the sixth Hebrew letter)",
           "usage": "hook.",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
           "entryId": "H2053",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
           "verifiedAgainstSource": true,
+          "verificationNote": "Compared Strong XML source/meaning/usage nodes with Open Scriptures HebrewStrong.xml H2053 (source version pinned below).",
           "sourceXml": "probably",
           "meaningXml": "a <def>hook</def> (the name of the sixth Hebrew letter)",
           "usageXml": "hook.",
@@ -422,12 +428,12 @@
         "bdb": {
           "entryId": "f.ab.ad",
           "entryBodyXml": "[<w>וָו</w>] <pos>n.[m.]</pos> <def>hook</def>, <def>pin</def> or <def>peg</def>",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
           "license": "CC BY 4.0",
           "verifiedAgainstSource": true,
           "sourceFormat": "BDB XML entry body excluding status tag",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
-          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "verificationNote": "Verified BDB entry excerpt against BrownDriverBriggs.xml; this is the lexical opening text, not the entire dictionary entry including metadata/status.",
           "scope": "lexical-opening-excerpt"
         }
       }
@@ -455,8 +461,8 @@
           }
         }
       ],
+      "definitionEn": "Criminal, guilty; the reading of the text is doubtful.",
       "definitionHe": "לפי פירוש מילוני אחד: אדם אשם או פושע; הקריאה ומשמעותה בפסוק מסופקות.",
-      "definitionEn": "crime",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -464,7 +470,8 @@
         "strongNumber": "2054"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "uncertain",
+      "definitionNote": "Proverbs 21:8: BDB marks the text as dubious; do not present 'crime' as a certain noun meaning.",
+      "definitionConfidence": "disputed",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2054.htm"
@@ -473,7 +480,7 @@
           "Strong",
           "Brown-Driver-Briggs"
         ],
-        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
         "bdbSourceChecked": true,
@@ -484,11 +491,12 @@
           "source": "presumed to be from an unused root meaning to bear guilt;",
           "meaning": "crime",
           "usage": "× strange.",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
           "entryId": "H2054",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
           "verifiedAgainstSource": true,
+          "verificationNote": "Compared Strong XML source/meaning/usage nodes with Open Scriptures HebrewStrong.xml H2054 (source version pinned below).",
           "sourceXml": "presumed to be from an unused root meaning to bear guilt;",
           "meaningXml": "<def>crime</def>",
           "usageXml": "× strange.",
@@ -497,12 +505,12 @@
         "bdb": {
           "entryId": "f.ac.ab",
           "entryBodyXml": "<w>וָזָר</w> <pos>adj</pos>. <def>criminal</def>, <def>guilty</def> <ref r=\"Prov.21.8\">Pr 21:8</ref>",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
           "license": "CC BY 4.0",
           "verifiedAgainstSource": true,
           "sourceFormat": "BDB XML entry body excluding status tag",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
-          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "verificationNote": "Verified BDB entry excerpt against BrownDriverBriggs.xml; this is the lexical opening text, not the entire dictionary entry including metadata/status.",
           "scope": "lexical-opening-excerpt"
         }
       }
@@ -530,8 +538,8 @@
           }
         }
       ],
+      "definitionEn": "A son of Haman.",
       "definitionHe": "אחד מעשרת בני המן הנזכרים במגילת אסתר.",
-      "definitionEn": "Vajezatha, a son of Haman",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -539,7 +547,8 @@
         "strongNumber": "2055"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionNote": "",
+      "definitionConfidence": "high",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2055.htm"
@@ -548,7 +557,7 @@
           "Strong",
           "Brown-Driver-Briggs"
         ],
-        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
         "bdbSourceChecked": true,
@@ -559,11 +568,12 @@
           "source": "of foreign origin;",
           "meaning": "Vajezatha, a son of Haman",
           "usage": "Vajezatha.",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
           "entryId": "H2055",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
           "verifiedAgainstSource": true,
+          "verificationNote": "Compared Strong XML source/meaning/usage nodes with Open Scriptures HebrewStrong.xml H2055 (source version pinned below).",
           "sourceXml": "of foreign origin;",
           "meaningXml": "<def>Vajezatha</def>, a son of Haman",
           "usageXml": "Vajezatha.",
@@ -572,12 +582,12 @@
         "bdb": {
           "entryId": "f.ac.ac",
           "entryBodyXml": "<w>וַיְזָתָא</w> <pos>n.pr.m</pos>. a son of Haman <ref r=\"Esth.9.9\">Est 9:9</ref>.",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
           "license": "CC BY 4.0",
           "verifiedAgainstSource": true,
           "sourceFormat": "BDB XML entry body excluding status tag",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
-          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "verificationNote": "Verified BDB entry excerpt against BrownDriverBriggs.xml; this is the lexical opening text, not the entire dictionary entry including metadata/status.",
           "scope": "lexical-opening-excerpt"
         }
       }
@@ -605,8 +615,8 @@
           }
         }
       ],
+      "definitionEn": "Offspring, child.",
       "definitionHe": "ילד או צאצא, זכר או נקבה.",
-      "definitionEn": "a boy",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -614,7 +624,8 @@
         "strongNumber": "2056"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionNote": "Genesis 11:30; earlier wording 'particularly a boy' was overly narrow.",
+      "definitionConfidence": "high",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2056.htm"
@@ -623,7 +634,7 @@
           "Strong",
           "Brown-Driver-Briggs"
         ],
-        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
         "bdbSourceChecked": true,
@@ -634,11 +645,12 @@
           "source": "for 3206;",
           "meaning": "a boy",
           "usage": "child.",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
           "entryId": "H2056",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
           "verifiedAgainstSource": true,
+          "verificationNote": "Compared Strong XML source/meaning/usage nodes with Open Scriptures HebrewStrong.xml H2056 (source version pinned below).",
           "sourceXml": "for <w src=\"H3206\">3206</w>;",
           "meaningXml": "a <def>boy</def>",
           "usageXml": "child.",
@@ -647,12 +659,13 @@
         "bdb": {
           "entryId": "j.bn.ab",
           "entryBodyXml": "<w>וָלָד</w> <pos>n.m</pos>. <def>offspring</def>, <def>child</def>, only <ref r=\"Gen.11.30\">Gn 11:30</ref> (J)",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
           "license": "CC BY 4.0",
           "verifiedAgainstSource": true,
           "sourceFormat": "BDB XML entry body excluding status tag",
+          "note": "BDB f.ac.ad is a cross-reference; full lexical entry is j.bn.ab.",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
-          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "verificationNote": "Verified BDB entry excerpt against BrownDriverBriggs.xml; this is the lexical opening text, not the entire dictionary entry including metadata/status.",
           "scope": "lexical-opening-excerpt"
         }
       }
@@ -680,8 +693,8 @@
           }
         }
       ],
+      "definitionEn": "An Israelite listed among those who had foreign wives.",
       "definitionHe": "אדם מישראל הנזכר ברשימת מי שנשאו נשים נוכריות בספר עזרא.",
-      "definitionEn": "Vanjah, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -689,7 +702,8 @@
         "strongNumber": "2057"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionNote": "BDB notes uncertainty about the textual reading.",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2057.htm"
@@ -698,7 +712,7 @@
           "Strong",
           "Brown-Driver-Briggs"
         ],
-        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
         "bdbSourceChecked": true,
@@ -709,11 +723,12 @@
           "source": "perhaps for 6043;",
           "meaning": "Vanjah, an Israelite",
           "usage": "Vaniah.",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
           "entryId": "H2057",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
           "verifiedAgainstSource": true,
+          "verificationNote": "Compared Strong XML source/meaning/usage nodes with Open Scriptures HebrewStrong.xml H2057 (source version pinned below).",
           "sourceXml": "perhaps for <w src=\"H6043\">6043</w>;",
           "meaningXml": "<def>Vanjah</def>, an Israelite",
           "usageXml": "Vaniah.",
@@ -722,12 +737,12 @@
         "bdb": {
           "entryId": "f.ac.ae",
           "entryBodyXml": "<w>וַנְיָה</w> <pos>n.pr.m</pos>. one of those with strange wives, <ref r=\"Ezra.10.36\">Ezr 10:36</ref>",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
           "license": "CC BY 4.0",
           "verifiedAgainstSource": true,
           "sourceFormat": "BDB XML entry body excluding status tag",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
-          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "verificationNote": "Verified BDB entry excerpt against BrownDriverBriggs.xml; this is the lexical opening text, not the entire dictionary entry including metadata/status.",
           "scope": "lexical-opening-excerpt"
         }
       }
@@ -755,8 +770,8 @@
           }
         }
       ],
+      "definitionEn": "A Naphtalite, father of Nahbi.",
       "definitionHe": "אדם משבט נפתלי, אביו של נַחְבִּי שנשלח לתור את ארץ כנען.",
-      "definitionEn": "Vophsi, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -764,7 +779,8 @@
         "strongNumber": "2058"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionNote": "BDB notes textual uncertainty.",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2058.htm"
@@ -773,7 +789,7 @@
           "Strong",
           "Brown-Driver-Briggs"
         ],
-        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
         "bdbSourceChecked": true,
@@ -784,11 +800,12 @@
           "source": "probably from 3254; additional;",
           "meaning": "Vophsi, an Israelite",
           "usage": "Vophsi.",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
           "entryId": "H2058",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
           "verifiedAgainstSource": true,
+          "verificationNote": "Compared Strong XML source/meaning/usage nodes with Open Scriptures HebrewStrong.xml H2058 (source version pinned below).",
           "sourceXml": "probably from <w src=\"H3254\">3254</w>; <def>additional</def>;",
           "meaningXml": "<def>Vophsi</def>, an Israelite",
           "usageXml": "Vophsi.",
@@ -797,12 +814,12 @@
         "bdb": {
           "entryId": "f.ac.af",
           "entryBodyXml": "<w>וָפְסִי</w> <pos>n.pr.m</pos>. a man of Naphtali, <ref r=\"Num.13.14\">Nu 13:14</ref>",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
           "license": "CC BY 4.0",
           "verifiedAgainstSource": true,
           "sourceFormat": "BDB XML entry body excluding status tag",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
-          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "verificationNote": "Verified BDB entry excerpt against BrownDriverBriggs.xml; this is the lexical opening text, not the entire dictionary entry including metadata/status.",
           "scope": "lexical-opening-excerpt"
         }
       }
@@ -830,8 +847,8 @@
           }
         }
       ],
+      "definitionEn": "Possibly a personal name; alternatively a textual reading of 'and the second'.",
       "definitionHe": "לפי נוסח המסורה, כנראה שמו של אחד מבני שמואל; ייתכן שיש לקרוא במקום זאת ״והשני״.",
-      "definitionEn": "Vashni, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -839,7 +856,8 @@
         "strongNumber": "2059"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "uncertain",
+      "definitionNote": "BDB מציין שם פרטי לפי נוסח המסורה. הקריאה ״והשני״ היא אפשרות פרשנית הנלמדת מהקשר הפסוק ומן המקבילה בשמואל א׳ ח׳, ב׳, ולא מהציטוט השמור מ־BDB.",
+      "definitionConfidence": "disputed",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2059.htm"
@@ -848,7 +866,7 @@
           "Strong",
           "Brown-Driver-Briggs"
         ],
-        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
         "bdbSourceChecked": true,
@@ -859,11 +877,12 @@
           "source": "probably from 3461; weak;",
           "meaning": "Vashni, an Israelite",
           "usage": "Vashni.",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
           "entryId": "H2059",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
           "verifiedAgainstSource": true,
+          "verificationNote": "Compared Strong XML source/meaning/usage nodes with Open Scriptures HebrewStrong.xml H2059 (source version pinned below).",
           "sourceXml": "probably from <w src=\"H3461\">3461</w>; weak;",
           "meaningXml": "<def>Vashni</def>, an Israelite",
           "usageXml": "Vashni.",
@@ -872,12 +891,12 @@
         "bdb": {
           "entryId": "f.ac.ag",
           "entryBodyXml": "<w>וַשְׁנִי</w> acc. to MT appar. <pos>n.pr.m</pos>. son of Samuel, only <ref r=\"1Chr.6.13\">1 Ch 6:13</ref>",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
           "license": "CC BY 4.0",
           "verifiedAgainstSource": true,
           "sourceFormat": "BDB XML entry body excluding status tag",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
-          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "verificationNote": "Verified BDB entry excerpt against BrownDriverBriggs.xml; this is the lexical opening text, not the entire dictionary entry including metadata/status.",
           "scope": "lexical-opening-excerpt"
         }
       }
@@ -1031,8 +1050,8 @@
           }
         }
       ],
+      "definitionEn": "Queen of Ahasuerus, king of Persia.",
       "definitionHe": "מלכת אחשוורוש מלך פרס, שהודחה ממעמדה לאחר שסירבה להופיע לפני אורחי המלך.",
-      "definitionEn": "Vashti, the queen of Xerxes",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -1040,7 +1059,8 @@
         "strongNumber": "2060"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionNote": "",
+      "definitionConfidence": "high",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2060.htm"
@@ -1049,7 +1069,7 @@
           "Strong",
           "Brown-Driver-Briggs"
         ],
-        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "method": "Compared dictionary definitions and lexical notes; English is a paraphrase, not a quotation.",
         "editoriallyApproved": false,
         "strongSourceChecked": true,
         "bdbSourceChecked": true,
@@ -1060,11 +1080,12 @@
           "source": "of Persian origin;",
           "meaning": "Vashti, the queen of Xerxes",
           "usage": "Vashti. z",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
           "entryId": "H2060",
           "license": "CC BY 4.0",
           "format": "plain-text extraction of XML source, meaning and usage nodes",
           "verifiedAgainstSource": true,
+          "verificationNote": "Compared Strong XML source/meaning/usage nodes with Open Scriptures HebrewStrong.xml H2060 (source version pinned below).",
           "sourceXml": "of Persian origin;",
           "meaningXml": "<def>Vashti</def>, the queen of Xerxes",
           "usageXml": "Vashti. z",
@@ -1073,12 +1094,12 @@
         "bdb": {
           "entryId": "f.ac.ah",
           "entryBodyXml": "<w>וַשְׁתִּי</w> <pos>n.pr.f</pos>. queen of Ahasuerus (Xerxes) king of Persia",
-          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
           "license": "CC BY 4.0",
           "verifiedAgainstSource": true,
           "sourceFormat": "BDB XML entry body excluding status tag",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
-          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "verificationNote": "Verified BDB entry excerpt against BrownDriverBriggs.xml; this is the lexical opening text, not the entire dictionary entry including metadata/status.",
           "scope": "lexical-opening-excerpt"
         }
       }
