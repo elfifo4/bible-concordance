@@ -1,6 +1,6 @@
 {
   "letter": "ה",
-  "status": "partially-defined-needs-human-review",
+  "status": "source-cross-checked-pending-editorial-review",
   "scope": "MorphHB-attested-headwords-standard-and-ketiv-only",
   "source": {
     "morphhbRevision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
@@ -18,10 +18,10 @@
   "totalOccurrences": 9963,
   "summary": {
     "entries": 172,
-    "withDefinitionHe": 156,
-    "strongSourceChecked": 156,
-    "bdbSourceChecked": 156,
-    "occurrenceCountChecked": 156,
+    "withDefinitionHe": 172,
+    "strongSourceChecked": 172,
+    "bdbSourceChecked": 172,
+    "occurrenceCountChecked": 172,
     "editoriallyApproved": 0
   },
   "entries": [
@@ -136,7 +136,58 @@
             "sourceTokenId": "27GMz"
           }
         }
-      ]
+      ],
+      "definitionHe": "בארמית: מילת רמז \"ראה\", המצורפת לכ׳ השימוש לחיזוק (\"כשם ש־\"); רק בדניאל ב׳, מ״ג.",
+      "definitionEn": "",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1888.htm",
+        "strongNumber": "1888"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1888.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) or הָא; (Aramaic), corresponding to 1887",
+          "meaning": "",
+          "usage": "even, lo.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1888",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) or <w pron=\"haw\" xlit=\"hâʼ\">הָא</w>; (Aramaic), corresponding to <w src=\"H1887\">1887</w>",
+          "meaningXml": "",
+          "usageXml": "even, lo.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xe.ac.aa",
+          "entryBodyXml": "<w>הֵא</w> <pos>demonstr.part</pos>. prefixed idiom. to כְּ for greater definiteness, lit. <def>behold like</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "1888",
@@ -160,7 +211,58 @@
             "sourceTokenId": "27vJb"
           }
         }
-      ]
+      ],
+      "definitionHe": "בארמית: מילת קריאה \"ראה!\", \"הנה!\"; רק בדניאל ג׳, כ״ה.",
+      "definitionEn": "",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1888.htm",
+        "strongNumber": "1888"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1888.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) or הָא; (Aramaic), corresponding to 1887",
+          "meaning": "",
+          "usage": "even, lo.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1888",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) or <w pron=\"haw\" xlit=\"hâʼ\">הָא</w>; (Aramaic), corresponding to <w src=\"H1887\">1887</w>",
+          "meaningXml": "",
+          "usageXml": "even, lo.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xe.ab.aa",
+          "entryBodyXml": "<w>הָא</w> <pos>demonstr.part</pos>. <def>lo!</def>, <def>behold!</def>, <ref r=\"Dan.3.25\">Dn 3:25</ref>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "1889",
@@ -339,7 +441,7 @@
           }
         }
       ],
-      "definitionHe": "האח! קריאת שמחה או לעג.",
+      "definitionHe": "מילת קריאה של שמחה, לעיתים שמחה לאיד על אויב (יחזקאל כ״ה, ג׳).",
       "definitionEn": "aha!",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -545,7 +647,7 @@
           }
         }
       ],
-      "definitionHe": "להיות הבל או להוליך שולל.",
+      "definitionHe": "לנהוג בריקנות ולהיעשות ריק ונבוב; בהפעיל – להוליך שולל ולמלא בתקוות שווא.",
       "definitionEn": "to be vain in act, word, or expectation; specifically to lead astray",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -1628,7 +1730,7 @@
           }
         }
       ],
-      "definitionHe": "הבל; דבר חולף או חסר ערך.",
+      "definitionHe": "דבר חולף או חסר ערך.",
       "definitionEn": "emptiness or vanity; figuratively, something transitory and unsatisfactory; often used as an adverb",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -1801,7 +1903,7 @@
           }
         }
       ],
-      "definitionHe": "הבל; בנם של אדם וחוה.",
+      "definitionHe": "בנם של אדם וחוה.",
       "definitionEn": "Hebel, the son of Adam",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -2068,7 +2170,7 @@
           }
         }
       ],
-      "definitionHe": "הגי; סריס המלך.",
+      "definitionHe": "סריס אחשוורוש שהיה ממונה על הנשים בשושן (אסתר ב׳).",
       "definitionEn": "Hege or Hegai, a eunuch of Xerxes",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -2142,7 +2244,58 @@
             "sourceTokenId": "167ss"
           }
         }
-      ]
+      ],
+      "definitionHe": "אביו של זבדיאל, פקיד בימי נחמיה (נחמיה י״א, י״ד); ייתכן שאינו שם פרטי אלא תואר של אצילים, כבתרגום השבעים.",
+      "definitionEn": "great (in any sense); hence, older; also insolent",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1419.htm",
+        "strongNumber": "1419"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "uncertain",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1419.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or גָּדֹל; (shortened) from 1431;",
+          "meaning": "great (in any sense); hence, older; also insolent",
+          "usage": "aloud, elder(-est), exceeding(-ly), far, (man of) great (man, matter, thing,-er,-ness), high, long, loud, mighty, more, much, noble, proud thing, × sore, (×) very.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1419",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"gawdole'\" xlit=\"gâdôl\">גָּדֹל</w>; (shortened) from <w src=\"H1431\">1431</w>;",
+          "meaningXml": "<def>great</def> (in any sense); hence, <def>older</def>; also <def>insolent</def>",
+          "usageXml": "  aloud, elder(-est),   exceeding(-ly),   far, (man of) great (man, matter, thing,-er,-ness), high, long, loud, mighty, more, much, noble, proud thing, × sore, (×) very.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "c.aq.ag",
+          "entryBodyXml": "<w>הַגְּדוֹלִים</w> <pos>n.pr.m</pos>. father of Zabdiel <ref r=\"Neh.11.14\">Ne 11:14</ref> (RV &amp; so most; but 𝔊 RVm al. <def>the great</def>).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "1897",
@@ -2709,7 +2862,7 @@
           }
         }
       ],
-      "definitionHe": "הגה; קול או מלמול.",
+      "definitionHe": "קול או מלמול.",
       "definitionEn": "a muttering (in sighing, thought, or as thunder)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -2784,7 +2937,7 @@
           }
         }
       ],
-      "definitionHe": "הגות; הרהור.",
+      "definitionHe": "מחשבה ועיון פנימי; רק בתהלים מ״ט, ד׳.",
       "definitionEn": "musing",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -2873,7 +3026,7 @@
           }
         }
       ],
-      "definitionHe": "הגיג; מחשבה או תלונה.",
+      "definitionHe": "מחשבה או תלונה.",
       "definitionEn": "properly, a murmur, i.e. complaint",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -2990,7 +3143,7 @@
           }
         }
       ],
-      "definitionHe": "היגיון; הגות או צליל נגינה.",
+      "definitionHe": "הגות או צליל נגינה.",
       "definitionEn": "a murmuring sound, i.e. a musical notation (probably similar to the modern affettuoso to indicate solemnity of movement); by implication, a machination",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -3074,7 +3227,7 @@
         "strongNumber": "1903"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/1903.htm"
@@ -3294,7 +3447,7 @@
           }
         }
       ],
-      "definitionHe": "הגר; אם ישמעאל.",
+      "definitionHe": "שפחתה המצרית של שרה ואם ישמעאל בן אברהם.",
       "definitionEn": "Hagar, the mother of Ishmael",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -3439,7 +3592,7 @@
           }
         }
       ],
-      "definitionHe": "הגרי; בן שבט ההגרים.",
+      "definitionHe": "בן שבט ההגרים.",
       "definitionEn": "a Hagrite or member of a certain Arabian clan",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -3514,7 +3667,7 @@
           }
         }
       ],
-      "definitionHe": "הד; קול חוזר.",
+      "definitionHe": "קול חוזר.",
       "definitionEn": "a shout",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -3631,7 +3784,7 @@
           }
         }
       ],
-      "definitionHe": "יועץ או שר.",
+      "definitionHe": "בארמית: יועץ או שר.",
       "definitionEn": "a vizier",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -3860,7 +4013,7 @@
           }
         }
       ],
-      "definitionHe": "הדד; שם אל או מלך.",
+      "definitionHe": "שם אל או מלך.",
       "definitionEn": "Hadad, the name of an idol, and of several kings of Edom",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -4215,7 +4368,7 @@
           }
         }
       ],
-      "definitionHe": "הדדעזר; שם מלך.",
+      "definitionHe": "מלך צובה הארמית שנלחם בדוד והובס בידו.",
       "definitionEn": "Hadadezer, a Syrian king",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -4304,7 +4457,7 @@
           }
         }
       ],
-      "definitionHe": "הדדרימון; שם מקום.",
+      "definitionHe": "מקום בבקעת מגידו שבו נערך מספד גדול (זכריה י״ב, י״א); ייתכן שהוא שמו של אל ארמי.",
       "definitionEn": "Hadad-Rimmon, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -4313,7 +4466,7 @@
         "strongNumber": "1910"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/1910.htm"
@@ -4468,7 +4621,7 @@
           }
         }
       ],
-      "definitionHe": "הודו; ארץ הודו.",
+      "definitionHe": "ארץ במזרח הרחוק, תת־היבשת ההודית, הגבול המזרחי של ממלכת אחשוורוש (אסתר א׳, א׳).",
       "definitionEn": "Hodu (i.e. Hindustan)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -4570,7 +4723,58 @@
             "sourceTokenId": "01ssc"
           }
         }
-      ]
+      ],
+      "definitionHe": "בנו של יקטן ושבט ערבי שנקרא על שמו (בראשית י׳, כ״ז); גם בנו של תועו מלך חמת ששלח מתנות לדוד.",
+      "definitionEn": "Hadoram, a son of Joktan, and the tribe descended from him",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1913.htm",
+        "strongNumber": "1913"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1913.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or הֲדֹרָם; probably of foreign derivation;",
+          "meaning": "Hadoram, a son of Joktan, and the tribe descended from him",
+          "usage": "Hadoram.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1913",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"hado-rawm'\" xlit=\"Hădôrâm\">הֲדֹרָם</w>; probably of foreign derivation;",
+          "meaningXml": "<def>Hadoram</def>, a son of Joktan, and the tribe descended from him",
+          "usageXml": "Hadoram.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.ao.ae",
+          "entryBodyXml": "<w>הֲדוֹרָם</w> <pos>n.pr.m</pos>.\r\n\t\t\t\t<sense n=\"1\">Arabian tribe, called son of Joktan</sense>\r\n\t\t\t\t<sense n=\"2\">son of Tou king of Hamath</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "1914",
@@ -4595,7 +4799,7 @@
           }
         }
       ],
-      "definitionHe": "הדי; שם אדם.",
+      "definitionHe": "אחד מגיבורי דוד, מנחלי געש (שמואל ב׳ כ״ג, ל׳).",
       "definitionEn": "Hiddai, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -4815,7 +5019,7 @@
           }
         }
       ],
-      "definitionHe": "הדום; משענת לרגליים.",
+      "definitionHe": "משענת לרגליים.",
       "definitionEn": "a footstool",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -4904,7 +5108,7 @@
           }
         }
       ],
-      "definitionHe": "חתיכה או שבר.",
+      "definitionHe": "בארמית: חתיכה או שבר.",
       "definitionEn": "something stamped to pieces, i.e. a bit",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -5049,7 +5253,7 @@
           }
         }
       ],
-      "definitionHe": "הדס; צמח ריחני.",
+      "definitionHe": "צמח ריחני.",
       "definitionEn": "the myrtle",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -5124,7 +5328,7 @@
           }
         }
       ],
-      "definitionHe": "הדסה; שמה העברי של אסתר.",
+      "definitionHe": "שמה העברי של אסתר.",
       "definitionEn": "Hadassah (or Esther)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -5339,7 +5543,7 @@
           }
         }
       ],
-      "definitionHe": "להדוף או לגרש.",
+      "definitionHe": "לדחוף בכוח, להבריח ולגרש; גם להדיח ממשרה.",
       "definitionEn": "to push away or down",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -5498,7 +5702,7 @@
           }
         }
       ],
-      "definitionHe": "להדר, לכבד או להתנשא.",
+      "definitionHe": "לכבד או להתנשא.",
       "definitionEn": "to swell up (literally or figuratively, active or passive); by implication, to favor or honour, be high or proud",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -5601,7 +5805,7 @@
           }
         }
       ],
-      "definitionHe": "לכבד או לפאר; בארמית.",
+      "definitionHe": "בארמית: לכבד או לפאר.",
       "definitionEn": "to magnify (figuratively)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -5704,7 +5908,7 @@
           }
         }
       ],
-      "definitionHe": "הדר או כבוד; בארמית.",
+      "definitionHe": "בארמית: כבוד ותפארת המלכות.",
       "definitionEn": "magnificence",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -5779,7 +5983,7 @@
           }
         }
       ],
-      "definitionHe": "הדר; שם אדם.",
+      "definitionHe": "מלך אדום ברשימת מלכי אדום (בראשית ל״ו, ל״ט); בדברי הימים נקרא בשם אחר.",
       "definitionEn": "Hadar, an Edomite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -5854,7 +6058,7 @@
           }
         }
       ],
-      "definitionHe": "הדר; כבוד או תפארת.",
+      "definitionHe": "כבוד או תפארת.",
       "definitionEn": "honour; used (figuratively) for the capital city (Jerusalem)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -6335,7 +6539,7 @@
           }
         }
       ],
-      "definitionHe": "הדר; יופי, פאר או הוד.",
+      "definitionHe": "יופי, פאר או הוד.",
       "definitionEn": "magnificence, i.e. ornament or splendor",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -6466,7 +6670,7 @@
           }
         }
       ],
-      "definitionHe": "הדרה; קישוט או כבוד.",
+      "definitionHe": "קישוט או כבוד.",
       "definitionEn": "decoration",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -6540,7 +6744,58 @@
             "sourceTokenId": "144Gx"
           }
         }
-      ]
+      ],
+      "definitionHe": "פקיד רחבעם הממונה על המס, שנרגם באבנים (דברי הימים ב׳ י׳, י״ח).",
+      "definitionEn": "Hadoram, a son of Joktan, and the tribe descended from him",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1913.htm",
+        "strongNumber": "1913"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1913.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or הֲדֹרָם; probably of foreign derivation;",
+          "meaning": "Hadoram, a son of Joktan, and the tribe descended from him",
+          "usage": "Hadoram.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1913",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"hado-rawm'\" xlit=\"Hădôrâm\">הֲדֹרָם</w>; probably of foreign derivation;",
+          "meaningXml": "<def>Hadoram</def>, a son of Joktan, and the tribe descended from him",
+          "usageXml": "Hadoram.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.as.af",
+          "entryBodyXml": "<w>הֲדֹרָם</w> <pos>n.pr.m</pos>. an official of Rehoboam",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "1929",
@@ -6565,7 +6820,7 @@
           }
         }
       ],
-      "definitionHe": "אהה; קריאת צער.",
+      "definitionHe": "קריאת צער.",
       "definitionEn": "ah! expressing grief",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -6654,7 +6909,7 @@
           }
         }
       ],
-      "definitionHe": "הו; קריאת צער.",
+      "definitionHe": "קריאת צער.",
       "definitionEn": "oh!",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -33021,7 +33276,7 @@
           }
         }
       ],
-      "definitionHe": "הוא; כינוי גוף.",
+      "definitionHe": "כינוי גוף.",
       "definitionEn": "he (she or it); only expressed when emphatic or without a verb; also (intensively) self, or (especially with the article) the same; sometimes (as demonstrative) this or that; occasionally (instead of copula) as or are",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -33390,8 +33645,8 @@
           }
         }
       ],
-      "definitionHe": "הוא; כינוי גוף בארמית.",
-      "definitionEn": "× are, it, this.",
+      "definitionHe": "בארמית: כינוי גוף.",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -33464,7 +33719,58 @@
             "sourceTokenId": "18Qy5"
           }
         }
-      ]
+      ],
+      "definitionHe": "ליפול; רק באיוב ל״ז, ו׳, על השלג היורד ארצה.",
+      "definitionEn": "to be (in the sense of existence)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1933.htm",
+        "strongNumber": "1933"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1933.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or הָוָה; a primitive root (compare 183, 1961) supposed to mean properly, to breathe;",
+          "meaning": "to be (in the sense of existence)",
+          "usage": "be, × have.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1933",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"haw-vaw'\" xlit=\"hâvâh\">הָוָה</w>; a primitive root (compare <w src=\"H183\">183</w>, <w src=\"H1961\">1961</w>) supposed to mean properly, to breathe;",
+          "meaningXml": "to <def>be</def> (in the sense of existence)",
+          "usageXml": "be, × have.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.ax.aa",
+          "entryBodyXml": "[<w>הָוָא</w>] <pos>vb</pos>. <def>fall</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "1934",
@@ -34469,7 +34775,7 @@
           }
         }
       ],
-      "definitionHe": "להיות או להתהוות; בארמית.",
+      "definitionHe": "בארמית: להיות או להתהוות.",
       "definitionEn": "to exist; used in a great variety of applications (especially in connection with other words)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -34866,7 +35172,7 @@
           }
         }
       ],
-      "definitionHe": "הוד; פאר או הדר.",
+      "definitionHe": "פאר או הדר.",
       "definitionEn": "grandeur (i.e. an imposing form and appearance)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -34941,7 +35247,7 @@
           }
         }
       ],
-      "definitionHe": "הוד; שם אדם.",
+      "definitionHe": "איש משבט אשר (דברי הימים א׳ ז׳, ל״ז).",
       "definitionEn": "Hod, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -35044,7 +35350,7 @@
           }
         }
       ],
-      "definitionHe": "הודויה; שם אדם.",
+      "definitionHe": "שמם של שלושה אישים: ראש בית אב בחצי שבט מנשה, איש מבנימין, ואבי משפחת לויים.",
       "definitionEn": "Hodavjah, the name of three Israelites",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -35119,7 +35425,7 @@
           }
         }
       ],
-      "definitionHe": "הודיה; שם אדם.",
+      "definitionHe": "אבי משפחה של לויים שעלו מבבל (נחמיה ז׳, מ״ג); הכתיב והקרי שונים.",
       "definitionEn": "Hodevah (or Hodevjah), an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -35236,7 +35542,7 @@
           }
         }
       ],
-      "definitionHe": "הודיה; שם אישה.",
+      "definitionHe": "שם בשושלת יהודה (דברי הימים א׳ ד׳, י״ט); לפי Strong אישה יהודייה, ולפי BDB איש.",
       "definitionEn": "a Jewess",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -35325,7 +35631,7 @@
           }
         }
       ],
-      "definitionHe": "הודיה; שם אדם.",
+      "definitionHe": "שמם של כמה לויים ושל ראש העם בימי עזרא ונחמיה, שהשתתפו בקריאת התורה ובחתימת האמנה.",
       "definitionEn": "Hodijah, the name of three Israelites",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -35400,7 +35706,7 @@
           }
         }
       ],
-      "definitionHe": "הודיווהו; שם אדם.",
+      "definitionHe": "בן אליועיני מצאצאי זרובבל, משושלת בית דוד (דברי הימים א׳ ג׳, כ״ד).",
       "definitionEn": "Hodajvah, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -35530,7 +35836,58 @@
             "sourceTokenId": "16TPk"
           }
         }
-      ]
+      ],
+      "definitionHe": "להיות, להיעשות ולהתקיים; במקרא בעיקר בספרות החכמה (קהלת, איוב).",
+      "definitionEn": "to be (in the sense of existence)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1933.htm",
+        "strongNumber": "1933"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1933.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or הָוָה; a primitive root (compare 183, 1961) supposed to mean properly, to breathe;",
+          "meaning": "to be (in the sense of existence)",
+          "usage": "be, × have.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1933",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"haw-vaw'\" xlit=\"hâvâh\">הָוָה</w>; a primitive root (compare <w src=\"H183\">183</w>, <w src=\"H1961\">1961</w>) supposed to mean properly, to breathe;",
+          "meaningXml": "to <def>be</def> (in the sense of existence)",
+          "usageXml": "be, × have.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.az.aa",
+          "entryBodyXml": "[<w>הָוָה</w>] <pos>vb</pos>. <def>become</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "1942",
@@ -35751,7 +36108,7 @@
           }
         }
       ],
-      "definitionHe": "הווה; אסון, רעה או תאווה.",
+      "definitionHe": "אסון, רעה או תאווה.",
       "definitionEn": "by implication, of falling); desire; also ruin",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -35854,7 +36211,7 @@
           }
         }
       ],
-      "definitionHe": "הווה; חורבן או רעה.",
+      "definitionHe": "חורבן או רעה.",
       "definitionEn": "ruin",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -35929,7 +36286,7 @@
           }
         }
       ],
-      "definitionHe": "הוהם; שם מלך.",
+      "definitionHe": "מלך חברון שהצטרף לברית חמשת מלכי האמורי נגד גבעון (יהושע י׳, ג׳).",
       "definitionEn": "Hoham, a Canaanitish king",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -36704,7 +37061,7 @@
           }
         }
       ],
-      "definitionHe": "הוי; קריאת צער או אזהרה.",
+      "definitionHe": "קריאת צער או אזהרה.",
       "definitionEn": "oh!",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -36821,7 +37178,7 @@
           }
         }
       ],
-      "definitionHe": "ללכת או להביא; בארמית.",
+      "definitionHe": "בארמית: ללכת או להביא.",
       "definitionEn": "to go; causatively, to bring",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -36938,7 +37295,7 @@
           }
         }
       ],
-      "definitionHe": "הוללה; שטות או שיגעון.",
+      "definitionHe": "שטות או שיגעון.",
       "definitionEn": "folly",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -37013,7 +37370,7 @@
           }
         }
       ],
-      "definitionHe": "הוללות; שטות או שיגעון.",
+      "definitionHe": "שטות או שיגעון.",
       "definitionEn": "folly",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -37219,7 +37576,7 @@
           }
         }
       ],
-      "definitionHe": "הומם; שם אדם.",
+      "definitionHe": "בן לוטן מבני שעיר החורי (דה״א א׳, ל״ט); בבראשית נקרא בצורה אחרת.",
       "definitionEn": "Homam, an Edomitish chieftain",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -37719,7 +38076,7 @@
           }
         }
       ],
-      "definitionHe": "הון; רכוש או עושר.",
+      "definitionHe": "רכוש או עושר.",
       "definitionEn": "wealth; by implication, enough",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -38004,7 +38361,7 @@
           }
         }
       ],
-      "definitionHe": "הושע; שם אדם.",
+      "definitionHe": "שמם של כמה אישים: שמו המקורי של יהושע בן נון, המלך האחרון של ממלכת ישראל, הנביא בעל הספר, ואחרים.",
       "definitionEn": "Hoshea, the name of five Israelites",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -38107,7 +38464,7 @@
           }
         }
       ],
-      "definitionHe": "הושעיה; שם אדם.",
+      "definitionHe": "שר יהודה בחנוכת חומת ירושלים, וגם אביו של עזריה או יזניה, שר חיל בימי ירמיהו.",
       "definitionEn": "Hoshajah, the name of two Israelites",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -38271,7 +38628,7 @@
           }
         }
       ],
-      "definitionHe": "הותיר; שם אדם.",
+      "definitionHe": "בן הימן המשורר, ראש משמר בשירת המקדש (דברי הימים א׳ כ״ה).",
       "definitionEn": "Hothir, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -38421,7 +38778,7 @@
           }
         }
       ],
-      "definitionHe": "הי; קריאת קינה.",
+      "definitionHe": "קריאת קינה.",
       "definitionEn": "lamentation",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -38580,7 +38937,7 @@
           }
         }
       ],
-      "definitionHe": "הידד; קריאת שמחה.",
+      "definitionHe": "קריאת שמחה.",
       "definitionEn": "acclamation",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -38655,7 +39012,7 @@
           }
         }
       ],
-      "definitionHe": "הודות; מקהלת הודיה.",
+      "definitionHe": "מקהלת הודיה.",
       "definitionEn": "properly, an acclaim, i.e. a choir of singers",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -88631,7 +88988,7 @@
           }
         }
       ],
-      "definitionHe": "היה; אסון או חורבן.",
+      "definitionHe": "אסון או חורבן.",
       "definitionEn": "ruin",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -89901,7 +90258,7 @@
           }
         }
       ],
-      "definitionHe": "היכל; ארמון או מקדש.",
+      "definitionHe": "ארמון או מקדש.",
       "definitionEn": "a large public building, such as a palace or temple",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -90144,8 +90501,8 @@
           }
         }
       ],
-      "definitionHe": "היכל; ארמון או מקדש בארמית.",
-      "definitionEn": "palace, temple.",
+      "definitionHe": "בארמית: ארמון או מקדש.",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -90219,7 +90576,7 @@
           }
         }
       ],
-      "definitionHe": "הילל; כוכב השחר.",
+      "definitionHe": "כוכב השחר.",
       "definitionEn": "the morning-star",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -90294,7 +90651,7 @@
           }
         }
       ],
-      "definitionHe": "הימם; שם אדם.",
+      "definitionHe": "בן לוטן מבני שעיר החורי (בראשית ל״ו, כ״ב); בספר דה״א נקרא בצורה אחרת.",
       "definitionEn": "Hemam, an Idumaean",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -90593,7 +90950,7 @@
           }
         }
       ],
-      "definitionHe": "הימן; שם אדם.",
+      "definitionHe": "שמם של שני אישים: חכם שאליו נמשל שלמה, ומשורר לוי בימי דוד, מראשי השירה במקדש.",
       "definitionEn": "Heman, the name of at least two Israelites",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -90962,7 +91319,7 @@
           }
         }
       ],
-      "definitionHe": "הין; מידת נפח לנוזלים.",
+      "definitionHe": "מידת נפח לנוזלים.",
       "definitionEn": "a hin or liquid measure",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -91112,7 +91469,7 @@
           }
         }
       ],
-      "definitionHe": "הכרה; משוא פנים.",
+      "definitionHe": "משוא פנים.",
       "definitionEn": "respect, i.e. partiality",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -91472,7 +91829,7 @@
           }
         }
       ],
-      "definitionHe": "הלאה; למרחק או לעתיד.",
+      "definitionHe": "למרחק או לעתיד.",
       "definitionEn": "to the distance, i.e. far away; also (of time) thus far",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -91561,7 +91918,7 @@
           }
         }
       ],
-      "definitionHe": "הילול; חגיגה או שבח.",
+      "definitionHe": "חגיגה או שבח.",
       "definitionEn": "a celebration of thanksgiving for harvest",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -91720,7 +92077,7 @@
           }
         }
       ],
-      "definitionHe": "הלז; זה או ההוא.",
+      "definitionHe": "זה או ההוא.",
       "definitionEn": "this or that",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -91809,7 +92166,7 @@
           }
         }
       ],
-      "definitionHe": "הלזה; זה.",
+      "definitionHe": "מילת רמז מודגשת: זה ממש, ההוא שם (בראשית כ״ד, ס״ה).",
       "definitionEn": "this very",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -91884,7 +92241,7 @@
           }
         }
       ],
-      "definitionHe": "הלזו; זאת.",
+      "definitionHe": "מילת רמז מודגשת בנקבה: זאת שם, ההיא; רק ביחזקאל ל״ו, ל״ה.",
       "definitionEn": "that",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -91959,7 +92316,7 @@
           }
         }
       ],
-      "definitionHe": "הליך; צעד.",
+      "definitionHe": "צעד, הליכה; רק ברבים באיוב כ״ט, ו׳.",
       "definitionEn": "a walk, i.e. (by implication) a step",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -92104,7 +92461,7 @@
           }
         }
       ],
-      "definitionHe": "הליכה; צעדה או דרך.",
+      "definitionHe": "צעדה או דרך.",
       "definitionEn": "a walking; by implication, a procession or march, a caravan",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -99324,7 +99681,7 @@
           }
         }
       ],
-      "definitionHe": "ללכת; בארמית.",
+      "definitionHe": "בארמית: ללכת.",
       "definitionEn": "to walk",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -99413,7 +99770,7 @@
           }
         }
       ],
-      "definitionHe": "הלך; עובר אורח.",
+      "definitionHe": "עובר אורח.",
       "definitionEn": "properly, a journey, i.e. (by implication) a wayfarer; also a flowing",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -99516,7 +99873,7 @@
           }
         }
       ],
-      "definitionHe": "הלך; מס דרכים.",
+      "definitionHe": "בארמית: מס דרכים.",
       "definitionEn": "properly, a journey, i.e. (by implication) toll on goods at a road",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -99632,7 +99989,58 @@
             "sourceTokenId": "18eu1"
           }
         }
-      ]
+      ],
+      "definitionHe": "לזרוח ולהבהיק; בהפעיל – להפיץ אור, כמו כוכבי השמיים (ישעיהו י״ג, י׳).",
+      "definitionEn": "to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1984.htm",
+        "strongNumber": "1984"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1984.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify",
+          "usage": "(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1984",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>be clear</def> (orig. of sound, but usually of color); to <def>shine</def>; hence, <def>to make a show</def>, to <def>boast</def>; and thus to <def>be</def> (clamorously) <def>foolish</def>; <def>to rave</def>; causatively, to <def>celebrate</def>; also to <def>stultify</def>",
+          "usageXml": "(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.bo.aa",
+          "entryBodyXml": "[<w>הָלַל</w>] <pos>vb</pos>. <def>shine</def>\r\n\t\t\t\t<sense><stem>Qal</stem> <def>when it</def>, viz. <def>his lamp</def>, <def>shone upon my head</def>, fig. of God’s favour.</sense>\r\n\t\t\t\t<sense><stem>Hiph</stem>. <def>flash forth light</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "1984",
@@ -99782,7 +100190,58 @@
             "sourceTokenId": "19Ywb"
           }
         }
-      ]
+      ],
+      "definitionHe": "להתפאר ולהתגאות; בהתפעל גם לנהוג כמשוגע (שמואל א׳ כ״א, י״ד).",
+      "definitionEn": "to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1984.htm",
+        "strongNumber": "1984"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1984.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify",
+          "usage": "(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1984",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>be clear</def> (orig. of sound, but usually of color); to <def>shine</def>; hence, <def>to make a show</def>, to <def>boast</def>; and thus to <def>be</def> (clamorously) <def>foolish</def>; <def>to rave</def>; causatively, to <def>celebrate</def>; also to <def>stultify</def>",
+          "usageXml": "(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.bp.aa",
+          "entryBodyXml": "[<w>הָלַל</w>] <pos>vb</pos>. <def>be boastful</def>, <stem>Pi</stem>. <def>praise</def>\r\n\t\t\t\t<sense><stem>Qal</stem> <def>be boastful</def></sense>\r\n\t\t\t\t<sense><stem>Pi</stem>.\r\n\t\t\t\t\t<sense n=\"1\"><def>praise</def> man or woman</sense>\r\n\t\t\t\t\t<sense n=\"2\">usually praise <w>י׳</w></sense>\r\n\t\t\t\t\t<sense n=\"3\">appar. <def>boast</def>, <def>make one’s boast</def></sense>\r\n\t\t\t\t</sense>\r\n\t\t\t\t<sense><stem>Pu</stem>. <def>be praised</def></sense>\r\n\t\t\t\t<sense><stem>Hithpa</stem>. <def>glory</def>, <def>boast</def>, <def>make one’s boast</def></sense>\r\n\t\t\t\t<sense><stem>Po‛el</stem> <def>make into a fool</def>, <def>make a fool of</def></sense>\r\n\t\t\t\t<sense><stem>Po‛al</stem> <def>of laughter I said</def>, It is <def>mad</def> (folly)</sense>\r\n\t\t\t\t<sense><stem>Hithpo</stem>. <def>act madly</def>, or <def>like a madman</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "1984",
@@ -101906,7 +102365,58 @@
             "sourceTokenId": "22r2Z"
           }
         }
-      ]
+      ],
+      "definitionHe": "לשבח ולפאר, בעיקר את ה׳ וגם אדם; בפועל – להיות משובח ונערץ.",
+      "definitionEn": "to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1984.htm",
+        "strongNumber": "1984"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1984.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to be clear (orig. of sound, but usually of color); to shine; hence, to make a show, to boast; and thus to be (clamorously) foolish; to rave; causatively, to celebrate; also to stultify",
+          "usage": "(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1984",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>be clear</def> (orig. of sound, but usually of color); to <def>shine</def>; hence, <def>to make a show</def>, to <def>boast</def>; and thus to <def>be</def> (clamorously) <def>foolish</def>; <def>to rave</def>; causatively, to <def>celebrate</def>; also to <def>stultify</def>",
+          "usageXml": "(make) boast (self), celebrate, commend, (deal, make), fool(-ish, -ly), glory, give (light), be (make, feign self) mad (against), give in marriage, (sing, be worthy of) praise, rage, renowned, shine.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.bp.aa",
+          "entryBodyXml": "[<w>הָלַל</w>] <pos>vb</pos>. <def>be boastful</def>, <stem>Pi</stem>. <def>praise</def>\r\n\t\t\t\t<sense><stem>Qal</stem> <def>be boastful</def></sense>\r\n\t\t\t\t<sense><stem>Pi</stem>.\r\n\t\t\t\t\t<sense n=\"1\"><def>praise</def> man or woman</sense>\r\n\t\t\t\t\t<sense n=\"2\">usually praise <w>י׳</w></sense>\r\n\t\t\t\t\t<sense n=\"3\">appar. <def>boast</def>, <def>make one’s boast</def></sense>\r\n\t\t\t\t</sense>\r\n\t\t\t\t<sense><stem>Pu</stem>. <def>be praised</def></sense>\r\n\t\t\t\t<sense><stem>Hithpa</stem>. <def>glory</def>, <def>boast</def>, <def>make one’s boast</def></sense>\r\n\t\t\t\t<sense><stem>Po‛el</stem> <def>make into a fool</def>, <def>make a fool of</def></sense>\r\n\t\t\t\t<sense><stem>Po‛al</stem> <def>of laughter I said</def>, It is <def>mad</def> (folly)</sense>\r\n\t\t\t\t<sense><stem>Hithpo</stem>. <def>act madly</def>, or <def>like a madman</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "1985",
@@ -101945,7 +102455,7 @@
           }
         }
       ],
-      "definitionHe": "הלל; שם אדם.",
+      "definitionHe": "אביו של עבדון השופט, מפרעתון (שופטים י״ב, י״ג).",
       "definitionEn": "Hillel, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -102132,7 +102642,7 @@
           }
         }
       ],
-      "definitionHe": "להלום, להכות או להכניע.",
+      "definitionHe": "להכות או להכניע.",
       "definitionEn": "to strike down; by implication, to hammer, stamp, conquer, disband",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -102207,7 +102717,7 @@
           }
         }
       ],
-      "definitionHe": "הלם; שם אדם.",
+      "definitionHe": "איש משבט אשר (דברי הימים א׳ ז׳, ל״ה).",
       "definitionEn": "Helem, the name of two Israelites",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -102422,7 +102932,7 @@
           }
         }
       ],
-      "definitionHe": "הלום; לכאן.",
+      "definitionHe": "תואר פועל של מקום: לכאן, אל המקום הזה; גם במובן עד כה.",
       "definitionEn": "hither",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -102497,7 +103007,7 @@
           }
         }
       ],
-      "definitionHe": "הלמות; פטיש.",
+      "definitionHe": "פטיש או מקבת של פועל; רק בשירת דבורה (שופטים ה׳, כ״ו), בתיאור הריגת סיסרא.",
       "definitionEn": "a hammer (or mallet)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -102572,7 +103082,7 @@
           }
         }
       ],
-      "definitionHe": "הם; שם מקום.",
+      "definitionHe": "מקום שבו היכה כדרלעומר את הזוזים (בראשית י״ד, ה׳); מיקומו אינו ידוע.",
       "definitionEn": "Ham, a region of Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -102647,7 +103157,7 @@
           }
         }
       ],
-      "definitionHe": "הם; עושר או שפע.",
+      "definitionHe": "עושר או שפע.",
       "definitionEn": "abundance, i.e. wealth",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -102778,7 +103288,7 @@
           }
         }
       ],
-      "definitionHe": "המדתא; אבי המן.",
+      "definitionHe": "אביו של המן האגגי, צורר היהודים במגילת אסתר.",
       "definitionEn": "Medatha, the father of Haman",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -110721,7 +111231,7 @@
           }
         }
       ],
-      "definitionHe": "המה; כינוי גוף לרבים.",
+      "definitionHe": "כינוי גוף לרבים.",
       "definitionEn": "they (only used when emphatic)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -111487,7 +111997,7 @@
           }
         }
       ],
-      "definitionHe": "המו; כינוי גוף לרבים.",
+      "definitionHe": "בארמית: כינוי גוף לרבים.",
       "definitionEn": "they",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -112695,7 +113205,58 @@
             "sourceTokenId": "19Enp"
           }
         }
-      ]
+      ],
+      "definitionHe": "קול רעש ושאון, רחש של מים או של צבא; גם קהל גדול, שפע ועושר.",
+      "definitionEn": "a noise, tumult, crowd; also disquietude, wealth",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1995.htm",
+        "strongNumber": "1995"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1995.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or הָמֹן; (Ezekiel 5:7), from 1993;",
+          "meaning": "a noise, tumult, crowd; also disquietude, wealth",
+          "usage": "abundance, company, many, multitude, multiply, noise, riches, rumbling, sounding, store, tumult.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1995",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"haw-mone'\" xlit=\"hâmôn\">הָמֹן</w>; (Ezekiel 5:7), from <w src=\"H1993\">1993</w>;",
+          "meaningXml": "a <def>noise</def>, <def>tumult</def>, <def>crowd</def>; also <def>disquietude</def>, <def>wealth</def>",
+          "usageXml": "abundance, company, many, multitude, multiply, noise, riches, rumbling, sounding, store, tumult.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.bt.ab",
+          "entryBodyXml": "<w>הָמוֹן</w> <pos>n.m</pos>. <def>sound</def>, <def>murmur</def>, <def>roar</def>, <def>crowd</def>, <def>abundance</def>\r\n\t\t\t\t<sense n=\"1\"><def>sound</def>, <def>murmur</def>, <def>rush</def>, <def>roar</def></sense>\r\n\t\t\t\t<sense n=\"2\"><def>tumult</def>, <def>confusion</def> (as occasioning a roar)</sense>\r\n\t\t\t\t<sense n=\"3\"><def>crowd</def>, <def>multitude</def></sense>\r\n\t\t\t\t<sense n=\"4\"><def>great number</def>, <def>abundance</def> (late)</sense>\r\n\t\t\t\t<sense n=\"5\"><def>abundance</def>, <def>wealth</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "1996",
@@ -112762,7 +113323,7 @@
           }
         }
       ],
-      "definitionHe": "המון גוג; שם מקום סמלי.",
+      "definitionHe": "גיא שבו ייקברו גוג וחילו לפי נבואת יחזקאל (ל״ט, י״א), שם סמלי לזכר מפלתם.",
       "definitionEn": "the multitude of Gog; the fanciful name of an emblematic place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -112837,7 +113398,7 @@
           }
         }
       ],
-      "definitionHe": "המונה; שם מקום סמלי.",
+      "definitionHe": "עיר שעתידה לקום לזכר מפלת גוג, לפי נבואת יחזקאל (ל״ט, ט״ז); שם סמלי.",
       "definitionEn": "Hamonah",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -112912,7 +113473,7 @@
           }
         }
       ],
-      "definitionHe": "המיה; רעש או קול.",
+      "definitionHe": "רעש או קול.",
       "definitionEn": "sound",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -113001,7 +113562,7 @@
           }
         }
       ],
-      "definitionHe": "המולה; רעש או מהומה.",
+      "definitionHe": "רעש או מהומה.",
       "definitionEn": "a sound",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -113258,7 +113819,7 @@
           }
         }
       ],
-      "definitionHe": "להמם, לבלבל או להחריב.",
+      "definitionHe": "לבלבל או להחריב.",
       "definitionEn": "properly, to put in commotion; by implication, to disturb, drive, destroy",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -113332,7 +113893,58 @@
             "sourceTokenId": "26388"
           }
         }
-      ]
+      ],
+      "definitionHe": "להתרגש ולסעור, להתנהג בהתפרעות; רק ביחזקאל ה׳, ז׳.",
+      "definitionEn": "a noise, tumult, crowd; also disquietude, wealth",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1995.htm",
+        "strongNumber": "1995"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1995.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or הָמֹן; (Ezekiel 5:7), from 1993;",
+          "meaning": "a noise, tumult, crowd; also disquietude, wealth",
+          "usage": "abundance, company, many, multitude, multiply, noise, riches, rumbling, sounding, store, tumult.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1995",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"haw-mone'\" xlit=\"hâmôn\">הָמֹן</w>; (Ezekiel 5:7), from <w src=\"H1993\">1993</w>;",
+          "meaningXml": "a <def>noise</def>, <def>tumult</def>, <def>crowd</def>; also <def>disquietude</def>, <def>wealth</def>",
+          "usageXml": "abundance, company, many, multitude, multiply, noise, riches, rumbling, sounding, store, tumult.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.bv.ac",
+          "entryBodyXml": "[<w>הָמַן</w>] <pos>vb</pos>. <def>rage</def>, <def>be turbulent</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "2001",
@@ -114099,7 +114711,7 @@
           }
         }
       ],
-      "definitionHe": "המן; שר בחצר אחשוורוש.",
+      "definitionHe": "שר בכיר ומקורבו של אחשוורוש, האגגי שזמם להשמיד את היהודים.",
       "definitionEn": "Haman, a Persian vizier",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -114202,7 +114814,7 @@
           }
         }
       ],
-      "definitionHe": "המניכא; ענק או שרשרת.",
+      "definitionHe": "בארמית: ענק או שרשרת.",
       "definitionEn": "a necklace",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -114277,7 +114889,7 @@
           }
         }
       ],
-      "definitionHe": "המס; ענף יבש.",
+      "definitionHe": "ענף יבש.",
       "definitionEn": "a dry twig or brushwood",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -114520,7 +115132,7 @@
           }
         }
       ],
-      "definitionHe": "הן; כינוי גוף לרבות.",
+      "definitionHe": "כינוי גוף לרבות.",
       "definitionEn": "they (only used when emphatic)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -119019,7 +119631,7 @@
           }
         }
       ],
-      "definitionHe": "הן; הנה, או מילת תנאי.",
+      "definitionHe": "הנה, או מילת תנאי.",
       "definitionEn": "lo!; also (as expressing surprise) if",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -119289,7 +119901,58 @@
             "sourceTokenId": "15zfC"
           }
         }
-      ]
+      ],
+      "definitionHe": "בארמית: מילת תנאי \"אם\"; גם בשאלה כפולה \"אם ... אם\".",
+      "definitionEn": "lo! also there(-fore), (un-) less, whether, but, if",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2006.htm",
+        "strongNumber": "2006"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2006.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) corresponding to 2005;",
+          "meaning": "lo! also there(-fore), (un-) less, whether, but, if",
+          "usage": "(that) if, or, whether.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H2006",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) corresponding to <w src=\"H2005\">2005</w>;",
+          "meaningXml": "<def>lo!</def> also <def>there</def>(-fore), (un-) <def>less</def>, <def>whether</def>, <def>but</def>, <def>if</def>",
+          "usageXml": "(that) if, or, whether.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xe.ai.aa",
+          "entryBodyXml": "<w>הֵן</w> <pos>conj</pos>. <def>if</def>, <def>whether</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "2007",
@@ -119972,7 +120635,7 @@
           }
         }
       ],
-      "definitionHe": "הנה; כינוי גוף לרבות.",
+      "definitionHe": "כינוי גוף לרבות.",
       "definitionEn": "themselves (often used emphatic for the copula, also in indirect relation)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -120019,7 +120682,7 @@
           "verifiedAgainstSource": true,
           "sourceFormat": "BDB XML entry body excluding status tag",
           "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
-          "verificationNote": "Strong H2007 has no direct LexicalIndex cross-reference; BDB excerpt is linked through the corresponding H2004 pronoun lemma.",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
           "scope": "lexical-opening-excerpt"
         }
       }
@@ -120733,7 +121396,7 @@
           }
         }
       ],
-      "definitionHe": "הנה; לכאן או לכיוון זה.",
+      "definitionHe": "לכאן או לכיוון זה.",
       "definitionEn": "hither or thither (but used both of place and time)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -132582,7 +133245,7 @@
           }
         }
       ],
-      "definitionHe": "הנה; מילת הצבעה.",
+      "definitionHe": "מילת הצבעה.",
       "definitionEn": "lo!",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -132657,7 +133320,7 @@
           }
         }
       ],
-      "definitionHe": "הנחה; מנוחה או הפוגה.",
+      "definitionHe": "מנוחה או הפוגה.",
       "definitionEn": "permission of rest, i.e. quiet",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -132900,7 +133563,7 @@
           }
         }
       ],
-      "definitionHe": "הינום; שם אדם.",
+      "definitionHe": "גיא מדרום לירושלים, שבו העבירו ילדים באש למולך; כנראה נקרא על שם אדם.",
       "definitionEn": "Hinnom, apparently a Jebusite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -132909,7 +133572,7 @@
         "strongNumber": "2011"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2011.htm"
@@ -133003,7 +133666,7 @@
           }
         }
       ],
-      "definitionHe": "הנע; שם מקום.",
+      "definitionHe": "עיר שכבש מלך אשור, כנראה במסופוטמיה; מקומה אינו ידוע.",
       "definitionEn": "Hena, a place apparently in Mesopotamia",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -133012,7 +133675,7 @@
         "strongNumber": "2012"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2012.htm"
@@ -133176,7 +133839,7 @@
           }
         }
       ],
-      "definitionHe": "הס; שתוק או דום.",
+      "definitionHe": "שתוק או דום.",
       "definitionEn": "to hush",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -133251,7 +133914,7 @@
           }
         }
       ],
-      "definitionHe": "הפוגה; הפסקה.",
+      "definitionHe": "מנוחה והפסקה, רגיעה; רק באיכה ג׳, מ״ט.",
       "definitionEn": "relaxation",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -134628,7 +135291,7 @@
           }
         }
       ],
-      "definitionHe": "להפוך, לשנות או להחריב.",
+      "definitionHe": "לשנות או להחריב.",
       "definitionEn": "to turn about or over; by implication, to change, overturn, return, pervert",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -134717,7 +135380,7 @@
           }
         }
       ],
-      "definitionHe": "הפך; ההפך או הניגוד.",
+      "definitionHe": "ניגוד, דבר שונה לגמרי מן המקובל; גם עיוות וסילוף.",
       "definitionEn": "a turn, i.e. the reverse",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -134792,7 +135455,7 @@
           }
         }
       ],
-      "definitionHe": "הפך; עיוות או שינוי סדר.",
+      "definitionHe": "עיוות או שינוי סדר.",
       "definitionEn": "an upset, i.e. (abstract) perversity",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -134867,7 +135530,7 @@
           }
         }
       ],
-      "definitionHe": "הפכה; חורבן.",
+      "definitionHe": "החרבה והשמדה, של ערי הכיכר סדום ועמורה (בראשית י״ט, כ״ט).",
       "definitionEn": "destruction",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -134942,7 +135605,7 @@
           }
         }
       ],
-      "definitionHe": "הפכפך; סוטה או מעוות.",
+      "definitionHe": "סוטה או מעוות.",
       "definitionEn": "very perverse",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -135017,7 +135680,7 @@
           }
         }
       ],
-      "definitionHe": "הצלה; חילוץ או ישועה.",
+      "definitionHe": "חילוץ או ישועה.",
       "definitionEn": "rescue",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -135092,7 +135755,7 @@
           }
         }
       ],
-      "definitionHe": "הצללפוני; שם אישה.",
+      "definitionHe": "אישה משבט יהודה, אחותם של בני עיטם (דברי הימים א׳ ד׳, ג׳).",
       "definitionEn": "Tselelponi, an Israelitess",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -135167,7 +135830,7 @@
           }
         }
       ],
-      "definitionHe": "הוצן; כלי מלחמה, זיהוי מסופק.",
+      "definitionHe": "כלי מלחמה, זיהוי מסופק.",
       "definitionEn": "a weapon of war",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -135176,7 +135839,7 @@
         "strongNumber": "2021"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2021.htm"
@@ -142886,7 +143549,7 @@
           }
         }
       ],
-      "definitionHe": "הר; מקום גבוה.",
+      "definitionHe": "מקום גבוה.",
       "definitionEn": "a mountain or range of hills (sometimes used figuratively)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -143115,7 +143778,7 @@
           }
         }
       ],
-      "definitionHe": "הור; שם הר.",
+      "definitionHe": "שם של שני רכסים: מקום על גבול אדום שבו מת אהרן, ופסגה בשלוחת הלבנון בגבול הצפון.",
       "definitionEn": "Hor, the name of a peak in Idumaea and of one in Syria",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -143190,7 +143853,7 @@
           }
         }
       ],
-      "definitionHe": "הרא; שם אזור.",
+      "definitionHe": "אזור שאליו הגלה מלך אשור את ראובן, גד וחצי המנשה (דברי הימים א׳ ה׳, כ״ו); כנראה במדי.",
       "definitionEn": "Hara, a region of Media",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -143199,7 +143862,7 @@
         "strongNumber": "2024"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2024.htm"
@@ -143265,7 +143928,7 @@
           }
         }
       ],
-      "definitionHe": "הראל; כינוי למזבח.",
+      "definitionHe": "כינוי למזבח.",
       "definitionEn": "mount of God; figuratively, the altar of burnt-offering",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -145664,7 +146327,7 @@
           }
         }
       ],
-      "definitionHe": "להרוג או להמית.",
+      "definitionHe": "להמית ולקטול, לרוב באלימות ובאכזריות; גם טבח המוני אחרי קרב.",
       "definitionEn": "to smite with deadly intent",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -145795,7 +146458,7 @@
           }
         }
       ],
-      "definitionHe": "הרג; טבח או הריגה.",
+      "definitionHe": "טבח או הריגה.",
       "definitionEn": "slaughter",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -145926,7 +146589,7 @@
           }
         }
       ],
-      "definitionHe": "הרגה; טבח.",
+      "definitionHe": "טבח וקטל המוני, כגון בירמיהו ז׳, ל״ב.",
       "definitionEn": "slaughter",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -146831,7 +147494,58 @@
             "sourceTokenId": "24LpX"
           }
         }
-      ]
+      ],
+      "definitionHe": "תואר לאישה: מעוברת, נושאת ולד ברחמה.",
+      "definitionEn": "pregnant",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2030.htm",
+        "strongNumber": "2030"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2030.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or הָרִי; (Hosea 14:1), from 2029;",
+          "meaning": "pregnant",
+          "usage": "(be, woman) with child, conceive, × great.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H2030",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"hawree'\" xlit=\"hârîy\">הָרִי</w>; (Hosea 14:1), from <w src=\"H2029\">2029</w>;",
+          "meaningXml": "<def>pregnant</def>",
+          "usageXml": "(be, woman) with child, conceive, × great.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.cd.ab",
+          "entryBodyXml": "<w>הָרָה</w> <pos>adj.f</pos>. <def>pregnant</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "2031",
@@ -146856,7 +147570,7 @@
           }
         }
       ],
-      "definitionHe": "הרהור; מחשבה.",
+      "definitionHe": "בארמית: דמיון ומחשבה, חזיון בחלום; רק בדניאל ד׳, ב׳.",
       "definitionEn": "a mental conception",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -146931,7 +147645,7 @@
           }
         }
       ],
-      "definitionHe": "הרורי; בן מקום.",
+      "definitionHe": "בן מקום.",
       "definitionEn": "a Harorite or mountaineer",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -147005,7 +147719,58 @@
             "sourceTokenId": "28e1w"
           }
         }
-      ]
+      ],
+      "definitionHe": "נשים מעוברות; רק ברבים בהושע י״ד, א׳.",
+      "definitionEn": "pregnant",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2030.htm",
+        "strongNumber": "2030"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2030.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or הָרִי; (Hosea 14:1), from 2029;",
+          "meaning": "pregnant",
+          "usage": "(be, woman) with child, conceive, × great.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H2030",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"hawree'\" xlit=\"hârîy\">הָרִי</w>; (Hosea 14:1), from <w src=\"H2029\">2029</w>;",
+          "meaningXml": "<def>pregnant</def>",
+          "usageXml": "(be, woman) with child, conceive, × great.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.cd.ad",
+          "entryBodyXml": "[<w>הָרִיָּה</w>] <pos>adj.f</pos>. <def>pregnant</def>, only pl. as subst. <ref r=\"Hos.14.1\">Ho 14:1</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "2032",
@@ -147058,7 +147823,7 @@
           }
         }
       ],
-      "definitionHe": "הריון; עיבור.",
+      "definitionHe": "עיבור ונשיאת ולד ברחם.",
       "definitionEn": "pregnancy",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -147133,7 +147898,7 @@
           }
         }
       ],
-      "definitionHe": "הריסה; חורבן.",
+      "definitionHe": "חורבה, מבנה שנופץ; רק בעמוס ט׳, י״א, על סוכת דוד הנופלת.",
       "definitionEn": "something demolished",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -147208,7 +147973,7 @@
           }
         }
       ],
-      "definitionHe": "הריסות; הרס.",
+      "definitionHe": "חורבן והשמדה, מצב של ארץ חרבה; רק בישעיהו מ״ט, י״ט.",
       "definitionEn": "demolition",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -147283,7 +148048,7 @@
           }
         }
       ],
-      "definitionHe": "הורם; שם מלך.",
+      "definitionHe": "מלך גזר שבא לעזור ללכיש והוכה בידי יהושע (יהושע י׳, ל״ג).",
       "definitionEn": "Horam, a Canaanitish king",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -147358,7 +148123,7 @@
           }
         }
       ],
-      "definitionHe": "הרום; שם אדם.",
+      "definitionHe": "איש משבט יהודה, אבי אחרחל (דברי הימים א׳ ד׳, ח׳).",
       "definitionEn": "Harum, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -147433,7 +148198,7 @@
           }
         }
       ],
-      "definitionHe": "הרמון; ארמון או מבצר.",
+      "definitionHe": "מקום שאליו יושלכו נשות שומרון לפי עמוס ד׳, ג׳; משמעותו אינה ודאית והנוסח כנראה משובש.",
       "definitionEn": "a castle (from its height)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -147442,7 +148207,7 @@
         "strongNumber": "2038"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/2038.htm"
@@ -147592,7 +148357,7 @@
           }
         }
       ],
-      "definitionHe": "הרן; שם אדם.",
+      "definitionHe": "בן תרח, אחי אברהם ואבי לוט; גם שמם של אנשים נוספים בדברי הימים.",
       "definitionEn": "Haran, the name of two men",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -148255,7 +149020,7 @@
           }
         }
       ],
-      "definitionHe": "להרוס או להחריב.",
+      "definitionHe": "להפיל ולנתץ, לשבור חומות ובתים; גם להחריב ולפרוץ דרך.",
       "definitionEn": "to pull down or in pieces, break, destroy",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -148330,7 +149095,7 @@
           }
         }
       ],
-      "definitionHe": "הרס; חורבן.",
+      "definitionHe": "חורבן והשמדה; רק בישעיהו י״ט, י״ח, בכינוי לעיר במצרים.",
       "definitionEn": "demolition",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -148559,7 +149324,7 @@
           }
         }
       ],
-      "definitionHe": "הרר; הר.",
+      "definitionHe": "שטח גבוה, רכס וגבעה רמה; צורה שירית נדירה.",
       "definitionEn": "a mountain",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -148690,8 +149455,8 @@
           }
         }
       ],
-      "definitionHe": "הררי; בן שבט או מקום.",
-      "definitionEn": "Hararite.",
+      "definitionHe": "בן שבט או מקום.",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -148765,7 +149530,7 @@
           }
         }
       ],
-      "definitionHe": "השם; שם אדם.",
+      "definitionHe": "אבי אחד מגיבורי דוד, הגזוני (דברי הימים א׳ י״א, ל״ד).",
       "definitionEn": "Hashem, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -148840,7 +149605,7 @@
           }
         }
       ],
-      "definitionHe": "השמעות; הודעה.",
+      "definitionHe": "מסירת ידיעה, גרימה שאדם ידע; רק ביחזקאל כ״ד, כ״ו.",
       "definitionEn": "announcement",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -148915,7 +149680,7 @@
           }
         }
       ],
-      "definitionHe": "היתוך; התכה.",
+      "definitionHe": "המסה באש, כמו של מתכת בכור; רק ביחזקאל כ״ב, כ״ב.",
       "definitionEn": "a melting",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -149032,7 +149797,7 @@
           }
         }
       ],
-      "definitionHe": "התך; שם סריס.",
+      "definitionHe": "סריס פרסי בחצר אחשוורוש שתיווך בין אסתר למרדכי.",
       "definitionEn": "Hathak, a Persian eunuch",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -149106,7 +149871,58 @@
             "sourceTokenId": "11Rxp"
           }
         }
-      ]
+      ],
+      "definitionHe": "ללעוג ולרמות; רק בפיעל, באליהו הלועג לנביאי הבעל (מלכים א׳ י״ח, כ״ז).",
+      "definitionEn": "to deride; by implication, to cheat",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2048.htm",
+        "strongNumber": "2048"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2048.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to deride; by implication, to cheat",
+          "usage": "deal deceitfully, deceive, mock.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H2048",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>deride</def>; by implication, to <def>cheat</def>",
+          "usageXml": "deal deceitfully, deceive, mock.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "e.cg.aa",
+          "entryBodyXml": "[<w>הָתַל</w>] <pos>vb</pos>. only <stem>Pi</stem>. <def>deceive</def>, <def>mock</def>, <ref r=\"1Kgs.18.27\">1 K 18:27</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "2049",
@@ -149131,7 +149947,7 @@
           }
         }
       ],
-      "definitionHe": "התולים; לעג או קלס.",
+      "definitionHe": "לעג או קלס.",
       "definitionEn": "a derision",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",

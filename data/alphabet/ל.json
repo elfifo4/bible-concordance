@@ -1,6 +1,6 @@
 {
   "letter": "ל",
-  "status": "partially-defined-needs-human-review",
+  "status": "source-cross-checked-pending-editorial-review",
   "scope": "MorphHB-attested-headwords-standard-and-ketiv-only",
   "source": {
     "morphhbRevision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
@@ -18,10 +18,10 @@
   "totalOccurrences": 9753,
   "summary": {
     "entries": 172,
-    "withDefinitionHe": 145,
-    "strongSourceChecked": 145,
-    "bdbSourceChecked": 145,
-    "occurrenceCountChecked": 145,
+    "withDefinitionHe": 172,
+    "strongSourceChecked": 172,
+    "bdbSourceChecked": 172,
+    "occurrenceCountChecked": 172,
     "editoriallyApproved": 0
   },
   "entries": [
@@ -72638,7 +72638,7 @@
           }
         }
       ],
-      "definitionHe": "לא; מילת שלילה.",
+      "definitionHe": "מילת שלילה.",
       "definitionEn": "not (the simple or abs. negation); by implication, no; often used with other particles",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -73847,8 +73847,8 @@
           }
         }
       ],
-      "definitionHe": "לא; מילת שלילה בארמית.",
-      "definitionEn": "or even, neither, no(-ne, -r), (can-) not, as nothing, without.",
+      "definitionHe": "בארמית: מילת שלילה.",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -73992,7 +73992,7 @@
           }
         }
       ],
-      "definitionHe": "לא דבר; שם מקום.",
+      "definitionHe": "עיר בגלעד, כנראה ממזרח למחניים, שבה ישב מפיבושת אצל מכיר בן עמיאל.",
       "definitionEn": "Lo-Debar, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -74001,7 +74001,7 @@
         "strongNumber": "3810"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/3810.htm"
@@ -74856,7 +74856,7 @@
           }
         }
       ],
-      "definitionHe": "לאה; אשת יעקב.",
+      "definitionHe": "בתו הבכורה של לבן ואשת יעקב, אם שישה משבטי ישראל ושל דינה.",
       "definitionEn": "Leah, a wife of Jacob",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -75081,7 +75081,7 @@
           }
         }
       ],
-      "definitionHe": "לאל; שם אדם.",
+      "definitionHe": "לוי מבני גרשון, אביו של אליסף הנשיא (במדבר ג׳, כ״ד).",
       "definitionEn": "Laël an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -75646,7 +75646,7 @@
           }
         }
       ],
-      "definitionHe": "לאום או עם.",
+      "definitionHe": "עם, אומה; מילה שירית ומאוחרת, לרוב ברבים.",
       "definitionEn": "a community",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -75721,7 +75721,7 @@
           }
         }
       ],
-      "definitionHe": "לאומים; שם עם.",
+      "definitionHe": "שבט ערבי מצאצאי דדן, מבני קטורה (בראשית כ״ה, ג׳).",
       "definitionEn": "Leummim, an Arabian",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -75810,7 +75810,7 @@
           }
         }
       ],
-      "definitionHe": "לא עמי; שם סמלי בהושע.",
+      "definitionHe": "שם סמלי בהושע.",
       "definitionEn": "Lo-Ammi, the symbolic name of a son of Hosea",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -75927,7 +75927,7 @@
           }
         }
       ],
-      "definitionHe": "לא רוחמה; שם סמלי בהושע.",
+      "definitionHe": "שם סמלי בהושע.",
       "definitionEn": "Lo-Ruchamah, the symbolic name of a son of Hosea",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -84303,7 +84303,58 @@
             "sourceTokenId": "36HsZ"
           }
         }
-      ]
+      ],
+      "definitionHe": "האדם הפנימי: מחשבה, רצון, רגש ותבונה; לעיתים גם האיבר עצמו, ובהשאלה תוך הדבר, כגון אמצע הים.",
+      "definitionEn": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the centre of anything",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3820.htm",
+        "strongNumber": "3820"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3820.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a form of 3824;",
+          "meaning": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the centre of anything",
+          "usage": "care for, comfortably, consent, × considered, courag(-eous), friend(-ly), ((broken-), (hard-), (merry-), (stiff-), (stout-), double) heart(-ed), × heed, × I, kindly, midst, mind(-ed), × regard(-ed), × themselves, × unawares, understanding, × well, willingly, wisdom.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3820",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a form of <w src=\"H3824\">3824</w>;",
+          "meaningXml": "the <def>heart</def>; also used (figuratively) very widely for the <def>feelings</def>, the <def>will</def> and even the <def>intellect</def>; likewise for the <def>centre</def> of anything",
+          "usageXml": "care for, comfortably, consent, × considered, courag(-eous), friend(-ly), ((broken-), (hard-), (merry-), (stiff-), (stout-), double) heart(-ed), × heed, × I, kindly, midst, mind(-ed), × regard(-ed), × themselves, × unawares, understanding, × well, willingly, wisdom.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ai.ac",
+          "entryBodyXml": "<w>לֵב</w> 599 <pos>n.m</pos>. (<pos>f</pos>.) <def>inner man</def>, <def>mind</def>, <def>will</def>, <def>heart</def>\r\n\t\t\t\t<sense n=\"I\">seldom of things <def>in the midst of the sea</def></sense>\r\n\t\t\t\t<sense n=\"II\">elsewhere of men\r\n\t\t\t\t\t<sense n=\"1\"><def>the inner man</def> in contrast with the outer</sense>\r\n\t\t\t\t\t<sense n=\"2\"><def>the inner man</def>, indef., <def>soul</def>, comprehending mind, affections and will</sense>\r\n\t\t\t\t\t<sense n=\"3\">specific reference to <def>mind</def></sense>\r\n\t\t\t\t\t<sense n=\"4\">spec. ref. to <def>inclinations</def>, <def>resolutions</def> and <def>determinations of the will</def></sense>\r\n\t\t\t\t\t<sense n=\"5\">spec. ref. to <def>conscience</def></sense>\r\n\t\t\t\t\t<sense n=\"6\">[various]</sense>\r\n\t\t\t\t\t<sense n=\"7\">for <def>the man himself</def></sense>\r\n\t\t\t\t\t<sense n=\"8\">as <def>seat of appetites</def></sense>\r\n\t\t\t\t\t<sense n=\"9\">as <def>seat of emotions and passions</def></sense>\r\n\t\t\t\t\t<sense n=\"10\"><def>seat of courage</def></sense>\r\n\t\t\t\t</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3821",
@@ -84328,8 +84379,8 @@
           }
         }
       ],
-      "definitionHe": "לב; איבר הגוף ומרכז הרגש והמחשבה.",
-      "definitionEn": "heart.",
+      "definitionHe": "בארמית: איבר הגוף ומרכז הרגש והמחשבה.",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -84403,7 +84454,7 @@
           }
         }
       ],
-      "definitionHe": "לבאות; שם מקום.",
+      "definitionHe": "עיר בדרום נחלת יהודה (יהושע ט״ו, ל״ב).",
       "definitionEn": "Lebaoth, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -84491,7 +84542,58 @@
             "sourceTokenId": "10ybr"
           }
         }
-      ]
+      ],
+      "definitionHe": "בפיעל: לאפות עוגות מיוחדות, בסיפור אמנון ותמר (שמואל ב׳ י״ג).",
+      "definitionEn": "properly, to be enclosed (as if with fat); by implication (as denominative from 3824); to unheart; i.e. (in a good sense) transport (with love), or (in a bad sense) stultify; to make cakes",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3823.htm",
+        "strongNumber": "3823"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3823.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "properly, to be enclosed (as if with fat); by implication (as denominative from 3824); to unheart; i.e. (in a good sense) transport (with love), or (in a bad sense) stultify; to make cakes",
+          "usage": "make cakes, ravish, be wise.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3823",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "properly, to <def>be enclosed</def> (as if with <def>fat</def>); by implication (as denominative from <w src=\"H3824\">3824</w>); to <def>unheart</def>; i.e. (in a good sense) <def>transport</def> (with love), or (in a bad sense) <def>stultify</def>; to <def>make cakes</def>",
+          "usageXml": "make cakes, ravish, be wise.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ai.ah",
+          "entryBodyXml": "[<w>לבב</w>] <pos>vb. denom</pos>. <stem>Pi</stem>. <def>make cakes</def>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3823",
@@ -84543,7 +84645,58 @@
             "sourceTokenId": "22AF1"
           }
         }
-      ]
+      ],
+      "definitionHe": "בנפעל – לקנות תבונה (איוב י״א, י״ב); בפיעל – לעודד ולשבות את הנפש.",
+      "definitionEn": "properly, to be enclosed (as if with fat); by implication (as denominative from 3824); to unheart; i.e. (in a good sense) transport (with love), or (in a bad sense) stultify; to make cakes",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3823.htm",
+        "strongNumber": "3823"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3823.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "properly, to be enclosed (as if with fat); by implication (as denominative from 3824); to unheart; i.e. (in a good sense) transport (with love), or (in a bad sense) stultify; to make cakes",
+          "usage": "make cakes, ravish, be wise.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3823",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "properly, to <def>be enclosed</def> (as if with <def>fat</def>); by implication (as denominative from <w src=\"H3824\">3824</w>); to <def>unheart</def>; i.e. (in a good sense) <def>transport</def> (with love), or (in a bad sense) <def>stultify</def>; to <def>make cakes</def>",
+          "usageXml": "make cakes, ravish, be wise.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ai.af",
+          "entryBodyXml": "[<w>לבב</w>] <pos>vb. denom</pos>.\r\n\t\t\t\t<sense><stem>Niph</stem>. <def>get a mind</def></sense>\r\n\t\t\t\t<sense><stem>Pi</stem>. <def>encourage</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3824",
@@ -88082,7 +88235,7 @@
           }
         }
       ],
-      "definitionHe": "לבב; לב, מחשבה ורצון.",
+      "definitionHe": "לב, מחשבה ורצון.",
       "definitionEn": "the heart (as the most interior organ);",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -88241,8 +88394,8 @@
           }
         }
       ],
-      "definitionHe": "לב; בארמית.",
-      "definitionEn": "heart.",
+      "definitionHe": "בארמית: לב.",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -88344,7 +88497,7 @@
           }
         }
       ],
-      "definitionHe": "לביבה; עוגה או מאפה.",
+      "definitionHe": "עוגה או מאפה.",
       "definitionEn": "a cake (either as fried or turned)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -88653,7 +88806,7 @@
           }
         }
       ],
-      "definitionHe": "לבונה; שם מקום.",
+      "definitionHe": "מקום צפונית לשילה, שלפיו מתואר מקום שילה (שופטים כ״א, י״ט).",
       "definitionEn": "Lebonah, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -89176,7 +89329,7 @@
           }
         }
       ],
-      "definitionHe": "לבוש; בגד.",
+      "definitionHe": "בגד, כסות ושמלה; גם בהשאלה, כגון צדק העוטף אדם.",
       "definitionEn": "a garment (literally or figuratively); by implication (euphemistically) a wife",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -89265,8 +89418,8 @@
           }
         }
       ],
-      "definitionHe": "לבוש; בגד בארמית.",
-      "definitionEn": "garment.",
+      "definitionHe": "בארמית: בגד.",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -89456,7 +89609,58 @@
             "sourceTokenId": "19dXu"
           }
         }
-      ]
+      ],
+      "definitionHe": "נקבת אריה או אריה; רק בנחום ב׳, י״ג.",
+      "definitionEn": "a lion (properly, a lioness as the fiercer (although not a roarer;))",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3833.htm",
+        "strongNumber": "3833"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3833.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or (Ezekiel 19:2) לְבִיָּא; irregular masculine plural לְבָאִים; irregular feminine plural לְבָאוֹת; from an unused root meaning to roar; compare 738",
+          "meaning": "a lion (properly, a lioness as the fiercer (although not a roarer;))",
+          "usage": "(great, old, stout) lion, lioness, young (lion).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3833",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or (Ezekiel 19:2) <w pron=\"lebee-yaw'\" xlit=\"lᵉbîyâʼ\">לְבִיָּא</w>; irregular masculine plural <w pron=\"leb-aw-eem'\" xlit=\"lᵉbâʼîym\">לְבָאִים</w>; irregular feminine plural <w pron=\"leb-aw-oth'\" xlit=\"lᵉbâʼôwth\">לְבָאוֹת</w>; from an unused root meaning to <def>roar</def>; compare <w src=\"H738\">738</w>",
+          "meaningXml": "a <def>lion</def> (properly, a lioness as the fiercer (although not a roarer;))",
+          "usageXml": "(great, old, stout) lion, lioness, young (lion).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ah.ab",
+          "entryBodyXml": "[<w>לְבִי</w>] <pos>n.[m.,f.]</pos> <def>lion</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3833",
@@ -89480,7 +89684,58 @@
             "sourceTokenId": "26p9B"
           }
         }
-      ]
+      ],
+      "definitionHe": "נקבת האריה; ביחזקאל י״ט, ב׳ משל לאם ישראל.",
+      "definitionEn": "a lion (properly, a lioness as the fiercer (although not a roarer;))",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3833.htm",
+        "strongNumber": "3833"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3833.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or (Ezekiel 19:2) לְבִיָּא; irregular masculine plural לְבָאִים; irregular feminine plural לְבָאוֹת; from an unused root meaning to roar; compare 738",
+          "meaning": "a lion (properly, a lioness as the fiercer (although not a roarer;))",
+          "usage": "(great, old, stout) lion, lioness, young (lion).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3833",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or (Ezekiel 19:2) <w pron=\"lebee-yaw'\" xlit=\"lᵉbîyâʼ\">לְבִיָּא</w>; irregular masculine plural <w pron=\"leb-aw-eem'\" xlit=\"lᵉbâʼîym\">לְבָאִים</w>; irregular feminine plural <w pron=\"leb-aw-oth'\" xlit=\"lᵉbâʼôwth\">לְבָאוֹת</w>; from an unused root meaning to <def>roar</def>; compare <w src=\"H738\">738</w>",
+          "meaningXml": "a <def>lion</def> (properly, a lioness as the fiercer (although not a roarer;))",
+          "usageXml": "(great, old, stout) lion, lioness, young (lion).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ah.ac",
+          "entryBodyXml": "<w>לְבִיָּא</w> <pos>n.f</pos>. <def>lioness</def>;—<ref r=\"Ez.19.2\">Ez 19:2</ref> fig. of mother of Isr.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3833",
@@ -89644,7 +89899,58 @@
             "sourceTokenId": "04Aim"
           }
         }
-      ]
+      ],
+      "definitionHe": "אריה, כנראה גם נקבת האריה; לרוב בשירה ובמשלים.",
+      "definitionEn": "a lion (properly, a lioness as the fiercer (although not a roarer;))",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3833.htm",
+        "strongNumber": "3833"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "uncertain",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3833.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or (Ezekiel 19:2) לְבִיָּא; irregular masculine plural לְבָאִים; irregular feminine plural לְבָאוֹת; from an unused root meaning to roar; compare 738",
+          "meaning": "a lion (properly, a lioness as the fiercer (although not a roarer;))",
+          "usage": "(great, old, stout) lion, lioness, young (lion).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3833",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or (Ezekiel 19:2) <w pron=\"lebee-yaw'\" xlit=\"lᵉbîyâʼ\">לְבִיָּא</w>; irregular masculine plural <w pron=\"leb-aw-eem'\" xlit=\"lᵉbâʼîym\">לְבָאִים</w>; irregular feminine plural <w pron=\"leb-aw-oth'\" xlit=\"lᵉbâʼôwth\">לְבָאוֹת</w>; from an unused root meaning to <def>roar</def>; compare <w src=\"H738\">738</w>",
+          "meaningXml": "a <def>lion</def> (properly, a lioness as the fiercer (although not a roarer;))",
+          "usageXml": "(great, old, stout) lion, lioness, young (lion).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ah.ad",
+          "entryBodyXml": "<w>לָבִיא</w> <pos>n. [m.]</pos> <def>lion</def>, poss. also [<pos>f</pos>.] <def>lioness</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3835",
@@ -89724,7 +90030,58 @@
             "sourceTokenId": "19Z42"
           }
         }
-      ]
+      ],
+      "definitionHe": "בהפעיל – לצחצח, לזכך ולטהר מחטא; גם להתבהר, של ענפי תאנה שקליפתם נקלפה.",
+      "definitionEn": "to be (or become) white; to make bricks",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3835.htm",
+        "strongNumber": "3835"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3835.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root; also as denominative from 3843",
+          "meaning": "to be (or become) white; to make bricks",
+          "usage": "make brick, be (made, make) white(-r).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3835",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root; also as denominative from <w src=\"H3843\">3843</w>",
+          "meaningXml": "to <def>be</def> (or <def>become</def>) <def>white</def>; to <def>make bricks</def>",
+          "usageXml": "make brick, be (made, make) white(-r).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ak.aa",
+          "entryBodyXml": "[<w>לָבֵן</w>] <pos>vb</pos>. <def>be white</def>\r\n\t\t\t\t<sense><stem>Hiph</stem>.\r\n\t\t\t\t\t<sense n=\"1\"><def>make white</def> = purify (ethical)</sense>\r\n\t\t\t\t\t<sense n=\"2\"><def>shew whiteness</def>, <def>grow white</def>, of fig tree, stripped by locusts</sense>\r\n\t\t\t\t</sense>\r\n\t\t\t\t<sense><stem>Hithp</stem>. <def>be purified</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3835",
@@ -89776,7 +90133,58 @@
             "sourceTokenId": "01cAP"
           }
         }
-      ]
+      ],
+      "definitionHe": "לייצר אבני בניין מטיט; בשמות ה׳, על עבודת הפרך במצרים.",
+      "definitionEn": "to be (or become) white; to make bricks",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3835.htm",
+        "strongNumber": "3835"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3835.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root; also as denominative from 3843",
+          "meaning": "to be (or become) white; to make bricks",
+          "usage": "make brick, be (made, make) white(-r).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3835",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root; also as denominative from <w src=\"H3843\">3843</w>",
+          "meaningXml": "to <def>be</def> (or <def>become</def>) <def>white</def>; to <def>make bricks</def>",
+          "usageXml": "make brick, be (made, make) white(-r).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ak.ao",
+          "entryBodyXml": "[<w>לָבַן</w>] <pos>vb. denom</pos>. <def>make brick</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3836",
@@ -90193,7 +90601,7 @@
           }
         }
       ],
-      "definitionHe": "לבן; בעל צבע בהיר.",
+      "definitionHe": "בעל צבע בהיר.",
       "definitionEn": "white",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -90267,7 +90675,58 @@
             "sourceTokenId": "0529t"
           }
         }
-      ]
+      ],
+      "definitionHe": "מקום בדרך המדבר של ישראל (דברים א׳, א׳); מקומו אינו ידוע.",
+      "definitionEn": "Laban, a Mesopotamian; also a place in the Desert",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3837.htm",
+        "strongNumber": "3837"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3837.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "the same as 3836;",
+          "meaning": "Laban, a Mesopotamian; also a place in the Desert",
+          "usage": "Laban.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3837",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "the same as <w src=\"H3836\">3836</w>;",
+          "meaningXml": "<def>Laban</def>, a Mesopotamian; also a place in the Desert",
+          "usageXml": "Laban.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ak.ae",
+          "entryBodyXml": "<w>לָבָן</w> <pos>n.pr.loc</pos>. connected with desert-journey of Israelites <ref r=\"Deut.1.1\">Dt 1:1</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3837",
@@ -91033,7 +91492,58 @@
             "sourceTokenId": "016MP"
           }
         }
-      ]
+      ],
+      "definitionHe": "בן בתואל הארמי, אחי רבקה ואבי לאה ורחל, חותנו של יעקב.",
+      "definitionEn": "Laban, a Mesopotamian; also a place in the Desert",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3837.htm",
+        "strongNumber": "3837"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3837.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "the same as 3836;",
+          "meaning": "Laban, a Mesopotamian; also a place in the Desert",
+          "usage": "Laban.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3837",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "the same as <w src=\"H3836\">3836</w>;",
+          "meaningXml": "<def>Laban</def>, a Mesopotamian; also a place in the Desert",
+          "usageXml": "Laban.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ak.ad",
+          "entryBodyXml": "<w>לָבָן</w> 54 <pos>n.pr.m</pos>. son of Bethuel, brother of Rebekah, and father-in-law of Jacob",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3838",
@@ -91072,7 +91582,7 @@
           }
         }
       ],
-      "definitionHe": "לבנה; שם אדם.",
+      "definitionHe": "ראש משפחת נתינים שעלו מבבל (עזרא ב׳, מ״ה).",
       "definitionEn": "Lebana or Lebanah, one of the Nethinim",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -91427,7 +91937,7 @@
           }
         }
       ],
-      "definitionHe": "לבונה; שרף ריחני לקטורת.",
+      "definitionHe": "שרף ריחני לקטורת.",
       "definitionEn": "frankincense (from its whiteness or perhaps that of its smoke)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -91516,7 +92026,7 @@
           }
         }
       ],
-      "definitionHe": "לבנה; סוג עץ שזיהויו אינו ודאי.",
+      "definitionHe": "סוג עץ שזיהויו אינו ודאי.",
       "definitionEn": "some sort of whitish tree, perhaps the storax",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -91525,7 +92035,7 @@
         "strongNumber": "3839"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/3839.htm"
@@ -91600,7 +92110,7 @@
         "strongNumber": "3840"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/3840.htm"
@@ -91904,7 +92414,7 @@
           }
         }
       ],
-      "definitionHe": "לבנה; שם מקום.",
+      "definitionHe": "עיר בשפלת יהודה שכבש יהושע ונעשתה עיר כוהנים; וגם תחנה במסעות ישראל במדבר.",
       "definitionEn": "Libnah, a place in the Desert and one in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -92007,7 +92517,7 @@
           }
         }
       ],
-      "definitionHe": "לבנה; הירח.",
+      "definitionHe": "הירח; כינוי שירי (ישעיהו כ״ד, כ״ג).",
       "definitionEn": "properly, (the) white, i.e. the moon",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -92222,7 +92732,7 @@
           }
         }
       ],
-      "definitionHe": "לבנה; אבן בנייה.",
+      "definitionHe": "אבן בנייה.",
       "definitionEn": "a brick (from the whiteness of the clay)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -93277,7 +93787,7 @@
           }
         }
       ],
-      "definitionHe": "לבנון; רכס הרים.",
+      "definitionHe": "רכס הרים בצפון הארץ, הנודע בארזיו.",
       "definitionEn": "Lebanon, a mountain range in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -93408,7 +93918,7 @@
           }
         }
       ],
-      "definitionHe": "לבני; שם אדם.",
+      "definitionHe": "לוי בן גרשון, ראש משפחה בשבט לוי.",
       "definitionEn": "Libni, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -93497,7 +94007,7 @@
           }
         }
       ],
-      "definitionHe": "לבני; בן משפחת הלבני.",
+      "definitionHe": "בני המשפחה הלוויה שמוצאה מבן גרשון, תמיד עם ה׳ הידיעה (במדבר ג׳, כ״א).",
       "definitionEn": "a Libnite or descendants of Libni (collectively)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -93571,7 +94081,58 @@
             "sourceTokenId": "24CLg"
           }
         }
-      ]
+      ],
+      "definitionHe": "כינוי צופן לכשדים בירמיהו נ״א, א׳ בשיטת א״ת ב״ש; כנראה תוספת מאוחרת.",
+      "definitionEn": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the centre of anything",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3820.htm",
+        "strongNumber": "3820"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "uncertain",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3820.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a form of 3824;",
+          "meaning": "the heart; also used (figuratively) very widely for the feelings, the will and even the intellect; likewise for the centre of anything",
+          "usage": "care for, comfortably, consent, × considered, courag(-eous), friend(-ly), ((broken-), (hard-), (merry-), (stiff-), (stout-), double) heart(-ed), × heed, × I, kindly, midst, mind(-ed), × regard(-ed), × themselves, × unawares, understanding, × well, willingly, wisdom.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3820",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a form of <w src=\"H3824\">3824</w>;",
+          "meaningXml": "the <def>heart</def>; also used (figuratively) very widely for the <def>feelings</def>, the <def>will</def> and even the <def>intellect</def>; likewise for the <def>centre</def> of anything",
+          "usageXml": "care for, comfortably, consent, × considered, courag(-eous), friend(-ly), ((broken-), (hard-), (merry-), (stiff-), (stout-), double) heart(-ed), × heed, × I, kindly, midst, mind(-ed), × regard(-ed), × themselves, × unawares, understanding, × well, willingly, wisdom.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ai.ae",
+          "entryBodyXml": "<w>לֵב קָמָי</w> prob. late Atbash <ref r=\"Jer.51.1\">Je 51:1</ref>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "6965",
@@ -93595,7 +94156,58 @@
             "sourceTokenId": "24CxU"
           }
         }
-      ]
+      ],
+      "definitionHe": "חלק מכינוי הצופן לכשדים בירמיהו נ״א, א׳ (א״ת ב״ש), שפשוטו \"הקמים נגדי\"; כנראה תוספת מאוחרת.",
+      "definitionEn": "to rise (in various applications, literal, figurative, intensive and causative)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/6965.htm",
+        "strongNumber": "6965"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "uncertain",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/6965.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to rise (in various applications, literal, figurative, intensive and causative)",
+          "usage": "abide, accomplish, × be clearer, confirm, continue, decree, × be dim, endure, × enemy, enjoin, get up, make good, help, hold, (help to) lift up (again), make, × but newly, ordain, perform, pitch, raise (up), rear (up), remain, (a-) rise (up) (again, against), rouse up, set (up), (e-) stablish, (make to) stand (up), stir up, strengthen, succeed, (as-, make) sure(-ly), (be) up(-hold, -rising).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H6965",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>rise</def> (in various applications, literal, figurative, intensive and causative)",
+          "usageXml": "abide, accomplish, × be clearer, confirm, continue, decree, × be dim, endure, × enemy, enjoin, get up, make good, help, hold, (help to) lift up (again), make, × but newly, ordain, perform, pitch, raise (up), rear (up), remain, (a-) rise (up) (again, against), rouse up, set (up), (e-) stablish, (make to) stand (up), stir up, strengthen, succeed, (as-, make) sure(-ly), (be) up(-hold, -rising).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ai.ae",
+          "entryBodyXml": "<w>לֵב קָמָי</w> prob. late Atbash <ref r=\"Jer.51.1\">Je 51:1</ref>.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3847",
@@ -95146,7 +95758,7 @@
           }
         }
       ],
-      "definitionHe": "ללבוש או להלביש.",
+      "definitionHe": "לעטות בגד ולהתכסות בו; גם להשים בגד על אחר, ובהשאלה – להתעטף בכבוד, בצדק או בבושה.",
       "definitionEn": "properly, wrap around, i.e. (by implication) to put on a garment or clothe (oneself, or another), literally or figuratively",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -95249,8 +95861,8 @@
           }
         }
       ],
-      "definitionHe": "ללבוש; בארמית.",
-      "definitionEn": "clothe.",
+      "definitionHe": "בארמית: להתעטף בבגד; בהפעיל – להעטות על אחר, כמו הארגמן לדניאל.",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -95380,7 +95992,7 @@
           }
         }
       ],
-      "definitionHe": "לוג; מידת נפח.",
+      "definitionHe": "מידת נפח.",
       "definitionEn": "a log or measure for liquids",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -95497,7 +96109,7 @@
           }
         }
       ],
-      "definitionHe": "לוד; שם מקום.",
+      "definitionHe": "עיר בבנימין, כ־18 ק״מ דרומית מזרחית ליפו, הנזכרת בספרים שאחרי הגלות.",
       "definitionEn": "Lod, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -95571,7 +96183,58 @@
             "sourceTokenId": "06Pk3"
           }
         }
-      ]
+      ],
+      "definitionHe": "מקום בעבר הירדן המזרחי בנחלת גד (יהושע י״ג, כ״ו).",
+      "definitionEn": "Debir, the name of an Amoritish king and of two places in Palestine",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/1688.htm",
+        "strongNumber": "1688"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/1688.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or (shortened) דְּבִר; (Joshua 13:26 (but see 3810)), the same as 1687;",
+          "meaning": "Debir, the name of an Amoritish king and of two places in Palestine",
+          "usage": "Debir.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H1688",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or (shortened) <w pron=\"deb-eer'\" xlit=\"Dᵉbir\">דְּבִר</w>; (Joshua 13:26 (but see <w src=\"H3810\">3810</w>)), the same as <w src=\"H1687\">1687</w>;",
+          "meaningXml": "<def>Debir</def>, the name of an Amoritish king and of two places in Palestine",
+          "usageXml": "Debir.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.al.ag",
+          "entryBodyXml": "<w>לִדְבִר</w> <pos>n.pr.loc</pos>. only in <ref r=\"Josh.13.26\">Jos 13:26</ref>; E. of Jordan, in tribe of Gad",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3851",
@@ -95750,7 +96413,7 @@
           }
         }
       ],
-      "definitionHe": "להב; אש או חוד נשק.",
+      "definitionHe": "אש או חוד נשק.",
       "definitionEn": "a flash; figuratively, a sharply polished blade or point of a weapon",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -96077,8 +96740,8 @@
           }
         }
       ],
-      "definitionHe": "להבה; אש בוערת.",
-      "definitionEn": "flame(-ming), head (of a spear).",
+      "definitionHe": "אש בוערת.",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -96166,7 +96829,7 @@
           }
         }
       ],
-      "definitionHe": "להבים; שם עם.",
+      "definitionHe": "עם מצאצאי מצרים בן חם ברשימת העמים (בראשית י׳, י״ג).",
       "definitionEn": "Lehabim, a son of Mizraim, and his descendants",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -96316,7 +96979,7 @@
           }
         }
       ],
-      "definitionHe": "להד; שם אדם.",
+      "definitionHe": "בן יחת משבט יהודה (דברי הימים א׳ ד׳, ב׳).",
       "definitionEn": "Lahad, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -96390,7 +97053,58 @@
             "sourceTokenId": "01DND"
           }
         }
-      ]
+      ],
+      "definitionHe": "לקמול ולהתעלף מחולשה, מרעב (בראשית מ״ז, י״ג).",
+      "definitionEn": "to be rabid (figuratively, insane); also (from the exhaustion of frenzy) to languish",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3856.htm",
+        "strongNumber": "3856"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3856.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root meaning properly, to burn, i.e. (by implication)",
+          "meaning": "to be rabid (figuratively, insane); also (from the exhaustion of frenzy) to languish",
+          "usage": "faint, mad.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3856",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root meaning properly, to <def>burn</def>, i.e. (by implication)",
+          "meaningXml": "to <def>be rabid</def> (figuratively, insane); also (from the exhaustion of frenzy) to <def>languish</def>",
+          "usageXml": "faint, mad.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ao.aa",
+          "entryBodyXml": "[<w>לָהַה</w>] <pos>vb</pos>. <def>languish</def>, <def>faint</def>;—<stem>Qal</stem> <ref r=\"Gen.47.13\">Gn 47:13</ref> (of famine).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3857",
@@ -96644,7 +97358,7 @@
           }
         }
       ],
-      "definitionHe": "להט; אש או כישוף.",
+      "definitionHe": "אש או כישוף.",
       "definitionEn": "a blaze; also (from the idea of enwrapping) magic (as covert)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -96718,7 +97432,58 @@
             "sourceTokenId": "20oEM"
           }
         }
-      ]
+      ],
+      "definitionHe": "בהתפעל: אדם נטרף דעת, היורה זיקים וחיצים (משלי כ״ו, י״ח).",
+      "definitionEn": "to be rabid (figuratively, insane); also (from the exhaustion of frenzy) to languish",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3856.htm",
+        "strongNumber": "3856"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3856.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root meaning properly, to burn, i.e. (by implication)",
+          "meaning": "to be rabid (figuratively, insane); also (from the exhaustion of frenzy) to languish",
+          "usage": "faint, mad.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3856",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root meaning properly, to <def>burn</def>, i.e. (by implication)",
+          "meaningXml": "to <def>be rabid</def> (figuratively, insane); also (from the exhaustion of frenzy) to <def>languish</def>",
+          "usageXml": "faint, mad.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ao.ab",
+          "entryBodyXml": "[<w>לִהְלֵהַּ</w>] <pos>vb. quadril</pos>. <def>amaze</def>, <def>startle</def>—<stem>Hithpalp</stem>. as subst. = <def>madman</def>, <ref r=\"Prov.26.18\">Pr 26:18</ref>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3859",
@@ -96859,7 +97624,58 @@
             "sourceTokenId": "27ssX"
           }
         }
-      ]
+      ],
+      "definitionHe": "בארמית: לכן, על כן.",
+      "definitionEn": "lo! also there(-fore), (un-) less, whether, but, if",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/2006.htm",
+        "strongNumber": "2006"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/2006.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "(Aramaic) corresponding to 2005;",
+          "meaning": "lo! also there(-fore), (un-) less, whether, but, if",
+          "usage": "(that) if, or, whether.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H2006",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "(Aramaic) corresponding to <w src=\"H2005\">2005</w>;",
+          "meaningXml": "<def>lo!</def> also <def>there</def>(-fore), (un-) <def>less</def>, <def>whether</def>, <def>but</def>, <def>if</def>",
+          "usageXml": "(that) if, or, whether.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "xl.af.aa",
+          "entryBodyXml": "<w>לָהֵן</w> <pos>conj</pos>. <def>therefore</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3860",
@@ -97085,7 +97901,7 @@
           }
         }
       ],
-      "definitionHe": "לכן או מלבד.",
+      "definitionHe": "בארמית: לכן או מלבד.",
       "definitionEn": "therefore; also except",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -97160,7 +97976,7 @@
           }
         }
       ],
-      "definitionHe": "להקה; קבוצה.",
+      "definitionHe": "חבורה, קבוצה של נביאים (שמואל א׳ י״ט, כ׳); המשמעות אינה ודאית.",
       "definitionEn": "an assembly",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -97169,7 +97985,7 @@
         "strongNumber": "3862"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/3862.htm"
@@ -97543,7 +98359,7 @@
           }
         }
       ],
-      "definitionHe": "לו; מילת תנאי או משאלה.",
+      "definitionHe": "מילת תנאי או משאלה.",
       "definitionEn": "a conditional particle; if; by implication (interj. as a wish) would that!",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -97791,7 +98607,7 @@
           }
         }
       ],
-      "definitionHe": "לוד; שם עם או ארץ.",
+      "definitionHe": "שם עם או ארץ.",
       "definitionEn": "Lud, the name of two nations",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -97894,7 +98710,7 @@
           }
         }
       ],
-      "definitionHe": "לודים; בני עם.",
+      "definitionHe": "בני עם לוד, כנראה עם בצפון־מזרח אפריקה, הנזכרים ברשימת בני מצרים.",
       "definitionEn": "a Ludite or inhabitants of Lud (only in plural)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -97903,7 +98719,7 @@
         "strongNumber": "3866"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/3866.htm"
@@ -98150,7 +98966,58 @@
             "sourceTokenId": "196kc"
           }
         }
-      ]
+      ],
+      "definitionHe": "ליטול ממון בהקפה ולהחזירו; בהפעיל – לתת ממון לאחר כדי שיחזירו.",
+      "definitionEn": "properly, to twine, i.e. (by implication) to unite, to remain; also to borrow (as a form of obligation) or (caus.) to lend",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3867.htm",
+        "strongNumber": "3867"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3867.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "properly, to twine, i.e. (by implication) to unite, to remain; also to borrow (as a form of obligation) or (caus.) to lend",
+          "usage": "abide with, borrow(-er), cleave, join (self), lend(-er).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3867",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "properly, to <def>twine</def>, i.e. (by implication) to <def>unite</def>, to <def>remain</def>; also to <def>borrow</def> (as a form of obligation) or (caus.) to <def>lend</def>",
+          "usageXml": "abide with, borrow(-er), cleave, join (self), lend(-er).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.at.aa",
+          "entryBodyXml": "[<w>לָוָה</w>] <pos>vb</pos>. <def>borrow</def>\r\n\t\t\t\t<sense><stem>Qal</stem> <def>borrow</def></sense>\r\n\t\t\t\t<sense><stem>Hiph</stem>. <def>cause to borrow</def>, i.e. <def>lend to</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3867",
@@ -98328,7 +99195,58 @@
             "sourceTokenId": "38vCn"
           }
         }
-      ]
+      ],
+      "definitionHe": "להתחבר, להצטרף ולהיספח לאדם או לעם; בעיקר בנפעל.",
+      "definitionEn": "properly, to twine, i.e. (by implication) to unite, to remain; also to borrow (as a form of obligation) or (caus.) to lend",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3867.htm",
+        "strongNumber": "3867"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3867.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "properly, to twine, i.e. (by implication) to unite, to remain; also to borrow (as a form of obligation) or (caus.) to lend",
+          "usage": "abide with, borrow(-er), cleave, join (self), lend(-er).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3867",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "properly, to <def>twine</def>, i.e. (by implication) to <def>unite</def>, to <def>remain</def>; also to <def>borrow</def> (as a form of obligation) or (caus.) to <def>lend</def>",
+          "usageXml": "abide with, borrow(-er), cleave, join (self), lend(-er).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.as.aa",
+          "entryBodyXml": "[<w>לָוָה</w>] <def>join</def> (intr.), <def>be joined</def>\r\n\t\t\t\t<sense><stem>Qal</stem> (late) <def>be joined to</def>, <def>attend</def></sense>\r\n\t\t\t\t<sense><stem>Niph</stem>. <def>join oneself</def> or <def>be joined</def> unto</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3868",
@@ -98498,7 +99416,7 @@
           }
         }
       ],
-      "definitionHe": "לוז; עץ אגוז או שקד, בזיהוי מסופק.",
+      "definitionHe": "עץ אגוז או שקד, בזיהוי מסופק.",
       "definitionEn": "some kind of nut-tree, perhaps the almond",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -98507,7 +99425,7 @@
         "strongNumber": "3869"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/3869.htm"
@@ -98671,7 +99589,7 @@
           }
         }
       ],
-      "definitionHe": "לוז; שם מקום.",
+      "definitionHe": "שמה הקדום של בית אל; וגם עיר שבנו החתים (שופטים א׳, כ״ו).",
       "definitionEn": "Luz, the name of two places in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -99334,7 +100252,7 @@
           }
         }
       ],
-      "definitionHe": "לוח; משטח כתיבה.",
+      "definitionHe": "משטח כתיבה.",
       "definitionEn": "probably meaning to glisten; a tablet (as polished), of stone, wood or metal",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -99423,7 +100341,7 @@
           }
         }
       ],
-      "definitionHe": "לוחית; שם מקום.",
+      "definitionHe": "עיר במואב שאליה עלו בבכי, בנבואה על מואב (ישעיהו ט״ו, ה׳).",
       "definitionEn": "Luchith, a place East of the Jordan",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -99512,7 +100430,7 @@
           }
         }
       ],
-      "definitionHe": "הלוחש; שם אדם.",
+      "definitionHe": "אבי שלום, שר בירושלים שבנה את החומה בימי נחמיה (נחמיה ג׳, י״ב).",
       "definitionEn": "Lochesh, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -99690,7 +100608,7 @@
           }
         }
       ],
-      "definitionHe": "לוט; כיסוי.",
+      "definitionHe": "כיסוי ומעטה; רק בישעיהו כ״ה, ז׳, על המסווה הפרוש על כל העמים.",
       "definitionEn": "a veil",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -100213,7 +101131,7 @@
           }
         }
       ],
-      "definitionHe": "לוט; אחיינו של אברהם.",
+      "definitionHe": "בן הרן ואחיינו של אברהם, שהתיישב בסדום וניצל מהפיכתה; אבי מואב ועמון.",
       "definitionEn": "Lot, Abraham's nephew",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -100372,7 +101290,7 @@
           }
         }
       ],
-      "definitionHe": "לוטן; שם אדם.",
+      "definitionHe": "בן שעיר החורי, ראש שבט באדום (בראשית ל״ו).",
       "definitionEn": "Lotan, an Idumaean",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -101329,7 +102247,7 @@
           }
         }
       ],
-      "definitionHe": "לוי; בן יעקב.",
+      "definitionHe": "בנו השלישי של יעקב מלאה, אבי השבט שממנו יצאו הכוהנים ומשרתי המקדש.",
       "definitionEn": "Levi, a son of Jacob",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -101446,8 +102364,8 @@
           }
         }
       ],
-      "definitionHe": "לוי; בן שבט לוי.",
-      "definitionEn": "Levite.",
+      "definitionHe": "בארמית: משרת המקדש מן השבט שמוצאו בבנו השלישי של יעקב (עזרא ו׳, ט״ז).",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -105511,7 +106429,7 @@
           }
         }
       ],
-      "definitionHe": "לוי; בן שבט לוי.",
+      "definitionHe": "תואר ושם עצם: מבני השבט שמוצאו בבנו השלישי של יעקב, משרתי המשכן והמקדש.",
       "definitionEn": "a Levite or descendant of Levi",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -105600,7 +106518,7 @@
           }
         }
       ],
-      "definitionHe": "לווייה; עיטור.",
+      "definitionHe": "זר וקישוט לראש; ברבים במשלי א׳, ט׳ וד׳, ט׳.",
       "definitionEn": "something attached, i.e. a wreath",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -105745,7 +106663,7 @@
           }
         }
       ],
-      "definitionHe": "לווייתן; יצור ים גדול.",
+      "definitionHe": "יצור ים גדול.",
       "definitionEn": "a wreathed animal, i.e. a serpent (especially the crocodile or some other large sea-monster); figuratively, the constellation of the dragon; also as a symbol of Babylon",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -105820,7 +106738,7 @@
           }
         }
       ],
-      "definitionHe": "לול; מדרגות מפותלות.",
+      "definitionHe": "מדרגות מפותלות.",
       "definitionEn": "a spiral step",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -106077,7 +106995,7 @@
           }
         }
       ],
-      "definitionHe": "לולא; אילו לא.",
+      "definitionHe": "אילו לא.",
       "definitionEn": "if not",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -106576,7 +107494,58 @@
             "sourceTokenId": "19af4"
           }
         }
-      ]
+      ],
+      "definitionHe": "להתרעם ולרטון נגד מישהו, כבני ישראל במדבר נגד משה; בהפעיל – לעורר רטינה.",
+      "definitionEn": "to stop (usually over night); by implication, to stay permanently; hence (in a bad sense) to be obstinate (especially in words, to complain)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3885.htm",
+        "strongNumber": "3885"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3885.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or לִין; a primitive root;",
+          "meaning": "to stop (usually over night); by implication, to stay permanently; hence (in a bad sense) to be obstinate (especially in words, to complain)",
+          "usage": "abide (all night), continue, dwell, endure, grudge, be left, lie all night, (cause to) lodge (all night, in, -ing, this night), (make to) murmur, remain, tarry (all night, that night).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3885",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"leen\" xlit=\"lîyn\">לִין</w>; a primitive root;",
+          "meaningXml": "to <def>stop</def> (usually over night); by implication, to <def>stay permanently</def>; hence (in a bad sense) to <def>be obstinate</def> (especially in words, to complain)",
+          "usageXml": "abide (all night), continue, dwell, endure, grudge, be left, lie all night, (cause to) lodge (all night, in, -ing, this night), (make to) murmur, remain, tarry (all night, that night).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.ba.aa",
+          "entryBodyXml": "[<w>לוּן</w>] <pos>vb</pos>. <def>murmur</def>\r\n\t\t\t\t<sense><stem>Niph</stem>. <def>murmur</def> against</sense>\r\n\t\t\t\t<sense><stem>Hiph</stem>. <def>murmur</def>; <def>cause to murmur</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3885",
@@ -107552,7 +108521,58 @@
             "sourceTokenId": "363t6"
           }
         }
-      ]
+      ],
+      "definitionHe": "לבלות את הלילה במקום, לשהות עד הבוקר; בהשאלה – לשכון ולהתמיד.",
+      "definitionEn": "to stop (usually over night); by implication, to stay permanently; hence (in a bad sense) to be obstinate (especially in words, to complain)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3885.htm",
+        "strongNumber": "3885"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3885.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "or לִין; a primitive root;",
+          "meaning": "to stop (usually over night); by implication, to stay permanently; hence (in a bad sense) to be obstinate (especially in words, to complain)",
+          "usage": "abide (all night), continue, dwell, endure, grudge, be left, lie all night, (cause to) lodge (all night, in, -ing, this night), (make to) murmur, remain, tarry (all night, that night).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3885",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "or <w pron=\"leen\" xlit=\"lîyn\">לִין</w>; a primitive root;",
+          "meaningXml": "to <def>stop</def> (usually over night); by implication, to <def>stay permanently</def>; hence (in a bad sense) to <def>be obstinate</def> (especially in words, to complain)",
+          "usageXml": "abide (all night), continue, dwell, endure, grudge, be left, lie all night, (cause to) lodge (all night, in, -ing, this night), (make to) murmur, remain, tarry (all night, that night).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.az.aa",
+          "entryBodyXml": "<w>לוּן</w>, <w>לִין</w> <pos>vb</pos>. <def>lodge</def>, <def>pass the night</def>, fig. <def>abide</def>\r\n\t\t\t\t<sense><stem>Qal</stem>\r\n\t\t\t\t\t<sense n=\"1\"><def>lodge</def>, <def>pass the night</def></sense>\r\n\t\t\t\t\t<sense n=\"2\">fig. <def>abide</def>, <def>remain</def></sense>\r\n\t\t\t\t</sense>\r\n\t\t\t\t<sense><stem>Hiph</stem>. <def>cause to rest</def>, <def>lodge</def></sense>\r\n\t\t\t\t<sense><stem>Hithpalp</stem>. <def>dwell</def>, <def>abide</def>, of eagle</sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3886",
@@ -107576,7 +108596,58 @@
             "sourceTokenId": "31n9v"
           }
         }
-      ]
+      ],
+      "definitionHe": "לגמוע ולשתות עד תום (עובדיה א׳, ט״ז).",
+      "definitionEn": "to gulp; figuratively, to be rash",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3886.htm",
+        "strongNumber": "3886"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3886.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to gulp; figuratively, to be rash",
+          "usage": "swallow down (up).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3886",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>gulp</def>; figuratively, to <def>be rash</def>",
+          "usageXml": "swallow down (up).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.bb.aa",
+          "entryBodyXml": "[<w>לוּעַ</w>, or <w>לָעַע</w>] <pos>vb</pos>. <def>swallow</def>, <def>swallow down</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3886",
@@ -107600,7 +108671,58 @@
             "sourceTokenId": "185H9"
           }
         }
-      ]
+      ],
+      "definitionHe": "לדבר בפזיזות ובלי מחשבה (איוב ו׳, ג׳).",
+      "definitionEn": "to gulp; figuratively, to be rash",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3886.htm",
+        "strongNumber": "3886"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3886.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to gulp; figuratively, to be rash",
+          "usage": "swallow down (up).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3886",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>gulp</def>; figuratively, to <def>be rash</def>",
+          "usageXml": "swallow down (up).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.bc.aa",
+          "entryBodyXml": "[<w>לוּע</w>, or <w>לָעַע</w>] <pos>vb</pos>. <def>talk wildly</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3888",
@@ -107681,7 +108803,7 @@
           }
         }
       ],
-      "definitionHe": "ללוש בצק.",
+      "definitionHe": "לגבל ולעבד בצק.",
       "definitionEn": "to knead",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -107756,7 +108878,7 @@
           }
         }
       ],
-      "definitionHe": "לוש; שם מקום.",
+      "definitionHe": "אביו של פלטיאל, בעלה השני של מיכל (שמואל ב׳ ג׳, ט״ו, בכתיב); לפי Strong שם מקום.",
       "definitionEn": "Lush, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -107831,7 +108953,7 @@
           }
         }
       ],
-      "definitionHe": "עם או לצד; בארמית.",
+      "definitionHe": "בארמית: עם או לצד.",
       "definitionEn": "properly, adhesion, i.e. (as preposition) with",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -107906,7 +109028,7 @@
           }
         }
       ],
-      "definitionHe": "לזות; סטייה או עיוות.",
+      "definitionHe": "סטייה או עיוות.",
       "definitionEn": "perverseness",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -108051,7 +109173,7 @@
           }
         }
       ],
-      "definitionHe": "לח; רטוב או טרי.",
+      "definitionHe": "רטוב או טרי.",
       "definitionEn": "fresh, i.e. unused or undried",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -108126,7 +109248,7 @@
           }
         }
       ],
-      "definitionHe": "לח; רעננות וכוח.",
+      "definitionHe": "רעננות וכוח.",
       "definitionEn": "freshness, i.e. vigor",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -108570,7 +109692,7 @@
           }
         }
       ],
-      "definitionHe": "לחי; חלק הפנים או הלסת.",
+      "definitionHe": "חלק הפנים או הלסת.",
       "definitionEn": "the cheek (from its fleshiness); hence, the jaw-bone",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -108673,7 +109795,7 @@
           }
         }
       ],
-      "definitionHe": "לחי; שם מקום.",
+      "definitionHe": "מקום ביהודה שבו הכה שמשון אלף פלשתים בעצם של חמור (שופטים ט״ו).",
       "definitionEn": "Lechi, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -108818,7 +109940,7 @@
           }
         }
       ],
-      "definitionHe": "ללחך או ללקק.",
+      "definitionHe": "לחכך בלשון, של שור האוכל עשב; בפיעל – לכלות לגמרי, כאש שכילתה את המים (מלכים א׳ י״ח, ל״ח).",
       "definitionEn": "to lick",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -108962,7 +110084,58 @@
             "sourceTokenId": "19miJ"
           }
         }
-      ]
+      ],
+      "definitionHe": "לאכול, להשתמש כמזון; בשירה (דברים ל״ב, כ״ד).",
+      "definitionEn": "to feed on; figuratively, to consume; by implication, to battle (as destruction)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3898.htm",
+        "strongNumber": "3898"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3898.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to feed on; figuratively, to consume; by implication, to battle (as destruction)",
+          "usage": "devour, eat, × ever, fight(-ing), overcome, prevail, (make) war(-ring).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3898",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>feed on</def>; figuratively, to <def>consume</def>; by implication, to <def>battle</def> (as destruction)",
+          "usageXml": "devour, eat, × ever, fight(-ing), overcome, prevail, (make) war(-ring).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.bi.aa",
+          "entryBodyXml": "[<w>לָחַם</w>] <pos>vb</pos>. <def>use as food</def>, <def>eat</def>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3898",
@@ -111366,7 +112539,58 @@
             "sourceTokenId": "38WH5"
           }
         }
-      ]
+      ],
+      "definitionHe": "לנהל קרב ולהתגושש עם אויב; לרוב בנפעל.",
+      "definitionEn": "to feed on; figuratively, to consume; by implication, to battle (as destruction)",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3898.htm",
+        "strongNumber": "3898"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3898.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "a primitive root;",
+          "meaning": "to feed on; figuratively, to consume; by implication, to battle (as destruction)",
+          "usage": "devour, eat, × ever, fight(-ing), overcome, prevail, (make) war(-ring).",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3898",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "a primitive root;",
+          "meaningXml": "to <def>feed on</def>; figuratively, to <def>consume</def>; by implication, to <def>battle</def> (as destruction)",
+          "usageXml": "devour, eat, × ever, fight(-ing), overcome, prevail, (make) war(-ring).",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.bh.aa",
+          "entryBodyXml": "[<w>לָחַם</w>] 171 <pos>vb</pos>. <def>fight</def>, <def>do battle</def>\r\n\t\t\t\t<sense><stem>Qal</stem> <def>fight</def>, <def>do battle</def></sense>\r\n\t\t\t\t<sense><stem>Niph</stem>. <def>engage in battle</def> (recipr.), sometimes <def>wage war</def></sense>",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3899",
@@ -115549,7 +116773,7 @@
           }
         }
       ],
-      "definitionHe": "לחם; מאכל או מזון.",
+      "definitionHe": "מאכל או מזון.",
       "definitionEn": "food (for man or beast), especially bread, or grain (for making it)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -115624,8 +116848,8 @@
           }
         }
       ],
-      "definitionHe": "סעודה; בארמית.",
-      "definitionEn": "feast.",
+      "definitionHe": "בארמית: סעודה.",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -115774,7 +116998,7 @@
           }
         }
       ],
-      "definitionHe": "לחמי; שם אדם.",
+      "definitionHe": "אחיו של גלית הגתי, שהכהו אלחנן (דברי הימים א׳ כ׳, ה׳).",
       "definitionEn": "Lachmi, an Israelite; or rather probably a brief form",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -115849,7 +117073,7 @@
           }
         }
       ],
-      "definitionHe": "לחמס; שם מקום.",
+      "definitionHe": "עיר בשפלת יהודה (יהושע ט״ו, מ׳).",
       "definitionEn": "Lachmam or Lachmas, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -115952,7 +117176,7 @@
           }
         }
       ],
-      "definitionHe": "פילגש.",
+      "definitionHe": "בארמית: פילגש של המלך, ברבים בסעודת בלשאצר (דניאל ה׳).",
       "definitionEn": "a concubine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -116279,7 +117503,7 @@
           }
         }
       ],
-      "definitionHe": "ללחוץ או לדכא.",
+      "definitionHe": "לדחוק ולהצר; בהשאלה – לדכא ולהעיק; בנפעל – להידחק אל הקיר (במדבר כ״ב).",
       "definitionEn": "properly, to press, i.e. (figuratively) to distress",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -116508,7 +117732,7 @@
           }
         }
       ],
-      "definitionHe": "לחץ או מצוקה.",
+      "definitionHe": "דיכוי, עוני ומצוקה; גם מנה מצומצמת של מזון ומים בכלא.",
       "definitionEn": "distress",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -116611,7 +117835,7 @@
           }
         }
       ],
-      "definitionHe": "ללחוש.",
+      "definitionHe": "לדבר בקול נמוך; בפיעל – קולם של מכשפי נחשים, ובהתפעל – לדבר בסוד זה עם זה.",
       "definitionEn": "to whisper; by implication, to mumble a spell (as a magician)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -116742,7 +117966,7 @@
           }
         }
       ],
-      "definitionHe": "לחש; תפילה או כישוף.",
+      "definitionHe": "תפילה או כישוף.",
       "definitionEn": "properly, a whisper, i.e. by implication, (in a good sense) a private prayer, (in a bad one) an incantation; concretely, an amulet",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -116976,7 +118200,7 @@
           }
         }
       ],
-      "definitionHe": "לוט; שרף ריחני.",
+      "definitionHe": "שרף ריחני.",
       "definitionEn": "a gum (from its sticky nature), probably ladanum",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -117051,7 +118275,7 @@
           }
         }
       ],
-      "definitionHe": "לטאה; זוחל.",
+      "definitionHe": "סוג זוחל קטן, מן השרצים הטמאים (ויקרא י״א, ל׳); זיהויו המדויק אינו ודאי.",
       "definitionEn": "a kind of lizard (from its covert habits)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -117060,7 +118284,7 @@
         "strongNumber": "3911"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/3911.htm"
@@ -117126,7 +118350,7 @@
           }
         }
       ],
-      "definitionHe": "לטושים; שם שבט.",
+      "definitionHe": "שבט ערבי מצאצאי דדן, מבני אברהם וקטורה (בראשית כ״ה, ג׳).",
       "definitionEn": "Letushim, an Arabian tribe",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -117257,7 +118481,7 @@
           }
         }
       ],
-      "definitionHe": "ללטוש או להשחיז.",
+      "definitionHe": "לחדד ולהשחיז כלי חיתוך, כגון חרב ותער; גם לחשל בפטיש.",
       "definitionEn": "properly, to hammer out (an edge), i.e. to sharpen",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -117491,8 +118715,8 @@
           }
         }
       ],
-      "definitionHe": "לילה; בארמית.",
-      "definitionEn": "night.",
+      "definitionHe": "בארמית: לילה.",
+      "definitionEn": "",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
         "url": "https://github.com/openscriptures/HebrewLexicon",
@@ -120814,7 +122038,7 @@
           }
         }
       ],
-      "definitionHe": "לילה; הזמן שבין ערב לבוקר.",
+      "definitionHe": "הזמן שבין ערב לבוקר.",
       "definitionEn": "properly, a twist (away of the light), i.e. night; figuratively, adversity",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -120889,7 +122113,7 @@
           }
         }
       ],
-      "definitionHe": "לילית; יצור לילי שזיהויו מסופק.",
+      "definitionHe": "יצור לילי שזיהויו מסופק.",
       "definitionEn": "a night spectre",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -120898,7 +122122,7 @@
         "strongNumber": "3917"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/3917.htm"
@@ -121431,7 +122655,7 @@
           }
         }
       ],
-      "definitionHe": "ליש; אריה.",
+      "definitionHe": "אריה; כינוי שירי (ישעיהו ל׳, ו׳; איוב).",
       "definitionEn": "a lion (from his destructive blows)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -121547,7 +122771,58 @@
             "sourceTokenId": "07y2D"
           }
         }
-      ]
+      ],
+      "definitionHe": "שמה הקדום של העיר דן בצפון הארץ, שכבשו בני דן (שופטים י״ח).",
+      "definitionEn": "Laish, the name of two places in Palestine",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3919.htm",
+        "strongNumber": "3919"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3919.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "the same as 3918;",
+          "meaning": "Laish, the name of two places in Palestine",
+          "usage": "Laish. Compare 3889.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3919",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "the same as <w src=\"H3918\">3918</w>;",
+          "meaningXml": "<def>Laish</def>, the name of two places in Palestine",
+          "usageXml": "Laish. Compare <w src=\"H3889\">3889</w>.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.bo.ac",
+          "entryBodyXml": "<w>לַ֫יִשׁ</w> <pos>n.pr.loc</pos>. former name of Dan, in extreme north of Canaan",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3919",
@@ -121571,7 +122846,58 @@
             "sourceTokenId": "09kqe"
           }
         }
-      ]
+      ],
+      "definitionHe": "אביו של פלטי, בעלה השני של מיכל בת שאול (שמואל א׳ כ״ה, מ״ד).",
+      "definitionEn": "Laish, the name of two places in Palestine",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3919.htm",
+        "strongNumber": "3919"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3919.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "the same as 3918;",
+          "meaning": "Laish, the name of two places in Palestine",
+          "usage": "Laish. Compare 3889.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3919",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "the same as <w src=\"H3918\">3918</w>;",
+          "meaningXml": "<def>Laish</def>, the name of two places in Palestine",
+          "usageXml": "Laish. Compare <w src=\"H3889\">3889</w>.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.bo.ad",
+          "entryBodyXml": "<w>לַ֫יִשׁ</w> <pos>n.pr.m</pos>. father of Michal's second husband",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3919",
@@ -121595,7 +122921,58 @@
             "sourceTokenId": "23KuH"
           }
         }
-      ]
+      ],
+      "definitionHe": "יישוב מצפון לירושלים בנבואת ישעיהו י׳, ל׳; מקומו אינו ידוע.",
+      "definitionEn": "Laish, the name of two places in Palestine",
+      "definitionSource": {
+        "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
+        "url": "https://github.com/openscriptures/HebrewLexicon",
+        "strongUrl": "https://biblehub.com/hebrew/3919.htm",
+        "strongNumber": "3919"
+      },
+      "definitionReviewStatus": "source-checked-pending-editorial-review",
+      "definitionConfidence": "source-based",
+      "definitionVerification": {
+        "sources": [
+          "https://biblehub.com/hebrew/3919.htm"
+        ],
+        "dictionaries": [
+          "Strong",
+          "Brown-Driver-Briggs"
+        ],
+        "method": "Strong and BDB XML matched against pinned revisions; Hebrew definitions are drafts pending editorial review. MorphHB token fields checked directly.",
+        "editoriallyApproved": false,
+        "strongSourceChecked": true,
+        "bdbSourceChecked": true,
+        "occurrenceCountChecked": true
+      },
+      "definitionOriginalEnglish": {
+        "strong": {
+          "source": "the same as 3918;",
+          "meaning": "Laish, the name of two places in Palestine",
+          "usage": "Laish. Compare 3889.",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+          "entryId": "H3919",
+          "license": "CC BY 4.0",
+          "format": "plain-text extraction of XML source, meaning and usage nodes",
+          "verifiedAgainstSource": true,
+          "sourceXml": "the same as <w src=\"H3918\">3918</w>;",
+          "meaningXml": "<def>Laish</def>, the name of two places in Palestine",
+          "usageXml": "Laish. Compare <w src=\"H3889\">3889</w>.",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce"
+        },
+        "bdb": {
+          "entryId": "l.bo.ae",
+          "entryBodyXml": "<w>לַ֫יְשָׁה</w> <pos>n.pr.loc</pos>. N. of Jerus. <ref r=\"Isa.10.30\">Is 10:30</ref>; site unknown",
+          "sourceUrl": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+          "license": "CC BY 4.0",
+          "verifiedAgainstSource": true,
+          "sourceFormat": "BDB XML entry body excluding status tag",
+          "sourceRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+          "verificationNote": "Matched pinned LexicalIndex and BDB source excerpt.",
+          "scope": "lexical-opening-excerpt"
+        }
+      }
     },
     {
       "strongNumber": "3920",
@@ -123300,7 +124677,7 @@
           }
         }
       ],
-      "definitionHe": "ללכוד או לתפוס.",
+      "definitionHe": "לתפוס ולכבוש, עיר או אדם; גם לבחור בגורל ולצוד במלכודת.",
       "definitionEn": "to catch (in a net, trap or pit); generally, to capture or occupy; also to choose (by lot); figuratively, to cohere",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -123450,7 +124827,7 @@
           }
         }
       ],
-      "definitionHe": "לכה; שם מקום.",
+      "definitionHe": "יישוב ביהודה (דברי הימים א׳ ד׳, כ״א); מקומו אינו ידוע.",
       "definitionEn": "Lekah, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -123847,7 +125224,7 @@
           }
         }
       ],
-      "definitionHe": "לכיש; שם עיר.",
+      "definitionHe": "עיר כנענית בשפלת יהודה שכבש יהושע, ואחר כך עיר מבצר חשובה של ממלכת יהודה.",
       "definitionEn": "Lakish, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -125112,7 +126489,7 @@
           }
         }
       ],
-      "definitionHe": "ללמוד או ללמד.",
+      "definitionHe": "לרכוש ידע ולהתרגל לדבר; בפיעל – להורות ולהדריך, ובפועל – להיות מאומן.",
       "definitionEn": "properly, to goad, i.e. (by implication) to teach (the rod being an Oriental incentive)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -125257,7 +126634,7 @@
           }
         }
       ],
-      "definitionHe": "לימוד; מי שלמד או הורגל.",
+      "definitionHe": "מי שקיבל הדרכה, חניך; גם מורגל ומאומן בדבר.",
       "definitionEn": "instructed",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -125374,7 +126751,7 @@
           }
         }
       ],
-      "definitionHe": "למו; להם או אליהם.",
+      "definitionHe": "להם או אליהם.",
       "definitionEn": "to or for",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -125463,7 +126840,7 @@
           }
         }
       ],
-      "definitionHe": "למואל; שם אדם.",
+      "definitionHe": "מלך מסא, שאמו הורתה לו את הדברים המובאים במשלי ל״א.",
       "definitionEn": "Lemuel or Lemoel, a symbolic name of Solomon",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -125678,7 +127055,7 @@
           }
         }
       ],
-      "definitionHe": "למך; שם אדם.",
+      "definitionHe": "שמם של שני אבות קדומים: מצאצאי קין, בעל עדה וצלה, ובן מתושלח, אבי נח.",
       "definitionEn": "Lemek, the name of two antediluvian patriarchs",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -125753,7 +127130,7 @@
           }
         }
       ],
-      "definitionHe": "לוע; גרון.",
+      "definitionHe": "גרון, כנראה החיצוני; רק במשלי כ״ג, ב׳.",
       "definitionEn": "the gullet",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -125762,7 +127139,7 @@
         "strongNumber": "3930"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/3930.htm"
@@ -125828,7 +127205,7 @@
           }
         }
       ],
-      "definitionHe": "ללעוג.",
+      "definitionHe": "ללגלג ולבזות; רק בהפעיל, בבוז לשליחי ה׳ (דברי הימים ב׳ ל״ו, ט״ז).",
       "definitionEn": "to deride",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -126141,7 +127518,7 @@
           }
         }
       ],
-      "definitionHe": "ללעוג או לדבר באופן לא מובן.",
+      "definitionHe": "ללגלג ולבוז; בנפעל – לגמגם ולדבר בשפה זרה.",
       "definitionEn": "to deride; by implication (as if imitating a foreigner) to speak unintelligibly",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -126300,7 +127677,7 @@
           }
         }
       ],
-      "definitionHe": "לעג או בוז.",
+      "definitionHe": "ליגלוג ובוז; גם גמגום, דיבור בשפה זרה.",
       "definitionEn": "derision, scoffing",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -126389,7 +127766,7 @@
           }
         }
       ],
-      "definitionHe": "לועג או דובר לשון זרה.",
+      "definitionHe": "מלגלג, מבזה; בישעיהו כ״ח, י״א – בדיבור משובש של עם זר.",
       "definitionEn": "a buffoon; also a foreigner",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -126464,7 +127841,7 @@
           }
         }
       ],
-      "definitionHe": "לעדה; שם אדם.",
+      "definitionHe": "איש משבט יהודה, אבי מרשה (דברי הימים א׳ ד׳, כ״א).",
       "definitionEn": "Ladah, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -126623,7 +128000,7 @@
           }
         }
       ],
-      "definitionHe": "לעדן; שם אדם.",
+      "definitionHe": "שמם של שני אישים: איש משבט אפרים ולוי מבני גרשון.",
       "definitionEn": "Ladan, the name of two Israelites",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -126946,7 +128323,7 @@
           }
         }
       ],
-      "definitionHe": "לענה; צמח מר.",
+      "definitionHe": "צמח מר.",
       "definitionEn": "wormwood (regarded as poisonous, and therefore accursed)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -127203,7 +128580,7 @@
           }
         }
       ],
-      "definitionHe": "לפיד; אבוקה.",
+      "definitionHe": "אבוקה ולהבה, נר דולק.",
       "definitionEn": "a flambeau, lamp or flame",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -127278,7 +128655,7 @@
           }
         }
       ],
-      "definitionHe": "לפידות; שם אדם.",
+      "definitionHe": "בעלה של דבורה הנביאה (שופטים ד׳, ד׳).",
       "definitionEn": "Lappidoth, the husband of Deborah",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -127353,7 +128730,7 @@
           }
         }
       ],
-      "definitionHe": "לפני; קודם או בנוכחות.",
+      "definitionHe": "קודם או בנוכחות.",
       "definitionEn": "anterior",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -127456,7 +128833,7 @@
           }
         }
       ],
-      "definitionHe": "ללפות או לאחוז.",
+      "definitionHe": "לאחוז בתנועת פיתול, כשמשון שאחז בעמודים; בנפעל – לפנות ולסטות מן הדרך.",
       "definitionEn": "properly, to bend, i.e. (by implication) to clasp; also (reflexively) to turn around or aside",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -127559,7 +128936,7 @@
           }
         }
       ],
-      "definitionHe": "לצון; לעג.",
+      "definitionHe": "בוז וליגלוג; בישעיהו כ״ח, י״ד, על שליטי ירושלים המלגלגים.",
       "definitionEn": "derision",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -127634,7 +129011,7 @@
           }
         }
       ],
-      "definitionHe": "ללעוג.",
+      "definitionHe": "ללגלג ולבוז; בהפעיל גם לתרגם ולתווך, ובהתפעל – לנהוג כמלגלג.",
       "definitionEn": "to deride",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -127709,7 +129086,7 @@
           }
         }
       ],
-      "definitionHe": "לקום; שם מקום.",
+      "definitionHe": "עיר בגבול הצפוני של נחלת נפתלי (יהושע י״ט, ל״ג).",
       "definitionEn": "Lakkum, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -141481,7 +142858,7 @@
           }
         }
       ],
-      "definitionHe": "לקח; לימוד או הוראה.",
+      "definitionHe": "לימוד או הוראה.",
       "definitionEn": "properly, something received, i.e. (mentally) instruction (whether on the part of the teacher or hearer); also (in an active and sinister sense) inveiglement",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -141556,7 +142933,7 @@
           }
         }
       ],
-      "definitionHe": "לקחי; שם אדם.",
+      "definitionHe": "איש משבט מנשה (דברי הימים א׳ ז׳, י״ט).",
       "definitionEn": "Likchi, an Israelite",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -142135,7 +143512,7 @@
           }
         }
       ],
-      "definitionHe": "ללקט או לאסוף.",
+      "definitionHe": "לאסוף ולקבץ, ובמיוחד לאסוף שיבולים שנשארו בשדה אחרי הקוצרים.",
       "definitionEn": "properly, to pick up, i.e. (generally) to gather; specifically, to glean",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -142224,7 +143601,7 @@
           }
         }
       ],
-      "definitionHe": "לקט; שיבולים שנותרו לאחר הקציר.",
+      "definitionHe": "שיבולים שנותרו לאחר הקציר.",
       "definitionEn": "the gleaning",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -142383,7 +143760,7 @@
           }
         }
       ],
-      "definitionHe": "ללקק.",
+      "definitionHe": "לשתות בלשון כמו כלב; גם לגמוע דם, של כלבים (מלכים א׳ כ״א).",
       "definitionEn": "to lick or lap",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -142547,7 +143924,7 @@
           }
         }
       ],
-      "definitionHe": "לקש; יבול מאוחר.",
+      "definitionHe": "יבול מאוחר.",
       "definitionEn": "the after crop",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -142636,7 +144013,7 @@
           }
         }
       ],
-      "definitionHe": "לשד; לחות או חיוניות.",
+      "definitionHe": "לחות או חיוניות.",
       "definitionEn": "(figuratively) vigor; also a sweet or fat cake",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -144335,7 +145712,7 @@
           }
         }
       ],
-      "definitionHe": "לשון; איבר הדיבור או שפה.",
+      "definitionHe": "איבר הדיבור או שפה.",
       "definitionEn": "the tongue (of man or animals), used literally (as the instrument of licking, eating, or speech), and figuratively (speech, an ingot, a fork of flame, a cove of water)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -145054,7 +146431,7 @@
           }
         }
       ],
-      "definitionHe": "לשכה; חדר.",
+      "definitionHe": "חדר או אולם, במיוחד חדר בחצרות המקדש.",
       "definitionEn": "a room in a building (whether for storage, eating, or lodging)",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -145143,7 +146520,7 @@
           }
         }
       ],
-      "definitionHe": "לשם; אבן חן בזיהוי מסופק.",
+      "definitionHe": "אבן חן בזיהוי מסופק.",
       "definitionEn": "a gem, perhaps the jacinth",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -145152,7 +146529,7 @@
         "strongNumber": "3958"
       },
       "definitionReviewStatus": "source-checked-pending-editorial-review",
-      "definitionConfidence": "source-based",
+      "definitionConfidence": "uncertain",
       "definitionVerification": {
         "sources": [
           "https://biblehub.com/hebrew/3958.htm"
@@ -145232,7 +146609,7 @@
           }
         }
       ],
-      "definitionHe": "לשם; שם מקום.",
+      "definitionHe": "שם אחר לעיר ליש (דן) שבצפון (יהושע י״ט, מ״ז).",
       "definitionEn": "Leshem, a place in Palestine",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -145321,7 +146698,7 @@
           }
         }
       ],
-      "definitionHe": "להלשין או להוציא דיבה.",
+      "definitionHe": "להוציא דיבה ולהכפיש אדם בפני אחר.",
       "definitionEn": "to wag the tongue, i.e. to calumniate",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -145480,7 +146857,7 @@
           }
         }
       ],
-      "definitionHe": "לשון; שפה בארמית.",
+      "definitionHe": "בארמית: שפה.",
       "definitionEn": "speech, i.e. a nation",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -145555,7 +146932,7 @@
           }
         }
       ],
-      "definitionHe": "לשע; שם מקום.",
+      "definitionHe": "מקום ליד סדום ועמורה בגבול הכנעני (בראשית י׳, י״ט); מקומו אינו ידוע.",
       "definitionEn": "Lesha, a place probably East of the Jordan",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
@@ -145630,7 +147007,7 @@
           }
         }
       ],
-      "definitionHe": "לתך; מידת נפח, חצי חומר.",
+      "definitionHe": "מידת נפח, חצי חומר.",
       "definitionEn": "a measure for things dry",
       "definitionSource": {
         "name": "Strong’s Hebrew Dictionary (via Open Scriptures HebrewLexicon)",
