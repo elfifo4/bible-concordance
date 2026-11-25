@@ -1,0 +1,48 @@
+{
+  "status": "unassigned-to-letter",
+  "note": "Strong references with no unambiguous lexicon join, over the whole corpus",
+  "entries": [
+    {
+      "lemmaRef": "7451",
+      "tokenCount": 13,
+      "exampleVerse": "Deut.17.12",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "lemmaRef": "2030",
+      "tokenCount": 2,
+      "exampleVerse": "Judg.13.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "lemmaRef": "738",
+      "tokenCount": 1,
+      "exampleVerse": "1Chr.12.9",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "lemmaRef": "3651",
+      "tokenCount": 1,
+      "exampleVerse": "Ezra.3.5",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "lemmaRef": "7461",
+      "tokenCount": 1,
+      "exampleVerse": "Job.4.14",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "lemmaRef": "6887",
+      "tokenCount": 1,
+      "exampleVerse": "Lam.1.20",
+      "reason": "ambiguous-strong"
+    },
+    {
+      "lemmaRef": "6485",
+      "tokenCount": 1,
+      "exampleVerse": "Lev.5.23",
+      "reason": "ambiguous-strong"
+    }
+  ]
+}
