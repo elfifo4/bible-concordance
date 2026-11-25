@@ -16,7 +16,7 @@
 | י | 544 | 28,622 | 544 | 544 | 544 | 544 | 0 | source-cross-checked-pending-editorial-review |
 | כ | 273 | 11,708 | 273 | 0 | 0 | 0 | 0 | source-cross-checked-pending-editorial-review |
 | ל | 145 | 8,769 | 145 | 145 | 145 | 145 | 0 | source-cross-checked-pending-editorial-review |
-| מ | 974 | 20,743 | 0 | 0 | 0 | 0 | 0 | machine-generated-needs-human-review |
+| מ | 1091 | 23,481 | 1091 | 1091 | 1091 | 1091 | 0 | source-cross-checked-pending-editorial-review |
 | נ | 475 | 12,554 | 475 | 475 | 475 | 475 | 0 | source-cross-checked-pending-editorial-review |
 | ס | 239 | 2,941 | 239 | 239 | 239 | 239 | 0 | source-cross-checked-pending-editorial-review |
 | ע | 690 | 28,196 | 690 | 690 | 690 | 690 | 0 | source-cross-checked-pending-editorial-review |
@@ -26,4 +26,4 @@
 | ר | 410 | 9,058 | 410 | 410 | 410 | 410 | 0 | source-cross-checked-pending-editorial-review |
 | ש | 855 | 22,449 | 855 | 855 | 855 | 855 | 0 | source-cross-checked-pending-editorial-review |
 | ת | 319 | 4,054 | 319 | 319 | 319 | 319 | 0 | source-cross-checked-pending-editorial-review |
-| **סה״כ** | **8,998** | **287,809** | **8024** | **7582** | **7582** | **7487** | **0** | |
+| **סה״כ** | **9,115** | **290,547** | **9115** | **8673** | **8673** | **8578** | **0** | |
