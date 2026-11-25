@@ -1,0 +1,7 @@
+{
+  "_comment": "Exceptional Strong → LexicalIndex/BDB mappings. Keyed by Strong id. Every exception must say why; the audit uses indexVia to find the BDB entry.",
+  "H2007": {
+    "indexVia": "H2004",
+    "reason": "Strong H2007 (הֵנָּה, 3fp pronoun) is absent from the pinned LexicalIndex; the BDB excerpt is linked through H2004, the parallel pronoun lemma. Documented in docs/HE_AUDIT.md; not a direct cross-reference."
+  }
+}
