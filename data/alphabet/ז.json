@@ -1,20 +1,29 @@
 {
   "letter": "ז",
-  "status": "hebrew-glosses-drafted-pending-source-and-editorial-review",
+  "status": "partially-defined-needs-human-review",
   "scope": "MorphHB-attested-headwords-standard-and-ketiv-only",
   "source": {
     "morphhbRevision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
     "hebrewLexiconRevision": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
     "license": "CC BY 4.0"
   },
+  "tokenPositionSemantics": "1-based index in the written token stream of the verse; Qere note words take no position",
   "limitations": [
     "Attested MorphHB Strong references only; not a complete dictionary of unattested lexemes",
-    "Unmapped or ambiguous Strong references cannot be assigned to an initial letter",
+    "Unmapped or genuinely ambiguous Strong references cannot be assigned to an initial letter",
     "Qere alternatives excluded pending explicit Ketiv-Qere alignment",
     "Machine lexicon joins and headwords are not independently scholarly reviewed"
   ],
-  "entryCount": 169,
-  "totalOccurrences": 4505,
+  "entryCount": 191,
+  "totalOccurrences": 4707,
+  "summary": {
+    "entries": 191,
+    "withDefinitionHe": 169,
+    "strongSourceChecked": 0,
+    "bdbSourceChecked": 0,
+    "occurrenceCountChecked": 0,
+    "editoriallyApproved": 0
+  },
   "entries": [
     {
       "strongNumber": "2061",
@@ -37357,6 +37366,334 @@
       }
     },
     {
+      "strongNumber": "2094",
+      "lexiconEntryId": "dgf",
+      "headword": "זָהַר",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "tokenId": "27akE",
+          "verseId": "Dan.12.3",
+          "tokenPosition": 2,
+          "form": "יַזְהִ֖רוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2094 a",
+          "morphRaw": "HVhi3mp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "27akE"
+          }
+        }
+      ]
+    },
+    {
+      "strongNumber": "2094",
+      "lexiconEntryId": "dgg",
+      "headword": "זָהַר",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 21,
+      "occurrences": [
+        {
+          "tokenId": "14Wz8",
+          "verseId": "2Chr.19.10",
+          "tokenPosition": 17,
+          "form": "וְ/הִזְהַרְתֶּ֣ם",
+          "readingType": "standard",
+          "lemmaRaw": "c/2094 b",
+          "morphRaw": "HC/Vhq2mp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "14Wz8"
+          }
+        },
+        {
+          "tokenId": "12aC7",
+          "verseId": "2Kgs.6.10",
+          "tokenPosition": 11,
+          "form": "ו/הזהיר/ה",
+          "readingType": "ketiv",
+          "lemmaRaw": "c/2094 b",
+          "morphRaw": "HC/Vhp3ms/Sp3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "12aC7"
+          }
+        },
+        {
+          "tokenId": "21TMW",
+          "verseId": "Eccl.4.13",
+          "tokenPosition": 11,
+          "form": "לְ/הִזָּהֵ֖ר",
+          "readingType": "standard",
+          "lemmaRaw": "l/2094 b",
+          "morphRaw": "HR/VNc",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "21TMW"
+          }
+        },
+        {
+          "tokenId": "21UUk",
+          "verseId": "Eccl.12.12",
+          "tokenPosition": 4,
+          "form": "הִזָּהֵ֑ר",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVNv2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "21UUk"
+          }
+        },
+        {
+          "tokenId": "02Hye",
+          "verseId": "Exod.18.20",
+          "tokenPosition": 1,
+          "form": "וְ/הִזְהַרְתָּ֣ה",
+          "readingType": "standard",
+          "lemmaRaw": "c/2094 b",
+          "morphRaw": "HC/Vhq2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "02Hye"
+          }
+        },
+        {
+          "tokenId": "26izi",
+          "verseId": "Ezek.3.17",
+          "tokenPosition": 10,
+          "form": "וְ/הִזְהַרְתָּ֥",
+          "readingType": "standard",
+          "lemmaRaw": "c/2094 b",
+          "morphRaw": "HC/Vhq2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26izi"
+          }
+        },
+        {
+          "tokenId": "26MVx",
+          "verseId": "Ezek.3.18",
+          "tokenPosition": 6,
+          "form": "הִזְהַרְתּ֗/וֹ",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVhp2ms/Sp3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26MVx"
+          }
+        },
+        {
+          "tokenId": "26KGj",
+          "verseId": "Ezek.3.18",
+          "tokenPosition": 9,
+          "form": "לְ/הַזְהִ֥יר",
+          "readingType": "standard",
+          "lemmaRaw": "l/2094 b",
+          "morphRaw": "HR/Vhc",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26KGj"
+          }
+        },
+        {
+          "tokenId": "26UDg",
+          "verseId": "Ezek.3.19",
+          "tokenPosition": 3,
+          "form": "הִזְהַ֣רְתָּ",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVhp2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26UDg"
+          }
+        },
+        {
+          "tokenId": "265L1",
+          "verseId": "Ezek.3.20",
+          "tokenPosition": 13,
+          "form": "הִזְהַרְתּ/וֹ֙",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVhp2ms/Sp3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "265L1"
+          }
+        },
+        {
+          "tokenId": "26Pw8",
+          "verseId": "Ezek.3.21",
+          "tokenPosition": 3,
+          "form": "הִזְהַרְתּ֣/וֹ",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVhp2ms/Sp3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26Pw8"
+          }
+        },
+        {
+          "tokenId": "26pVx",
+          "verseId": "Ezek.3.21",
+          "tokenPosition": 14,
+          "form": "נִזְהָ֔ר",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVNrmsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26pVx"
+          }
+        },
+        {
+          "tokenId": "26S7k",
+          "verseId": "Ezek.33.3",
+          "tokenPosition": 9,
+          "form": "וְ/הִזְהִ֥יר",
+          "readingType": "standard",
+          "lemmaRaw": "c/2094 b",
+          "morphRaw": "HC/Vhq3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26S7k"
+          }
+        },
+        {
+          "tokenId": "26mP1",
+          "verseId": "Ezek.33.4",
+          "tokenPosition": 7,
+          "form": "נִזְהָ֔ר",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVNp3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26mP1"
+          }
+        },
+        {
+          "tokenId": "26Dn8",
+          "verseId": "Ezek.33.5",
+          "tokenPosition": 6,
+          "form": "נִזְהָ֔ר",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVNp3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26Dn8"
+          }
+        },
+        {
+          "tokenId": "26dgS",
+          "verseId": "Ezek.33.5",
+          "tokenPosition": 11,
+          "form": "נִזְהָ֖ר",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVNrmsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26dgS"
+          }
+        },
+        {
+          "tokenId": "26s66",
+          "verseId": "Ezek.33.6",
+          "tokenPosition": 12,
+          "form": "נִזְהָ֔ר",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVNp3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26s66"
+          }
+        },
+        {
+          "tokenId": "261SB",
+          "verseId": "Ezek.33.7",
+          "tokenPosition": 11,
+          "form": "וְ/הִזְהַרְתָּ֥",
+          "readingType": "standard",
+          "lemmaRaw": "c/2094 b",
+          "morphRaw": "HC/Vhq2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "261SB"
+          }
+        },
+        {
+          "tokenId": "26fR5",
+          "verseId": "Ezek.33.8",
+          "tokenPosition": 8,
+          "form": "לְ/הַזְהִ֥יר",
+          "readingType": "standard",
+          "lemmaRaw": "l/2094 b",
+          "morphRaw": "HR/Vhc",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26fR5"
+          }
+        },
+        {
+          "tokenId": "26mTu",
+          "verseId": "Ezek.33.9",
+          "tokenPosition": 3,
+          "form": "הִזְהַ֨רְתָּ",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVhp2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26mTu"
+          }
+        },
+        {
+          "tokenId": "19Aw1",
+          "verseId": "Ps.19.12",
+          "tokenPosition": 3,
+          "form": "נִזְהָ֣ר",
+          "readingType": "standard",
+          "lemmaRaw": "2094 b",
+          "morphRaw": "HVNrmsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19Aw1"
+          }
+        }
+      ]
+    },
+    {
       "strongNumber": "2095",
       "lexiconEntryId": "ohf",
       "headword": "זְהַר",
@@ -38977,6 +39314,30 @@
       }
     },
     {
+      "strongNumber": "2109",
+      "lexiconEntryId": "dgy",
+      "headword": "זוּן",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "tokenId": "24mim",
+          "verseId": "Jer.5.8",
+          "tokenPosition": 2,
+          "form": "מְיֻזָּנִ֖ים",
+          "readingType": "standard",
+          "lemmaRaw": "2109 a",
+          "morphRaw": "HVPsmpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "24mim"
+          }
+        }
+      ]
+    },
+    {
       "strongNumber": "2110",
       "lexiconEntryId": "ohh",
       "headword": "זוּן",
@@ -39217,6 +39578,1104 @@
       }
     },
     {
+      "strongNumber": "2114",
+      "lexiconEntryId": "dhc",
+      "headword": "זוּר",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 76,
+      "occurrences": [
+        {
+          "tokenId": "11uMM",
+          "verseId": "1Kgs.3.18",
+          "tokenPosition": 12,
+          "form": "זָ֤ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "11uMM"
+          }
+        },
+        {
+          "tokenId": "12WkH",
+          "verseId": "2Kgs.19.24",
+          "tokenPosition": 5,
+          "form": "זָרִ֑ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "12WkH"
+          }
+        },
+        {
+          "tokenId": "05qSq",
+          "verseId": "Deut.25.5",
+          "tokenPosition": 17,
+          "form": "זָ֑ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "05qSq"
+          }
+        },
+        {
+          "tokenId": "05YYf",
+          "verseId": "Deut.32.16",
+          "tokenPosition": 2,
+          "form": "בְּ/זָרִ֑ים",
+          "readingType": "standard",
+          "lemmaRaw": "b/2114 a",
+          "morphRaw": "HR/Aampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "05YYf"
+          }
+        },
+        {
+          "tokenId": "02qBE",
+          "verseId": "Exod.29.33",
+          "tokenPosition": 11,
+          "form": "וְ/זָ֥ר",
+          "readingType": "standard",
+          "lemmaRaw": "c/2114 a",
+          "morphRaw": "HC/Aamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "02qBE"
+          }
+        },
+        {
+          "tokenId": "02KmV",
+          "verseId": "Exod.30.9",
+          "tokenPosition": 5,
+          "form": "זָרָ֖ה",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAafsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "02KmV"
+          }
+        },
+        {
+          "tokenId": "02bxJ",
+          "verseId": "Exod.30.33",
+          "tokenPosition": 9,
+          "form": "זָ֑ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "02bxJ"
+          }
+        },
+        {
+          "tokenId": "26xiv",
+          "verseId": "Ezek.7.21",
+          "tokenPosition": 3,
+          "form": "הַ/זָּרִים֙",
+          "readingType": "standard",
+          "lemmaRaw": "d/2114 a",
+          "morphRaw": "HTd/Aampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26xiv"
+          }
+        },
+        {
+          "tokenId": "26MeB",
+          "verseId": "Ezek.11.9",
+          "tokenPosition": 7,
+          "form": "זָרִ֑ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26MeB"
+          }
+        },
+        {
+          "tokenId": "26Pf6",
+          "verseId": "Ezek.14.5",
+          "tokenPosition": 8,
+          "form": "נָזֹ֨רוּ֙",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HVNp3cp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26Pf6"
+          }
+        },
+        {
+          "tokenId": "26FCH",
+          "verseId": "Ezek.16.32",
+          "tokenPosition": 7,
+          "form": "זָרִֽים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26FCH"
+          }
+        },
+        {
+          "tokenId": "268nB",
+          "verseId": "Ezek.28.7",
+          "tokenPosition": 5,
+          "form": "זָרִ֔ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "268nB"
+          }
+        },
+        {
+          "tokenId": "26t7t",
+          "verseId": "Ezek.28.10",
+          "tokenPosition": 5,
+          "form": "זָרִ֑ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26t7t"
+          }
+        },
+        {
+          "tokenId": "26vFM",
+          "verseId": "Ezek.30.12",
+          "tokenPosition": 13,
+          "form": "זָרִ֔ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26vFM"
+          }
+        },
+        {
+          "tokenId": "26UFH",
+          "verseId": "Ezek.31.12",
+          "tokenPosition": 2,
+          "form": "זָרִ֛ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "26UFH"
+          }
+        },
+        {
+          "tokenId": "28oCH",
+          "verseId": "Hos.5.7",
+          "tokenPosition": 5,
+          "form": "זָרִ֖ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "28oCH"
+          }
+        },
+        {
+          "tokenId": "28Vgg",
+          "verseId": "Hos.7.9",
+          "tokenPosition": 2,
+          "form": "זָרִים֙",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "28Vgg"
+          }
+        },
+        {
+          "tokenId": "28VYG",
+          "verseId": "Hos.8.7",
+          "tokenPosition": 15,
+          "form": "זָרִ֖ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "28VYG"
+          }
+        },
+        {
+          "tokenId": "28vKo",
+          "verseId": "Hos.8.12",
+          "tokenPosition": 6,
+          "form": "זָ֖ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "28vKo"
+          }
+        },
+        {
+          "tokenId": "23qty",
+          "verseId": "Isa.1.4",
+          "tokenPosition": 18,
+          "form": "נָזֹ֥רוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HVNp3cp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23qty"
+          }
+        },
+        {
+          "tokenId": "23Q7E",
+          "verseId": "Isa.1.7",
+          "tokenPosition": 8,
+          "form": "זָרִים֙",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23Q7E"
+          }
+        },
+        {
+          "tokenId": "23GLz",
+          "verseId": "Isa.1.7",
+          "tokenPosition": 13,
+          "form": "זָרִֽים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23GLz"
+          }
+        },
+        {
+          "tokenId": "23jnF",
+          "verseId": "Isa.17.10",
+          "tokenPosition": 15,
+          "form": "זָ֖ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23jnF"
+          }
+        },
+        {
+          "tokenId": "23djw",
+          "verseId": "Isa.25.2",
+          "tokenPosition": 9,
+          "form": "זָרִים֙",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23djw"
+          }
+        },
+        {
+          "tokenId": "23wuh",
+          "verseId": "Isa.25.5",
+          "tokenPosition": 4,
+          "form": "זָרִ֖ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23wuh"
+          }
+        },
+        {
+          "tokenId": "23zjF",
+          "verseId": "Isa.28.21",
+          "tokenPosition": 11,
+          "form": "זָ֣ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23zjF"
+          }
+        },
+        {
+          "tokenId": "23MSd",
+          "verseId": "Isa.29.5",
+          "tokenPosition": 5,
+          "form": "זָרָ֑יִ/ךְ",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampc/Sp2fs",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23MSd"
+          }
+        },
+        {
+          "tokenId": "238rB",
+          "verseId": "Isa.43.12",
+          "tokenPosition": 7,
+          "form": "זָ֑ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "238rB"
+          }
+        },
+        {
+          "tokenId": "23ugY",
+          "verseId": "Isa.61.5",
+          "tokenPosition": 2,
+          "form": "זָרִ֔ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23ugY"
+          }
+        },
+        {
+          "tokenId": "24HK3",
+          "verseId": "Jer.2.25",
+          "tokenPosition": 11,
+          "form": "זָרִ֖ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "24HK3"
+          }
+        },
+        {
+          "tokenId": "24zbA",
+          "verseId": "Jer.3.13",
+          "tokenPosition": 11,
+          "form": "לַ/זָּרִ֗ים",
+          "readingType": "standard",
+          "lemmaRaw": "l/2114 a",
+          "morphRaw": "HRd/Aampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "24zbA"
+          }
+        },
+        {
+          "tokenId": "24CAK",
+          "verseId": "Jer.5.19",
+          "tokenPosition": 24,
+          "form": "זָרִ֔ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "24CAK"
+          }
+        },
+        {
+          "tokenId": "24UQS",
+          "verseId": "Jer.18.14",
+          "tokenPosition": 9,
+          "form": "זָרִ֥ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "24UQS"
+          }
+        },
+        {
+          "tokenId": "24CNf",
+          "verseId": "Jer.30.8",
+          "tokenPosition": 17,
+          "form": "זָרִֽים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "24CNf"
+          }
+        },
+        {
+          "tokenId": "24rZ5",
+          "verseId": "Jer.51.2",
+          "tokenPosition": 3,
+          "form": "זָרִים֙",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "24rZ5"
+          }
+        },
+        {
+          "tokenId": "24NzD",
+          "verseId": "Jer.51.51",
+          "tokenPosition": 10,
+          "form": "זָרִ֔ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "24NzD"
+          }
+        },
+        {
+          "tokenId": "18hSe",
+          "verseId": "Job.15.19",
+          "tokenPosition": 7,
+          "form": "זָ֣ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "18hSe"
+          }
+        },
+        {
+          "tokenId": "18vsz",
+          "verseId": "Job.19.13",
+          "tokenPosition": 6,
+          "form": "זָ֥רוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HVqp3cp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "18vsz"
+          }
+        },
+        {
+          "tokenId": "18FjR",
+          "verseId": "Job.19.15",
+          "tokenPosition": 4,
+          "form": "לְ/זָ֣ר",
+          "readingType": "standard",
+          "lemmaRaw": "l/2114 a",
+          "morphRaw": "HR/Aamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "18FjR"
+          }
+        },
+        {
+          "tokenId": "189fZ",
+          "verseId": "Job.19.27",
+          "tokenPosition": 8,
+          "form": "זָ֑ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "189fZ"
+          }
+        },
+        {
+          "tokenId": "29zx5",
+          "verseId": "Joel.4.17",
+          "tokenPosition": 13,
+          "form": "וְ/זָרִ֥ים",
+          "readingType": "standard",
+          "lemmaRaw": "c/2114 a",
+          "morphRaw": "HC/Aampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "29zx5"
+          }
+        },
+        {
+          "tokenId": "25EJP",
+          "verseId": "Lam.5.2",
+          "tokenPosition": 3,
+          "form": "לְ/זָרִ֔ים",
+          "readingType": "standard",
+          "lemmaRaw": "l/2114 a",
+          "morphRaw": "HR/Aampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "25EJP"
+          }
+        },
+        {
+          "tokenId": "0363d",
+          "verseId": "Lev.10.1",
+          "tokenPosition": 18,
+          "form": "זָרָ֔ה",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAafsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "0363d"
+          }
+        },
+        {
+          "tokenId": "03YAj",
+          "verseId": "Lev.22.10",
+          "tokenPosition": 2,
+          "form": "זָ֖ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "03YAj"
+          }
+        },
+        {
+          "tokenId": "03XYi",
+          "verseId": "Lev.22.12",
+          "tokenPosition": 6,
+          "form": "זָ֑ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "03XYi"
+          }
+        },
+        {
+          "tokenId": "03hv5",
+          "verseId": "Lev.22.13",
+          "tokenPosition": 19,
+          "form": "זָ֖ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "03hv5"
+          }
+        },
+        {
+          "tokenId": "04qVv",
+          "verseId": "Num.1.51",
+          "tokenPosition": 11,
+          "form": "וְ/הַ/זָּ֥ר",
+          "readingType": "standard",
+          "lemmaRaw": "c/d/2114 a",
+          "morphRaw": "HC/Td/Aamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "04qVv"
+          }
+        },
+        {
+          "tokenId": "04gLV",
+          "verseId": "Num.3.4",
+          "tokenPosition": 8,
+          "form": "זָרָ֜ה",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAafsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "04gLV"
+          }
+        },
+        {
+          "tokenId": "04KvW",
+          "verseId": "Num.3.10",
+          "tokenPosition": 9,
+          "form": "וְ/הַ/זָּ֥ר",
+          "readingType": "standard",
+          "lemmaRaw": "c/d/2114 a",
+          "morphRaw": "HC/Td/Aamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "04KvW"
+          }
+        },
+        {
+          "tokenId": "04kmE",
+          "verseId": "Num.3.38",
+          "tokenPosition": 18,
+          "form": "וְ/הַ/זָּ֥ר",
+          "readingType": "standard",
+          "lemmaRaw": "c/d/2114 a",
+          "morphRaw": "HC/Td/Aamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "04kmE"
+          }
+        },
+        {
+          "tokenId": "04RTe",
+          "verseId": "Num.17.5",
+          "tokenPosition": 9,
+          "form": "זָ֗ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "04RTe"
+          }
+        },
+        {
+          "tokenId": "04nhh",
+          "verseId": "Num.18.4",
+          "tokenPosition": 11,
+          "form": "וְ/זָ֖ר",
+          "readingType": "standard",
+          "lemmaRaw": "c/2114 a",
+          "morphRaw": "HC/Aamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "04nhh"
+          }
+        },
+        {
+          "tokenId": "047kB",
+          "verseId": "Num.18.7",
+          "tokenPosition": 18,
+          "form": "וְ/הַ/זָּ֥ר",
+          "readingType": "standard",
+          "lemmaRaw": "c/d/2114 a",
+          "morphRaw": "HC/Td/Aamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "047kB"
+          }
+        },
+        {
+          "tokenId": "04gds",
+          "verseId": "Num.26.61",
+          "tokenPosition": 6,
+          "form": "זָרָ֖ה",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAafsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "04gds"
+          }
+        },
+        {
+          "tokenId": "31Sov",
+          "verseId": "Obad.1.11",
+          "tokenPosition": 6,
+          "form": "זָרִ֖ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "31Sov"
+          }
+        },
+        {
+          "tokenId": "20jjy",
+          "verseId": "Prov.2.16",
+          "tokenPosition": 3,
+          "form": "זָרָ֑ה",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAafsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20jjy"
+          }
+        },
+        {
+          "tokenId": "20yS3",
+          "verseId": "Prov.5.3",
+          "tokenPosition": 5,
+          "form": "זָרָ֑ה",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAafsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20yS3"
+          }
+        },
+        {
+          "tokenId": "20r2Z",
+          "verseId": "Prov.5.10",
+          "tokenPosition": 3,
+          "form": "זָרִ֣ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20r2Z"
+          }
+        },
+        {
+          "tokenId": "2089f",
+          "verseId": "Prov.5.17",
+          "tokenPosition": 5,
+          "form": "לְ/זָרִ֣ים",
+          "readingType": "standard",
+          "lemmaRaw": "l/2114 a",
+          "morphRaw": "HR/Aampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "2089f"
+          }
+        },
+        {
+          "tokenId": "20rKT",
+          "verseId": "Prov.5.20",
+          "tokenPosition": 4,
+          "form": "בְ/זָרָ֑ה",
+          "readingType": "standard",
+          "lemmaRaw": "b/2114 a",
+          "morphRaw": "HR/Aafsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20rKT"
+          }
+        },
+        {
+          "tokenId": "20297",
+          "verseId": "Prov.6.1",
+          "tokenPosition": 6,
+          "form": "לַ/זָּ֣ר",
+          "readingType": "standard",
+          "lemmaRaw": "l/2114 a",
+          "morphRaw": "HRd/Aamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20297"
+          }
+        },
+        {
+          "tokenId": "20147",
+          "verseId": "Prov.7.5",
+          "tokenPosition": 3,
+          "form": "זָרָ֑ה",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAafsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20147"
+          }
+        },
+        {
+          "tokenId": "202Ha",
+          "verseId": "Prov.11.15",
+          "tokenPosition": 5,
+          "form": "זָ֑ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "202Ha"
+          }
+        },
+        {
+          "tokenId": "20gbJ",
+          "verseId": "Prov.14.10",
+          "tokenPosition": 8,
+          "form": "זָֽר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20gbJ"
+          }
+        },
+        {
+          "tokenId": "20W9E",
+          "verseId": "Prov.20.16",
+          "tokenPosition": 5,
+          "form": "זָ֑ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20W9E"
+          }
+        },
+        {
+          "tokenId": "207EH",
+          "verseId": "Prov.22.14",
+          "tokenPosition": 4,
+          "form": "זָר֑וֹת",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAafpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "207EH"
+          }
+        },
+        {
+          "tokenId": "20zAv",
+          "verseId": "Prov.23.33",
+          "tokenPosition": 3,
+          "form": "זָר֑וֹת",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAafpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20zAv"
+          }
+        },
+        {
+          "tokenId": "2067g",
+          "verseId": "Prov.27.2",
+          "tokenPosition": 2,
+          "form": "זָ֣ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "2067g"
+          }
+        },
+        {
+          "tokenId": "206j8",
+          "verseId": "Prov.27.13",
+          "tokenPosition": 5,
+          "form": "זָ֑ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "206j8"
+          }
+        },
+        {
+          "tokenId": "198Ad",
+          "verseId": "Ps.44.21",
+          "tokenPosition": 8,
+          "form": "זָֽר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "198Ad"
+          }
+        },
+        {
+          "tokenId": "19afN",
+          "verseId": "Ps.54.5",
+          "tokenPosition": 2,
+          "form": "זָרִ֨ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19afN"
+          }
+        },
+        {
+          "tokenId": "19byp",
+          "verseId": "Ps.58.4",
+          "tokenPosition": 1,
+          "form": "זֹ֣רוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HVqp3cp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19byp"
+          }
+        },
+        {
+          "tokenId": "191Qy",
+          "verseId": "Ps.69.9",
+          "tokenPosition": 1,
+          "form": "מ֭וּזָר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HVHsmsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "191Qy"
+          }
+        },
+        {
+          "tokenId": "19poM",
+          "verseId": "Ps.78.30",
+          "tokenPosition": 2,
+          "form": "זָר֥וּ",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HVqp3cp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19poM"
+          }
+        },
+        {
+          "tokenId": "19AFQ",
+          "verseId": "Ps.81.10",
+          "tokenPosition": 5,
+          "form": "זָ֑ר",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAamsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19AFQ"
+          }
+        },
+        {
+          "tokenId": "19vn4",
+          "verseId": "Ps.109.11",
+          "tokenPosition": 7,
+          "form": "זָרִ֣ים",
+          "readingType": "standard",
+          "lemmaRaw": "2114 a",
+          "morphRaw": "HAampa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19vn4"
+          }
+        }
+      ]
+    },
+    {
+      "strongNumber": "2114",
+      "lexiconEntryId": "dhd",
+      "headword": "זוּר",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "tokenId": "18gAL",
+          "verseId": "Job.19.17",
+          "tokenPosition": 2,
+          "form": "זָ֣רָה",
+          "readingType": "standard",
+          "lemmaRaw": "2114 b",
+          "morphRaw": "HVqp3fs",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "18gAL"
+          }
+        }
+      ]
+    },
+    {
       "strongNumber": "2115",
       "lexiconEntryId": "dhb",
       "headword": "זוּר",
@@ -39385,6 +40844,68 @@
         "bdbSourceChecked": false,
         "occurrenceCountChecked": false
       }
+    },
+    {
+      "strongNumber": "2119",
+      "lexiconEntryId": "dhh",
+      "headword": "זָחַל",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "tokenId": "181Qt",
+          "verseId": "Job.32.6",
+          "tokenPosition": 14,
+          "form": "זָחַ֥לְתִּי",
+          "readingType": "standard",
+          "lemmaRaw": "2119 b",
+          "morphRaw": "HVqp1cs",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "181Qt"
+          }
+        }
+      ]
+    },
+    {
+      "strongNumber": "2119",
+      "lexiconEntryId": "dhi",
+      "headword": "זָחַל",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 2,
+      "occurrences": [
+        {
+          "tokenId": "05eWp",
+          "verseId": "Deut.32.24",
+          "tokenPosition": 13,
+          "form": "זֹחֲלֵ֥י",
+          "readingType": "standard",
+          "lemmaRaw": "2119 a",
+          "morphRaw": "HVqrmpc",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "05eWp"
+          }
+        },
+        {
+          "tokenId": "33hyH",
+          "verseId": "Mic.7.17",
+          "tokenPosition": 4,
+          "form": "כְּ/זֹחֲלֵ֣י",
+          "readingType": "standard",
+          "lemmaRaw": "k/2119 a",
+          "morphRaw": "HR/Vqrmpc",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "33hyH"
+          }
+        }
+      ]
     },
     {
       "strongNumber": "2120",
@@ -39709,6 +41230,68 @@
         "bdbSourceChecked": false,
         "occurrenceCountChecked": false
       }
+    },
+    {
+      "strongNumber": "2123",
+      "lexiconEntryId": "dhm",
+      "headword": "זִיז",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 2,
+      "occurrences": [
+        {
+          "tokenId": "19M7V",
+          "verseId": "Ps.50.11",
+          "tokenPosition": 5,
+          "form": "וְ/זִ֥יז",
+          "readingType": "standard",
+          "lemmaRaw": "c/2123 a",
+          "morphRaw": "HC/Ncmsc",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19M7V"
+          }
+        },
+        {
+          "tokenId": "19vCA",
+          "verseId": "Ps.80.14",
+          "tokenPosition": 4,
+          "form": "וְ/זִ֖יז",
+          "readingType": "standard",
+          "lemmaRaw": "c/2123 a",
+          "morphRaw": "HC/Ncmsc",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19vCA"
+          }
+        }
+      ]
+    },
+    {
+      "strongNumber": "2123",
+      "lexiconEntryId": "dhn",
+      "headword": "זִיז",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "tokenId": "23Jzr",
+          "verseId": "Isa.66.11",
+          "tokenPosition": 9,
+          "form": "מִ/זִּ֥יז",
+          "readingType": "standard",
+          "lemmaRaw": "m/2123 b",
+          "morphRaw": "HR/Ncmsc",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23Jzr"
+          }
+        }
+      ]
     },
     {
       "strongNumber": "2124",
@@ -46733,6 +48316,628 @@
       }
     },
     {
+      "strongNumber": "2148",
+      "lexiconEntryId": "ohl",
+      "headword": "זְכַרְיָה",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 2,
+      "occurrences": [
+        {
+          "tokenId": "15XUc",
+          "verseId": "Ezra.5.1",
+          "tokenPosition": 4,
+          "form": "וּ/זְכַרְיָ֤ה",
+          "readingType": "standard",
+          "lemmaRaw": "c/2148 b",
+          "morphRaw": "AC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "15XUc"
+          }
+        },
+        {
+          "tokenId": "15xiv",
+          "verseId": "Ezra.6.14",
+          "tokenPosition": 8,
+          "form": "וּ/זְכַרְיָ֖ה",
+          "readingType": "standard",
+          "lemmaRaw": "c/2148 b",
+          "morphRaw": "AC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "15xiv"
+          }
+        }
+      ]
+    },
+    {
+      "strongNumber": "2148",
+      "lexiconEntryId": "dik",
+      "headword": "זְכַרְיָהוּ",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 41,
+      "occurrences": [
+        {
+          "tokenId": "13kRy",
+          "verseId": "1Chr.5.7",
+          "tokenPosition": 7,
+          "form": "וּ/זְכַרְיָֽהוּ",
+          "readingType": "standard",
+          "lemmaRaw": "c/2148 a",
+          "morphRaw": "HC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13kRy"
+          }
+        },
+        {
+          "tokenId": "13Pdw",
+          "verseId": "1Chr.9.21",
+          "tokenPosition": 1,
+          "form": "זְכַרְיָה֙",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13Pdw"
+          }
+        },
+        {
+          "tokenId": "13EWH",
+          "verseId": "1Chr.9.37",
+          "tokenPosition": 3,
+          "form": "וּ/זְכַרְיָ֖ה",
+          "readingType": "standard",
+          "lemmaRaw": "c/2148 a",
+          "morphRaw": "HC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13EWH"
+          }
+        },
+        {
+          "tokenId": "13T41",
+          "verseId": "1Chr.15.18",
+          "tokenPosition": 4,
+          "form": "זְכַרְיָ֡הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13T41"
+          }
+        },
+        {
+          "tokenId": "13Vio",
+          "verseId": "1Chr.15.20",
+          "tokenPosition": 1,
+          "form": "וּ/זְכַרְיָ֨ה",
+          "readingType": "standard",
+          "lemmaRaw": "c/2148 a",
+          "morphRaw": "HC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13Vio"
+          }
+        },
+        {
+          "tokenId": "13MKo",
+          "verseId": "1Chr.15.24",
+          "tokenPosition": 5,
+          "form": "וּ֠/זְכַרְיָהוּ",
+          "readingType": "standard",
+          "lemmaRaw": "c/2148 a",
+          "morphRaw": "HC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13MKo"
+          }
+        },
+        {
+          "tokenId": "13dJf",
+          "verseId": "1Chr.16.5",
+          "tokenPosition": 4,
+          "form": "זְכַרְיָ֑ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13dJf"
+          }
+        },
+        {
+          "tokenId": "13d5X",
+          "verseId": "1Chr.24.25",
+          "tokenPosition": 6,
+          "form": "זְכַרְיָֽהוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13d5X"
+          }
+        },
+        {
+          "tokenId": "13p3p",
+          "verseId": "1Chr.26.2",
+          "tokenPosition": 3,
+          "form": "זְכַרְיָ֤הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13p3p"
+          }
+        },
+        {
+          "tokenId": "13qYt",
+          "verseId": "1Chr.26.11",
+          "tokenPosition": 5,
+          "form": "זְכַרְיָ֖הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13qYt"
+          }
+        },
+        {
+          "tokenId": "13Suu",
+          "verseId": "1Chr.26.14",
+          "tokenPosition": 5,
+          "form": "וּ/זְכַרְיָ֨הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "c/2148 a",
+          "morphRaw": "HC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13Suu"
+          }
+        },
+        {
+          "tokenId": "13rum",
+          "verseId": "1Chr.27.21",
+          "tokenPosition": 6,
+          "form": "זְכַרְיָ֑הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13rum"
+          }
+        },
+        {
+          "tokenId": "14zYs",
+          "verseId": "2Chr.17.7",
+          "tokenPosition": 9,
+          "form": "וְ/לִ/זְכַרְיָ֔ה",
+          "readingType": "standard",
+          "lemmaRaw": "c/l/2148 a",
+          "morphRaw": "HC/R/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "14zYs"
+          }
+        },
+        {
+          "tokenId": "144aE",
+          "verseId": "2Chr.20.14",
+          "tokenPosition": 3,
+          "form": "זְכַרְיָ֡הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "144aE"
+          }
+        },
+        {
+          "tokenId": "14uUZ",
+          "verseId": "2Chr.21.2",
+          "tokenPosition": 7,
+          "form": "וּ/זְכַרְיָ֣הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "c/2148 a",
+          "morphRaw": "HC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "14uUZ"
+          }
+        },
+        {
+          "tokenId": "14qz3",
+          "verseId": "2Chr.24.20",
+          "tokenPosition": 5,
+          "form": "זְכַרְיָה֙",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "14qz3"
+          }
+        },
+        {
+          "tokenId": "14bhd",
+          "verseId": "2Chr.26.5",
+          "tokenPosition": 5,
+          "form": "זְכַרְיָ֔הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "14bhd"
+          }
+        },
+        {
+          "tokenId": "14nzF",
+          "verseId": "2Chr.29.1",
+          "tokenPosition": 16,
+          "form": "זְכַרְיָֽהוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "14nzF"
+          }
+        },
+        {
+          "tokenId": "14YB7",
+          "verseId": "2Chr.29.13",
+          "tokenPosition": 9,
+          "form": "זְכַרְיָ֖הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "14YB7"
+          }
+        },
+        {
+          "tokenId": "14AoS",
+          "verseId": "2Chr.34.12",
+          "tokenPosition": 13,
+          "form": "וּ/זְכַרְיָ֧ה",
+          "readingType": "standard",
+          "lemmaRaw": "c/2148 a",
+          "morphRaw": "HC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "14AoS"
+          }
+        },
+        {
+          "tokenId": "14bDs",
+          "verseId": "2Chr.35.8",
+          "tokenPosition": 8,
+          "form": "וּ/זְכַרְיָ֜הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "c/2148 a",
+          "morphRaw": "HC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "14bDs"
+          }
+        },
+        {
+          "tokenId": "12mc9",
+          "verseId": "2Kgs.14.29",
+          "tokenPosition": 9,
+          "form": "זְכַרְיָ֥ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "12mc9"
+          }
+        },
+        {
+          "tokenId": "12Nbz",
+          "verseId": "2Kgs.15.8",
+          "tokenPosition": 9,
+          "form": "זְכַרְיָ֨הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "12Nbz"
+          }
+        },
+        {
+          "tokenId": "12GHd",
+          "verseId": "2Kgs.15.11",
+          "tokenPosition": 3,
+          "form": "זְכַרְיָ֑ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "12GHd"
+          }
+        },
+        {
+          "tokenId": "12dPF",
+          "verseId": "2Kgs.18.2",
+          "tokenPosition": 16,
+          "form": "זְכַרְיָֽה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "12dPF"
+          }
+        },
+        {
+          "tokenId": "15Dn5",
+          "verseId": "Ezra.8.3",
+          "tokenPosition": 5,
+          "form": "זְכַרְיָ֑ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "15Dn5"
+          }
+        },
+        {
+          "tokenId": "15fXN",
+          "verseId": "Ezra.8.11",
+          "tokenPosition": 3,
+          "form": "זְכַרְיָ֖ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "15fXN"
+          }
+        },
+        {
+          "tokenId": "15iWk",
+          "verseId": "Ezra.8.16",
+          "tokenPosition": 9,
+          "form": "וְ/לִ/זְכַרְיָ֥ה",
+          "readingType": "standard",
+          "lemmaRaw": "c/l/2148 a",
+          "morphRaw": "HC/R/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "15iWk"
+          }
+        },
+        {
+          "tokenId": "15x3P",
+          "verseId": "Ezra.10.26",
+          "tokenPosition": 4,
+          "form": "זְכַרְיָה֙",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "15x3P"
+          }
+        },
+        {
+          "tokenId": "23VLV",
+          "verseId": "Isa.8.2",
+          "tokenPosition": 9,
+          "form": "זְכַרְיָ֖הוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23VLV"
+          }
+        },
+        {
+          "tokenId": "16YBK",
+          "verseId": "Neh.8.4",
+          "tokenPosition": 26,
+          "form": "זְכַרְיָ֥ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "16YBK"
+          }
+        },
+        {
+          "tokenId": "16pDV",
+          "verseId": "Neh.11.4",
+          "tokenPosition": 13,
+          "form": "זְכַרְיָ֧ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "16pDV"
+          }
+        },
+        {
+          "tokenId": "164GK",
+          "verseId": "Neh.11.5",
+          "tokenPosition": 14,
+          "form": "זְכַרְיָ֖ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "164GK"
+          }
+        },
+        {
+          "tokenId": "16Nsn",
+          "verseId": "Neh.11.12",
+          "tokenPosition": 17,
+          "form": "זְכַרְיָ֔ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "16Nsn"
+          }
+        },
+        {
+          "tokenId": "16UgC",
+          "verseId": "Neh.12.16",
+          "tokenPosition": 2,
+          "form": "זְכַרְיָ֖ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "16UgC"
+          }
+        },
+        {
+          "tokenId": "16RzD",
+          "verseId": "Neh.12.35",
+          "tokenPosition": 4,
+          "form": "זְכַרְיָ֨ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "16RzD"
+          }
+        },
+        {
+          "tokenId": "16xRL",
+          "verseId": "Neh.12.41",
+          "tokenPosition": 7,
+          "form": "זְכַרְיָ֥ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "16xRL"
+          }
+        },
+        {
+          "tokenId": "38aPd",
+          "verseId": "Zech.1.1",
+          "tokenPosition": 10,
+          "form": "זְכַרְיָה֙",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "38aPd"
+          }
+        },
+        {
+          "tokenId": "389KV",
+          "verseId": "Zech.1.7",
+          "tokenPosition": 17,
+          "form": "זְכַרְיָה֙",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "389KV"
+          }
+        },
+        {
+          "tokenId": "38TVv",
+          "verseId": "Zech.7.1",
+          "tokenPosition": 10,
+          "form": "זְכַרְיָ֗ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "38TVv"
+          }
+        },
+        {
+          "tokenId": "38pa7",
+          "verseId": "Zech.7.8",
+          "tokenPosition": 5,
+          "form": "זְכַרְיָ֖ה",
+          "readingType": "standard",
+          "lemmaRaw": "2148 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "38pa7"
+          }
+        }
+      ]
+    },
+    {
       "strongNumber": "2149",
       "lexiconEntryId": "din",
       "headword": "זֻלּוּת",
@@ -46795,6 +49000,138 @@
         "bdbSourceChecked": false,
         "occurrenceCountChecked": false
       }
+    },
+    {
+      "strongNumber": "2151",
+      "lexiconEntryId": "dip",
+      "headword": "זָלַל",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 2,
+      "occurrences": [
+        {
+          "tokenId": "23EFj",
+          "verseId": "Isa.63.19",
+          "tokenPosition": 16,
+          "form": "נָזֹֽלּוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2151 a",
+          "morphRaw": "HVNp3cp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23EFj"
+          }
+        },
+        {
+          "tokenId": "23yXP",
+          "verseId": "Isa.64.2",
+          "tokenPosition": 8,
+          "form": "נָזֹֽלּוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2151 a",
+          "morphRaw": "HVNp3cp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23yXP"
+          }
+        }
+      ]
+    },
+    {
+      "strongNumber": "2151",
+      "lexiconEntryId": "diq",
+      "headword": "זָלַל",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 6,
+      "occurrences": [
+        {
+          "tokenId": "05Nf9",
+          "verseId": "Deut.21.20",
+          "tokenPosition": 12,
+          "form": "זוֹלֵ֖ל",
+          "readingType": "standard",
+          "lemmaRaw": "2151 b",
+          "morphRaw": "HVqrmsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "05Nf9"
+          }
+        },
+        {
+          "tokenId": "24gpQ",
+          "verseId": "Jer.15.19",
+          "tokenPosition": 13,
+          "form": "מִ/זּוֹלֵ֖ל",
+          "readingType": "standard",
+          "lemmaRaw": "m/2151 b",
+          "morphRaw": "HR/Vqrmsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "24gpQ"
+          }
+        },
+        {
+          "tokenId": "25iee",
+          "verseId": "Lam.1.11",
+          "tokenPosition": 16,
+          "form": "זוֹלֵלָֽה",
+          "readingType": "standard",
+          "lemmaRaw": "2151 b",
+          "morphRaw": "HVqrfsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "25iee"
+          }
+        },
+        {
+          "tokenId": "20xro",
+          "verseId": "Prov.23.20",
+          "tokenPosition": 5,
+          "form": "בְּ/זֹלֲלֵ֖י",
+          "readingType": "standard",
+          "lemmaRaw": "b/2151 b",
+          "morphRaw": "HR/Vqrmpc",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20xro"
+          }
+        },
+        {
+          "tokenId": "202K9",
+          "verseId": "Prov.23.21",
+          "tokenPosition": 3,
+          "form": "וְ֭/זוֹלֵל",
+          "readingType": "standard",
+          "lemmaRaw": "c/2151 b",
+          "morphRaw": "HC/Vqrmsa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "202K9"
+          }
+        },
+        {
+          "tokenId": "20QZQ",
+          "verseId": "Prov.28.7",
+          "tokenPosition": 6,
+          "form": "זֽ֝וֹלְלִ֗ים",
+          "readingType": "standard",
+          "lemmaRaw": "2151 b",
+          "morphRaw": "HVqrmpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20QZQ"
+          }
+        }
+      ]
     },
     {
       "strongNumber": "2152",
@@ -49265,6 +51602,236 @@
       }
     },
     {
+      "strongNumber": "2174",
+      "lexiconEntryId": "djm",
+      "headword": "זִמְרִי",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 14,
+      "occurrences": [
+        {
+          "tokenId": "13p7s",
+          "verseId": "1Chr.2.6",
+          "tokenPosition": 3,
+          "form": "זִ֠מְרִי",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13p7s"
+          }
+        },
+        {
+          "tokenId": "13k9V",
+          "verseId": "1Chr.8.36",
+          "tokenPosition": 12,
+          "form": "זִמְרִ֑י",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13k9V"
+          }
+        },
+        {
+          "tokenId": "13isA",
+          "verseId": "1Chr.8.36",
+          "tokenPosition": 13,
+          "form": "וְ/זִמְרִ֖י",
+          "readingType": "standard",
+          "lemmaRaw": "c/2174 a",
+          "morphRaw": "HC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13isA"
+          }
+        },
+        {
+          "tokenId": "13Uzr",
+          "verseId": "1Chr.9.42",
+          "tokenPosition": 12,
+          "form": "זִמְרִ֑י",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13Uzr"
+          }
+        },
+        {
+          "tokenId": "135bQ",
+          "verseId": "1Chr.9.42",
+          "tokenPosition": 13,
+          "form": "וְ/זִמְרִ֖י",
+          "readingType": "standard",
+          "lemmaRaw": "c/2174 a",
+          "morphRaw": "HC/Np",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "135bQ"
+          }
+        },
+        {
+          "tokenId": "11Mgt",
+          "verseId": "1Kgs.16.9",
+          "tokenPosition": 4,
+          "form": "זִמְרִ֔י",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "11Mgt"
+          }
+        },
+        {
+          "tokenId": "11u6J",
+          "verseId": "1Kgs.16.10",
+          "tokenPosition": 2,
+          "form": "זִמְרִי֙",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "11u6J"
+          }
+        },
+        {
+          "tokenId": "11sCD",
+          "verseId": "1Kgs.16.12",
+          "tokenPosition": 2,
+          "form": "זִמְרִ֔י",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "11sCD"
+          }
+        },
+        {
+          "tokenId": "11uJA",
+          "verseId": "1Kgs.16.15",
+          "tokenPosition": 9,
+          "form": "זִמְרִ֛י",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "11uJA"
+          }
+        },
+        {
+          "tokenId": "11CY7",
+          "verseId": "1Kgs.16.16",
+          "tokenPosition": 6,
+          "form": "זִמְרִ֔י",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "11CY7"
+          }
+        },
+        {
+          "tokenId": "11T6R",
+          "verseId": "1Kgs.16.18",
+          "tokenPosition": 3,
+          "form": "זִמְרִי֙",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "11T6R"
+          }
+        },
+        {
+          "tokenId": "112Yq",
+          "verseId": "1Kgs.16.20",
+          "tokenPosition": 3,
+          "form": "זִמְרִ֔י",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "112Yq"
+          }
+        },
+        {
+          "tokenId": "122Ki",
+          "verseId": "2Kgs.9.31",
+          "tokenPosition": 6,
+          "form": "זִמְרִ֖י",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "122Ki"
+          }
+        },
+        {
+          "tokenId": "04YZe",
+          "verseId": "Num.25.14",
+          "tokenPosition": 9,
+          "form": "זִמְרִ֖י",
+          "readingType": "standard",
+          "lemmaRaw": "2174 a",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "04YZe"
+          }
+        }
+      ]
+    },
+    {
+      "strongNumber": "2174",
+      "lexiconEntryId": "djn",
+      "headword": "זִמְרִי",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "tokenId": "247pC",
+          "verseId": "Jer.25.25",
+          "tokenPosition": 4,
+          "form": "זִמְרִ֗י",
+          "readingType": "standard",
+          "lemmaRaw": "2174 b",
+          "morphRaw": "HNp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "247pC"
+          }
+        }
+      ]
+    },
+    {
       "strongNumber": "2175",
       "lexiconEntryId": "djo",
       "headword": "זִמְרָן",
@@ -51491,6 +54058,306 @@
         "bdbSourceChecked": false,
         "occurrenceCountChecked": false
       }
+    },
+    {
+      "strongNumber": "2186",
+      "lexiconEntryId": "djz",
+      "headword": "זָנַח",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 19,
+      "occurrences": [
+        {
+          "tokenId": "13jpS",
+          "verseId": "1Chr.28.9",
+          "tokenPosition": 28,
+          "form": "יַזְנִיחֲ/ךָ֥",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVhi3ms/Sp2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "13jpS"
+          }
+        },
+        {
+          "tokenId": "14dJj",
+          "verseId": "2Chr.11.14",
+          "tokenPosition": 11,
+          "form": "הִזְנִיחָ֤/ם",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVhp3ms/Sp3mp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "14dJj"
+          }
+        },
+        {
+          "tokenId": "14A4d",
+          "verseId": "2Chr.29.19",
+          "tokenPosition": 5,
+          "form": "הִזְנִיחַ֩",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVhp3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "14A4d"
+          }
+        },
+        {
+          "tokenId": "288Dt",
+          "verseId": "Hos.8.3",
+          "tokenPosition": 1,
+          "form": "זָנַ֥ח",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqp3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "288Dt"
+          }
+        },
+        {
+          "tokenId": "28Gby",
+          "verseId": "Hos.8.5",
+          "tokenPosition": 1,
+          "form": "זָנַח֙",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqp3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "28Gby"
+          }
+        },
+        {
+          "tokenId": "25ACh",
+          "verseId": "Lam.2.7",
+          "tokenPosition": 1,
+          "form": "זָנַ֨ח",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqp3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "25ACh"
+          }
+        },
+        {
+          "tokenId": "25XFF",
+          "verseId": "Lam.3.17",
+          "tokenPosition": 1,
+          "form": "וַ/תִּזְנַ֧ח",
+          "readingType": "standard",
+          "lemmaRaw": "c/2186 a",
+          "morphRaw": "HC/Vqw3fs",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "25XFF"
+          }
+        },
+        {
+          "tokenId": "25NW8",
+          "verseId": "Lam.3.31",
+          "tokenPosition": 3,
+          "form": "יִזְנַ֛ח",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqi3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "25NW8"
+          }
+        },
+        {
+          "tokenId": "19kig",
+          "verseId": "Ps.43.2",
+          "tokenPosition": 6,
+          "form": "זְנַ֫חְתָּ֥/נִי",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqp2ms/Sp1cs",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19kig"
+          }
+        },
+        {
+          "tokenId": "19Y5x",
+          "verseId": "Ps.44.10",
+          "tokenPosition": 2,
+          "form": "זָ֭נַחְתָּ",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqp2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19Y5x"
+          }
+        },
+        {
+          "tokenId": "19Qdn",
+          "verseId": "Ps.44.24",
+          "tokenPosition": 7,
+          "form": "תִּזְנַ֥ח",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqj2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19Qdn"
+          }
+        },
+        {
+          "tokenId": "19R8R",
+          "verseId": "Ps.60.3",
+          "tokenPosition": 2,
+          "form": "זְנַחְתָּ֣/נוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqp2ms/Sp1cp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19R8R"
+          }
+        },
+        {
+          "tokenId": "19KsP",
+          "verseId": "Ps.60.12",
+          "tokenPosition": 4,
+          "form": "זְנַחְתָּ֑/נוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqp2ms/Sp1cp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19KsP"
+          }
+        },
+        {
+          "tokenId": "19DCf",
+          "verseId": "Ps.74.1",
+          "tokenPosition": 5,
+          "form": "זָנַ֣חְתָּ",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqp2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19DCf"
+          }
+        },
+        {
+          "tokenId": "19km3",
+          "verseId": "Ps.77.8",
+          "tokenPosition": 2,
+          "form": "יִזְנַ֥ח",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqi3ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19km3"
+          }
+        },
+        {
+          "tokenId": "193CP",
+          "verseId": "Ps.88.15",
+          "tokenPosition": 3,
+          "form": "תִּזְנַ֣ח",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqi2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "193CP"
+          }
+        },
+        {
+          "tokenId": "193VV",
+          "verseId": "Ps.89.39",
+          "tokenPosition": 2,
+          "form": "זָ֭נַחְתָּ",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqp2ms",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "193VV"
+          }
+        },
+        {
+          "tokenId": "19wdw",
+          "verseId": "Ps.108.12",
+          "tokenPosition": 3,
+          "form": "זְנַחְתָּ֑/נוּ",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqp2ms/Sp1cp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19wdw"
+          }
+        },
+        {
+          "tokenId": "38oiN",
+          "verseId": "Zech.10.6",
+          "tokenPosition": 15,
+          "form": "זְנַחְתִּ֑י/ם",
+          "readingType": "standard",
+          "lemmaRaw": "2186 a",
+          "morphRaw": "HVqp1cs/Sp3mp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "38oiN"
+          }
+        }
+      ]
+    },
+    {
+      "strongNumber": "2186",
+      "lexiconEntryId": "dka",
+      "headword": "זָנַח",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "tokenId": "23Wct",
+          "verseId": "Isa.19.6",
+          "tokenPosition": 1,
+          "form": "וְ/הֶאֶזְנִ֣יחוּ",
+          "readingType": "standard",
+          "lemmaRaw": "c/2186 b",
+          "morphRaw": "HC/Vhq3cp",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23Wct"
+          }
+        }
+      ]
     },
     {
       "strongNumber": "2187",
@@ -53981,6 +56848,124 @@
         "bdbSourceChecked": false,
         "occurrenceCountChecked": false
       }
+    },
+    {
+      "strongNumber": "2131",
+      "lexiconEntryId": "dkr",
+      "headword": "זֵק",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 4,
+      "occurrences": [
+        {
+          "tokenId": "23nfo",
+          "verseId": "Isa.45.14",
+          "tokenPosition": 17,
+          "form": "בַּ/זִּקִּ֖ים",
+          "readingType": "standard",
+          "lemmaRaw": "b/2131 b",
+          "morphRaw": "HRd/Ncmpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23nfo"
+          }
+        },
+        {
+          "tokenId": "186vQ",
+          "verseId": "Job.36.8",
+          "tokenPosition": 3,
+          "form": "בַּ/זִּקִּ֑ים",
+          "readingType": "standard",
+          "lemmaRaw": "b/2131 b",
+          "morphRaw": "HRd/Ncmpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "186vQ"
+          }
+        },
+        {
+          "tokenId": "34zg2",
+          "verseId": "Nah.3.10",
+          "tokenPosition": 19,
+          "form": "בַ/זִּקִּֽים",
+          "readingType": "standard",
+          "lemmaRaw": "b/2131 b",
+          "morphRaw": "HRd/Ncmpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "34zg2"
+          }
+        },
+        {
+          "tokenId": "19Xca",
+          "verseId": "Ps.149.8",
+          "tokenPosition": 3,
+          "form": "בְּ/זִקִּ֑ים",
+          "readingType": "standard",
+          "lemmaRaw": "b/2131 b",
+          "morphRaw": "HR/Ncmpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19Xca"
+          }
+        }
+      ]
+    },
+    {
+      "strongNumber": "2131",
+      "lexiconEntryId": "dks",
+      "headword": "זֵק",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 3,
+      "occurrences": [
+        {
+          "tokenId": "23Kud",
+          "verseId": "Isa.50.11",
+          "tokenPosition": 6,
+          "form": "זִיק֑וֹת",
+          "readingType": "standard",
+          "lemmaRaw": "2131 a",
+          "morphRaw": "HNcbpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23Kud"
+          }
+        },
+        {
+          "tokenId": "23CJE",
+          "verseId": "Isa.50.11",
+          "tokenPosition": 10,
+          "form": "וּ/בְ/זִיקוֹת֙",
+          "readingType": "standard",
+          "lemmaRaw": "c/b/2131 a",
+          "morphRaw": "HC/R/Ncbpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "23CJE"
+          }
+        },
+        {
+          "tokenId": "20FcZ",
+          "verseId": "Prov.26.18",
+          "tokenPosition": 3,
+          "form": "זִקִּ֗ים",
+          "readingType": "standard",
+          "lemmaRaw": "2131 a",
+          "morphRaw": "HNcbpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "20FcZ"
+          }
+        }
+      ]
     },
     {
       "strongNumber": "2204",
@@ -60117,6 +63102,30 @@
       }
     },
     {
+      "strongNumber": "2222",
+      "lexiconEntryId": "dll",
+      "headword": "זַרְזִיף",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "tokenId": "19fo4",
+          "verseId": "Ps.72.6",
+          "tokenPosition": 6,
+          "form": "זַרְזִ֥יף",
+          "readingType": "standard",
+          "lemmaRaw": "2222 b",
+          "morphRaw": "HNcmsc",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "19fo4"
+          }
+        }
+      ]
+    },
+    {
       "strongNumber": "2223",
       "lexiconEntryId": "dlm",
       "headword": "זַרְזִיר",
@@ -65245,6 +68254,54 @@
         "bdbSourceChecked": false,
         "occurrenceCountChecked": false
       }
+    },
+    {
+      "strongNumber": "2235",
+      "lexiconEntryId": "dlv",
+      "headword": "זֵרֹעַ",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "tokenId": "27ddd",
+          "verseId": "Dan.1.12",
+          "tokenPosition": 10,
+          "form": "הַ/זֵּרֹעִ֛ים",
+          "readingType": "standard",
+          "lemmaRaw": "d/2235 a",
+          "morphRaw": "HTd/Ncmpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "27ddd"
+          }
+        }
+      ]
+    },
+    {
+      "strongNumber": "2235",
+      "lexiconEntryId": "dlz",
+      "headword": "זֵֽרְעֹן",
+      "joinMethod": "aug-index",
+      "reviewStatus": "needs-human-review",
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "tokenId": "27uXX",
+          "verseId": "Dan.1.16",
+          "tokenPosition": 10,
+          "form": "זֵרְעֹנִֽים",
+          "readingType": "standard",
+          "lemmaRaw": "2235 b",
+          "morphRaw": "HNcmpa",
+          "source": {
+            "dataset": "openscriptures/morphhb",
+            "revision": "db6c5c9b46b8f39346f10915ddb1a70dcd429901",
+            "sourceTokenId": "27uXX"
+          }
+        }
+      ]
     },
     {
       "strongNumber": "2236",

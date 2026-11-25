@@ -28,8 +28,8 @@
     },
     {
       "letter": "ה",
-      "entryCount": 156,
-      "occurrenceCount": 9669
+      "entryCount": 172,
+      "occurrenceCount": 9963
     },
     {
       "letter": "ו",
@@ -38,8 +38,8 @@
     },
     {
       "letter": "ז",
-      "entryCount": 169,
-      "occurrenceCount": 4505
+      "entryCount": 191,
+      "occurrenceCount": 4707
     },
     {
       "letter": "ח",
@@ -48,8 +48,8 @@
     },
     {
       "letter": "ט",
-      "entryCount": 95,
-      "occurrenceCount": 990
+      "entryCount": 106,
+      "occurrenceCount": 1733
     },
     {
       "letter": "י",
@@ -58,13 +58,13 @@
     },
     {
       "letter": "כ",
-      "entryCount": 273,
-      "occurrenceCount": 11708
+      "entryCount": 323,
+      "occurrenceCount": 18474
     },
     {
       "letter": "ל",
-      "entryCount": 145,
-      "occurrenceCount": 8769
+      "entryCount": 172,
+      "occurrenceCount": 9753
     },
     {
       "letter": "מ",
@@ -117,6 +117,6 @@
       "occurrenceCount": 4054
     }
   ],
-  "totalEntries": 9115,
-  "totalOccurrences": 290547
+  "totalEntries": 9241,
+  "totalOccurrences": 299536
 }
