@@ -1,5 +1,8 @@
 # Verse text strategy
 
+> **Update (2026-11-25):** the "הראשון בחידון" app shows its own bundled Bible text, and the
+> verified alignment layer described below now exists for it: see [APP_EXPORT.md](APP_EXPORT.md).
+
 ## Decision: keep concordance data separate from displayed verse text
 
 The distributable concordance dataset will store lexical entries, senses,

@@ -23,6 +23,11 @@ Sub-commands
   lint            report glosses that are missing, repeat the headword, are too
                   long, or are proper names without context
   status          22-letter status table (markdown), optionally to a file
+  export-app      data/alphabet -> build/app/{entries.json,occurrences.bin}, the small
+                  offline files the "הראשון בחידון" app ships, in the app text's own
+                  coordinates (see docs/APP_EXPORT.md)
+  check-app-text  map every written MorphHB token onto the app's own Bible text
+                  (allChapters/*.txt) and report what does not map 1:1
 
 tokenPosition semantics (decision of 2026-11-22): 1-based index in the WRITTEN
 token stream of the verse. Qere words inside <note> never take a position.
@@ -39,7 +44,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from scripts import import_morphhb, audit_morphhb  # noqa: E402
+from scripts import import_morphhb, audit_morphhb, app_export  # noqa: E402
 
 LETTERS = "אבגדהוזחטיכלמנסעפצקרשת"
 MORPHHB_REV = "db6c5c9b46b8f39346f10915ddb1a70dcd429901"
@@ -737,6 +742,32 @@ def cmd_status(args):
 
 # -------------------------------------------------------------------- main
 
+# ----------------------------------------------------------- app export
+DEFAULT_APP_TEXT = Path.home() / "AndroidStudioProjects/BibleContestMultiPlatformApp/shared/src/commonMain/moko-resources/assets/allChapters"
+
+def cmd_export_app(args):
+    p = paths(args.build)
+    if not p["tokens"].exists():
+        log(f"missing {p['tokens']}; run fetch-sources and import first"); return 2
+    s = app_export.export_app(ROOT / "data" / "alphabet", p["tokens"], args.app_text, args.out)
+    log(f"{s['dir']}: {s['entries']} entries, {s['occurrences']} placed occurrences "
+        f"({s['unplaced']} not in the app text, {s['joinedSameEntry']} joined into one app word)")
+    for name, f in s["files"].items():
+        log(f"  {name}: {f['bytes'] / 1e6:.2f} MB ({f['gzipBytes'] / 1e6:.2f} MB gzip)")
+
+def cmd_check_app_text(args):
+    p = paths(args.build)
+    if not p["tokens"].exists():
+        log(f"missing {p['tokens']}; run fetch-sources and import first"); return 2
+    r = app_export.check_alignment(p["tokens"], args.app_text)
+    write_json_if_changed(p["reports"] / "app-alignment.json", r)
+    log(f"tokens mapped onto the app text: {r['mapped']}/{r['tokens']} ({r['mappedPct']}%)")
+    for kind, n in r["kinds"].items():
+        log(f"  {kind}: {n}")
+    log(f"  verses only in app: {len(r['verses']['onlyInApp'])}, only in MorphHB: {len(r['verses']['onlyInMorphhb'])}")
+    log(f"report: {p['reports'] / 'app-alignment.json'}")
+    return 1 if args.strict and r["kinds"].get("unmapped") else 0
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--build", default=str(ROOT / "build"), help="cache/report directory (gitignored)")
@@ -760,6 +791,13 @@ def main(argv=None):
     s = sub.add_parser("lint", help="report missing/circular/too-long glosses")
     s.add_argument("--letter", required=True); s.add_argument("--max", type=int, default=40); s.set_defaults(fn=cmd_lint)
     s = sub.add_parser("status"); s.add_argument("--write", metavar="PATH"); s.set_defaults(fn=cmd_status)
+    s = sub.add_parser("export-app", help="write entries.json + occurrences.bin for the app")
+    s.add_argument("--out", default=str(ROOT / "build" / "app"), help="output directory")
+    s.add_argument("--app-text", default=str(DEFAULT_APP_TEXT), help="the app's allChapters directory")
+    s.set_defaults(fn=cmd_export_app)
+    s = sub.add_parser("check-app-text", help="check tokenPositions against the app's Bible text")
+    s.add_argument("--app-text", default=str(DEFAULT_APP_TEXT), help="the app's allChapters directory")
+    s.add_argument("--strict", action="store_true", help="exit 1 on any mismatch"); s.set_defaults(fn=cmd_check_app_text)
     args = ap.parse_args(argv)
     return args.fn(args) or 0
 
