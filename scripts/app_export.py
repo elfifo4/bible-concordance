@@ -18,6 +18,7 @@ spaces and maqaf; a ketiv is printed bare and followed by its qere in parenthese
 """
 
 import gzip
+import hashlib
 import json
 import re
 import unicodedata
@@ -51,7 +52,10 @@ POINTS = re.compile(r"[֑-ׇ]")          # cantillation + niqqud
 CANTILLATION = re.compile(r"[֑-ֽ֯׀׃׆]")  # te'amim, meteg, paseq, sof pasuq, nun hafukha
 MARKER = re.compile(r"\{[^}]*\}")
 QERE = re.compile(r"\([^)]*\)")
-SPLIT = re.compile(r"[\s־]+")              # whitespace and maqaf
+# Exactly these separate words (Kotlin/JVM `\s` does not match NBSP, so name them):
+# tab, LF, CR, space, NBSP (the only separator in Deut 32:6 "הַ לְיְהֹוָה") and maqaf.
+SPLIT = re.compile("[\t\n\r  ־]+")
+NOT_WORDS = "׀׆"                        # paseq ׀ and inverted nun ׆ (Num 10:35-36, Ps 107)
 
 
 def consonants(word):
@@ -79,11 +83,22 @@ def gematria(token):
 def parse_app_chapter(text):
     """App chapter text -> {verse number: [word, …]} (qere and markers dropped).
 
-    A token starts verse n+1 only when it is the unpointed numeral n+1 and it is the
-    first token or follows a sof pasuq; this keeps short unpointed ketiv words from
-    being read as verse numbers."""
-    lines = text.lstrip("﻿").splitlines()[1:]          # drop the header line
-    body = QERE.sub(" ", MARKER.sub(" ", " ".join(lines))).replace("׀", " ")
+    The exact rule the app must reproduce (docs/APP_EXPORT.md):
+      1. drop a leading BOM and everything up to the first line break (the header);
+      2. replace each {…} marker, each (…) qere, paseq ׀ and inverted nun ׆ with a space;
+      3. split on SPLIT (tab, LF, CR, space, NBSP, maqaf); ZWJ stays inside the word;
+      4. a token is the number of the next verse when it is the unpointed numeral
+         current + 1 and nothing but letterless tokens stands between it and the start
+         of the chapter or the last token that ended with sof pasuq ׃;
+      5. any other token: strip ׃; keep it as a word if a Hebrew letter is left; if it
+         ended with ׃ (a lone ׃ after a qere included) the next numeral may start a verse;
+         a letterless token without ׃ changes nothing."""
+    text = text.lstrip("\ufeff")
+    nl = text.find("\n")
+    body = "" if nl < 0 else text[nl + 1:]
+    body = QERE.sub(" ", MARKER.sub(" ", body))
+    for ch in NOT_WORDS:
+        body = body.replace(ch, " ")
     verses, current, prev_end = {}, 0, True
     for tok in SPLIT.split(body):
         if not tok:
@@ -93,31 +108,60 @@ def parse_app_chapter(text):
             verses[current] = []
             prev_end = False
             continue
-        if current == 0:
-            continue
         word = tok.replace("׃", "")
-        if consonants(word):
+        if current and consonants(word):
             verses[current].append(word)
-        prev_end = tok.endswith("׃")
+        if tok.endswith("׃"):
+            prev_end = True
+        elif consonants(word):
+            prev_end = False
     return verses
 
 
-def app_chapter_files(app_dir):
+CHAPTER_COUNT = 929
+
+
+def app_chapter_files(app_dir, expected=CHAPTER_COUNT):
+    """-> {(book, chapter): path}. Fails loudly on a wrong directory or a renamed book."""
     out = {}
     for path in Path(app_dir).glob("_*.txt"):
         m = re.fullmatch(r"_(\d+)_(.+)-(\d+)\.txt", path.name)
-        if m:
-            out[(int(m.group(1)), int(m.group(3)))] = path
+        if not m:
+            continue
+        book, slug = int(m.group(1)), m.group(2)
+        if not 1 <= book <= len(BOOKS) or BOOKS[book - 1][1] != slug:
+            raise ValueError(f"{path.name}: unknown book number or slug")
+        out[(book, int(m.group(3)))] = path
+    if len(out) != expected:
+        raise ValueError(f"{app_dir}: found {len(out)} chapter files, expected {expected}")
     return out
 
 
-def read_app_text(app_dir):
+def read_app_text(app_dir, expected_chapters=CHAPTER_COUNT):
     """-> {(book, chapter, verse): [word, …]} for the whole app Bible."""
     verses = {}
-    for (book, chapter), path in sorted(app_chapter_files(app_dir).items()):
+    for (book, chapter), path in sorted(app_chapter_files(app_dir, expected_chapters).items()):
         for verse, words in parse_app_chapter(path.read_text(encoding="utf-16")).items():
             verses[(book, chapter, verse)] = words
     return verses
+
+
+def verse_count_mismatches(app_dir, app):
+    """Compare parsed verse counts with the app's own verses_per_chapter.csv (next to
+    allChapters/). -> list of "file: parsed X, csv Y"; empty when all match."""
+    raw = (Path(app_dir).parent / "verses_per_chapter.csv").read_bytes()
+    text = raw.decode("utf-16") if raw[:2] in (b"\xff\xfe", b"\xfe\xff") else raw.decode("utf-8-sig")
+    parsed = Counter((k[0], k[1]) for k in app)
+    out = []
+    for line in text.splitlines()[1:]:
+        if not line.strip():
+            continue
+        name, n = line.rsplit(",", 1)
+        m = re.fullmatch(r"_(\d+)_.+-(\d+)\.txt", name.strip())
+        got = parsed.get((int(m.group(1)), int(m.group(2))), 0)
+        if got != int(n):
+            out.append(f"{name.strip()}: parsed {got}, csv {int(n)}")
+    return out
 
 
 def morphhb_written_tokens(tokens_path):
@@ -190,9 +234,13 @@ def ref(key, pos=None):
     return s if pos is None else f"{s}#{pos}"
 
 
-def check_alignment(tokens_path, app_dir, sample=40):
+LOW_RATIO = 0.5
+MIN_MAPPED_PCT = 99.98     # 99.989% on 2026-11-26; below this the app text or the parser changed
+
+
+def check_alignment(tokens_path, app_dir, sample=40, expected_chapters=CHAPTER_COUNT):
     """Report how every written MorphHB token maps onto the app's text."""
-    app = read_app_text(app_dir)
+    app = read_app_text(app_dir, expected_chapters)
     mhb = morphhb_written_tokens(tokens_path)
     mapping, stats = align(mhb, app)
     forms = {(k, pos): f for k, toks in mhb.items() for pos, f in toks}
@@ -201,14 +249,24 @@ def check_alignment(tokens_path, app_dir, sample=40):
         word = forms[(key, pos)].replace("/", "")
         if target is None:
             kind, detail = "unmapped", {"morphhb": word}
-        elif target != (key, pos):
-            kind, detail = "placed-elsewhere", {"morphhb": word, "app": ref(*target)}
         else:
-            continue
+            got = app[target[0]][target[1] - 1]
+            ratio = SequenceMatcher(None, consonants(word), consonants(got), autojunk=False).ratio()
+            if ratio < LOW_RATIO:
+                # placed on a word that looks quite different: a textual variant or a join;
+                # read these whenever the app text changes
+                kind, detail = "low-similarity", {"morphhb": word, "app": ref(*target), "appWord": got,
+                                                  "ratio": round(ratio, 2)}
+            elif target != (key, pos):
+                kind, detail = "placed-elsewhere", {"morphhb": word, "app": ref(*target)}
+            else:
+                continue
+        stats["low-similarity"] += kind == "low-similarity"
         if len(examples[kind]) < sample:
             examples[kind].append({"ref": ref(key, pos), **detail})
     total = len(mapping)
     return {
+        "verseCountMismatches": verse_count_mismatches(app_dir, app),
         "verses": {"app": len(app), "morphhb": len(mhb),
                    "onlyInApp": [ref(k) for k in sorted(set(app) - set(mhb))],
                    "onlyInMorphhb": [ref(k) for k in sorted(set(mhb) - set(app))]},
@@ -237,14 +295,16 @@ def check_alignment(tokens_path, app_dir, sample=40):
 #                   the APP's coordinates: position is the 1-based index of the word in
 #                   the app's verse as parse_app_chapter() splits it.
 #
-# The reverse index (word in the reader -> entry) is built in memory at load time.
+# The reverse index (word in the reader -> LIST of entries: 11 app words belong to two
+# entries) is built in memory at load time. The exact format is in docs/APP_EXPORT.md.
 
 FORMAT = "bible-concordance-app/1"
 MAGIC = b"BCO1"
 
 
 def pack_location(book, chapter, verse, position):
-    assert 0 < position < 256 and 0 < verse < 256 and 0 < chapter < 256, (book, chapter, verse, position)
+    if not (0 < book <= len(BOOKS) and 0 < chapter < 256 and 0 < verse < 256 and 0 < position < 256):
+        raise ValueError(f"location out of range: {(book, chapter, verse, position)}")
     return book << 24 | chapter << 16 | verse << 8 | position
 
 
@@ -300,14 +360,22 @@ def load_entries(alphabet_dir):
     return manifest, entries
 
 
-def export_app(alphabet_dir, tokens_path, app_dir, out_dir):
+def export_app(alphabet_dir, tokens_path, app_dir, out_dir, expected_chapters=CHAPTER_COUNT,
+               min_mapped_pct=MIN_MAPPED_PCT):
     """Write entries.json and occurrences.bin to out_dir. Returns a summary dict."""
     manifest, entries = load_entries(alphabet_dir)
     ids = Counter(e["lexiconEntryId"] for _, e in entries)
     dup = [k for k, n in ids.items() if n > 1 or not k]
     if dup:
         raise ValueError(f"lexiconEntryId must be unique and present: {dup[:5]}")
-    mapping, _ = align(morphhb_written_tokens(tokens_path), read_app_text(app_dir))
+    app = read_app_text(app_dir, expected_chapters)
+    bad = verse_count_mismatches(app_dir, app)
+    if bad:
+        raise ValueError(f"app text parsed wrong (verses_per_chapter.csv): {bad[:5]}")
+    mapping, stats = align(morphhb_written_tokens(tokens_path), app)
+    pct = 100 * (len(mapping) - stats["unmapped"]) / len(mapping)
+    if pct < min_mapped_pct:
+        raise ValueError(f"only {pct:.3f}% of MorphHB tokens map onto the app text (< {min_mapped_pct}%)")
 
     statuses = sorted({e.get("definitionReviewStatus") or "" for _, e in entries})
     rows, blob = [], bytearray(MAGIC)
@@ -328,7 +396,7 @@ def export_app(alphabet_dir, tokens_path, app_dir, out_dir):
             loc = pack_location(*target[0], target[1])
             joined += loc in locs      # two tokens of this entry written as one word in the app
             locs.add(loc)
-        rows.append([e["lexiconEntryId"], e.get("strongNumber"), letter, e["headword"], e.get("definitionHe"),
+        rows.append([e["lexiconEntryId"], e.get("strongNumber"), letter, display_form(e["headword"]), e.get("definitionHe"),
                      statuses.index(e.get("definitionReviewStatus") or ""), len(occs), sorted(unplaced)])
         blob += varint(len(locs))
         prev = 0
@@ -347,6 +415,9 @@ def export_app(alphabet_dir, tokens_path, app_dir, out_dir):
             "coordinates": "app-text: book, chapter, verse, 1-based word index (see occurrences.bin)",
             "entryCount": len(rows),
             "occurrenceCount": sum(r[6] for r in rows),
+            # lets the loader check that occurrences.bin belongs to this entries.json
+            "occurrencesBytes": len(blob),
+            "occurrencesSha256": hashlib.sha256(bytes(blob)).hexdigest(),
         },
         "books": [[osis, he, slug] for osis, slug, he in BOOKS],
         "definitionStatuses": statuses,

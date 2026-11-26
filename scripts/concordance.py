@@ -766,7 +766,10 @@ def cmd_check_app_text(args):
         log(f"  {kind}: {n}")
     log(f"  verses only in app: {len(r['verses']['onlyInApp'])}, only in MorphHB: {len(r['verses']['onlyInMorphhb'])}")
     log(f"report: {p['reports'] / 'app-alignment.json'}")
-    return 1 if args.strict and r["kinds"].get("unmapped") else 0
+    if r["verseCountMismatches"]:
+        log(f"  verse counts differ from verses_per_chapter.csv: {r['verseCountMismatches'][:5]}")
+    failed = bool(r["verseCountMismatches"]) or r["mappedPct"] < app_export.MIN_MAPPED_PCT
+    return 1 if args.strict and failed else 0
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -797,7 +800,7 @@ def main(argv=None):
     s.set_defaults(fn=cmd_export_app)
     s = sub.add_parser("check-app-text", help="check tokenPositions against the app's Bible text")
     s.add_argument("--app-text", default=str(DEFAULT_APP_TEXT), help="the app's allChapters directory")
-    s.add_argument("--strict", action="store_true", help="exit 1 on any mismatch"); s.set_defaults(fn=cmd_check_app_text)
+    s.add_argument("--strict", action="store_true", help="exit 1 if verse counts differ from the app's csv or too few tokens map"); s.set_defaults(fn=cmd_check_app_text)
     args = ap.parse_args(argv)
     return args.fn(args) or 0
 
